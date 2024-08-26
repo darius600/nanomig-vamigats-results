@@ -47,10 +47,11 @@ copblt1* *identical*
 ### DDF Test Cases
 NanoMig Verilator results under: [Agnus/DDF](https://github.com/darius600/NanoMig-vAmigaTS-Results/tree/main/Agnus/DDF)    
 
-| vAmiga Test Cases                                                                           | Status   | Comment  |
-|--------------------------------------------------------------------------------------------------------|----------|
-| [Agnus/DDF/DDF](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/DDF/DDF)        | Executed |  `ddf*`, `dmaslots*`, `farright*`, `lupo1*`, `reenable*`, `shift*`, `single*` *identical* (except 1,2,4 ECS); `hwstop*`, `oldhwstop*` (except 3,4 OCS); `hwstop1_ECS`, `hwstop2_ECS`, `hwstop3_OCS`, `hwstop4_OCS`, `hwstop5_OCS`, `hwstop6_OCS`, `hwstop8_ECS`, `oldhwstop3_OCS`, `oldhwstop4_OCS`, `single1_ECS`, `single2_ECS`, `single4_ECS`  different |
-| [Agnus/DDF/DDFTIM](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/DDF/DDFTIM)  | Executed | `ddftimcop*` *identical*; `ddftimcpu*` different |
+| vAmiga Test Cases                                                                      | Status   | Comment                                                                                                                                                                                                                                            |
+|----------------------------------------------------------------------------------------|----------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| [Agnus/DDF/DDF](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/DDF/DDF)    | Executed | `ddf*`, `dmaslots*`, `farright*`, `lupo1*`, `reenable*`, `shift*`, `single*` *identical* (except 1,2,4 ECS); `hwstop*`, `oldhwstop*` (except 3,4 OCS); `hwstop1_ECS`, `hwstop2_ECS`, `hwstop3_OCS`, `hwstop4_OCS`, `hwstop5_OCS`, `hwstop6_OCS`, `hwstop8_ECS`, `oldhwstop3_OCS`, `oldhwstop4_OCS`, `single1_ECS`, `single2_ECS`, `single4_ECS` different |
+| [Agnus/DDF/DDFTIM](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/DDF/DDFTIM) | Executed | `ddftimcop*` *identical*; `ddftimcpu*` different                                                                                                                                                                                                    |
+
 
 
 ### DIW Test Cases
