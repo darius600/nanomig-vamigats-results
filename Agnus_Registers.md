@@ -124,7 +124,7 @@
 | Agnus/Registers/VPOS/vhpos3 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 | ✅ Identical |  |
 | Agnus/Registers/VPOS/vhpos4 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 | ✅ Identical |  |
 | Agnus/Registers/VPOS/vhpos5 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 |  | ⚠️ vhpos5 crashes Verilator simulation with "Segmentation fault" |
-| Agnus/Registers/VPOS/vprobe1 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 | ✅ Identical |  |
-| Agnus/Registers/VPOS/vprobe2 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 | ✅ Identical |  |
-| Agnus/Registers/VPOS/vprobe3 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 | ✅ Identical |  |
-| Agnus/Registers/VPOS/vprobe4 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2024-08-26 | ✅ Identical |  |
+| Agnus/Registers/VPOS/vprobe1 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2026-05-30 | ✅ Identical |  |
+| Agnus/Registers/VPOS/vprobe2 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2026-05-30 | ✅ Identical |  |
+| Agnus/Registers/VPOS/vprobe3 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2026-05-30 | ✅ Identical |  |
+| Agnus/Registers/VPOS/vprobe4 | [Agnus/Registers/VPOS](https://github.com/dirkwhoffmann/vAmigaTS/tree/master/Agnus/Registers/VPOS) | 2026-05-30 | ✅ Identical |  |
