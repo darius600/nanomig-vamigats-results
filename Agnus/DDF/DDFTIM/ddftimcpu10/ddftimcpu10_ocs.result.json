@@ -1,0 +1,27 @@
+{
+  "variant": "ddftimcpu10_ocs",
+  "class": "FAIL",
+  "detail": "7304 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10_ocs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10.adf",
+    "9.0",
+    "ddftimcpu10_ocs.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T12:22:17.005890+02:00",
+  "end_time": "2026-10-11T12:39:31.440276+02:00",
+  "wall_time": 1034.334,
+  "differing_pixels": 7304,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10_ocs/ddftimcpu10_ocs_diff.png"
+}

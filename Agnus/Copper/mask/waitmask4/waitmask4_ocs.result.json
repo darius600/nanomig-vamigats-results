@@ -1,0 +1,27 @@
+{
+  "variant": "waitmask4_ocs",
+  "class": "FAIL",
+  "detail": "5304 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Copper/mask/waitmask4/waitmask4_ocs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Copper/mask/waitmask4/waitmask4.adf",
+    "9.0",
+    "waitmask4_ocs.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T07:59:33.526120+02:00",
+  "end_time": "2026-10-11T08:16:44.097346+02:00",
+  "wall_time": 1030.446,
+  "differing_pixels": 5304,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/Copper/mask/waitmask4/waitmask4_ocs/waitmask4_ocs_diff.png"
+}

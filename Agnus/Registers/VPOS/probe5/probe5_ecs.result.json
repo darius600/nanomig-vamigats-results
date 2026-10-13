@@ -1,0 +1,27 @@
+{
+  "variant": "probe5_ecs",
+  "class": "FAIL",
+  "detail": "10034 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Registers/VPOS/probe5/probe5_ecs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Registers/VPOS/probe5/probe5.adf",
+    "9.0",
+    "probe5_ecs.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T21:32:02.163710+02:00",
+  "end_time": "2026-10-11T21:48:45.428223+02:00",
+  "wall_time": 1003.167,
+  "differing_pixels": 10034,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/Registers/VPOS/probe5/probe5_ecs/probe5_ecs_diff.png"
+}

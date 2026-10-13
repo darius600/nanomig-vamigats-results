@@ -1,0 +1,27 @@
+{
+  "variant": "resmod4_ecs",
+  "class": "FAIL",
+  "detail": "46 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Registers/DMACON/resmod4/resmod4_ecs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Registers/DMACON/resmod4/resmod4.adf",
+    "9.0",
+    "resmod4_ecs.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T19:44:13.681918+02:00",
+  "end_time": "2026-10-11T19:59:03.486898+02:00",
+  "wall_time": 889.721,
+  "differing_pixels": 46,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/Registers/DMACON/resmod4/resmod4_ecs/resmod4_ecs_diff.png"
+}

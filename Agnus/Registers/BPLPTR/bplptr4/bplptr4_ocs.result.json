@@ -1,0 +1,27 @@
+{
+  "variant": "bplptr4_ocs",
+  "class": "FAIL",
+  "detail": "8108 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Registers/BPLPTR/bplptr4/bplptr4_ocs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Registers/BPLPTR/bplptr4/bplptr4.adf",
+    "9.0",
+    "bplptr4_ocs.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T16:22:29.067999+02:00",
+  "end_time": "2026-10-11T16:37:31.253134+02:00",
+  "wall_time": 902.09,
+  "differing_pixels": 8108,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/Registers/BPLPTR/bplptr4/bplptr4_ocs/bplptr4_ocs_diff.png"
+}

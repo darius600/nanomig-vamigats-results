@@ -1,0 +1,27 @@
+{
+  "variant": "probe4_ocs",
+  "class": "FAIL",
+  "detail": "12924 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Registers/VPOS/probe4/probe4_ocs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Registers/VPOS/probe4/probe4.adf",
+    "9.0",
+    "probe4_ocs.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T21:30:01.746995+02:00",
+  "end_time": "2026-10-11T21:46:22.830310+02:00",
+  "wall_time": 980.954,
+  "differing_pixels": 12924,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/Registers/VPOS/probe4/probe4_ocs/probe4_ocs_diff.png"
+}

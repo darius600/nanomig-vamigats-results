@@ -1,0 +1,27 @@
+{
+  "variant": "timing15l3",
+  "class": "FAIL",
+  "detail": "3130 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Blitter/timing/timing15l3/timing15l3.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Blitter/timing/timing15l3/timing15l3.adf",
+    "9.0",
+    "timing15l3.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-10T21:33:15.880496+02:00",
+  "end_time": "2026-10-10T21:48:08.012328+02:00",
+  "wall_time": 892.042,
+  "differing_pixels": 3130,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/blitter/Agnus/Blitter/timing/timing15l3/timing15l3/timing15l3_diff.png"
+}

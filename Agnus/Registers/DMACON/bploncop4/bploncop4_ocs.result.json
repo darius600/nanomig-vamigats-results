@@ -1,0 +1,27 @@
+{
+  "variant": "bploncop4_ocs",
+  "class": "FAIL",
+  "detail": "7084 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Registers/DMACON/bploncop4/bploncop4_ocs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Registers/DMACON/bploncop4/bploncop4.adf",
+    "9.0",
+    "bploncop4_ocs.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T18:57:19.434490+02:00",
+  "end_time": "2026-10-11T19:12:23.120257+02:00",
+  "wall_time": 903.603,
+  "differing_pixels": 7084,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/Registers/DMACON/bploncop4/bploncop4_ocs/bploncop4_ocs_diff.png"
+}

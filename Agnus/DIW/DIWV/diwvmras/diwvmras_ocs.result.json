@@ -1,0 +1,27 @@
+{
+  "variant": "diwvmras_ocs",
+  "class": "FAIL",
+  "detail": "45456 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/DIW/DIWV/diwvmras/diwvmras_ocs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/DIW/DIWV/diwvmras/diwvmras.adf",
+    "18.0",
+    "diwvmras_ocs.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-11T14:17:03.875611+02:00",
+  "end_time": "2026-10-11T14:47:23.275336+02:00",
+  "wall_time": 1819.273,
+  "differing_pixels": 45456,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/agnus/Agnus/DIW/DIWV/diwvmras/diwvmras_ocs/diwvmras_ocs_diff.png"
+}

@@ -1,0 +1,27 @@
+{
+  "variant": "irqtim1",
+  "class": "FAIL",
+  "detail": "4088 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Agnus/Blitter/irqtim/irqtim1/irqtim1.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Agnus/Blitter/irqtim/irqtim1/irqtim1.adf",
+    "9.0",
+    "irqtim1.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-10T18:05:55.112257+02:00",
+  "end_time": "2026-10-10T18:22:13.764371+02:00",
+  "wall_time": 978.543,
+  "differing_pixels": 4088,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/blitter/Agnus/Blitter/irqtim/irqtim1/irqtim1/irqtim1_diff.png"
+}
