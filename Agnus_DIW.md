@@ -2,7 +2,7 @@
 
 - **NanoMig SHA:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c)
 - **vAmigaTS SHA:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
-- **Total:** 62 | **PASS:** 46 | **FAIL:** 16 | **DEVIATING_CONFIG:** 0 | **NOT_CALIBRATED:** 0 | **ERROR:** 0
+- **Total:** 62 | **PASS:** 46 | **FAIL:** 16 | **DEVIATING_CONFIG:** 0 | **NOT_CALIBRATED:** 0 | **NO_REFERENCE:** 0 | **ERROR:** 0
 
 | Test | Variant | Result | Differing px | Hand 2024 | Hand comment | Image |
 |---|---|---|---|---|---|---|

@@ -1,0 +1,26 @@
+{
+  "variant": "interfere5_ECS",
+  "class": "PASS",
+  "detail": "identical",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Denise/Sprites/spritedma/interfere5/interfere5_ECS.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Denise/Sprites/spritedma/interfere5/interfere5.adf",
+    "9.0",
+    "interfere5_ECS.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-14T15:45:59.776186+02:00",
+  "end_time": "2026-10-14T16:03:22.839763+02:00",
+  "wall_time": 1042.978,
+  "differing_pixels": 0,
+  "raw_status": "byte-identical"
+}

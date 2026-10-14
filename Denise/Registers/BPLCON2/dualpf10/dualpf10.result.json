@@ -1,0 +1,27 @@
+{
+  "variant": "dualpf10",
+  "class": "FAIL",
+  "detail": "47912 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Denise/Registers/BPLCON2/dualpf10/dualpf10.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Denise/Registers/BPLCON2/dualpf10/dualpf10.adf",
+    "9.0",
+    "dualpf10.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-14T10:51:58.342290+02:00",
+  "end_time": "2026-10-14T11:08:59.402744+02:00",
+  "wall_time": 1020.961,
+  "differing_pixels": 47912,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/denise/Denise/Registers/BPLCON2/dualpf10/dualpf10/dualpf10_diff.png"
+}

@@ -1,0 +1,26 @@
+{
+  "variant": "manual2_ECS",
+  "class": "PASS",
+  "detail": "identical",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Denise/Sprites/manual/manual2/manual2_ECS.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Denise/Sprites/manual/manual2/manual2.adf",
+    "9.0",
+    "manual2_ECS.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-14T14:11:45.928638+02:00",
+  "end_time": "2026-10-14T14:26:42.189318+02:00",
+  "wall_time": 896.157,
+  "differing_pixels": 0,
+  "raw_status": "byte-identical"
+}

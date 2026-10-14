@@ -1,0 +1,27 @@
+{
+  "variant": "newclip6",
+  "class": "FAIL",
+  "detail": "384 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Denise/Sprites/clip/newclip6/newclip6.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Denise/Sprites/clip/newclip6/newclip6.adf",
+    "9.0",
+    "newclip6.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-14T12:12:54.601709+02:00",
+  "end_time": "2026-10-14T12:27:39.455049+02:00",
+  "wall_time": 884.752,
+  "differing_pixels": 384,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/denise/Denise/Sprites/clip/newclip6/newclip6/newclip6_diff.png"
+}

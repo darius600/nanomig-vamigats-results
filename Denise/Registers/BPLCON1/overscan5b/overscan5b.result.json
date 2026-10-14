@@ -1,0 +1,27 @@
+{
+  "variant": "overscan5b",
+  "class": "FAIL",
+  "detail": "27 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Denise/Registers/BPLCON1/overscan5b/overscan5b.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Denise/Registers/BPLCON1/overscan5b/overscan5b.adf",
+    "9.0",
+    "overscan5b.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-14T10:19:26.708017+02:00",
+  "end_time": "2026-10-14T10:35:32.442806+02:00",
+  "wall_time": 965.632,
+  "differing_pixels": 27,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/denise/Denise/Registers/BPLCON1/overscan5b/overscan5b/overscan5b_diff.png"
+}
