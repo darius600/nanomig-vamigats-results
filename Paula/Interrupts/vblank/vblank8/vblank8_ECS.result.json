@@ -1,0 +1,27 @@
+{
+  "variant": "vblank8_ECS",
+  "class": "FAIL",
+  "detail": "14382 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Paula/Interrupts/vblank/vblank8/vblank8_ecs.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Paula/Interrupts/vblank/vblank8/vblank8.adf",
+    "9.0",
+    "vblank8_ECS.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-15T07:48:03.079091+02:00",
+  "end_time": "2026-10-15T08:02:02.116977+02:00",
+  "wall_time": 838.963,
+  "differing_pixels": 14382,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-c/Paula/Interrupts/vblank/vblank8/vblank8_ECS/vblank8_ECS_diff.png"
+}

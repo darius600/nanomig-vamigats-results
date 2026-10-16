@@ -1,0 +1,26 @@
+{
+  "variant": "pot0dat5",
+  "class": "PASS",
+  "detail": "identical",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Mainboard/Ports/POT/pot0dat5/pot0dat5.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Mainboard/Ports/POT/pot0dat5/pot0dat5.adf",
+    "9.0",
+    "pot0dat5.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-14T22:01:04.703681+02:00",
+  "end_time": "2026-10-14T22:18:37.751345+02:00",
+  "wall_time": 1052.959,
+  "differing_pixels": 0,
+  "raw_status": "byte-identical"
+}

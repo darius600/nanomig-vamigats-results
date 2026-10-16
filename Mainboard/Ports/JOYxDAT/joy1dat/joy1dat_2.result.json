@@ -1,0 +1,17 @@
+{
+  "variant": "joy1dat_2",
+  "class": "DEVIATING_CONFIG",
+  "detail": "input",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Mainboard/Ports/JOYxDAT/joy1dat/joy1dat_2.retrosh",
+  "harness_args": null,
+  "harness_exit_code": null,
+  "start_time": "2026-10-14T22:00:31.284442+02:00",
+  "end_time": "2026-10-14T22:00:31.437255+02:00",
+  "wall_time": 0.0,
+  "differing_pixels": null,
+  "raw_status": null
+}

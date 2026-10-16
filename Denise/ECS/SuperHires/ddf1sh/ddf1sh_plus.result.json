@@ -15,13 +15,13 @@
     "--chipset",
     "0x08",
     "--memory",
-    "0x01"
+    "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-14T08:37:15.627651+02:00",
-  "end_time": "2026-10-14T08:52:37.132111+02:00",
-  "wall_time": 921.409,
+  "start_time": "2026-10-16T01:16:32.543193+02:00",
+  "end_time": "2026-10-16T01:28:27.818504+02:00",
+  "wall_time": 715.142,
   "differing_pixels": 28032,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/ECS/SuperHires/ddf1sh/ddf1sh_plus/ddf1sh_plus_diff.png"
+  "diff_image": "runs/full/Denise/ECS/SuperHires/ddf1sh/ddf1sh_plus/ddf1sh_plus_diff.png"
 }

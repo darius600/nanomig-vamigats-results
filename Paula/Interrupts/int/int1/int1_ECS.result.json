@@ -1,0 +1,27 @@
+{
+  "variant": "int1_ECS",
+  "class": "FAIL",
+  "detail": "8930 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Paula/Interrupts/int/int1/int1_ECS.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Paula/Interrupts/int/int1/int1.adf",
+    "9.0",
+    "int1_ECS.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-15T02:04:35.088027+02:00",
+  "end_time": "2026-10-15T02:33:24.155413+02:00",
+  "wall_time": 1728.852,
+  "differing_pixels": 8930,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-c/Paula/Interrupts/int/int1/int1_ECS/int1_ECS_diff.png"
+}

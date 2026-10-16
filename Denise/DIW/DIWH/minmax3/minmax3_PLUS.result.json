@@ -15,12 +15,12 @@
     "--chipset",
     "0x08",
     "--memory",
-    "0x01"
+    "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-14T08:36:31.490438+02:00",
-  "end_time": "2026-10-14T08:52:15.470014+02:00",
-  "wall_time": 943.862,
+  "start_time": "2026-10-16T01:16:32.541076+02:00",
+  "end_time": "2026-10-16T01:28:41.239200+02:00",
+  "wall_time": 728.614,
   "differing_pixels": 0,
   "raw_status": "byte-identical"
 }

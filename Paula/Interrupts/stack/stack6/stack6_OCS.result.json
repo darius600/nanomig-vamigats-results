@@ -1,0 +1,27 @@
+{
+  "variant": "stack6_OCS",
+  "class": "FAIL",
+  "detail": "9132 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "Paula/Interrupts/stack/stack6/stack6_OCS.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/Paula/Interrupts/stack/stack6/stack6.adf",
+    "9.0",
+    "stack6_OCS.frame",
+    "--chipset",
+    "0x00",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-15T07:19:04.514231+02:00",
+  "end_time": "2026-10-15T07:34:06.398056+02:00",
+  "wall_time": 901.776,
+  "differing_pixels": 9132,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-c/Paula/Interrupts/stack/stack6/stack6_OCS/stack6_OCS_diff.png"
+}
