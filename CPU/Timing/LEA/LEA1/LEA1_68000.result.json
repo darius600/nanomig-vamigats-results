@@ -1,0 +1,27 @@
+{
+  "variant": "LEA1_68000",
+  "class": "FAIL",
+  "detail": "2596 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "CPU/Timing/LEA/LEA1/LEA1_68000.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/CPU/Timing/LEA/LEA1/LEA1.adf",
+    "9.0",
+    "LEA1_68000.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-16T19:50:55.207155+02:00",
+  "end_time": "2026-10-16T20:05:43.265597+02:00",
+  "wall_time": 887.966,
+  "differing_pixels": 2596,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-b/CPU/Timing/LEA/LEA1/LEA1_68000/LEA1_68000_diff.png"
+}

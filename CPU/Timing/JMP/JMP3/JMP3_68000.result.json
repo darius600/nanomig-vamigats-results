@@ -1,0 +1,27 @@
+{
+  "variant": "JMP3_68000",
+  "class": "FAIL",
+  "detail": "6020 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "CPU/Timing/JMP/JMP3/JMP3_68000.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/CPU/Timing/JMP/JMP3/JMP3.adf",
+    "9.0",
+    "JMP3_68000.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-16T19:41:50.549249+02:00",
+  "end_time": "2026-10-16T19:56:31.284605+02:00",
+  "wall_time": 880.634,
+  "differing_pixels": 6020,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-b/CPU/Timing/JMP/JMP3/JMP3_68000/JMP3_68000_diff.png"
+}

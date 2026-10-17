@@ -4,13 +4,13 @@
 - **vAmigaTS SHA:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
 - **Regression repo commit SHA:** `2ec3f74c3d00e0516daf25dbb1d98efa1139b03d`
 - **Build profile:** Tang Nano 20k, fx68k
-- **Date:** 2026-10-16T01:28:41.260355+02:00
+- **Date:** 2026-10-17T06:36:20.745895+02:00
 
 ## Summary
 
 | Total | PASS | FAIL | DEVIATING_CONFIG | NOT_CALIBRATED | NO_REFERENCE | ERROR |
 |---|---|---|---|---|---|---|
-| 1511 | 435 | 1036 | 15 | 13 | 12 | 0 |
+| 2610 | 458 | 1517 | 610 | 13 | 12 | 0 |
 
 ## Groups and Agreement with Hand Verdicts (2024)
 
@@ -23,6 +23,13 @@
 | [Agnus/Misc](Agnus_Misc.md) | 12 | 1 | 0 | 11 | 0 | 0 | 0 | 0 | 6 |
 | [Agnus/Registers](Agnus_Registers.md) | 249 | 42 | 205 | 2 | 6 | 87 | 11 | 0 | 22 |
 | [CIA/CIA](CIA_CIA.md) | 10 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 10 |
+| [CPU/68010](CPU_68010.md) | 40 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 40 |
+| [CPU/Exceptions](CPU_Exceptions.md) | 30 | 15 | 0 | 0 | 0 | 0 | 0 | 0 | 15 |
+| [CPU/IPL](CPU_IPL.md) | 447 | 2 | 213 | 0 | 0 | 0 | 0 | 0 | 231 |
+| [CPU/IPL2](CPU_IPL2.md) | 6 | 0 | 3 | 0 | 0 | 0 | 0 | 0 | 3 |
+| [CPU/Misc](CPU_Misc.md) | 41 | 6 | 15 | 0 | 0 | 0 | 0 | 0 | 21 |
+| [CPU/Timing](CPU_Timing.md) | 491 | 0 | 243 | 0 | 0 | 0 | 0 | 0 | 248 |
+| [CPU/Timing2](CPU_Timing2.md) | 44 | 0 | 7 | 0 | 0 | 0 | 0 | 0 | 37 |
 | [Denise/DIW](Denise_DIW.md) | 25 | 24 | 1 | 0 | 0 | 0 | 0 | 0 | 12 |
 | [Denise/ECS](Denise_ECS.md) | 6 | 2 | 4 | 0 | 0 | 0 | 0 | 0 | 2 |
 | [Denise/Misc](Denise_Misc.md) | 9 | 4 | 3 | 0 | 0 | 0 | 0 | 0 | 4 |
@@ -37,7 +44,7 @@
 | [Paula/Drive](Paula_Drive.md) | 7 | 0 | 6 | 0 | 0 | 0 | 0 | 0 | 7 |
 | [Paula/Interrupts](Paula_Interrupts.md) | 164 | 24 | 140 | 0 | 0 | 0 | 0 | 0 | 82 |
 | [Paula/Registers](Paula_Registers.md) | 2 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 2 |
-| **Total** | **1511** | **435** | **1036** | **13** | **131** | **302** | **111** | **0** | **401** |
+| **Total** | **2610** | **458** | **1517** | **13** | **131** | **302** | **111** | **0** | **996** |
 
 ## How far off the FAILs are
 
@@ -51,6 +58,12 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | Agnus/DIW | 46 | 0 | 1 | 7 | 1 | 7 |
 | Agnus/Misc | 1 | 0 | 0 | 0 | 0 | 0 |
 | Agnus/Registers | 42 | 14 | 6 | 14 | 113 | 58 |
+| CPU/Exceptions | 15 | 0 | 0 | 0 | 0 | 0 |
+| CPU/IPL | 2 | 0 | 0 | 0 | 172 | 41 |
+| CPU/IPL2 | 0 | 0 | 0 | 0 | 3 | 0 |
+| CPU/Misc | 6 | 1 | 0 | 3 | 10 | 1 |
+| CPU/Timing | 0 | 0 | 0 | 0 | 243 | 0 |
+| CPU/Timing2 | 0 | 0 | 0 | 0 | 6 | 1 |
 | Denise/DIW | 24 | 0 | 0 | 1 | 0 | 0 |
 | Denise/ECS | 2 | 0 | 0 | 0 | 0 | 4 |
 | Denise/Misc | 4 | 0 | 0 | 0 | 3 | 0 |
@@ -65,7 +78,7 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | Paula/Drive | 0 | 0 | 0 | 0 | 6 | 0 |
 | Paula/Interrupts | 24 | 0 | 0 | 0 | 136 | 4 |
 | Paula/Registers | 2 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **435** | **51** | **47** | **111** | **671** | **156** |
+| **Total** | **458** | **52** | **47** | **114** | **1105** | **199** |
 
 ## How to read
 

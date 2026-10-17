@@ -1,0 +1,27 @@
+{
+  "variant": "CMPA1w_68000",
+  "class": "FAIL",
+  "detail": "13098 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "CPU/IPL/CMP/CMPA1w/CMPA1w_68000.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/CPU/IPL/CMP/CMPA1w/CMPA1w.adf",
+    "9.0",
+    "CMPA1w_68000.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x04"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-16T10:21:51.458609+02:00",
+  "end_time": "2026-10-16T10:38:30.477016+02:00",
+  "wall_time": 998.904,
+  "differing_pixels": 13098,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-b/CPU/IPL/CMP/CMPA1w/CMPA1w_68000/CMPA1w_68000_diff.png"
+}

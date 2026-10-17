@@ -1,0 +1,27 @@
+{
+  "variant": "BKPT1_68000",
+  "class": "FAIL",
+  "detail": "12992 differing pixels",
+  "labels": [],
+  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "build_profile": "tang_nano_20k",
+  "retrosh_path": "CPU/Timing2/BKPT/BKPT1/BKPT1_68000.retrosh",
+  "harness_args": [
+    "roms/kick13.rom",
+    "external/vAmigaTS/CPU/Timing2/BKPT/BKPT1/BKPT1.adf",
+    "9.0",
+    "BKPT1_68000.frame",
+    "--chipset",
+    "0x08",
+    "--memory",
+    "0x00"
+  ],
+  "harness_exit_code": 0,
+  "start_time": "2026-10-16T23:57:50.411077+02:00",
+  "end_time": "2026-10-17T00:12:45.181488+02:00",
+  "wall_time": 894.653,
+  "differing_pixels": 12992,
+  "raw_status": "bytes differ",
+  "diff_image": "runs/block-b/CPU/Timing2/BKPT/BKPT1/BKPT1_68000/BKPT1_68000_diff.png"
+}
