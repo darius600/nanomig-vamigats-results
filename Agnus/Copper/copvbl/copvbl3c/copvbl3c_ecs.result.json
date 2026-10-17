@@ -23,5 +23,5 @@
   "wall_time": 897.427,
   "differing_pixels": 12198,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/copvbl/copvbl3c/copvbl3c_ecs/copvbl3c_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

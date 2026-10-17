@@ -23,5 +23,5 @@
   "wall_time": 1044.597,
   "differing_pixels": 12950,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Memory/Rom/mirror/custD/custD/custD_diff.png"
+  "machine": "A500_ECS_1MB"
 }

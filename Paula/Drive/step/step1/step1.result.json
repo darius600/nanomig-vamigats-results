@@ -23,5 +23,5 @@
   "wall_time": 1228.91,
   "differing_pixels": 8148,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Drive/step/step1/step1/step1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

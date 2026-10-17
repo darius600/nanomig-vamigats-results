@@ -23,5 +23,5 @@
   "wall_time": 871.083,
   "differing_pixels": 2160,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Sprites/blocked/blocked3/blocked3_OCS/blocked3_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 885.682,
   "differing_pixels": 4852,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/CLR/CLR2l/CLR2l_68000/CLR2l_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

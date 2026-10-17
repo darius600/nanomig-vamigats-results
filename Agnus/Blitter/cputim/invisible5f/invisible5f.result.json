@@ -23,5 +23,5 @@
   "wall_time": 933.943,
   "differing_pixels": 44122,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/cputim/invisible5f/invisible5f/invisible5f_diff.png"
+  "machine": "A500_ECS_1MB"
 }

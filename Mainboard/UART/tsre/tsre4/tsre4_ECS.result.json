@@ -23,5 +23,5 @@
   "wall_time": 1029.109,
   "differing_pixels": 2438,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/UART/tsre/tsre4/tsre4_ECS/tsre4_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

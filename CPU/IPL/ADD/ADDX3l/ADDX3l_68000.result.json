@@ -23,5 +23,5 @@
   "wall_time": 878.242,
   "differing_pixels": 11218,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/ADD/ADDX3l/ADDX3l_68000/ADDX3l_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,6 @@
   "wall_time": 905.323,
   "differing_pixels": null,
   "raw_status": null,
-  "geometry": "908x627"
+  "geometry": "908x627",
+  "machine": "A500_OCS_1MB"
 }

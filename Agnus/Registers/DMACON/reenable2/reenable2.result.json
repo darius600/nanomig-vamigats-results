@@ -23,5 +23,5 @@
   "wall_time": 886.507,
   "differing_pixels": 5808,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/DMACON/reenable2/reenable2/reenable2_diff.png"
+  "machine": "A500_ECS_1MB"
 }

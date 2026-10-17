@@ -23,5 +23,5 @@
   "wall_time": 1719.172,
   "differing_pixels": 6106,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/basicint/basicint3/basicint3_OCS/basicint3_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

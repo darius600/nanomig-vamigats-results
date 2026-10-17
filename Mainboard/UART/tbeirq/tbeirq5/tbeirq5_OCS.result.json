@@ -23,5 +23,5 @@
   "wall_time": 1048.852,
   "differing_pixels": 2844,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/UART/tbeirq/tbeirq5/tbeirq5_OCS/tbeirq5_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

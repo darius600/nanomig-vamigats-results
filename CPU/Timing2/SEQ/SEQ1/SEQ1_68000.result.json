@@ -23,5 +23,5 @@
   "wall_time": 741.591,
   "differing_pixels": 27160,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing2/SEQ/SEQ1/SEQ1_68000/SEQ1_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

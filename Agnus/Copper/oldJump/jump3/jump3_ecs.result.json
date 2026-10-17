@@ -23,5 +23,5 @@
   "wall_time": 1003.965,
   "differing_pixels": 98,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/oldJump/jump3/jump3_ecs/jump3_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 952.783,
   "differing_pixels": 10726,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/UNLK/UNLK1/UNLK1_68000/UNLK1_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

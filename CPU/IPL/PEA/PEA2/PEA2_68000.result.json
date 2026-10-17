@@ -23,5 +23,5 @@
   "wall_time": 1095.243,
   "differing_pixels": 17164,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/PEA/PEA2/PEA2_68000/PEA2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

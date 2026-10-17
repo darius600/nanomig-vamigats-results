@@ -23,5 +23,5 @@
   "wall_time": 883.24,
   "differing_pixels": 2516,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/VPOS/vprobe1/vprobe1_ocs/vprobe1_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

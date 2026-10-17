@@ -23,5 +23,5 @@
   "wall_time": 888.512,
   "differing_pixels": 65984,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/DMACON/sprenacpu3/sprenacpu3_ecs/sprenacpu3_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

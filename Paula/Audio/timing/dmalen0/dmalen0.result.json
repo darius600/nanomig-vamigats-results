@@ -23,5 +23,5 @@
   "wall_time": 1080.448,
   "differing_pixels": 4108,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Audio/timing/dmalen0/dmalen0/dmalen0_diff.png"
+  "machine": "A500_ECS_1MB"
 }

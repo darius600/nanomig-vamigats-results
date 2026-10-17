@@ -13,5 +13,6 @@
   "end_time": "2026-10-16T07:50:22.270816+02:00",
   "wall_time": 0.0,
   "differing_pixels": null,
-  "raw_status": null
+  "raw_status": null,
+  "machine": "A500_ECS_1MB"
 }

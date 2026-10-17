@@ -23,5 +23,5 @@
   "wall_time": 1067.819,
   "differing_pixels": 17600,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Audio/timing/audtim1/audtim1/audtim1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

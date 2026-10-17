@@ -23,5 +23,5 @@
   "wall_time": 900.224,
   "differing_pixels": 20046,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/TRAP/TRAP2/TRAP2_68000/TRAP2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

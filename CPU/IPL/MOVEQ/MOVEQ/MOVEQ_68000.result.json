@@ -23,5 +23,5 @@
   "wall_time": 988.735,
   "differing_pixels": 19496,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/MOVEQ/MOVEQ/MOVEQ_68000/MOVEQ_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

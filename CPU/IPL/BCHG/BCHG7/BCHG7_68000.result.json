@@ -23,5 +23,5 @@
   "wall_time": 877.663,
   "differing_pixels": 19110,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/BCHG/BCHG7/BCHG7_68000/BCHG7_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

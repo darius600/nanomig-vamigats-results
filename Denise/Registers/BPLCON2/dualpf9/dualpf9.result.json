@@ -23,5 +23,5 @@
   "wall_time": 1047.95,
   "differing_pixels": 25344,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Registers/BPLCON2/dualpf9/dualpf9/dualpf9_diff.png"
+  "machine": "A500_ECS_1MB"
 }

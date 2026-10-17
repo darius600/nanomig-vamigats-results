@@ -23,5 +23,5 @@
   "wall_time": 883.213,
   "differing_pixels": 3646,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/bbusy/bbusy5f/bbusy5f/bbusy5f_diff.png"
+  "machine": "A500_ECS_1MB"
 }

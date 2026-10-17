@@ -23,5 +23,5 @@
   "wall_time": 715.142,
   "differing_pixels": 28032,
   "raw_status": "bytes differ",
-  "diff_image": "runs/full/Denise/ECS/SuperHires/ddf1sh/ddf1sh_plus/ddf1sh_plus_diff.png"
+  "machine": "A500_PLUS_1MB"
 }

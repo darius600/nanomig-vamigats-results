@@ -23,5 +23,5 @@
   "wall_time": 1184.594,
   "differing_pixels": 4486,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Audio/timing/dmatim6/dmatim6/dmatim6_diff.png"
+  "machine": "A500_ECS_1MB"
 }

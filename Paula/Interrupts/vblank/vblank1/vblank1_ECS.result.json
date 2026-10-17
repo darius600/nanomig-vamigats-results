@@ -23,5 +23,5 @@
   "wall_time": 915.867,
   "differing_pixels": 3384,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/vblank/vblank1/vblank1_ECS/vblank1_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

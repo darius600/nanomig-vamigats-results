@@ -23,5 +23,5 @@
   "wall_time": 887.963,
   "differing_pixels": 2888,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/CHK/CHK3/CHK3_68000/CHK3_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 913.989,
   "differing_pixels": 10992,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/DDF/DDF/hwstop5/hwstop5_ocs/hwstop5_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 947.495,
   "differing_pixels": 15082,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/inttim/timcpu1/timcpu1_ECS/timcpu1_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

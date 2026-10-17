@@ -23,5 +23,5 @@
   "wall_time": 1007.976,
   "differing_pixels": 362,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Sprites/spritedma/interfere2b/interfere2b_OCS/interfere2b_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

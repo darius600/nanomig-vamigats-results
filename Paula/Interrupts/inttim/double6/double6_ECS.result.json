@@ -23,5 +23,5 @@
   "wall_time": 1018.486,
   "differing_pixels": 10732,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/inttim/double6/double6_ECS/double6_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

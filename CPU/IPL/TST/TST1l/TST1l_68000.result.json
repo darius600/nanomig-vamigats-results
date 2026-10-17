@@ -23,5 +23,5 @@
   "wall_time": 904.95,
   "differing_pixels": 20438,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/TST/TST1l/TST1l_68000/TST1l_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

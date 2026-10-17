@@ -23,5 +23,5 @@
   "wall_time": 902.909,
   "differing_pixels": 830,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/line/channels1/channels1/channels1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

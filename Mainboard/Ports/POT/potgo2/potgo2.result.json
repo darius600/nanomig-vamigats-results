@@ -23,5 +23,5 @@
   "wall_time": 1044.451,
   "differing_pixels": 20208,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/Ports/POT/potgo2/potgo2/potgo2_diff.png"
+  "machine": "A500_ECS_1MB"
 }

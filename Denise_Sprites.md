@@ -1,222 +1,226 @@
 # Denise_Sprites
 
-- **NanoMig SHA:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c)
-- **vAmigaTS SHA:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
-- **Total:** 214 | **PASS:** 106 | **FAIL:** 106 | **DEVIATING_CONFIG:** 0 | **NOT_CALIBRATED:** 0 | **NO_REFERENCE:** 2 | **ERROR:** 0
+- **NanoMig:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
+- **Compared:** 212 (PASS 106, FAIL 106) | **ERROR:** 0 | **Not compared:** 2 (DEVIATING_CONFIG 0, NOT_CALIBRATED 0, NO_REFERENCE 2; listed at the end)
 
-| Test | Variant | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
-|---|---|---|---|---|---|---|---|
-| Denise/Sprites/attached/attached1 | attached1_ECS | FAIL | 1672 |  |  |  | [attached1_ECS.png](Denise/Sprites/attached/attached1/attached1_ECS.png) |
-| Denise/Sprites/attached/attached1 | attached1_OCS | FAIL | 1672 |  |  |  | [attached1_OCS.png](Denise/Sprites/attached/attached1/attached1_OCS.png) |
-| Denise/Sprites/attached/attached2 | attached2_ECS | FAIL | 1554 |  |  |  | [attached2_ECS.png](Denise/Sprites/attached/attached2/attached2_ECS.png) |
-| Denise/Sprites/attached/attached2 | attached2_OCS | FAIL | 1554 |  |  |  | [attached2_OCS.png](Denise/Sprites/attached/attached2/attached2_OCS.png) |
-| Denise/Sprites/attached/attached3 | attached3_ECS | FAIL | 1164 |  |  |  | [attached3_ECS.png](Denise/Sprites/attached/attached3/attached3_ECS.png) |
-| Denise/Sprites/attached/attached3 | attached3_OCS | FAIL | 1164 |  |  |  | [attached3_OCS.png](Denise/Sprites/attached/attached3/attached3_OCS.png) |
-| Denise/Sprites/attached/attached4 | attached4_ECS | PASS | 0 |  |  |  | [attached4_ECS.png](Denise/Sprites/attached/attached4/attached4_ECS.png) |
-| Denise/Sprites/attached/attached4 | attached4_OCS | PASS | 0 |  |  |  | [attached4_OCS.png](Denise/Sprites/attached/attached4/attached4_OCS.png) |
-| Denise/Sprites/attached/attached5 | attached5_ECS | FAIL | 1644 |  |  |  | [attached5_ECS.png](Denise/Sprites/attached/attached5/attached5_ECS.png) |
-| Denise/Sprites/attached/attached5 | attached5_OCS | FAIL | 1644 |  |  |  | [attached5_OCS.png](Denise/Sprites/attached/attached5/attached5_OCS.png) |
-| Denise/Sprites/attached/attached6 | attached6_ECS | FAIL | 2016 |  |  |  | [attached6_ECS.png](Denise/Sprites/attached/attached6/attached6_ECS.png) |
-| Denise/Sprites/attached/attached6 | attached6_OCS | FAIL | 2016 |  |  |  | [attached6_OCS.png](Denise/Sprites/attached/attached6/attached6_OCS.png) |
-| Denise/Sprites/blocked/blocked1 | blocked1_ECS | PASS | 0 |  |  |  | [blocked1_ECS.png](Denise/Sprites/blocked/blocked1/blocked1_ECS.png) |
-| Denise/Sprites/blocked/blocked1 | blocked1_OCS | PASS | 0 |  |  |  | [blocked1_OCS.png](Denise/Sprites/blocked/blocked1/blocked1_OCS.png) |
-| Denise/Sprites/blocked/blocked2 | blocked2_ECS | FAIL | 1222 |  |  |  | [blocked2_ECS.png](Denise/Sprites/blocked/blocked2/blocked2_ECS.png) |
-| Denise/Sprites/blocked/blocked2 | blocked2_OCS | FAIL | 1222 |  |  |  | [blocked2_OCS.png](Denise/Sprites/blocked/blocked2/blocked2_OCS.png) |
-| Denise/Sprites/blocked/blocked3 | blocked3_ECS | FAIL | 2152 |  |  |  | [blocked3_ECS.png](Denise/Sprites/blocked/blocked3/blocked3_ECS.png) |
-| Denise/Sprites/blocked/blocked3 | blocked3_OCS | FAIL | 2160 |  |  |  | [blocked3_OCS.png](Denise/Sprites/blocked/blocked3/blocked3_OCS.png) |
-| Denise/Sprites/blocked/blocked4 | blocked4_ECS | FAIL | 15770 |  |  |  | [blocked4_ECS.png](Denise/Sprites/blocked/blocked4/blocked4_ECS.png) |
-| Denise/Sprites/blocked/blocked4 | blocked4_OCS | FAIL | 17924 |  |  |  | [blocked4_OCS.png](Denise/Sprites/blocked/blocked4/blocked4_OCS.png) |
-| Denise/Sprites/clip/clip1 | clip1 | FAIL | 396 |  |  |  | [clip1.png](Denise/Sprites/clip/clip1/clip1.png) |
-| Denise/Sprites/clip/clip1h | clip1h | FAIL | 422 |  |  |  | [clip1h.png](Denise/Sprites/clip/clip1h/clip1h.png) |
-| Denise/Sprites/clip/clip2 | clip2 | FAIL | 28 |  |  |  | [clip2.png](Denise/Sprites/clip/clip2/clip2.png) |
-| Denise/Sprites/clip/clip2h | clip2h | FAIL | 6 |  |  |  | [clip2h.png](Denise/Sprites/clip/clip2h/clip2h.png) |
-| Denise/Sprites/clip/clip3 | clip3 | FAIL | 396 |  |  |  | [clip3.png](Denise/Sprites/clip/clip3/clip3.png) |
-| Denise/Sprites/clip/clip3h | clip3h | FAIL | 422 |  |  |  | [clip3h.png](Denise/Sprites/clip/clip3h/clip3h.png) |
-| Denise/Sprites/clip/newclip1 | newclip1 | FAIL | 482 |  |  |  | [newclip1.png](Denise/Sprites/clip/newclip1/newclip1.png) |
-| Denise/Sprites/clip/newclip2 | newclip2 | FAIL | 418 |  |  |  | [newclip2.png](Denise/Sprites/clip/newclip2/newclip2.png) |
-| Denise/Sprites/clip/newclip3 | newclip3 | FAIL | 352 |  |  |  | [newclip3.png](Denise/Sprites/clip/newclip3/newclip3.png) |
-| Denise/Sprites/clip/newclip4 | newclip4 | FAIL | 466 |  |  |  | [newclip4.png](Denise/Sprites/clip/newclip4/newclip4.png) |
-| Denise/Sprites/clip/newclip5 | newclip5 | FAIL | 354 |  |  |  | [newclip5.png](Denise/Sprites/clip/newclip5/newclip5.png) |
-| Denise/Sprites/clip/newclip6 | newclip6 | FAIL | 384 |  |  |  | [newclip6.png](Denise/Sprites/clip/newclip6/newclip6.png) |
-| Denise/Sprites/clip/newclip7 | newclip7 | FAIL | 450 |  |  |  | [newclip7.png](Denise/Sprites/clip/newclip7/newclip7.png) |
-| Denise/Sprites/clip/newclip8 | newclip8 | FAIL | 450 |  |  |  | [newclip8.png](Denise/Sprites/clip/newclip8/newclip8.png) |
-| Denise/Sprites/collision/sprcoll1 | sprcoll1_ECS | PASS | 0 |  |  |  | [sprcoll1_ECS.png](Denise/Sprites/collision/sprcoll1/sprcoll1_ECS.png) |
-| Denise/Sprites/collision/sprcoll1 | sprcoll1_OCS | PASS | 0 |  |  |  | [sprcoll1_OCS.png](Denise/Sprites/collision/sprcoll1/sprcoll1_OCS.png) |
-| Denise/Sprites/collision/sprcoll1d | sprcoll1d_ECS | PASS | 0 |  |  |  | [sprcoll1d_ECS.png](Denise/Sprites/collision/sprcoll1d/sprcoll1d_ECS.png) |
-| Denise/Sprites/collision/sprcoll1d | sprcoll1d_OCS | PASS | 0 |  |  |  | [sprcoll1d_OCS.png](Denise/Sprites/collision/sprcoll1d/sprcoll1d_OCS.png) |
-| Denise/Sprites/collision/sprcoll2 | sprcoll2_ECS | FAIL | 15156 |  |  |  | [sprcoll2_ECS.png](Denise/Sprites/collision/sprcoll2/sprcoll2_ECS.png) |
-| Denise/Sprites/collision/sprcoll2 | sprcoll2_OCS | FAIL | 15156 |  |  |  | [sprcoll2_OCS.png](Denise/Sprites/collision/sprcoll2/sprcoll2_OCS.png) |
-| Denise/Sprites/collision/sprcoll2d | sprcoll2d_ECS | FAIL | 15156 |  |  |  | [sprcoll2d_ECS.png](Denise/Sprites/collision/sprcoll2d/sprcoll2d_ECS.png) |
-| Denise/Sprites/collision/sprcoll2d | sprcoll2d_OCS | FAIL | 15156 |  |  |  | [sprcoll2d_OCS.png](Denise/Sprites/collision/sprcoll2d/sprcoll2d_OCS.png) |
-| Denise/Sprites/collision/sprcoll3 | sprcoll3_ECS | FAIL | 30312 |  |  |  | [sprcoll3_ECS.png](Denise/Sprites/collision/sprcoll3/sprcoll3_ECS.png) |
-| Denise/Sprites/collision/sprcoll3 | sprcoll3_OCS | FAIL | 30312 |  |  |  | [sprcoll3_OCS.png](Denise/Sprites/collision/sprcoll3/sprcoll3_OCS.png) |
-| Denise/Sprites/collision/sprcoll3d | sprcoll3d_ECS | FAIL | 30312 |  |  |  | [sprcoll3d_ECS.png](Denise/Sprites/collision/sprcoll3d/sprcoll3d_ECS.png) |
-| Denise/Sprites/collision/sprcoll3d | sprcoll3d_OCS | FAIL | 30312 |  |  |  | [sprcoll3d_OCS.png](Denise/Sprites/collision/sprcoll3d/sprcoll3d_OCS.png) |
-| Denise/Sprites/collision/sprcoll4 | sprcoll4_ECS | FAIL | 30312 |  |  |  | [sprcoll4_ECS.png](Denise/Sprites/collision/sprcoll4/sprcoll4_ECS.png) |
-| Denise/Sprites/collision/sprcoll4 | sprcoll4_OCS | FAIL | 30312 |  |  |  | [sprcoll4_OCS.png](Denise/Sprites/collision/sprcoll4/sprcoll4_OCS.png) |
-| Denise/Sprites/collision/sprcoll4d | sprcoll4d_ECS | FAIL | 30312 |  |  |  | [sprcoll4d_ECS.png](Denise/Sprites/collision/sprcoll4d/sprcoll4d_ECS.png) |
-| Denise/Sprites/collision/sprcoll4d | sprcoll4d_OCS | FAIL | 30312 |  |  |  | [sprcoll4d_OCS.png](Denise/Sprites/collision/sprcoll4d/sprcoll4d_OCS.png) |
-| Denise/Sprites/collision/sprcoll5 | sprcoll5_ECS | FAIL | 30312 |  |  |  | [sprcoll5_ECS.png](Denise/Sprites/collision/sprcoll5/sprcoll5_ECS.png) |
-| Denise/Sprites/collision/sprcoll5 | sprcoll5_OCS | FAIL | 30312 |  |  |  | [sprcoll5_OCS.png](Denise/Sprites/collision/sprcoll5/sprcoll5_OCS.png) |
-| Denise/Sprites/collision/sprcoll5d | sprcoll5d_ECS | FAIL | 30312 |  |  |  | [sprcoll5d_ECS.png](Denise/Sprites/collision/sprcoll5d/sprcoll5d_ECS.png) |
-| Denise/Sprites/collision/sprcoll5d | sprcoll5d_OCS | FAIL | 30312 |  |  |  | [sprcoll5d_OCS.png](Denise/Sprites/collision/sprcoll5d/sprcoll5d_OCS.png) |
-| Denise/Sprites/collision/sprcoll6 | sprcoll6_ECS | FAIL | 15156 |  |  |  | [sprcoll6_ECS.png](Denise/Sprites/collision/sprcoll6/sprcoll6_ECS.png) |
-| Denise/Sprites/collision/sprcoll6 | sprcoll6_OCS | FAIL | 15156 |  |  |  | [sprcoll6_OCS.png](Denise/Sprites/collision/sprcoll6/sprcoll6_OCS.png) |
-| Denise/Sprites/collision/sprcoll6d | sprcoll6d_ECS | FAIL | 15156 |  |  |  | [sprcoll6d_ECS.png](Denise/Sprites/collision/sprcoll6d/sprcoll6d_ECS.png) |
-| Denise/Sprites/collision/sprcoll6d | sprcoll6d_OCS | FAIL | 15156 |  |  |  | [sprcoll6d_OCS.png](Denise/Sprites/collision/sprcoll6d/sprcoll6d_OCS.png) |
-| Denise/Sprites/collision/sprcoll7 | sprcoll7_ECS | FAIL | 30312 |  |  |  | [sprcoll7_ECS.png](Denise/Sprites/collision/sprcoll7/sprcoll7_ECS.png) |
-| Denise/Sprites/collision/sprcoll7 | sprcoll7_OCS | FAIL | 30312 |  |  |  | [sprcoll7_OCS.png](Denise/Sprites/collision/sprcoll7/sprcoll7_OCS.png) |
-| Denise/Sprites/collision/sprcoll7d | sprcoll7d_ECS | FAIL | 30312 |  |  |  | [sprcoll7d_ECS.png](Denise/Sprites/collision/sprcoll7d/sprcoll7d_ECS.png) |
-| Denise/Sprites/collision/sprcoll7d | sprcoll7d_OCS | FAIL | 30312 |  |  |  | [sprcoll7d_OCS.png](Denise/Sprites/collision/sprcoll7d/sprcoll7d_OCS.png) |
-| Denise/Sprites/collision/sprcoll8 | sprcoll8_ECS | FAIL | 10104 |  |  |  | [sprcoll8_ECS.png](Denise/Sprites/collision/sprcoll8/sprcoll8_ECS.png) |
-| Denise/Sprites/collision/sprcoll8 | sprcoll8_OCS | FAIL | 10104 |  |  |  | [sprcoll8_OCS.png](Denise/Sprites/collision/sprcoll8/sprcoll8_OCS.png) |
-| Denise/Sprites/collision/sprcoll8d | sprcoll8d_ECS | FAIL | 20208 |  |  |  | [sprcoll8d_ECS.png](Denise/Sprites/collision/sprcoll8d/sprcoll8d_ECS.png) |
-| Denise/Sprites/collision/sprcoll8d | sprcoll8d_OCS | FAIL | 20208 |  |  |  | [sprcoll8d_OCS.png](Denise/Sprites/collision/sprcoll8d/sprcoll8d_OCS.png) |
-| Denise/Sprites/general/invcoord | invcoord_ECS | PASS | 0 |  |  |  | [invcoord_ECS.png](Denise/Sprites/general/invcoord/invcoord_ECS.png) |
-| Denise/Sprites/general/invcoord | invcoord_OCS | PASS | 0 |  |  |  | [invcoord_OCS.png](Denise/Sprites/general/invcoord/invcoord_OCS.png) |
-| Denise/Sprites/general/reenable1 | reenable1_ECS | FAIL | 100 |  |  |  | [reenable1_ECS.png](Denise/Sprites/general/reenable1/reenable1_ECS.png) |
-| Denise/Sprites/general/reenable1 | reenable1_OCS | FAIL | 100 |  |  |  | [reenable1_OCS.png](Denise/Sprites/general/reenable1/reenable1_OCS.png) |
-| Denise/Sprites/general/sprbpu1 | sprbpu1_ECS | FAIL | 16 |  |  |  | [sprbpu1_ECS.png](Denise/Sprites/general/sprbpu1/sprbpu1_ECS.png) |
-| Denise/Sprites/general/sprbpu1 | sprbpu1_OCS | FAIL | 16 |  |  |  | [sprbpu1_OCS.png](Denise/Sprites/general/sprbpu1/sprbpu1_OCS.png) |
-| Denise/Sprites/general/sprbpu2 | sprbpu2_ECS | FAIL | 160 |  |  |  | [sprbpu2_ECS.png](Denise/Sprites/general/sprbpu2/sprbpu2_ECS.png) |
-| Denise/Sprites/general/sprbpu2 | sprbpu2_OCS | FAIL | 160 |  |  |  | [sprbpu2_OCS.png](Denise/Sprites/general/sprbpu2/sprbpu2_OCS.png) |
-| Denise/Sprites/general/sprdat1 | sprdat1_ECS | PASS | 0 |  |  |  | [sprdat1_ECS.png](Denise/Sprites/general/sprdat1/sprdat1_ECS.png) |
-| Denise/Sprites/general/sprdat1 | sprdat1_OCS | PASS | 0 |  |  |  | [sprdat1_OCS.png](Denise/Sprites/general/sprdat1/sprdat1_OCS.png) |
-| Denise/Sprites/general/sprdat2 | sprdat2_ECS | PASS | 0 |  |  |  | [sprdat2_ECS.png](Denise/Sprites/general/sprdat2/sprdat2_ECS.png) |
-| Denise/Sprites/general/sprdat2 | sprdat2_OCS | PASS | 0 |  |  |  | [sprdat2_OCS.png](Denise/Sprites/general/sprdat2/sprdat2_OCS.png) |
-| Denise/Sprites/general/sprites1 | sprites1_ECS | FAIL | 124 |  |  |  | [sprites1_ECS.png](Denise/Sprites/general/sprites1/sprites1_ECS.png) |
-| Denise/Sprites/general/sprites1 | sprites1_OCS | FAIL | 124 |  |  |  | [sprites1_OCS.png](Denise/Sprites/general/sprites1/sprites1_OCS.png) |
-| Denise/Sprites/general/sprites2 | sprites2_ECS | PASS | 0 |  |  |  | [sprites2_ECS.png](Denise/Sprites/general/sprites2/sprites2_ECS.png) |
-| Denise/Sprites/general/sprites2 | sprites2_OCS | PASS | 0 |  |  |  | [sprites2_OCS.png](Denise/Sprites/general/sprites2/sprites2_OCS.png) |
-| Denise/Sprites/general/sprites3 | sprites3_ECS | PASS | 0 |  |  |  | [sprites3_ECS.png](Denise/Sprites/general/sprites3/sprites3_ECS.png) |
-| Denise/Sprites/general/sprites3 | sprites3_OCS | PASS | 0 |  |  |  | [sprites3_OCS.png](Denise/Sprites/general/sprites3/sprites3_OCS.png) |
-| Denise/Sprites/general/sprites4 | sprites4_ECS | FAIL | 124 |  |  |  | [sprites4_ECS.png](Denise/Sprites/general/sprites4/sprites4_ECS.png) |
-| Denise/Sprites/general/sprites4 | sprites4_OCS | FAIL | 124 |  |  |  | [sprites4_OCS.png](Denise/Sprites/general/sprites4/sprites4_OCS.png) |
-| Denise/Sprites/general/sprites5 | sprites5_ECS | FAIL | 50010 |  |  |  | [sprites5_ECS.png](Denise/Sprites/general/sprites5/sprites5_ECS.png) |
-| Denise/Sprites/general/sprites5 | sprites5_OCS | FAIL | 50010 |  |  |  | [sprites5_OCS.png](Denise/Sprites/general/sprites5/sprites5_OCS.png) |
-| Denise/Sprites/general/sprites6 | sprites6_ECS | FAIL | 44176 |  |  |  | [sprites6_ECS.png](Denise/Sprites/general/sprites6/sprites6_ECS.png) |
-| Denise/Sprites/general/sprites6 | sprites6_OCS | FAIL | 44176 |  |  |  | [sprites6_OCS.png](Denise/Sprites/general/sprites6/sprites6_OCS.png) |
-| Denise/Sprites/general/sprites7 | sprites7_ECS | FAIL | 44176 |  |  |  | [sprites7_ECS.png](Denise/Sprites/general/sprites7/sprites7_ECS.png) |
-| Denise/Sprites/general/sprites7 | sprites7_OCS | FAIL | 44176 |  |  |  | [sprites7_OCS.png](Denise/Sprites/general/sprites7/sprites7_OCS.png) |
-| Denise/Sprites/general/termination1 | termination1_ECS | PASS | 0 |  |  |  | [termination1_ECS.png](Denise/Sprites/general/termination1/termination1_ECS.png) |
-| Denise/Sprites/general/termination1 | termination1_OCS | PASS | 0 |  |  |  | [termination1_OCS.png](Denise/Sprites/general/termination1/termination1_OCS.png) |
-| Denise/Sprites/manual/manual1 | manual1_ECS | PASS | 0 |  |  |  | [manual1_ECS.png](Denise/Sprites/manual/manual1/manual1_ECS.png) |
-| Denise/Sprites/manual/manual1 | manual1_OCS | PASS | 0 |  |  |  | [manual1_OCS.png](Denise/Sprites/manual/manual1/manual1_OCS.png) |
-| Denise/Sprites/manual/manual2 | manual2_ECS | PASS | 0 |  |  |  | [manual2_ECS.png](Denise/Sprites/manual/manual2/manual2_ECS.png) |
-| Denise/Sprites/manual/manual2 | manual2_OCS | PASS | 0 |  |  |  | [manual2_OCS.png](Denise/Sprites/manual/manual2/manual2_OCS.png) |
-| Denise/Sprites/manual/manual3 | manual3_ECS | FAIL | 256 |  |  |  | [manual3_ECS.png](Denise/Sprites/manual/manual3/manual3_ECS.png) |
-| Denise/Sprites/manual/manual3 | manual3_OCS | FAIL | 256 |  |  |  | [manual3_OCS.png](Denise/Sprites/manual/manual3/manual3_OCS.png) |
-| Denise/Sprites/manual/manual4 | manual4_ECS | PASS | 0 |  |  |  | [manual4_ECS.png](Denise/Sprites/manual/manual4/manual4_ECS.png) |
-| Denise/Sprites/manual/manual4 | manual4_OCS | PASS | 0 |  |  |  | [manual4_OCS.png](Denise/Sprites/manual/manual4/manual4_OCS.png) |
-| Denise/Sprites/manual/manual5 | manual5_ECS | PASS | 0 |  |  |  | [manual5_ECS.png](Denise/Sprites/manual/manual5/manual5_ECS.png) |
-| Denise/Sprites/manual/manual5 | manual5_OCS | PASS | 0 |  |  |  | [manual5_OCS.png](Denise/Sprites/manual/manual5/manual5_OCS.png) |
-| Denise/Sprites/manual/manual6 | manual6_ECS | PASS | 0 |  |  |  | [manual6_ECS.png](Denise/Sprites/manual/manual6/manual6_ECS.png) |
-| Denise/Sprites/manual/manual6 | manual6_OCS | PASS | 0 |  |  |  | [manual6_OCS.png](Denise/Sprites/manual/manual6/manual6_OCS.png) |
-| Denise/Sprites/manual/vblen1 | vblen1_ECS | NO_REFERENCE | — |  |  |  | — |
-| Denise/Sprites/manual/vblen1 | vblen1_OCS | NO_REFERENCE | — |  |  |  | — |
-| Denise/Sprites/multiplex/multiplex1 | multiplex1_ECS | PASS | 0 |  |  |  | [multiplex1_ECS.png](Denise/Sprites/multiplex/multiplex1/multiplex1_ECS.png) |
-| Denise/Sprites/multiplex/multiplex1 | multiplex1_OCS | PASS | 0 |  |  |  | [multiplex1_OCS.png](Denise/Sprites/multiplex/multiplex1/multiplex1_OCS.png) |
-| Denise/Sprites/sprdrop/sprdrop1 | sprdrop1_ECS | PASS | 0 |  |  |  | [sprdrop1_ECS.png](Denise/Sprites/sprdrop/sprdrop1/sprdrop1_ECS.png) |
-| Denise/Sprites/sprdrop/sprdrop1 | sprdrop1_OCS | PASS | 0 |  |  |  | [sprdrop1_OCS.png](Denise/Sprites/sprdrop/sprdrop1/sprdrop1_OCS.png) |
-| Denise/Sprites/sprdrop/sprdrop2 | sprdrop2_ECS | FAIL | 1344 |  |  |  | [sprdrop2_ECS.png](Denise/Sprites/sprdrop/sprdrop2/sprdrop2_ECS.png) |
-| Denise/Sprites/sprdrop/sprdrop2 | sprdrop2_OCS | FAIL | 1344 |  |  |  | [sprdrop2_OCS.png](Denise/Sprites/sprdrop/sprdrop2/sprdrop2_OCS.png) |
-| Denise/Sprites/sprdrop/sprdrop3 | sprdrop3_ECS | FAIL | 3168 |  |  |  | [sprdrop3_ECS.png](Denise/Sprites/sprdrop/sprdrop3/sprdrop3_ECS.png) |
-| Denise/Sprites/sprdrop/sprdrop3 | sprdrop3_OCS | FAIL | 3168 |  |  |  | [sprdrop3_OCS.png](Denise/Sprites/sprdrop/sprdrop3/sprdrop3_OCS.png) |
-| Denise/Sprites/sprdrop/sprdrop4 | sprdrop4_ECS | PASS | 0 |  |  |  | [sprdrop4_ECS.png](Denise/Sprites/sprdrop/sprdrop4/sprdrop4_ECS.png) |
-| Denise/Sprites/sprdrop/sprdrop4 | sprdrop4_OCS | PASS | 0 |  |  |  | [sprdrop4_OCS.png](Denise/Sprites/sprdrop/sprdrop4/sprdrop4_OCS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu1 | sprdropcpu1_ECS | PASS | 0 |  |  |  | [sprdropcpu1_ECS.png](Denise/Sprites/sprdrop/sprdropcpu1/sprdropcpu1_ECS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu1 | sprdropcpu1_OCS | PASS | 0 |  |  |  | [sprdropcpu1_OCS.png](Denise/Sprites/sprdrop/sprdropcpu1/sprdropcpu1_OCS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu2 | sprdropcpu2_ECS | PASS | 0 |  |  |  | [sprdropcpu2_ECS.png](Denise/Sprites/sprdrop/sprdropcpu2/sprdropcpu2_ECS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu2 | sprdropcpu2_OCS | PASS | 0 |  |  |  | [sprdropcpu2_OCS.png](Denise/Sprites/sprdrop/sprdropcpu2/sprdropcpu2_OCS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu3 | sprdropcpu3_ECS | FAIL | 396 |  |  |  | [sprdropcpu3_ECS.png](Denise/Sprites/sprdrop/sprdropcpu3/sprdropcpu3_ECS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu3 | sprdropcpu3_OCS | FAIL | 396 |  |  |  | [sprdropcpu3_OCS.png](Denise/Sprites/sprdrop/sprdropcpu3/sprdropcpu3_OCS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu4 | sprdropcpu4_ECS | FAIL | 396 |  |  |  | [sprdropcpu4_ECS.png](Denise/Sprites/sprdrop/sprdropcpu4/sprdropcpu4_ECS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu4 | sprdropcpu4_OCS | FAIL | 396 |  |  |  | [sprdropcpu4_OCS.png](Denise/Sprites/sprdrop/sprdropcpu4/sprdropcpu4_OCS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu5 | sprdropcpu5_ECS | FAIL | 168 |  |  |  | [sprdropcpu5_ECS.png](Denise/Sprites/sprdrop/sprdropcpu5/sprdropcpu5_ECS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu5 | sprdropcpu5_OCS | FAIL | 168 |  |  |  | [sprdropcpu5_OCS.png](Denise/Sprites/sprdrop/sprdropcpu5/sprdropcpu5_OCS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu6 | sprdropcpu6_ECS | FAIL | 396 |  |  |  | [sprdropcpu6_ECS.png](Denise/Sprites/sprdrop/sprdropcpu6/sprdropcpu6_ECS.png) |
-| Denise/Sprites/sprdrop/sprdropcpu6 | sprdropcpu6_OCS | FAIL | 396 |  |  |  | [sprdropcpu6_OCS.png](Denise/Sprites/sprdrop/sprdropcpu6/sprdropcpu6_OCS.png) |
-| Denise/Sprites/spritedma/interfere1 | interfere1_ECS | FAIL | 376 |  |  |  | [interfere1_ECS.png](Denise/Sprites/spritedma/interfere1/interfere1_ECS.png) |
-| Denise/Sprites/spritedma/interfere1 | interfere1_OCS | FAIL | 376 |  |  |  | [interfere1_OCS.png](Denise/Sprites/spritedma/interfere1/interfere1_OCS.png) |
-| Denise/Sprites/spritedma/interfere1b | interfere1b_ECS | FAIL | 720 |  |  |  | [interfere1b_ECS.png](Denise/Sprites/spritedma/interfere1b/interfere1b_ECS.png) |
-| Denise/Sprites/spritedma/interfere1b | interfere1b_OCS | FAIL | 720 |  |  |  | [interfere1b_OCS.png](Denise/Sprites/spritedma/interfere1b/interfere1b_OCS.png) |
-| Denise/Sprites/spritedma/interfere2 | interfere2_ECS | PASS | 0 |  |  |  | [interfere2_ECS.png](Denise/Sprites/spritedma/interfere2/interfere2_ECS.png) |
-| Denise/Sprites/spritedma/interfere2 | interfere2_OCS | PASS | 0 |  |  |  | [interfere2_OCS.png](Denise/Sprites/spritedma/interfere2/interfere2_OCS.png) |
-| Denise/Sprites/spritedma/interfere2b | interfere2b_ECS | FAIL | 362 |  |  |  | [interfere2b_ECS.png](Denise/Sprites/spritedma/interfere2b/interfere2b_ECS.png) |
-| Denise/Sprites/spritedma/interfere2b | interfere2b_OCS | FAIL | 362 |  |  |  | [interfere2b_OCS.png](Denise/Sprites/spritedma/interfere2b/interfere2b_OCS.png) |
-| Denise/Sprites/spritedma/interfere3 | interfere3_ECS | PASS | 0 |  |  |  | [interfere3_ECS.png](Denise/Sprites/spritedma/interfere3/interfere3_ECS.png) |
-| Denise/Sprites/spritedma/interfere3 | interfere3_OCS | PASS | 0 |  |  |  | [interfere3_OCS.png](Denise/Sprites/spritedma/interfere3/interfere3_OCS.png) |
-| Denise/Sprites/spritedma/interfere3b | interfere3b_ECS | FAIL | 1082 |  |  |  | [interfere3b_ECS.png](Denise/Sprites/spritedma/interfere3b/interfere3b_ECS.png) |
-| Denise/Sprites/spritedma/interfere3b | interfere3b_OCS | FAIL | 1082 |  |  |  | [interfere3b_OCS.png](Denise/Sprites/spritedma/interfere3b/interfere3b_OCS.png) |
-| Denise/Sprites/spritedma/interfere4 | interfere4_ECS | PASS | 0 |  |  |  | [interfere4_ECS.png](Denise/Sprites/spritedma/interfere4/interfere4_ECS.png) |
-| Denise/Sprites/spritedma/interfere4 | interfere4_OCS | PASS | 0 |  |  |  | [interfere4_OCS.png](Denise/Sprites/spritedma/interfere4/interfere4_OCS.png) |
-| Denise/Sprites/spritedma/interfere4b | interfere4b_ECS | PASS | 0 |  |  |  | [interfere4b_ECS.png](Denise/Sprites/spritedma/interfere4b/interfere4b_ECS.png) |
-| Denise/Sprites/spritedma/interfere4b | interfere4b_OCS | PASS | 0 |  |  |  | [interfere4b_OCS.png](Denise/Sprites/spritedma/interfere4b/interfere4b_OCS.png) |
-| Denise/Sprites/spritedma/interfere5 | interfere5_ECS | PASS | 0 |  |  |  | [interfere5_ECS.png](Denise/Sprites/spritedma/interfere5/interfere5_ECS.png) |
-| Denise/Sprites/spritedma/interfere5 | interfere5_OCS | PASS | 0 |  |  |  | [interfere5_OCS.png](Denise/Sprites/spritedma/interfere5/interfere5_OCS.png) |
-| Denise/Sprites/spritedma/interfere5b | interfere5b_ECS | PASS | 0 |  |  |  | [interfere5b_ECS.png](Denise/Sprites/spritedma/interfere5b/interfere5b_ECS.png) |
-| Denise/Sprites/spritedma/interfere5b | interfere5b_OCS | PASS | 0 |  |  |  | [interfere5b_OCS.png](Denise/Sprites/spritedma/interfere5b/interfere5b_OCS.png) |
-| Denise/Sprites/spritedma/interfere6 | interfere6_ECS | PASS | 0 |  |  |  | [interfere6_ECS.png](Denise/Sprites/spritedma/interfere6/interfere6_ECS.png) |
-| Denise/Sprites/spritedma/interfere6 | interfere6_OCS | PASS | 0 |  |  |  | [interfere6_OCS.png](Denise/Sprites/spritedma/interfere6/interfere6_OCS.png) |
-| Denise/Sprites/spritedma/interfere6b | interfere6b_ECS | PASS | 0 |  |  |  | [interfere6b_ECS.png](Denise/Sprites/spritedma/interfere6b/interfere6b_ECS.png) |
-| Denise/Sprites/spritedma/interfere6b | interfere6b_OCS | PASS | 0 |  |  |  | [interfere6b_OCS.png](Denise/Sprites/spritedma/interfere6b/interfere6b_OCS.png) |
-| Denise/Sprites/spritedma/sprdma1 | sprdma1_ECS | FAIL | 112 |  |  |  | [sprdma1_ECS.png](Denise/Sprites/spritedma/sprdma1/sprdma1_ECS.png) |
-| Denise/Sprites/spritedma/sprdma1 | sprdma1_OCS | FAIL | 112 |  |  |  | [sprdma1_OCS.png](Denise/Sprites/spritedma/sprdma1/sprdma1_OCS.png) |
-| Denise/Sprites/spritedma/sprdma10 | sprdma10_ECS | PASS | 0 |  |  |  | [sprdma10_ECS.png](Denise/Sprites/spritedma/sprdma10/sprdma10_ECS.png) |
-| Denise/Sprites/spritedma/sprdma10 | sprdma10_OCS | PASS | 0 |  |  |  | [sprdma10_OCS.png](Denise/Sprites/spritedma/sprdma10/sprdma10_OCS.png) |
-| Denise/Sprites/spritedma/sprdma11 | sprdma11_ECS | PASS | 0 |  |  |  | [sprdma11_ECS.png](Denise/Sprites/spritedma/sprdma11/sprdma11_ECS.png) |
-| Denise/Sprites/spritedma/sprdma11 | sprdma11_OCS | PASS | 0 |  |  |  | [sprdma11_OCS.png](Denise/Sprites/spritedma/sprdma11/sprdma11_OCS.png) |
-| Denise/Sprites/spritedma/sprdma12 | sprdma12_ECS | PASS | 0 |  |  |  | [sprdma12_ECS.png](Denise/Sprites/spritedma/sprdma12/sprdma12_ECS.png) |
-| Denise/Sprites/spritedma/sprdma12 | sprdma12_OCS | PASS | 0 |  |  |  | [sprdma12_OCS.png](Denise/Sprites/spritedma/sprdma12/sprdma12_OCS.png) |
-| Denise/Sprites/spritedma/sprdma13 | sprdma13_ECS | PASS | 0 |  |  |  | [sprdma13_ECS.png](Denise/Sprites/spritedma/sprdma13/sprdma13_ECS.png) |
-| Denise/Sprites/spritedma/sprdma13 | sprdma13_OCS | PASS | 0 |  |  |  | [sprdma13_OCS.png](Denise/Sprites/spritedma/sprdma13/sprdma13_OCS.png) |
-| Denise/Sprites/spritedma/sprdma14 | sprdma14_ECS | PASS | 0 |  |  |  | [sprdma14_ECS.png](Denise/Sprites/spritedma/sprdma14/sprdma14_ECS.png) |
-| Denise/Sprites/spritedma/sprdma14 | sprdma14_OCS | PASS | 0 |  |  |  | [sprdma14_OCS.png](Denise/Sprites/spritedma/sprdma14/sprdma14_OCS.png) |
-| Denise/Sprites/spritedma/sprdma15 | sprdma15_ECS | PASS | 0 |  |  |  | [sprdma15_ECS.png](Denise/Sprites/spritedma/sprdma15/sprdma15_ECS.png) |
-| Denise/Sprites/spritedma/sprdma15 | sprdma15_OCS | PASS | 0 |  |  |  | [sprdma15_OCS.png](Denise/Sprites/spritedma/sprdma15/sprdma15_OCS.png) |
-| Denise/Sprites/spritedma/sprdma16 | sprdma16_ECS | PASS | 0 |  |  |  | [sprdma16_ECS.png](Denise/Sprites/spritedma/sprdma16/sprdma16_ECS.png) |
-| Denise/Sprites/spritedma/sprdma16 | sprdma16_OCS | PASS | 0 |  |  |  | [sprdma16_OCS.png](Denise/Sprites/spritedma/sprdma16/sprdma16_OCS.png) |
-| Denise/Sprites/spritedma/sprdma17 | sprdma17_ECS | PASS | 0 |  |  |  | [sprdma17_ECS.png](Denise/Sprites/spritedma/sprdma17/sprdma17_ECS.png) |
-| Denise/Sprites/spritedma/sprdma17 | sprdma17_OCS | PASS | 0 |  |  |  | [sprdma17_OCS.png](Denise/Sprites/spritedma/sprdma17/sprdma17_OCS.png) |
-| Denise/Sprites/spritedma/sprdma18 | sprdma18_ECS | FAIL | 632 |  |  |  | [sprdma18_ECS.png](Denise/Sprites/spritedma/sprdma18/sprdma18_ECS.png) |
-| Denise/Sprites/spritedma/sprdma18 | sprdma18_OCS | FAIL | 632 |  |  |  | [sprdma18_OCS.png](Denise/Sprites/spritedma/sprdma18/sprdma18_OCS.png) |
-| Denise/Sprites/spritedma/sprdma19 | sprdma19_ECS | PASS | 0 |  |  |  | [sprdma19_ECS.png](Denise/Sprites/spritedma/sprdma19/sprdma19_ECS.png) |
-| Denise/Sprites/spritedma/sprdma19 | sprdma19_OCS | PASS | 0 |  |  |  | [sprdma19_OCS.png](Denise/Sprites/spritedma/sprdma19/sprdma19_OCS.png) |
-| Denise/Sprites/spritedma/sprdma2 | sprdma2_ECS | FAIL | 536 |  |  |  | [sprdma2_ECS.png](Denise/Sprites/spritedma/sprdma2/sprdma2_ECS.png) |
-| Denise/Sprites/spritedma/sprdma2 | sprdma2_OCS | FAIL | 536 |  |  |  | [sprdma2_OCS.png](Denise/Sprites/spritedma/sprdma2/sprdma2_OCS.png) |
-| Denise/Sprites/spritedma/sprdma20 | sprdma20_ECS | FAIL | 632 |  |  |  | [sprdma20_ECS.png](Denise/Sprites/spritedma/sprdma20/sprdma20_ECS.png) |
-| Denise/Sprites/spritedma/sprdma20 | sprdma20_OCS | FAIL | 632 |  |  |  | [sprdma20_OCS.png](Denise/Sprites/spritedma/sprdma20/sprdma20_OCS.png) |
-| Denise/Sprites/spritedma/sprdma21 | sprdma21_ECS | PASS | 0 |  |  |  | [sprdma21_ECS.png](Denise/Sprites/spritedma/sprdma21/sprdma21_ECS.png) |
-| Denise/Sprites/spritedma/sprdma21 | sprdma21_OCS | PASS | 0 |  |  |  | [sprdma21_OCS.png](Denise/Sprites/spritedma/sprdma21/sprdma21_OCS.png) |
-| Denise/Sprites/spritedma/sprdma3 | sprdma3_ECS | FAIL | 426 |  |  |  | [sprdma3_ECS.png](Denise/Sprites/spritedma/sprdma3/sprdma3_ECS.png) |
-| Denise/Sprites/spritedma/sprdma3 | sprdma3_OCS | FAIL | 426 |  |  |  | [sprdma3_OCS.png](Denise/Sprites/spritedma/sprdma3/sprdma3_OCS.png) |
-| Denise/Sprites/spritedma/sprdma4 | sprdma4_ECS | PASS | 0 |  |  |  | [sprdma4_ECS.png](Denise/Sprites/spritedma/sprdma4/sprdma4_ECS.png) |
-| Denise/Sprites/spritedma/sprdma4 | sprdma4_OCS | PASS | 0 |  |  |  | [sprdma4_OCS.png](Denise/Sprites/spritedma/sprdma4/sprdma4_OCS.png) |
-| Denise/Sprites/spritedma/sprdma5 | sprdma5_ECS | PASS | 0 |  |  |  | [sprdma5_ECS.png](Denise/Sprites/spritedma/sprdma5/sprdma5_ECS.png) |
-| Denise/Sprites/spritedma/sprdma5 | sprdma5_OCS | PASS | 0 |  |  |  | [sprdma5_OCS.png](Denise/Sprites/spritedma/sprdma5/sprdma5_OCS.png) |
-| Denise/Sprites/spritedma/sprdma6 | sprdma6_ECS | PASS | 0 |  |  |  | [sprdma6_ECS.png](Denise/Sprites/spritedma/sprdma6/sprdma6_ECS.png) |
-| Denise/Sprites/spritedma/sprdma6 | sprdma6_OCS | PASS | 0 |  |  |  | [sprdma6_OCS.png](Denise/Sprites/spritedma/sprdma6/sprdma6_OCS.png) |
-| Denise/Sprites/spritedma/sprdma7 | sprdma7_ECS | PASS | 0 |  |  |  | [sprdma7_ECS.png](Denise/Sprites/spritedma/sprdma7/sprdma7_ECS.png) |
-| Denise/Sprites/spritedma/sprdma7 | sprdma7_OCS | PASS | 0 |  |  |  | [sprdma7_OCS.png](Denise/Sprites/spritedma/sprdma7/sprdma7_OCS.png) |
-| Denise/Sprites/spritedma/sprdma8 | sprdma8_ECS | PASS | 0 |  |  |  | [sprdma8_ECS.png](Denise/Sprites/spritedma/sprdma8/sprdma8_ECS.png) |
-| Denise/Sprites/spritedma/sprdma8 | sprdma8_OCS | PASS | 0 |  |  |  | [sprdma8_OCS.png](Denise/Sprites/spritedma/sprdma8/sprdma8_OCS.png) |
-| Denise/Sprites/spritedma/sprdma9 | sprdma9_ECS | PASS | 0 |  |  |  | [sprdma9_ECS.png](Denise/Sprites/spritedma/sprdma9/sprdma9_ECS.png) |
-| Denise/Sprites/spritedma/sprdma9 | sprdma9_OCS | PASS | 0 |  |  |  | [sprdma9_OCS.png](Denise/Sprites/spritedma/sprdma9/sprdma9_OCS.png) |
-| Denise/Sprites/timing/oldsprtimdat | oldsprtimdat_ECS | PASS | 0 |  |  |  | [oldsprtimdat_ECS.png](Denise/Sprites/timing/oldsprtimdat/oldsprtimdat_ECS.png) |
-| Denise/Sprites/timing/oldsprtimdat | oldsprtimdat_OCS | PASS | 0 |  |  |  | [oldsprtimdat_OCS.png](Denise/Sprites/timing/oldsprtimdat/oldsprtimdat_OCS.png) |
-| Denise/Sprites/timing/oldsprtimpos | oldsprtimpos_ECS | PASS | 0 |  |  |  | [oldsprtimpos_ECS.png](Denise/Sprites/timing/oldsprtimpos/oldsprtimpos_ECS.png) |
-| Denise/Sprites/timing/oldsprtimpos | oldsprtimpos_OCS | PASS | 0 |  |  |  | [oldsprtimpos_OCS.png](Denise/Sprites/timing/oldsprtimpos/oldsprtimpos_OCS.png) |
-| Denise/Sprites/timing/sprdmadat1 | sprdmadat1_ECS | PASS | 0 |  |  |  | [sprdmadat1_ECS.png](Denise/Sprites/timing/sprdmadat1/sprdmadat1_ECS.png) |
-| Denise/Sprites/timing/sprdmadat1 | sprdmadat1_OCS | PASS | 0 |  |  |  | [sprdmadat1_OCS.png](Denise/Sprites/timing/sprdmadat1/sprdmadat1_OCS.png) |
-| Denise/Sprites/timing/sprdmadat2 | sprdmadat2_ECS | PASS | 0 |  |  |  | [sprdmadat2_ECS.png](Denise/Sprites/timing/sprdmadat2/sprdmadat2_ECS.png) |
-| Denise/Sprites/timing/sprdmadat2 | sprdmadat2_OCS | PASS | 0 |  |  |  | [sprdmadat2_OCS.png](Denise/Sprites/timing/sprdmadat2/sprdmadat2_OCS.png) |
-| Denise/Sprites/timing/sprtimctl1 | sprtimctl1_ECS | PASS | 0 |  |  |  | [sprtimctl1_ECS.png](Denise/Sprites/timing/sprtimctl1/sprtimctl1_ECS.png) |
-| Denise/Sprites/timing/sprtimctl1 | sprtimctl1_OCS | PASS | 0 |  |  |  | [sprtimctl1_OCS.png](Denise/Sprites/timing/sprtimctl1/sprtimctl1_OCS.png) |
-| Denise/Sprites/timing/sprtimdat1 | sprtimdat1_ECS | PASS | 0 |  |  |  | [sprtimdat1_ECS.png](Denise/Sprites/timing/sprtimdat1/sprtimdat1_ECS.png) |
-| Denise/Sprites/timing/sprtimdat1 | sprtimdat1_OCS | PASS | 0 |  |  |  | [sprtimdat1_OCS.png](Denise/Sprites/timing/sprtimdat1/sprtimdat1_OCS.png) |
-| Denise/Sprites/timing/sprtimdat2 | sprtimdat2_ECS | PASS | 0 |  |  |  | [sprtimdat2_ECS.png](Denise/Sprites/timing/sprtimdat2/sprtimdat2_ECS.png) |
-| Denise/Sprites/timing/sprtimdat2 | sprtimdat2_OCS | PASS | 0 |  |  |  | [sprtimdat2_OCS.png](Denise/Sprites/timing/sprtimdat2/sprtimdat2_OCS.png) |
-| Denise/Sprites/timing/sprtimpos1 | sprtimpos1_ECS | PASS | 0 |  |  |  | [sprtimpos1_ECS.png](Denise/Sprites/timing/sprtimpos1/sprtimpos1_ECS.png) |
-| Denise/Sprites/timing/sprtimpos1 | sprtimpos1_OCS | PASS | 0 |  |  |  | [sprtimpos1_OCS.png](Denise/Sprites/timing/sprtimpos1/sprtimpos1_OCS.png) |
-| Denise/Sprites/timing/sprxpos | sprxpos_ECS | PASS | 0 |  |  |  | [sprxpos_ECS.png](Denise/Sprites/timing/sprxpos/sprxpos_ECS.png) |
-| Denise/Sprites/timing/sprxpos | sprxpos_OCS | PASS | 0 |  |  |  | [sprxpos_OCS.png](Denise/Sprites/timing/sprxpos/sprxpos_OCS.png) |
+| Test | Variant | Machine | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
+|---|---|---|---|---|---|---|---|---|
+| Denise/Sprites/attached/attached1 | attached1_ECS | A500 ECS | FAIL | 1672 |  |  |  | [attached1_ECS.png](Denise/Sprites/attached/attached1/attached1_ECS.png) |
+| Denise/Sprites/attached/attached1 | attached1_OCS | A500 OCS | FAIL | 1672 |  |  |  | [attached1_OCS.png](Denise/Sprites/attached/attached1/attached1_OCS.png) |
+| Denise/Sprites/attached/attached2 | attached2_ECS | A500 ECS | FAIL | 1554 |  |  |  | [attached2_ECS.png](Denise/Sprites/attached/attached2/attached2_ECS.png) |
+| Denise/Sprites/attached/attached2 | attached2_OCS | A500 OCS | FAIL | 1554 |  |  |  | [attached2_OCS.png](Denise/Sprites/attached/attached2/attached2_OCS.png) |
+| Denise/Sprites/attached/attached3 | attached3_ECS | A500 ECS | FAIL | 1164 |  |  |  | [attached3_ECS.png](Denise/Sprites/attached/attached3/attached3_ECS.png) |
+| Denise/Sprites/attached/attached3 | attached3_OCS | A500 OCS | FAIL | 1164 |  |  |  | [attached3_OCS.png](Denise/Sprites/attached/attached3/attached3_OCS.png) |
+| Denise/Sprites/attached/attached4 | attached4_ECS | A500 ECS | PASS | 0 |  |  |  | [attached4_ECS.png](Denise/Sprites/attached/attached4/attached4_ECS.png) |
+| Denise/Sprites/attached/attached4 | attached4_OCS | A500 OCS | PASS | 0 |  |  |  | [attached4_OCS.png](Denise/Sprites/attached/attached4/attached4_OCS.png) |
+| Denise/Sprites/attached/attached5 | attached5_ECS | A500 ECS | FAIL | 1644 |  |  |  | [attached5_ECS.png](Denise/Sprites/attached/attached5/attached5_ECS.png) |
+| Denise/Sprites/attached/attached5 | attached5_OCS | A500 OCS | FAIL | 1644 |  |  |  | [attached5_OCS.png](Denise/Sprites/attached/attached5/attached5_OCS.png) |
+| Denise/Sprites/attached/attached6 | attached6_ECS | A500 ECS | FAIL | 2016 |  |  |  | [attached6_ECS.png](Denise/Sprites/attached/attached6/attached6_ECS.png) |
+| Denise/Sprites/attached/attached6 | attached6_OCS | A500 OCS | FAIL | 2016 |  |  |  | [attached6_OCS.png](Denise/Sprites/attached/attached6/attached6_OCS.png) |
+| Denise/Sprites/blocked/blocked1 | blocked1_ECS | A500 ECS | PASS | 0 |  |  |  | [blocked1_ECS.png](Denise/Sprites/blocked/blocked1/blocked1_ECS.png) |
+| Denise/Sprites/blocked/blocked1 | blocked1_OCS | A500 OCS | PASS | 0 |  |  |  | [blocked1_OCS.png](Denise/Sprites/blocked/blocked1/blocked1_OCS.png) |
+| Denise/Sprites/blocked/blocked2 | blocked2_ECS | A500 ECS | FAIL | 1222 |  |  |  | [blocked2_ECS.png](Denise/Sprites/blocked/blocked2/blocked2_ECS.png) |
+| Denise/Sprites/blocked/blocked2 | blocked2_OCS | A500 OCS | FAIL | 1222 |  |  |  | [blocked2_OCS.png](Denise/Sprites/blocked/blocked2/blocked2_OCS.png) |
+| Denise/Sprites/blocked/blocked3 | blocked3_ECS | A500 ECS | FAIL | 2152 |  |  |  | [blocked3_ECS.png](Denise/Sprites/blocked/blocked3/blocked3_ECS.png) |
+| Denise/Sprites/blocked/blocked3 | blocked3_OCS | A500 OCS | FAIL | 2160 |  |  |  | [blocked3_OCS.png](Denise/Sprites/blocked/blocked3/blocked3_OCS.png) |
+| Denise/Sprites/blocked/blocked4 | blocked4_ECS | A500 ECS | FAIL | 15770 |  |  |  | [blocked4_ECS.png](Denise/Sprites/blocked/blocked4/blocked4_ECS.png) |
+| Denise/Sprites/blocked/blocked4 | blocked4_OCS | A500 OCS | FAIL | 17924 |  |  |  | [blocked4_OCS.png](Denise/Sprites/blocked/blocked4/blocked4_OCS.png) |
+| Denise/Sprites/clip/clip1 | clip1 | A500 ECS | FAIL | 396 |  |  |  | [clip1.png](Denise/Sprites/clip/clip1/clip1.png) |
+| Denise/Sprites/clip/clip1h | clip1h | A500 ECS | FAIL | 422 |  |  |  | [clip1h.png](Denise/Sprites/clip/clip1h/clip1h.png) |
+| Denise/Sprites/clip/clip2 | clip2 | A500 ECS | FAIL | 28 |  |  |  | [clip2.png](Denise/Sprites/clip/clip2/clip2.png) |
+| Denise/Sprites/clip/clip2h | clip2h | A500 ECS | FAIL | 6 |  |  |  | [clip2h.png](Denise/Sprites/clip/clip2h/clip2h.png) |
+| Denise/Sprites/clip/clip3 | clip3 | A500 ECS | FAIL | 396 |  |  |  | [clip3.png](Denise/Sprites/clip/clip3/clip3.png) |
+| Denise/Sprites/clip/clip3h | clip3h | A500 ECS | FAIL | 422 |  |  |  | [clip3h.png](Denise/Sprites/clip/clip3h/clip3h.png) |
+| Denise/Sprites/clip/newclip1 | newclip1 | A500 ECS | FAIL | 482 |  |  |  | [newclip1.png](Denise/Sprites/clip/newclip1/newclip1.png) |
+| Denise/Sprites/clip/newclip2 | newclip2 | A500 ECS | FAIL | 418 |  |  |  | [newclip2.png](Denise/Sprites/clip/newclip2/newclip2.png) |
+| Denise/Sprites/clip/newclip3 | newclip3 | A500 ECS | FAIL | 352 |  |  |  | [newclip3.png](Denise/Sprites/clip/newclip3/newclip3.png) |
+| Denise/Sprites/clip/newclip4 | newclip4 | A500 ECS | FAIL | 466 |  |  |  | [newclip4.png](Denise/Sprites/clip/newclip4/newclip4.png) |
+| Denise/Sprites/clip/newclip5 | newclip5 | A500 ECS | FAIL | 354 |  |  |  | [newclip5.png](Denise/Sprites/clip/newclip5/newclip5.png) |
+| Denise/Sprites/clip/newclip6 | newclip6 | A500 ECS | FAIL | 384 |  |  |  | [newclip6.png](Denise/Sprites/clip/newclip6/newclip6.png) |
+| Denise/Sprites/clip/newclip7 | newclip7 | A500 ECS | FAIL | 450 |  |  |  | [newclip7.png](Denise/Sprites/clip/newclip7/newclip7.png) |
+| Denise/Sprites/clip/newclip8 | newclip8 | A500 ECS | FAIL | 450 |  |  |  | [newclip8.png](Denise/Sprites/clip/newclip8/newclip8.png) |
+| Denise/Sprites/collision/sprcoll1 | sprcoll1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprcoll1_ECS.png](Denise/Sprites/collision/sprcoll1/sprcoll1_ECS.png) |
+| Denise/Sprites/collision/sprcoll1 | sprcoll1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprcoll1_OCS.png](Denise/Sprites/collision/sprcoll1/sprcoll1_OCS.png) |
+| Denise/Sprites/collision/sprcoll1d | sprcoll1d_ECS | A500 ECS | PASS | 0 |  |  |  | [sprcoll1d_ECS.png](Denise/Sprites/collision/sprcoll1d/sprcoll1d_ECS.png) |
+| Denise/Sprites/collision/sprcoll1d | sprcoll1d_OCS | A500 OCS | PASS | 0 |  |  |  | [sprcoll1d_OCS.png](Denise/Sprites/collision/sprcoll1d/sprcoll1d_OCS.png) |
+| Denise/Sprites/collision/sprcoll2 | sprcoll2_ECS | A500 ECS | FAIL | 15156 |  |  |  | [sprcoll2_ECS.png](Denise/Sprites/collision/sprcoll2/sprcoll2_ECS.png) |
+| Denise/Sprites/collision/sprcoll2 | sprcoll2_OCS | A500 OCS | FAIL | 15156 |  |  |  | [sprcoll2_OCS.png](Denise/Sprites/collision/sprcoll2/sprcoll2_OCS.png) |
+| Denise/Sprites/collision/sprcoll2d | sprcoll2d_ECS | A500 ECS | FAIL | 15156 |  |  |  | [sprcoll2d_ECS.png](Denise/Sprites/collision/sprcoll2d/sprcoll2d_ECS.png) |
+| Denise/Sprites/collision/sprcoll2d | sprcoll2d_OCS | A500 OCS | FAIL | 15156 |  |  |  | [sprcoll2d_OCS.png](Denise/Sprites/collision/sprcoll2d/sprcoll2d_OCS.png) |
+| Denise/Sprites/collision/sprcoll3 | sprcoll3_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll3_ECS.png](Denise/Sprites/collision/sprcoll3/sprcoll3_ECS.png) |
+| Denise/Sprites/collision/sprcoll3 | sprcoll3_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll3_OCS.png](Denise/Sprites/collision/sprcoll3/sprcoll3_OCS.png) |
+| Denise/Sprites/collision/sprcoll3d | sprcoll3d_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll3d_ECS.png](Denise/Sprites/collision/sprcoll3d/sprcoll3d_ECS.png) |
+| Denise/Sprites/collision/sprcoll3d | sprcoll3d_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll3d_OCS.png](Denise/Sprites/collision/sprcoll3d/sprcoll3d_OCS.png) |
+| Denise/Sprites/collision/sprcoll4 | sprcoll4_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll4_ECS.png](Denise/Sprites/collision/sprcoll4/sprcoll4_ECS.png) |
+| Denise/Sprites/collision/sprcoll4 | sprcoll4_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll4_OCS.png](Denise/Sprites/collision/sprcoll4/sprcoll4_OCS.png) |
+| Denise/Sprites/collision/sprcoll4d | sprcoll4d_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll4d_ECS.png](Denise/Sprites/collision/sprcoll4d/sprcoll4d_ECS.png) |
+| Denise/Sprites/collision/sprcoll4d | sprcoll4d_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll4d_OCS.png](Denise/Sprites/collision/sprcoll4d/sprcoll4d_OCS.png) |
+| Denise/Sprites/collision/sprcoll5 | sprcoll5_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll5_ECS.png](Denise/Sprites/collision/sprcoll5/sprcoll5_ECS.png) |
+| Denise/Sprites/collision/sprcoll5 | sprcoll5_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll5_OCS.png](Denise/Sprites/collision/sprcoll5/sprcoll5_OCS.png) |
+| Denise/Sprites/collision/sprcoll5d | sprcoll5d_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll5d_ECS.png](Denise/Sprites/collision/sprcoll5d/sprcoll5d_ECS.png) |
+| Denise/Sprites/collision/sprcoll5d | sprcoll5d_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll5d_OCS.png](Denise/Sprites/collision/sprcoll5d/sprcoll5d_OCS.png) |
+| Denise/Sprites/collision/sprcoll6 | sprcoll6_ECS | A500 ECS | FAIL | 15156 |  |  |  | [sprcoll6_ECS.png](Denise/Sprites/collision/sprcoll6/sprcoll6_ECS.png) |
+| Denise/Sprites/collision/sprcoll6 | sprcoll6_OCS | A500 OCS | FAIL | 15156 |  |  |  | [sprcoll6_OCS.png](Denise/Sprites/collision/sprcoll6/sprcoll6_OCS.png) |
+| Denise/Sprites/collision/sprcoll6d | sprcoll6d_ECS | A500 ECS | FAIL | 15156 |  |  |  | [sprcoll6d_ECS.png](Denise/Sprites/collision/sprcoll6d/sprcoll6d_ECS.png) |
+| Denise/Sprites/collision/sprcoll6d | sprcoll6d_OCS | A500 OCS | FAIL | 15156 |  |  |  | [sprcoll6d_OCS.png](Denise/Sprites/collision/sprcoll6d/sprcoll6d_OCS.png) |
+| Denise/Sprites/collision/sprcoll7 | sprcoll7_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll7_ECS.png](Denise/Sprites/collision/sprcoll7/sprcoll7_ECS.png) |
+| Denise/Sprites/collision/sprcoll7 | sprcoll7_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll7_OCS.png](Denise/Sprites/collision/sprcoll7/sprcoll7_OCS.png) |
+| Denise/Sprites/collision/sprcoll7d | sprcoll7d_ECS | A500 ECS | FAIL | 30312 |  |  |  | [sprcoll7d_ECS.png](Denise/Sprites/collision/sprcoll7d/sprcoll7d_ECS.png) |
+| Denise/Sprites/collision/sprcoll7d | sprcoll7d_OCS | A500 OCS | FAIL | 30312 |  |  |  | [sprcoll7d_OCS.png](Denise/Sprites/collision/sprcoll7d/sprcoll7d_OCS.png) |
+| Denise/Sprites/collision/sprcoll8 | sprcoll8_ECS | A500 ECS | FAIL | 10104 |  |  |  | [sprcoll8_ECS.png](Denise/Sprites/collision/sprcoll8/sprcoll8_ECS.png) |
+| Denise/Sprites/collision/sprcoll8 | sprcoll8_OCS | A500 OCS | FAIL | 10104 |  |  |  | [sprcoll8_OCS.png](Denise/Sprites/collision/sprcoll8/sprcoll8_OCS.png) |
+| Denise/Sprites/collision/sprcoll8d | sprcoll8d_ECS | A500 ECS | FAIL | 20208 |  |  |  | [sprcoll8d_ECS.png](Denise/Sprites/collision/sprcoll8d/sprcoll8d_ECS.png) |
+| Denise/Sprites/collision/sprcoll8d | sprcoll8d_OCS | A500 OCS | FAIL | 20208 |  |  |  | [sprcoll8d_OCS.png](Denise/Sprites/collision/sprcoll8d/sprcoll8d_OCS.png) |
+| Denise/Sprites/general/invcoord | invcoord_ECS | A500 ECS | PASS | 0 |  |  |  | [invcoord_ECS.png](Denise/Sprites/general/invcoord/invcoord_ECS.png) |
+| Denise/Sprites/general/invcoord | invcoord_OCS | A500 OCS | PASS | 0 |  |  |  | [invcoord_OCS.png](Denise/Sprites/general/invcoord/invcoord_OCS.png) |
+| Denise/Sprites/general/reenable1 | reenable1_ECS | A500 ECS | FAIL | 100 |  |  |  | [reenable1_ECS.png](Denise/Sprites/general/reenable1/reenable1_ECS.png) |
+| Denise/Sprites/general/reenable1 | reenable1_OCS | A500 OCS | FAIL | 100 |  |  |  | [reenable1_OCS.png](Denise/Sprites/general/reenable1/reenable1_OCS.png) |
+| Denise/Sprites/general/sprbpu1 | sprbpu1_ECS | A500 ECS | FAIL | 16 |  |  |  | [sprbpu1_ECS.png](Denise/Sprites/general/sprbpu1/sprbpu1_ECS.png) |
+| Denise/Sprites/general/sprbpu1 | sprbpu1_OCS | A500 OCS | FAIL | 16 |  |  |  | [sprbpu1_OCS.png](Denise/Sprites/general/sprbpu1/sprbpu1_OCS.png) |
+| Denise/Sprites/general/sprbpu2 | sprbpu2_ECS | A500 ECS | FAIL | 160 |  |  |  | [sprbpu2_ECS.png](Denise/Sprites/general/sprbpu2/sprbpu2_ECS.png) |
+| Denise/Sprites/general/sprbpu2 | sprbpu2_OCS | A500 OCS | FAIL | 160 |  |  |  | [sprbpu2_OCS.png](Denise/Sprites/general/sprbpu2/sprbpu2_OCS.png) |
+| Denise/Sprites/general/sprdat1 | sprdat1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdat1_ECS.png](Denise/Sprites/general/sprdat1/sprdat1_ECS.png) |
+| Denise/Sprites/general/sprdat1 | sprdat1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdat1_OCS.png](Denise/Sprites/general/sprdat1/sprdat1_OCS.png) |
+| Denise/Sprites/general/sprdat2 | sprdat2_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdat2_ECS.png](Denise/Sprites/general/sprdat2/sprdat2_ECS.png) |
+| Denise/Sprites/general/sprdat2 | sprdat2_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdat2_OCS.png](Denise/Sprites/general/sprdat2/sprdat2_OCS.png) |
+| Denise/Sprites/general/sprites1 | sprites1_ECS | A500 ECS | FAIL | 124 |  |  |  | [sprites1_ECS.png](Denise/Sprites/general/sprites1/sprites1_ECS.png) |
+| Denise/Sprites/general/sprites1 | sprites1_OCS | A500 OCS | FAIL | 124 |  |  |  | [sprites1_OCS.png](Denise/Sprites/general/sprites1/sprites1_OCS.png) |
+| Denise/Sprites/general/sprites2 | sprites2_ECS | A500 ECS | PASS | 0 |  |  |  | [sprites2_ECS.png](Denise/Sprites/general/sprites2/sprites2_ECS.png) |
+| Denise/Sprites/general/sprites2 | sprites2_OCS | A500 OCS | PASS | 0 |  |  |  | [sprites2_OCS.png](Denise/Sprites/general/sprites2/sprites2_OCS.png) |
+| Denise/Sprites/general/sprites3 | sprites3_ECS | A500 ECS | PASS | 0 |  |  |  | [sprites3_ECS.png](Denise/Sprites/general/sprites3/sprites3_ECS.png) |
+| Denise/Sprites/general/sprites3 | sprites3_OCS | A500 OCS | PASS | 0 |  |  |  | [sprites3_OCS.png](Denise/Sprites/general/sprites3/sprites3_OCS.png) |
+| Denise/Sprites/general/sprites4 | sprites4_ECS | A500 ECS | FAIL | 124 |  |  |  | [sprites4_ECS.png](Denise/Sprites/general/sprites4/sprites4_ECS.png) |
+| Denise/Sprites/general/sprites4 | sprites4_OCS | A500 OCS | FAIL | 124 |  |  |  | [sprites4_OCS.png](Denise/Sprites/general/sprites4/sprites4_OCS.png) |
+| Denise/Sprites/general/sprites5 | sprites5_ECS | A500 ECS | FAIL | 50010 |  |  |  | [sprites5_ECS.png](Denise/Sprites/general/sprites5/sprites5_ECS.png) |
+| Denise/Sprites/general/sprites5 | sprites5_OCS | A500 OCS | FAIL | 50010 |  |  |  | [sprites5_OCS.png](Denise/Sprites/general/sprites5/sprites5_OCS.png) |
+| Denise/Sprites/general/sprites6 | sprites6_ECS | A500 ECS | FAIL | 44176 |  |  |  | [sprites6_ECS.png](Denise/Sprites/general/sprites6/sprites6_ECS.png) |
+| Denise/Sprites/general/sprites6 | sprites6_OCS | A500 OCS | FAIL | 44176 |  |  |  | [sprites6_OCS.png](Denise/Sprites/general/sprites6/sprites6_OCS.png) |
+| Denise/Sprites/general/sprites7 | sprites7_ECS | A500 ECS | FAIL | 44176 |  |  |  | [sprites7_ECS.png](Denise/Sprites/general/sprites7/sprites7_ECS.png) |
+| Denise/Sprites/general/sprites7 | sprites7_OCS | A500 OCS | FAIL | 44176 |  |  |  | [sprites7_OCS.png](Denise/Sprites/general/sprites7/sprites7_OCS.png) |
+| Denise/Sprites/general/termination1 | termination1_ECS | A500 ECS | PASS | 0 |  |  |  | [termination1_ECS.png](Denise/Sprites/general/termination1/termination1_ECS.png) |
+| Denise/Sprites/general/termination1 | termination1_OCS | A500 OCS | PASS | 0 |  |  |  | [termination1_OCS.png](Denise/Sprites/general/termination1/termination1_OCS.png) |
+| Denise/Sprites/manual/manual1 | manual1_ECS | A500 ECS | PASS | 0 |  |  |  | [manual1_ECS.png](Denise/Sprites/manual/manual1/manual1_ECS.png) |
+| Denise/Sprites/manual/manual1 | manual1_OCS | A500 OCS | PASS | 0 |  |  |  | [manual1_OCS.png](Denise/Sprites/manual/manual1/manual1_OCS.png) |
+| Denise/Sprites/manual/manual2 | manual2_ECS | A500 ECS | PASS | 0 |  |  |  | [manual2_ECS.png](Denise/Sprites/manual/manual2/manual2_ECS.png) |
+| Denise/Sprites/manual/manual2 | manual2_OCS | A500 OCS | PASS | 0 |  |  |  | [manual2_OCS.png](Denise/Sprites/manual/manual2/manual2_OCS.png) |
+| Denise/Sprites/manual/manual3 | manual3_ECS | A500 ECS | FAIL | 256 |  |  |  | [manual3_ECS.png](Denise/Sprites/manual/manual3/manual3_ECS.png) |
+| Denise/Sprites/manual/manual3 | manual3_OCS | A500 OCS | FAIL | 256 |  |  |  | [manual3_OCS.png](Denise/Sprites/manual/manual3/manual3_OCS.png) |
+| Denise/Sprites/manual/manual4 | manual4_ECS | A500 ECS | PASS | 0 |  |  |  | [manual4_ECS.png](Denise/Sprites/manual/manual4/manual4_ECS.png) |
+| Denise/Sprites/manual/manual4 | manual4_OCS | A500 OCS | PASS | 0 |  |  |  | [manual4_OCS.png](Denise/Sprites/manual/manual4/manual4_OCS.png) |
+| Denise/Sprites/manual/manual5 | manual5_ECS | A500 ECS | PASS | 0 |  |  |  | [manual5_ECS.png](Denise/Sprites/manual/manual5/manual5_ECS.png) |
+| Denise/Sprites/manual/manual5 | manual5_OCS | A500 OCS | PASS | 0 |  |  |  | [manual5_OCS.png](Denise/Sprites/manual/manual5/manual5_OCS.png) |
+| Denise/Sprites/manual/manual6 | manual6_ECS | A500 ECS | PASS | 0 |  |  |  | [manual6_ECS.png](Denise/Sprites/manual/manual6/manual6_ECS.png) |
+| Denise/Sprites/manual/manual6 | manual6_OCS | A500 OCS | PASS | 0 |  |  |  | [manual6_OCS.png](Denise/Sprites/manual/manual6/manual6_OCS.png) |
+| Denise/Sprites/multiplex/multiplex1 | multiplex1_ECS | A500 ECS | PASS | 0 |  |  |  | [multiplex1_ECS.png](Denise/Sprites/multiplex/multiplex1/multiplex1_ECS.png) |
+| Denise/Sprites/multiplex/multiplex1 | multiplex1_OCS | A500 OCS | PASS | 0 |  |  |  | [multiplex1_OCS.png](Denise/Sprites/multiplex/multiplex1/multiplex1_OCS.png) |
+| Denise/Sprites/sprdrop/sprdrop1 | sprdrop1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdrop1_ECS.png](Denise/Sprites/sprdrop/sprdrop1/sprdrop1_ECS.png) |
+| Denise/Sprites/sprdrop/sprdrop1 | sprdrop1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdrop1_OCS.png](Denise/Sprites/sprdrop/sprdrop1/sprdrop1_OCS.png) |
+| Denise/Sprites/sprdrop/sprdrop2 | sprdrop2_ECS | A500 ECS | FAIL | 1344 |  |  |  | [sprdrop2_ECS.png](Denise/Sprites/sprdrop/sprdrop2/sprdrop2_ECS.png) |
+| Denise/Sprites/sprdrop/sprdrop2 | sprdrop2_OCS | A500 OCS | FAIL | 1344 |  |  |  | [sprdrop2_OCS.png](Denise/Sprites/sprdrop/sprdrop2/sprdrop2_OCS.png) |
+| Denise/Sprites/sprdrop/sprdrop3 | sprdrop3_ECS | A500 ECS | FAIL | 3168 |  |  |  | [sprdrop3_ECS.png](Denise/Sprites/sprdrop/sprdrop3/sprdrop3_ECS.png) |
+| Denise/Sprites/sprdrop/sprdrop3 | sprdrop3_OCS | A500 OCS | FAIL | 3168 |  |  |  | [sprdrop3_OCS.png](Denise/Sprites/sprdrop/sprdrop3/sprdrop3_OCS.png) |
+| Denise/Sprites/sprdrop/sprdrop4 | sprdrop4_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdrop4_ECS.png](Denise/Sprites/sprdrop/sprdrop4/sprdrop4_ECS.png) |
+| Denise/Sprites/sprdrop/sprdrop4 | sprdrop4_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdrop4_OCS.png](Denise/Sprites/sprdrop/sprdrop4/sprdrop4_OCS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu1 | sprdropcpu1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdropcpu1_ECS.png](Denise/Sprites/sprdrop/sprdropcpu1/sprdropcpu1_ECS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu1 | sprdropcpu1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdropcpu1_OCS.png](Denise/Sprites/sprdrop/sprdropcpu1/sprdropcpu1_OCS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu2 | sprdropcpu2_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdropcpu2_ECS.png](Denise/Sprites/sprdrop/sprdropcpu2/sprdropcpu2_ECS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu2 | sprdropcpu2_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdropcpu2_OCS.png](Denise/Sprites/sprdrop/sprdropcpu2/sprdropcpu2_OCS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu3 | sprdropcpu3_ECS | A500 ECS | FAIL | 396 |  |  |  | [sprdropcpu3_ECS.png](Denise/Sprites/sprdrop/sprdropcpu3/sprdropcpu3_ECS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu3 | sprdropcpu3_OCS | A500 OCS | FAIL | 396 |  |  |  | [sprdropcpu3_OCS.png](Denise/Sprites/sprdrop/sprdropcpu3/sprdropcpu3_OCS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu4 | sprdropcpu4_ECS | A500 ECS | FAIL | 396 |  |  |  | [sprdropcpu4_ECS.png](Denise/Sprites/sprdrop/sprdropcpu4/sprdropcpu4_ECS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu4 | sprdropcpu4_OCS | A500 OCS | FAIL | 396 |  |  |  | [sprdropcpu4_OCS.png](Denise/Sprites/sprdrop/sprdropcpu4/sprdropcpu4_OCS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu5 | sprdropcpu5_ECS | A500 ECS | FAIL | 168 |  |  |  | [sprdropcpu5_ECS.png](Denise/Sprites/sprdrop/sprdropcpu5/sprdropcpu5_ECS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu5 | sprdropcpu5_OCS | A500 OCS | FAIL | 168 |  |  |  | [sprdropcpu5_OCS.png](Denise/Sprites/sprdrop/sprdropcpu5/sprdropcpu5_OCS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu6 | sprdropcpu6_ECS | A500 ECS | FAIL | 396 |  |  |  | [sprdropcpu6_ECS.png](Denise/Sprites/sprdrop/sprdropcpu6/sprdropcpu6_ECS.png) |
+| Denise/Sprites/sprdrop/sprdropcpu6 | sprdropcpu6_OCS | A500 OCS | FAIL | 396 |  |  |  | [sprdropcpu6_OCS.png](Denise/Sprites/sprdrop/sprdropcpu6/sprdropcpu6_OCS.png) |
+| Denise/Sprites/spritedma/interfere1 | interfere1_ECS | A500 ECS | FAIL | 376 |  |  |  | [interfere1_ECS.png](Denise/Sprites/spritedma/interfere1/interfere1_ECS.png) |
+| Denise/Sprites/spritedma/interfere1 | interfere1_OCS | A500 OCS | FAIL | 376 |  |  |  | [interfere1_OCS.png](Denise/Sprites/spritedma/interfere1/interfere1_OCS.png) |
+| Denise/Sprites/spritedma/interfere1b | interfere1b_ECS | A500 ECS | FAIL | 720 |  |  |  | [interfere1b_ECS.png](Denise/Sprites/spritedma/interfere1b/interfere1b_ECS.png) |
+| Denise/Sprites/spritedma/interfere1b | interfere1b_OCS | A500 OCS | FAIL | 720 |  |  |  | [interfere1b_OCS.png](Denise/Sprites/spritedma/interfere1b/interfere1b_OCS.png) |
+| Denise/Sprites/spritedma/interfere2 | interfere2_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere2_ECS.png](Denise/Sprites/spritedma/interfere2/interfere2_ECS.png) |
+| Denise/Sprites/spritedma/interfere2 | interfere2_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere2_OCS.png](Denise/Sprites/spritedma/interfere2/interfere2_OCS.png) |
+| Denise/Sprites/spritedma/interfere2b | interfere2b_ECS | A500 ECS | FAIL | 362 |  |  |  | [interfere2b_ECS.png](Denise/Sprites/spritedma/interfere2b/interfere2b_ECS.png) |
+| Denise/Sprites/spritedma/interfere2b | interfere2b_OCS | A500 OCS | FAIL | 362 |  |  |  | [interfere2b_OCS.png](Denise/Sprites/spritedma/interfere2b/interfere2b_OCS.png) |
+| Denise/Sprites/spritedma/interfere3 | interfere3_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere3_ECS.png](Denise/Sprites/spritedma/interfere3/interfere3_ECS.png) |
+| Denise/Sprites/spritedma/interfere3 | interfere3_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere3_OCS.png](Denise/Sprites/spritedma/interfere3/interfere3_OCS.png) |
+| Denise/Sprites/spritedma/interfere3b | interfere3b_ECS | A500 ECS | FAIL | 1082 |  |  |  | [interfere3b_ECS.png](Denise/Sprites/spritedma/interfere3b/interfere3b_ECS.png) |
+| Denise/Sprites/spritedma/interfere3b | interfere3b_OCS | A500 OCS | FAIL | 1082 |  |  |  | [interfere3b_OCS.png](Denise/Sprites/spritedma/interfere3b/interfere3b_OCS.png) |
+| Denise/Sprites/spritedma/interfere4 | interfere4_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere4_ECS.png](Denise/Sprites/spritedma/interfere4/interfere4_ECS.png) |
+| Denise/Sprites/spritedma/interfere4 | interfere4_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere4_OCS.png](Denise/Sprites/spritedma/interfere4/interfere4_OCS.png) |
+| Denise/Sprites/spritedma/interfere4b | interfere4b_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere4b_ECS.png](Denise/Sprites/spritedma/interfere4b/interfere4b_ECS.png) |
+| Denise/Sprites/spritedma/interfere4b | interfere4b_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere4b_OCS.png](Denise/Sprites/spritedma/interfere4b/interfere4b_OCS.png) |
+| Denise/Sprites/spritedma/interfere5 | interfere5_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere5_ECS.png](Denise/Sprites/spritedma/interfere5/interfere5_ECS.png) |
+| Denise/Sprites/spritedma/interfere5 | interfere5_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere5_OCS.png](Denise/Sprites/spritedma/interfere5/interfere5_OCS.png) |
+| Denise/Sprites/spritedma/interfere5b | interfere5b_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere5b_ECS.png](Denise/Sprites/spritedma/interfere5b/interfere5b_ECS.png) |
+| Denise/Sprites/spritedma/interfere5b | interfere5b_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere5b_OCS.png](Denise/Sprites/spritedma/interfere5b/interfere5b_OCS.png) |
+| Denise/Sprites/spritedma/interfere6 | interfere6_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere6_ECS.png](Denise/Sprites/spritedma/interfere6/interfere6_ECS.png) |
+| Denise/Sprites/spritedma/interfere6 | interfere6_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere6_OCS.png](Denise/Sprites/spritedma/interfere6/interfere6_OCS.png) |
+| Denise/Sprites/spritedma/interfere6b | interfere6b_ECS | A500 ECS | PASS | 0 |  |  |  | [interfere6b_ECS.png](Denise/Sprites/spritedma/interfere6b/interfere6b_ECS.png) |
+| Denise/Sprites/spritedma/interfere6b | interfere6b_OCS | A500 OCS | PASS | 0 |  |  |  | [interfere6b_OCS.png](Denise/Sprites/spritedma/interfere6b/interfere6b_OCS.png) |
+| Denise/Sprites/spritedma/sprdma1 | sprdma1_ECS | A500 ECS | FAIL | 112 |  |  |  | [sprdma1_ECS.png](Denise/Sprites/spritedma/sprdma1/sprdma1_ECS.png) |
+| Denise/Sprites/spritedma/sprdma1 | sprdma1_OCS | A500 OCS | FAIL | 112 |  |  |  | [sprdma1_OCS.png](Denise/Sprites/spritedma/sprdma1/sprdma1_OCS.png) |
+| Denise/Sprites/spritedma/sprdma10 | sprdma10_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma10_ECS.png](Denise/Sprites/spritedma/sprdma10/sprdma10_ECS.png) |
+| Denise/Sprites/spritedma/sprdma10 | sprdma10_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma10_OCS.png](Denise/Sprites/spritedma/sprdma10/sprdma10_OCS.png) |
+| Denise/Sprites/spritedma/sprdma11 | sprdma11_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma11_ECS.png](Denise/Sprites/spritedma/sprdma11/sprdma11_ECS.png) |
+| Denise/Sprites/spritedma/sprdma11 | sprdma11_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma11_OCS.png](Denise/Sprites/spritedma/sprdma11/sprdma11_OCS.png) |
+| Denise/Sprites/spritedma/sprdma12 | sprdma12_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma12_ECS.png](Denise/Sprites/spritedma/sprdma12/sprdma12_ECS.png) |
+| Denise/Sprites/spritedma/sprdma12 | sprdma12_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma12_OCS.png](Denise/Sprites/spritedma/sprdma12/sprdma12_OCS.png) |
+| Denise/Sprites/spritedma/sprdma13 | sprdma13_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma13_ECS.png](Denise/Sprites/spritedma/sprdma13/sprdma13_ECS.png) |
+| Denise/Sprites/spritedma/sprdma13 | sprdma13_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma13_OCS.png](Denise/Sprites/spritedma/sprdma13/sprdma13_OCS.png) |
+| Denise/Sprites/spritedma/sprdma14 | sprdma14_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma14_ECS.png](Denise/Sprites/spritedma/sprdma14/sprdma14_ECS.png) |
+| Denise/Sprites/spritedma/sprdma14 | sprdma14_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma14_OCS.png](Denise/Sprites/spritedma/sprdma14/sprdma14_OCS.png) |
+| Denise/Sprites/spritedma/sprdma15 | sprdma15_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma15_ECS.png](Denise/Sprites/spritedma/sprdma15/sprdma15_ECS.png) |
+| Denise/Sprites/spritedma/sprdma15 | sprdma15_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma15_OCS.png](Denise/Sprites/spritedma/sprdma15/sprdma15_OCS.png) |
+| Denise/Sprites/spritedma/sprdma16 | sprdma16_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma16_ECS.png](Denise/Sprites/spritedma/sprdma16/sprdma16_ECS.png) |
+| Denise/Sprites/spritedma/sprdma16 | sprdma16_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma16_OCS.png](Denise/Sprites/spritedma/sprdma16/sprdma16_OCS.png) |
+| Denise/Sprites/spritedma/sprdma17 | sprdma17_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma17_ECS.png](Denise/Sprites/spritedma/sprdma17/sprdma17_ECS.png) |
+| Denise/Sprites/spritedma/sprdma17 | sprdma17_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma17_OCS.png](Denise/Sprites/spritedma/sprdma17/sprdma17_OCS.png) |
+| Denise/Sprites/spritedma/sprdma18 | sprdma18_ECS | A500 ECS | FAIL | 632 |  |  |  | [sprdma18_ECS.png](Denise/Sprites/spritedma/sprdma18/sprdma18_ECS.png) |
+| Denise/Sprites/spritedma/sprdma18 | sprdma18_OCS | A500 OCS | FAIL | 632 |  |  |  | [sprdma18_OCS.png](Denise/Sprites/spritedma/sprdma18/sprdma18_OCS.png) |
+| Denise/Sprites/spritedma/sprdma19 | sprdma19_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma19_ECS.png](Denise/Sprites/spritedma/sprdma19/sprdma19_ECS.png) |
+| Denise/Sprites/spritedma/sprdma19 | sprdma19_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma19_OCS.png](Denise/Sprites/spritedma/sprdma19/sprdma19_OCS.png) |
+| Denise/Sprites/spritedma/sprdma2 | sprdma2_ECS | A500 ECS | FAIL | 536 |  |  |  | [sprdma2_ECS.png](Denise/Sprites/spritedma/sprdma2/sprdma2_ECS.png) |
+| Denise/Sprites/spritedma/sprdma2 | sprdma2_OCS | A500 OCS | FAIL | 536 |  |  |  | [sprdma2_OCS.png](Denise/Sprites/spritedma/sprdma2/sprdma2_OCS.png) |
+| Denise/Sprites/spritedma/sprdma20 | sprdma20_ECS | A500 ECS | FAIL | 632 |  |  |  | [sprdma20_ECS.png](Denise/Sprites/spritedma/sprdma20/sprdma20_ECS.png) |
+| Denise/Sprites/spritedma/sprdma20 | sprdma20_OCS | A500 OCS | FAIL | 632 |  |  |  | [sprdma20_OCS.png](Denise/Sprites/spritedma/sprdma20/sprdma20_OCS.png) |
+| Denise/Sprites/spritedma/sprdma21 | sprdma21_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma21_ECS.png](Denise/Sprites/spritedma/sprdma21/sprdma21_ECS.png) |
+| Denise/Sprites/spritedma/sprdma21 | sprdma21_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma21_OCS.png](Denise/Sprites/spritedma/sprdma21/sprdma21_OCS.png) |
+| Denise/Sprites/spritedma/sprdma3 | sprdma3_ECS | A500 ECS | FAIL | 426 |  |  |  | [sprdma3_ECS.png](Denise/Sprites/spritedma/sprdma3/sprdma3_ECS.png) |
+| Denise/Sprites/spritedma/sprdma3 | sprdma3_OCS | A500 OCS | FAIL | 426 |  |  |  | [sprdma3_OCS.png](Denise/Sprites/spritedma/sprdma3/sprdma3_OCS.png) |
+| Denise/Sprites/spritedma/sprdma4 | sprdma4_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma4_ECS.png](Denise/Sprites/spritedma/sprdma4/sprdma4_ECS.png) |
+| Denise/Sprites/spritedma/sprdma4 | sprdma4_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma4_OCS.png](Denise/Sprites/spritedma/sprdma4/sprdma4_OCS.png) |
+| Denise/Sprites/spritedma/sprdma5 | sprdma5_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma5_ECS.png](Denise/Sprites/spritedma/sprdma5/sprdma5_ECS.png) |
+| Denise/Sprites/spritedma/sprdma5 | sprdma5_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma5_OCS.png](Denise/Sprites/spritedma/sprdma5/sprdma5_OCS.png) |
+| Denise/Sprites/spritedma/sprdma6 | sprdma6_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma6_ECS.png](Denise/Sprites/spritedma/sprdma6/sprdma6_ECS.png) |
+| Denise/Sprites/spritedma/sprdma6 | sprdma6_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma6_OCS.png](Denise/Sprites/spritedma/sprdma6/sprdma6_OCS.png) |
+| Denise/Sprites/spritedma/sprdma7 | sprdma7_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma7_ECS.png](Denise/Sprites/spritedma/sprdma7/sprdma7_ECS.png) |
+| Denise/Sprites/spritedma/sprdma7 | sprdma7_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma7_OCS.png](Denise/Sprites/spritedma/sprdma7/sprdma7_OCS.png) |
+| Denise/Sprites/spritedma/sprdma8 | sprdma8_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma8_ECS.png](Denise/Sprites/spritedma/sprdma8/sprdma8_ECS.png) |
+| Denise/Sprites/spritedma/sprdma8 | sprdma8_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma8_OCS.png](Denise/Sprites/spritedma/sprdma8/sprdma8_OCS.png) |
+| Denise/Sprites/spritedma/sprdma9 | sprdma9_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdma9_ECS.png](Denise/Sprites/spritedma/sprdma9/sprdma9_ECS.png) |
+| Denise/Sprites/spritedma/sprdma9 | sprdma9_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdma9_OCS.png](Denise/Sprites/spritedma/sprdma9/sprdma9_OCS.png) |
+| Denise/Sprites/timing/oldsprtimdat | oldsprtimdat_ECS | A500 ECS | PASS | 0 |  |  |  | [oldsprtimdat_ECS.png](Denise/Sprites/timing/oldsprtimdat/oldsprtimdat_ECS.png) |
+| Denise/Sprites/timing/oldsprtimdat | oldsprtimdat_OCS | A500 OCS | PASS | 0 |  |  |  | [oldsprtimdat_OCS.png](Denise/Sprites/timing/oldsprtimdat/oldsprtimdat_OCS.png) |
+| Denise/Sprites/timing/oldsprtimpos | oldsprtimpos_ECS | A500 ECS | PASS | 0 |  |  |  | [oldsprtimpos_ECS.png](Denise/Sprites/timing/oldsprtimpos/oldsprtimpos_ECS.png) |
+| Denise/Sprites/timing/oldsprtimpos | oldsprtimpos_OCS | A500 OCS | PASS | 0 |  |  |  | [oldsprtimpos_OCS.png](Denise/Sprites/timing/oldsprtimpos/oldsprtimpos_OCS.png) |
+| Denise/Sprites/timing/sprdmadat1 | sprdmadat1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdmadat1_ECS.png](Denise/Sprites/timing/sprdmadat1/sprdmadat1_ECS.png) |
+| Denise/Sprites/timing/sprdmadat1 | sprdmadat1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdmadat1_OCS.png](Denise/Sprites/timing/sprdmadat1/sprdmadat1_OCS.png) |
+| Denise/Sprites/timing/sprdmadat2 | sprdmadat2_ECS | A500 ECS | PASS | 0 |  |  |  | [sprdmadat2_ECS.png](Denise/Sprites/timing/sprdmadat2/sprdmadat2_ECS.png) |
+| Denise/Sprites/timing/sprdmadat2 | sprdmadat2_OCS | A500 OCS | PASS | 0 |  |  |  | [sprdmadat2_OCS.png](Denise/Sprites/timing/sprdmadat2/sprdmadat2_OCS.png) |
+| Denise/Sprites/timing/sprtimctl1 | sprtimctl1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprtimctl1_ECS.png](Denise/Sprites/timing/sprtimctl1/sprtimctl1_ECS.png) |
+| Denise/Sprites/timing/sprtimctl1 | sprtimctl1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprtimctl1_OCS.png](Denise/Sprites/timing/sprtimctl1/sprtimctl1_OCS.png) |
+| Denise/Sprites/timing/sprtimdat1 | sprtimdat1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprtimdat1_ECS.png](Denise/Sprites/timing/sprtimdat1/sprtimdat1_ECS.png) |
+| Denise/Sprites/timing/sprtimdat1 | sprtimdat1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprtimdat1_OCS.png](Denise/Sprites/timing/sprtimdat1/sprtimdat1_OCS.png) |
+| Denise/Sprites/timing/sprtimdat2 | sprtimdat2_ECS | A500 ECS | PASS | 0 |  |  |  | [sprtimdat2_ECS.png](Denise/Sprites/timing/sprtimdat2/sprtimdat2_ECS.png) |
+| Denise/Sprites/timing/sprtimdat2 | sprtimdat2_OCS | A500 OCS | PASS | 0 |  |  |  | [sprtimdat2_OCS.png](Denise/Sprites/timing/sprtimdat2/sprtimdat2_OCS.png) |
+| Denise/Sprites/timing/sprtimpos1 | sprtimpos1_ECS | A500 ECS | PASS | 0 |  |  |  | [sprtimpos1_ECS.png](Denise/Sprites/timing/sprtimpos1/sprtimpos1_ECS.png) |
+| Denise/Sprites/timing/sprtimpos1 | sprtimpos1_OCS | A500 OCS | PASS | 0 |  |  |  | [sprtimpos1_OCS.png](Denise/Sprites/timing/sprtimpos1/sprtimpos1_OCS.png) |
+| Denise/Sprites/timing/sprxpos | sprxpos_ECS | A500 ECS | PASS | 0 |  |  |  | [sprxpos_ECS.png](Denise/Sprites/timing/sprxpos/sprxpos_ECS.png) |
+| Denise/Sprites/timing/sprxpos | sprxpos_OCS | A500 OCS | PASS | 0 |  |  |  | [sprxpos_OCS.png](Denise/Sprites/timing/sprxpos/sprxpos_OCS.png) |
+
+## Not compared
+
+| Test | Variant | Machine | Result | Reason | Labels |
+|---|---|---|---|---|---|
+| Denise/Sprites/manual/vblen1 | vblen1_ECS | A500 ECS | NO_REFERENCE | no reference .raw in vAmigaTS |  |
+| Denise/Sprites/manual/vblen1 | vblen1_OCS | A500 OCS | NO_REFERENCE | no reference .raw in vAmigaTS |  |

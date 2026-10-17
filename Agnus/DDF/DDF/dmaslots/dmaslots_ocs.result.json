@@ -23,5 +23,5 @@
   "wall_time": 913.65,
   "differing_pixels": 5478,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/DDF/DDF/dmaslots/dmaslots_ocs/dmaslots_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

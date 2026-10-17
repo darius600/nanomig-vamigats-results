@@ -23,5 +23,5 @@
   "wall_time": 1019.744,
   "differing_pixels": 5472,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/mask/skipmask7/skipmask7_ecs/skipmask7_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

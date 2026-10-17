@@ -23,5 +23,5 @@
   "wall_time": 987.766,
   "differing_pixels": 37224,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/BPLPTR/drop52/drop52_ecs/drop52_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

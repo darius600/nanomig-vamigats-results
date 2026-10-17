@@ -23,5 +23,5 @@
   "wall_time": 1711.565,
   "differing_pixels": 67922,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/int/int1b/int1b_ECS/int1b_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

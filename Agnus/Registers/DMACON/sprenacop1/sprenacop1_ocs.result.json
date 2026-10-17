@@ -23,5 +23,5 @@
   "wall_time": 896.461,
   "differing_pixels": 63312,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/DMACON/sprenacop1/sprenacop1_ocs/sprenacop1_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

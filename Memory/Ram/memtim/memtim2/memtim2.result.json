@@ -23,5 +23,5 @@
   "wall_time": 1032.149,
   "differing_pixels": 57884,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Memory/Ram/memtim/memtim2/memtim2/memtim2_diff.png"
+  "machine": "A500_ECS_1MB"
 }

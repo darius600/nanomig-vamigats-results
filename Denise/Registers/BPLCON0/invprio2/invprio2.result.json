@@ -23,5 +23,5 @@
   "wall_time": 888.293,
   "differing_pixels": 17280,
   "raw_status": "missing colours: [(8, 8, 10)]",
-  "diff_image": "runs/denise/Denise/Registers/BPLCON0/invprio2/invprio2/invprio2_diff.png"
+  "machine": "A500_ECS_1MB"
 }

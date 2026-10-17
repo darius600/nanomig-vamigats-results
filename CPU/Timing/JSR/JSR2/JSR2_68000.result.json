@@ -23,5 +23,5 @@
   "wall_time": 873.125,
   "differing_pixels": 2784,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/JSR/JSR2/JSR2_68000/JSR2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

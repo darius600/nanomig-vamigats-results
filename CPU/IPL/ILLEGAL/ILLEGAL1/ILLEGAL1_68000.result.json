@@ -23,5 +23,5 @@
   "wall_time": 910.028,
   "differing_pixels": 21434,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/ILLEGAL/ILLEGAL1/ILLEGAL1_68000/ILLEGAL1_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

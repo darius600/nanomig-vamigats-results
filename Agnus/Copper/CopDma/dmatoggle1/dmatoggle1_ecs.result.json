@@ -23,5 +23,5 @@
   "wall_time": 882.67,
   "differing_pixels": 3244,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/CopDma/dmatoggle1/dmatoggle1_ecs/dmatoggle1_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

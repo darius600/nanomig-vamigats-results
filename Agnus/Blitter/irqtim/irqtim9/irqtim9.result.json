@@ -23,5 +23,5 @@
   "wall_time": 909.767,
   "differing_pixels": 6976,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/irqtim/irqtim9/irqtim9/irqtim9_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 2221.74,
   "differing_pixels": 276,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Misc/Btstipl/btst_ipl/btst_ipl/btst_ipl_diff.png"
+  "machine": "A500_ECS_1MB"
 }

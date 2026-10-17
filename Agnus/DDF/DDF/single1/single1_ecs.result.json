@@ -23,5 +23,5 @@
   "wall_time": 939.755,
   "differing_pixels": 14414,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/DDF/DDF/single1/single1_ecs/single1_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

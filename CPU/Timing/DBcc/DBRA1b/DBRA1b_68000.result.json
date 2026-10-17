@@ -23,5 +23,5 @@
   "wall_time": 889.042,
   "differing_pixels": 3130,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/DBcc/DBRA1b/DBRA1b_68000/DBRA1b_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

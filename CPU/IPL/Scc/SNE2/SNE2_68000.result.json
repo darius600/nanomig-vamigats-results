@@ -23,5 +23,5 @@
   "wall_time": 884.691,
   "differing_pixels": 15824,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/Scc/SNE2/SNE2_68000/SNE2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

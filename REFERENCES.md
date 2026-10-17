@@ -8,8 +8,9 @@ Each vAmigaTS test folder holds two kinds of images:
   `shspot1_A500_plus.jpeg`. These are what the vAmigaTS README means by "reference images
   taken on real Amigas".
 - **`.raw` files**, which the harness compares pixel by pixel. They are **vAmiga's own
-  screenshots**: vAmigaTS `Scripts/Makefile3`, rule `%.raw:` ("Creating missing raw image"),
-  runs vAmiga with the test's `.retrosh` script and stores the screenshot as the reference.
+  screenshots**: vAmigaTS [`Scripts/Makefile3`](https://github.com/dirkwhoffmann/vAmigaTS/blob/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Scripts/Makefile3#L80),
+  rule `%.raw:` ("Creating missing raw image"), runs vAmiga with the test's `.retrosh` script
+  and stores the screenshot as the reference.
   vAmigaTS uses them as regression baselines for vAmiga.
 
 So `PASS` means: NanoMig's frame is identical to what vAmiga produced when the `.raw` file was
@@ -24,8 +25,13 @@ photo.
 | `A500_ECS_1MB` (`_ecs`) | ECS 1 MB, MOS 8372 | **OCS**, MOS 8362R8 | 512 KB chip + 512 KB slow | `--chipset 0x08 --memory 0x04` | ECS Agnus + **ECS** Denise | 2054 |
 | `A500_PLUS_1MB` (`_plus`) | ECS 2 MB, MOS 8375 | ECS, MOS 8373 | 512 KB chip + 512 KB slow | `--chipset 0x08 --memory 0x04` | ECS Agnus + ECS Denise | 3 |
 
-Sources: vAmiga `Core/Emulator.cpp` (config schemes), `Core/Components/Agnus/AgnusTypes.h`,
-`Core/Components/Denise/DeniseTypes.h` (master 899da5dd); NanoMig `src/minimig-aga/minimig.v`
+Sources: vAmiga at 899da5dd,
+[`Core/Components/Amiga.cpp`](https://github.com/dirkwhoffmann/vAmiga/blob/899da5ddd872dfb2e9e35e80247cbb2b36086524/Core/Components/Amiga.cpp#L601-L635)
+(the config schemes),
+[`AgnusTypes.h`](https://github.com/dirkwhoffmann/vAmiga/blob/899da5ddd872dfb2e9e35e80247cbb2b36086524/Core/Components/Agnus/AgnusTypes.h) and
+[`DeniseTypes.h`](https://github.com/dirkwhoffmann/vAmiga/blob/899da5ddd872dfb2e9e35e80247cbb2b36086524/Core/Components/Denise/DeniseTypes.h);
+NanoMig at the pinned commit,
+[`src/minimig-aga/minimig.v`](https://github.com/harbaum/NanoMig/blob/0f3d2fdac8dd7097127d07d78029c31f3758c32c/src/minimig-aga/minimig.v)
 (one `ecs` signal feeds Agnus, Denise and Gary).
 
 The photos labelled `A500_ECS` show the same configuration as vAmiga's `A500_ECS_1MB`: on
@@ -69,5 +75,6 @@ that may vary between chips.
 
 The `.raw` files at the pinned vAmigaTS commit were made by vAmiga versions from 2021 to 2024
 (see `git log` per file), and vAmiga has changed since. Example: current vAmiga applies the
-SuperHires colour encoding only with an ECS Denise (`PixelEngine::shresModeEcs`), while
-`ddf1sh_ecs.raw` (an OCS Denise configuration, made 31.12.2023) shows the encoding.
+SuperHires colour encoding only with an ECS Denise
+([`PixelEngine::shresModeEcs`](https://github.com/dirkwhoffmann/vAmiga/blob/899da5ddd872dfb2e9e35e80247cbb2b36086524/Core/Components/Denise/PixelEngine.cpp#L218)),
+while `ddf1sh_ecs.raw` (an OCS Denise configuration, made 31.12.2023) shows the encoding.

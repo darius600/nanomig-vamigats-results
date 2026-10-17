@@ -23,5 +23,5 @@
   "wall_time": 1578.777,
   "differing_pixels": 3020,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Misc/ThirdParty/losso/bplcon_rmb_OCS/bplcon_rmb_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

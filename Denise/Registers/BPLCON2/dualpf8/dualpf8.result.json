@@ -23,5 +23,5 @@
   "wall_time": 1062.544,
   "differing_pixels": 70632,
   "raw_status": "missing colours: [(0, 8, 2), (0, 15, 2), (5, 0, 0), (5, 4, 0), (5, 4, 2), (5, 4, 4), (5, 15, 0), (10, 15, 0), (13, 15, 0), (15, 8, 2), (15, 10, 2), (15, 15, 2)]",
-  "diff_image": "runs/denise/Denise/Registers/BPLCON2/dualpf8/dualpf8/dualpf8_diff.png"
+  "machine": "A500_ECS_1MB"
 }

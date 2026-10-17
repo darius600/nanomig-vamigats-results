@@ -23,5 +23,5 @@
   "wall_time": 877.868,
   "differing_pixels": 9734,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/BPLMOD/bplmod4/bplmod4_ecs/bplmod4_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

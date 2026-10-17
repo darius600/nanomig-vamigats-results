@@ -23,5 +23,5 @@
   "wall_time": 893.597,
   "differing_pixels": 4992,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/BTST/BTST2/BTST2_68000/BTST2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

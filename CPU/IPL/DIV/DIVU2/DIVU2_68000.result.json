@@ -23,5 +23,5 @@
   "wall_time": 953.687,
   "differing_pixels": 14876,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/DIV/DIVU2/DIVU2_68000/DIVU2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 893.023,
   "differing_pixels": 3908,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/VPOS/cycleD9v/cycleD9v_ocs/cycleD9v_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

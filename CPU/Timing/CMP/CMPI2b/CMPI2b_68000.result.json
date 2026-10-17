@@ -23,5 +23,5 @@
   "wall_time": 887.182,
   "differing_pixels": 3984,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/CMP/CMPI2b/CMPI2b_68000/CMPI2b_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

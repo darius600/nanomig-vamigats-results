@@ -1,499 +1,503 @@
 # CPU_Timing
 
-- **NanoMig SHA:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c)
-- **vAmigaTS SHA:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
-- **Total:** 491 | **PASS:** 0 | **FAIL:** 243 | **DEVIATING_CONFIG:** 248 | **NOT_CALIBRATED:** 0 | **NO_REFERENCE:** 0 | **ERROR:** 0
+- **NanoMig:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
+- **Compared:** 243 (PASS 0, FAIL 243) | **ERROR:** 0 | **Not compared:** 248 (DEVIATING_CONFIG 248, NOT_CALIBRATED 0, NO_REFERENCE 0; listed at the end)
 
-| Test | Variant | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
-|---|---|---|---|---|---|---|---|
-| CPU/Timing/ABCD/ABCD | ABCD_68000 | FAIL | 2674 |  |  |  | [ABCD_68000.png](CPU/Timing/ABCD/ABCD/ABCD_68000.png) |
-| CPU/Timing/ABCD/ABCD | ABCD_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ABCD/ABCD2 | ABCD2_68000 | FAIL | 2642 |  |  |  | [ABCD2_68000.png](CPU/Timing/ABCD/ABCD2/ABCD2_68000.png) |
-| CPU/Timing/ABCD/ABCD2 | ABCD2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ABCD/ABCD3 | ABCD3_68000 | FAIL | 2682 |  |  |  | [ABCD3_68000.png](CPU/Timing/ABCD/ABCD3/ABCD3_68000.png) |
-| CPU/Timing/ABCD/ABCD3 | ABCD3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADD1b | ADD1b_68000 | FAIL | 3876 |  |  |  | [ADD1b_68000.png](CPU/Timing/ADD/ADD1b/ADD1b_68000.png) |
-| CPU/Timing/ADD/ADD1b | ADD1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADD1l | ADD1l_68000 | FAIL | 4352 |  |  |  | [ADD1l_68000.png](CPU/Timing/ADD/ADD1l/ADD1l_68000.png) |
-| CPU/Timing/ADD/ADD1l | ADD1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADD1w | ADD1w_68000 | FAIL | 3876 |  |  |  | [ADD1w_68000.png](CPU/Timing/ADD/ADD1w/ADD1w_68000.png) |
-| CPU/Timing/ADD/ADD1w | ADD1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADD2b | ADD2b_68000 | FAIL | 3864 |  |  |  | [ADD2b_68000.png](CPU/Timing/ADD/ADD2b/ADD2b_68000.png) |
-| CPU/Timing/ADD/ADD2b | ADD2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADD2l | ADD2l_68000 | FAIL | 4672 |  |  |  | [ADD2l_68000.png](CPU/Timing/ADD/ADD2l/ADD2l_68000.png) |
-| CPU/Timing/ADD/ADD2l | ADD2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADD2w | ADD2w_68000 | FAIL | 3864 |  |  |  | [ADD2w_68000.png](CPU/Timing/ADD/ADD2w/ADD2w_68000.png) |
-| CPU/Timing/ADD/ADD2w | ADD2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDA1l | ADDA1l_68000 | FAIL | 4404 |  |  |  | [ADDA1l_68000.png](CPU/Timing/ADD/ADDA1l/ADDA1l_68000.png) |
-| CPU/Timing/ADD/ADDA1l | ADDA1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDA1w | ADDA1w_68000 | FAIL | 4164 |  |  |  | [ADDA1w_68000.png](CPU/Timing/ADD/ADDA1w/ADDA1w_68000.png) |
-| CPU/Timing/ADD/ADDA1w | ADDA1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDA2l | ADDA2l_68000 | FAIL | 4164 |  |  |  | [ADDA2l_68000.png](CPU/Timing/ADD/ADDA2l/ADDA2l_68000.png) |
-| CPU/Timing/ADD/ADDA2l | ADDA2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDA2w | ADDA2w_68000 | FAIL | 3892 |  |  |  | [ADDA2w_68000.png](CPU/Timing/ADD/ADDA2w/ADDA2w_68000.png) |
-| CPU/Timing/ADD/ADDA2w | ADDA2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ1b | ADDQ1b_68000 | FAIL | 3652 |  |  |  | [ADDQ1b_68000.png](CPU/Timing/ADD/ADDQ1b/ADDQ1b_68000.png) |
-| CPU/Timing/ADD/ADDQ1b | ADDQ1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ1l | ADDQ1l_68000 | FAIL | 4310 |  |  |  | [ADDQ1l_68000.png](CPU/Timing/ADD/ADDQ1l/ADDQ1l_68000.png) |
-| CPU/Timing/ADD/ADDQ1l | ADDQ1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ1w | ADDQ1w_68000 | FAIL | 3652 |  |  |  | [ADDQ1w_68000.png](CPU/Timing/ADD/ADDQ1w/ADDQ1w_68000.png) |
-| CPU/Timing/ADD/ADDQ1w | ADDQ1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ2b | ADDQ2b_68000 | FAIL | 2682 |  |  |  | [ADDQ2b_68000.png](CPU/Timing/ADD/ADDQ2b/ADDQ2b_68000.png) |
-| CPU/Timing/ADD/ADDQ2b | ADDQ2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ2l | ADDQ2l_68000 | FAIL | 2682 |  |  |  | [ADDQ2l_68000.png](CPU/Timing/ADD/ADDQ2l/ADDQ2l_68000.png) |
-| CPU/Timing/ADD/ADDQ2l | ADDQ2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ2w | ADDQ2w_68000 | FAIL | 2682 |  |  |  | [ADDQ2w_68000.png](CPU/Timing/ADD/ADDQ2w/ADDQ2w_68000.png) |
-| CPU/Timing/ADD/ADDQ2w | ADDQ2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ3l | ADDQ3l_68000 | FAIL | 2682 |  |  |  | [ADDQ3l_68000.png](CPU/Timing/ADD/ADDQ3l/ADDQ3l_68000.png) |
-| CPU/Timing/ADD/ADDQ3l | ADDQ3l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDQ3w | ADDQ3w_68000 | FAIL | 2682 |  |  |  | [ADDQ3w_68000.png](CPU/Timing/ADD/ADDQ3w/ADDQ3w_68000.png) |
-| CPU/Timing/ADD/ADDQ3w | ADDQ3w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDXb | ADDXb_68000 | FAIL | 3966 |  |  |  | [ADDXb_68000.png](CPU/Timing/ADD/ADDXb/ADDXb_68000.png) |
-| CPU/Timing/ADD/ADDXb | ADDXb_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDXl | ADDXl_68000 | FAIL | 3860 |  |  |  | [ADDXl_68000.png](CPU/Timing/ADD/ADDXl/ADDXl_68000.png) |
-| CPU/Timing/ADD/ADDXl | ADDXl_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ADD/ADDXw | ADDXw_68000 | FAIL | 3646 |  |  |  | [ADDXw_68000.png](CPU/Timing/ADD/ADDXw/ADDXw_68000.png) |
-| CPU/Timing/ADD/ADDXw | ADDXw_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND1b | AND1b_68000 | FAIL | 4484 |  |  |  | [AND1b_68000.png](CPU/Timing/AND/AND1b/AND1b_68000.png) |
-| CPU/Timing/AND/AND1b | AND1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND1l | AND1l_68000 | FAIL | 5894 |  |  |  | [AND1l_68000.png](CPU/Timing/AND/AND1l/AND1l_68000.png) |
-| CPU/Timing/AND/AND1l | AND1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND1w | AND1w_68000 | FAIL | 4484 |  |  |  | [AND1w_68000.png](CPU/Timing/AND/AND1w/AND1w_68000.png) |
-| CPU/Timing/AND/AND1w | AND1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND2l | AND2l_68000 | FAIL | 6008 |  |  |  | [AND2l_68000.png](CPU/Timing/AND/AND2l/AND2l_68000.png) |
-| CPU/Timing/AND/AND2l | AND2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND2w | AND2w_68000 | FAIL | 5006 |  |  |  | [AND2w_68000.png](CPU/Timing/AND/AND2w/AND2w_68000.png) |
-| CPU/Timing/AND/AND2w | AND2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND3l | AND3l_68000 | FAIL | 5192 |  |  |  | [AND3l_68000.png](CPU/Timing/AND/AND3l/AND3l_68000.png) |
-| CPU/Timing/AND/AND3l | AND3l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/AND3w | AND3w_68000 | FAIL | 4252 |  |  |  | [AND3w_68000.png](CPU/Timing/AND/AND3w/AND3w_68000.png) |
-| CPU/Timing/AND/AND3w | AND3w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/AND/ANDCCR | ANDCCR_68000 | FAIL | 2722 |  |  |  | [ANDCCR_68000.png](CPU/Timing/AND/ANDCCR/ANDCCR_68000.png) |
-| CPU/Timing/AND/ANDCCR | ANDCCR_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ASL/ASL1b | ASL1b_68000 | FAIL | 2706 |  |  |  | [ASL1b_68000.png](CPU/Timing/ASL/ASL1b/ASL1b_68000.png) |
-| CPU/Timing/ASL/ASL1b | ASL1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ASL/ASL1l | ASL1l_68000 | FAIL | 2682 |  |  |  | [ASL1l_68000.png](CPU/Timing/ASL/ASL1l/ASL1l_68000.png) |
-| CPU/Timing/ASL/ASL1l | ASL1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ASL/ASL1w | ASL1w_68000 | FAIL | 2704 |  |  |  | [ASL1w_68000.png](CPU/Timing/ASL/ASL1w/ASL1w_68000.png) |
-| CPU/Timing/ASL/ASL1w | ASL1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/ASL/ASL2w | ASL2w_68000 | FAIL | 3868 |  |  |  | [ASL2w_68000.png](CPU/Timing/ASL/ASL2w/ASL2w_68000.png) |
-| CPU/Timing/ASL/ASL2w | ASL2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BCHG/BCHG1 | BCHG1_68000 | FAIL | 4400 |  |  |  | [BCHG1_68000.png](CPU/Timing/BCHG/BCHG1/BCHG1_68000.png) |
-| CPU/Timing/BCHG/BCHG1 | BCHG1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BCHG/BCHG2 | BCHG2_68000 | FAIL | 4884 |  |  |  | [BCHG2_68000.png](CPU/Timing/BCHG/BCHG2/BCHG2_68000.png) |
-| CPU/Timing/BCHG/BCHG2 | BCHG2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BKPT/BKPT1 | BKPT1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BSET/BSET1 | BSET1_68000 | FAIL | 4372 |  |  |  | [BSET1_68000.png](CPU/Timing/BSET/BSET1/BSET1_68000.png) |
-| CPU/Timing/BSET/BSET1 | BSET1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BSET/BSET2 | BSET2_68000 | FAIL | 4804 |  |  |  | [BSET2_68000.png](CPU/Timing/BSET/BSET2/BSET2_68000.png) |
-| CPU/Timing/BSET/BSET2 | BSET2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BSR/BSR1 | BSR1_68000 | FAIL | 2548 |  |  |  | [BSR1_68000.png](CPU/Timing/BSR/BSR1/BSR1_68000.png) |
-| CPU/Timing/BSR/BSR1 | BSR1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BSR/BSR2 | BSR2_68000 | FAIL | 2784 |  |  |  | [BSR2_68000.png](CPU/Timing/BSR/BSR2/BSR2_68000.png) |
-| CPU/Timing/BSR/BSR2 | BSR2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BTST/BTST1 | BTST1_68000 | FAIL | 4484 |  |  |  | [BTST1_68000.png](CPU/Timing/BTST/BTST1/BTST1_68000.png) |
-| CPU/Timing/BTST/BTST1 | BTST1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BTST/BTST2 | BTST2_68000 | FAIL | 4992 |  |  |  | [BTST2_68000.png](CPU/Timing/BTST/BTST2/BTST2_68000.png) |
-| CPU/Timing/BTST/BTST2 | BTST2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/BTST/BTST3 | BTST3_68000 | FAIL | 4302 |  |  |  | [BTST3_68000.png](CPU/Timing/BTST/BTST3/BTST3_68000.png) |
-| CPU/Timing/BTST/BTST3 | BTST3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Bcc/BEQ1 | BEQ1_68000 | FAIL | 2714 |  |  |  | [BEQ1_68000.png](CPU/Timing/Bcc/BEQ1/BEQ1_68000.png) |
-| CPU/Timing/Bcc/BEQ1 | BEQ1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Bcc/BEQ1b | BEQ1b_68000 | FAIL | 3130 |  |  |  | [BEQ1b_68000.png](CPU/Timing/Bcc/BEQ1b/BEQ1b_68000.png) |
-| CPU/Timing/Bcc/BEQ1b | BEQ1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Bcc/BRA1 | BRA1_68000 | FAIL | 2698 |  |  |  | [BRA1_68000.png](CPU/Timing/Bcc/BRA1/BRA1_68000.png) |
-| CPU/Timing/Bcc/BRA1 | BRA1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Bcc/BRA1b | BRA1b_68000 | FAIL | 3074 |  |  |  | [BRA1b_68000.png](CPU/Timing/Bcc/BRA1b/BRA1b_68000.png) |
-| CPU/Timing/Bcc/BRA1b | BRA1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Bcc/BRA1c | BRA1c_68000 | FAIL | 2746 |  |  |  | [BRA1c_68000.png](CPU/Timing/Bcc/BRA1c/BRA1c_68000.png) |
-| CPU/Timing/Bcc/BRA1c | BRA1c_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CHK/CHK1 | CHK1_68000 | FAIL | 2722 |  |  |  | [CHK1_68000.png](CPU/Timing/CHK/CHK1/CHK1_68000.png) |
-| CPU/Timing/CHK/CHK1 | CHK1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CHK/CHK2 | CHK2_68000 | FAIL | 2706 |  |  |  | [CHK2_68000.png](CPU/Timing/CHK/CHK2/CHK2_68000.png) |
-| CPU/Timing/CHK/CHK2 | CHK2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CHK/CHK3 | CHK3_68000 | FAIL | 2888 |  |  |  | [CHK3_68000.png](CPU/Timing/CHK/CHK3/CHK3_68000.png) |
-| CPU/Timing/CHK/CHK3 | CHK3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CHK/CHK4 | CHK4_68000 | FAIL | 3256 |  |  |  | [CHK4_68000.png](CPU/Timing/CHK/CHK4/CHK4_68000.png) |
-| CPU/Timing/CHK/CHK4 | CHK4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CHK/CHK5 | CHK5_68000 | FAIL | 2968 |  |  |  | [CHK5_68000.png](CPU/Timing/CHK/CHK5/CHK5_68000.png) |
-| CPU/Timing/CHK/CHK5 | CHK5_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CHK/CHK6 | CHK6_68000 | FAIL | 3202 |  |  |  | [CHK6_68000.png](CPU/Timing/CHK/CHK6/CHK6_68000.png) |
-| CPU/Timing/CHK/CHK6 | CHK6_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR1b | CLR1b_68000 | FAIL | 3346 |  |  |  | [CLR1b_68000.png](CPU/Timing/CLR/CLR1b/CLR1b_68000.png) |
-| CPU/Timing/CLR/CLR1b | CLR1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR1l | CLR1l_68000 | FAIL | 4078 |  |  |  | [CLR1l_68000.png](CPU/Timing/CLR/CLR1l/CLR1l_68000.png) |
-| CPU/Timing/CLR/CLR1l | CLR1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR1ll | CLR1ll_68000 | FAIL | 3362 |  |  |  | [CLR1ll_68000.png](CPU/Timing/CLR/CLR1ll/CLR1ll_68000.png) |
-| CPU/Timing/CLR/CLR1ll | CLR1ll_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR1w | CLR1w_68000 | FAIL | 3346 |  |  |  | [CLR1w_68000.png](CPU/Timing/CLR/CLR1w/CLR1w_68000.png) |
-| CPU/Timing/CLR/CLR1w | CLR1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR2b | CLR2b_68000 | FAIL | 4062 |  |  |  | [CLR2b_68000.png](CPU/Timing/CLR/CLR2b/CLR2b_68000.png) |
-| CPU/Timing/CLR/CLR2b | CLR2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR2l | CLR2l_68000 | FAIL | 4852 |  |  |  | [CLR2l_68000.png](CPU/Timing/CLR/CLR2l/CLR2l_68000.png) |
-| CPU/Timing/CLR/CLR2l | CLR2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR2ll | CLR2ll_68000 | FAIL | 4356 |  |  |  | [CLR2ll_68000.png](CPU/Timing/CLR/CLR2ll/CLR2ll_68000.png) |
-| CPU/Timing/CLR/CLR2ll | CLR2ll_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR2w | CLR2w_68000 | FAIL | 4062 |  |  |  | [CLR2w_68000.png](CPU/Timing/CLR/CLR2w/CLR2w_68000.png) |
-| CPU/Timing/CLR/CLR2w | CLR2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR3b | CLR3b_68000 | FAIL | 3574 |  |  |  | [CLR3b_68000.png](CPU/Timing/CLR/CLR3b/CLR3b_68000.png) |
-| CPU/Timing/CLR/CLR3b | CLR3b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR3l | CLR3l_68000 | FAIL | 4434 |  |  |  | [CLR3l_68000.png](CPU/Timing/CLR/CLR3l/CLR3l_68000.png) |
-| CPU/Timing/CLR/CLR3l | CLR3l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR3w | CLR3w_68000 | FAIL | 3574 |  |  |  | [CLR3w_68000.png](CPU/Timing/CLR/CLR3w/CLR3w_68000.png) |
-| CPU/Timing/CLR/CLR3w | CLR3w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR4b | CLR4b_68000 | FAIL | 3612 |  |  |  | [CLR4b_68000.png](CPU/Timing/CLR/CLR4b/CLR4b_68000.png) |
-| CPU/Timing/CLR/CLR4b | CLR4b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR4l | CLR4l_68000 | FAIL | 4386 |  |  |  | [CLR4l_68000.png](CPU/Timing/CLR/CLR4l/CLR4l_68000.png) |
-| CPU/Timing/CLR/CLR4l | CLR4l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CLR/CLR4w | CLR4w_68000 | FAIL | 3612 |  |  |  | [CLR4w_68000.png](CPU/Timing/CLR/CLR4w/CLR4w_68000.png) |
-| CPU/Timing/CLR/CLR4w | CLR4w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP1b | CMP1b_68000 | FAIL | 3462 |  |  |  | [CMP1b_68000.png](CPU/Timing/CMP/CMP1b/CMP1b_68000.png) |
-| CPU/Timing/CMP/CMP1b | CMP1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP1l | CMP1l_68000 | FAIL | 3842 |  |  |  | [CMP1l_68000.png](CPU/Timing/CMP/CMP1l/CMP1l_68000.png) |
-| CPU/Timing/CMP/CMP1l | CMP1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP1w | CMP1w_68000 | FAIL | 3462 |  |  |  | [CMP1w_68000.png](CPU/Timing/CMP/CMP1w/CMP1w_68000.png) |
-| CPU/Timing/CMP/CMP1w | CMP1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP2b | CMP2b_68000 | FAIL | 3652 |  |  |  | [CMP2b_68000.png](CPU/Timing/CMP/CMP2b/CMP2b_68000.png) |
-| CPU/Timing/CMP/CMP2b | CMP2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP2l | CMP2l_68000 | FAIL | 4140 |  |  |  | [CMP2l_68000.png](CPU/Timing/CMP/CMP2l/CMP2l_68000.png) |
-| CPU/Timing/CMP/CMP2l | CMP2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP2w | CMP2w_68000 | FAIL | 3652 |  |  |  | [CMP2w_68000.png](CPU/Timing/CMP/CMP2w/CMP2w_68000.png) |
-| CPU/Timing/CMP/CMP2w | CMP2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP3b | CMP3b_68000 | FAIL | 4202 |  |  |  | [CMP3b_68000.png](CPU/Timing/CMP/CMP3b/CMP3b_68000.png) |
-| CPU/Timing/CMP/CMP3b | CMP3b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP3l | CMP3l_68000 | FAIL | 4834 |  |  |  | [CMP3l_68000.png](CPU/Timing/CMP/CMP3l/CMP3l_68000.png) |
-| CPU/Timing/CMP/CMP3l | CMP3l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP3w | CMP3w_68000 | FAIL | 4202 |  |  |  | [CMP3w_68000.png](CPU/Timing/CMP/CMP3w/CMP3w_68000.png) |
-| CPU/Timing/CMP/CMP3w | CMP3w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP4b | CMP4b_68000 | FAIL | 4290 |  |  |  | [CMP4b_68000.png](CPU/Timing/CMP/CMP4b/CMP4b_68000.png) |
-| CPU/Timing/CMP/CMP4b | CMP4b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP4l | CMP4l_68000 | FAIL | 4906 |  |  |  | [CMP4l_68000.png](CPU/Timing/CMP/CMP4l/CMP4l_68000.png) |
-| CPU/Timing/CMP/CMP4l | CMP4l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP4w | CMP4w_68000 | FAIL | 4290 |  |  |  | [CMP4w_68000.png](CPU/Timing/CMP/CMP4w/CMP4w_68000.png) |
-| CPU/Timing/CMP/CMP4w | CMP4w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP5b | CMP5b_68000 | FAIL | 2682 |  |  |  | [CMP5b_68000.png](CPU/Timing/CMP/CMP5b/CMP5b_68000.png) |
-| CPU/Timing/CMP/CMP5b | CMP5b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP5l | CMP5l_68000 | FAIL | 2714 |  |  |  | [CMP5l_68000.png](CPU/Timing/CMP/CMP5l/CMP5l_68000.png) |
-| CPU/Timing/CMP/CMP5l | CMP5l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMP5w | CMP5w_68000 | FAIL | 2682 |  |  |  | [CMP5w_68000.png](CPU/Timing/CMP/CMP5w/CMP5w_68000.png) |
-| CPU/Timing/CMP/CMP5w | CMP5w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPA1l | CMPA1l_68000 | FAIL | 3842 |  |  |  | [CMPA1l_68000.png](CPU/Timing/CMP/CMPA1l/CMPA1l_68000.png) |
-| CPU/Timing/CMP/CMPA1l | CMPA1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPA1w | CMPA1w_68000 | FAIL | 3588 |  |  |  | [CMPA1w_68000.png](CPU/Timing/CMP/CMPA1w/CMPA1w_68000.png) |
-| CPU/Timing/CMP/CMPA1w | CMPA1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPA2l | CMPA2l_68000 | FAIL | 4136 |  |  |  | [CMPA2l_68000.png](CPU/Timing/CMP/CMPA2l/CMPA2l_68000.png) |
-| CPU/Timing/CMP/CMPA2l | CMPA2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPA2w | CMPA2w_68000 | FAIL | 3874 |  |  |  | [CMPA2w_68000.png](CPU/Timing/CMP/CMPA2w/CMPA2w_68000.png) |
-| CPU/Timing/CMP/CMPA2w | CMPA2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPI1b | CMPI1b_68000 | FAIL | 3406 |  |  |  | [CMPI1b_68000.png](CPU/Timing/CMP/CMPI1b/CMPI1b_68000.png) |
-| CPU/Timing/CMP/CMPI1b | CMPI1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPI1l | CMPI1l_68000 | FAIL | 3618 |  |  |  | [CMPI1l_68000.png](CPU/Timing/CMP/CMPI1l/CMPI1l_68000.png) |
-| CPU/Timing/CMP/CMPI1l | CMPI1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPI1w | CMPI1w_68000 | FAIL | 3406 |  |  |  | [CMPI1w_68000.png](CPU/Timing/CMP/CMPI1w/CMPI1w_68000.png) |
-| CPU/Timing/CMP/CMPI1w | CMPI1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPI2b | CMPI2b_68000 | FAIL | 3984 |  |  |  | [CMPI2b_68000.png](CPU/Timing/CMP/CMPI2b/CMPI2b_68000.png) |
-| CPU/Timing/CMP/CMPI2b | CMPI2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPI2l | CMPI2l_68000 | FAIL | 4310 |  |  |  | [CMPI2l_68000.png](CPU/Timing/CMP/CMPI2l/CMPI2l_68000.png) |
-| CPU/Timing/CMP/CMPI2l | CMPI2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPI2w | CMPI2w_68000 | FAIL | 3984 |  |  |  | [CMPI2w_68000.png](CPU/Timing/CMP/CMPI2w/CMPI2w_68000.png) |
-| CPU/Timing/CMP/CMPI2w | CMPI2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPMb | CMPMb_68000 | FAIL | 4966 |  |  |  | [CMPMb_68000.png](CPU/Timing/CMP/CMPMb/CMPMb_68000.png) |
-| CPU/Timing/CMP/CMPMb | CMPMb_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPMl | CMPMl_68000 | FAIL | 6020 |  |  |  | [CMPMl_68000.png](CPU/Timing/CMP/CMPMl/CMPMl_68000.png) |
-| CPU/Timing/CMP/CMPMl | CMPMl_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/CMP/CMPMw | CMPMw_68000 | FAIL | 4966 |  |  |  | [CMPMw_68000.png](CPU/Timing/CMP/CMPMw/CMPMw_68000.png) |
-| CPU/Timing/CMP/CMPMw | CMPMw_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DBcc/DBEQ1 | DBEQ1_68000 | FAIL | 2642 |  |  |  | [DBEQ1_68000.png](CPU/Timing/DBcc/DBEQ1/DBEQ1_68000.png) |
-| CPU/Timing/DBcc/DBEQ1 | DBEQ1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DBcc/DBEQ2 | DBEQ2_68000 | FAIL | 2746 |  |  |  | [DBEQ2_68000.png](CPU/Timing/DBcc/DBEQ2/DBEQ2_68000.png) |
-| CPU/Timing/DBcc/DBEQ2 | DBEQ2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DBcc/DBEQ3 | DBEQ3_68000 | FAIL | 2618 |  |  |  | [DBEQ3_68000.png](CPU/Timing/DBcc/DBEQ3/DBEQ3_68000.png) |
-| CPU/Timing/DBcc/DBEQ3 | DBEQ3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DBcc/DBRA1 | DBRA1_68000 | FAIL | 2746 |  |  |  | [DBRA1_68000.png](CPU/Timing/DBcc/DBRA1/DBRA1_68000.png) |
-| CPU/Timing/DBcc/DBRA1 | DBRA1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DBcc/DBRA1b | DBRA1b_68000 | FAIL | 3130 |  |  |  | [DBRA1b_68000.png](CPU/Timing/DBcc/DBRA1b/DBRA1b_68000.png) |
-| CPU/Timing/DBcc/DBRA1b | DBRA1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DBcc/DBRA1c | DBRA1c_68000 | FAIL | 2746 |  |  |  | [DBRA1c_68000.png](CPU/Timing/DBcc/DBRA1c/DBRA1c_68000.png) |
-| CPU/Timing/DBcc/DBRA1c | DBRA1c_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DIV/DIVS1 | DIVS1_68000 | FAIL | 2838 |  |  |  | [DIVS1_68000.png](CPU/Timing/DIV/DIVS1/DIVS1_68000.png) |
-| CPU/Timing/DIV/DIVS1 | DIVS1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/DIV/DIVU1 | DIVU1_68000 | FAIL | 2896 |  |  |  | [DIVU1_68000.png](CPU/Timing/DIV/DIVU1/DIVU1_68000.png) |
-| CPU/Timing/DIV/DIVU1 | DIVU1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/EXG/EXG1 | EXG1_68000 | FAIL | 2786 |  |  |  | [EXG1_68000.png](CPU/Timing/EXG/EXG1/EXG1_68000.png) |
-| CPU/Timing/EXG/EXG1 | EXG1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/EXT/EXT1l | EXT1l_68000 | FAIL | 2810 |  |  |  | [EXT1l_68000.png](CPU/Timing/EXT/EXT1l/EXT1l_68000.png) |
-| CPU/Timing/EXT/EXT1l | EXT1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/EXT/EXT1w | EXT1w_68000 | FAIL | 2810 |  |  |  | [EXT1w_68000.png](CPU/Timing/EXT/EXT1w/EXT1w_68000.png) |
-| CPU/Timing/EXT/EXT1w | EXT1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/JMP/JMP1 | JMP1_68000 | FAIL | 2714 |  |  |  | [JMP1_68000.png](CPU/Timing/JMP/JMP1/JMP1_68000.png) |
-| CPU/Timing/JMP/JMP1 | JMP1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/JMP/JMP2 | JMP2_68000 | FAIL | 3090 |  |  |  | [JMP2_68000.png](CPU/Timing/JMP/JMP2/JMP2_68000.png) |
-| CPU/Timing/JMP/JMP2 | JMP2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/JMP/JMP3 | JMP3_68000 | FAIL | 6020 |  |  |  | [JMP3_68000.png](CPU/Timing/JMP/JMP3/JMP3_68000.png) |
-| CPU/Timing/JMP/JMP3 | JMP3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/JSR/JSR1 | JSR1_68000 | FAIL | 2564 |  |  |  | [JSR1_68000.png](CPU/Timing/JSR/JSR1/JSR1_68000.png) |
-| CPU/Timing/JSR/JSR1 | JSR1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/JSR/JSR2 | JSR2_68000 | FAIL | 2784 |  |  |  | [JSR2_68000.png](CPU/Timing/JSR/JSR2/JSR2_68000.png) |
-| CPU/Timing/JSR/JSR2 | JSR2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/LEA/LEA1 | LEA1_68000 | FAIL | 2596 |  |  |  | [LEA1_68000.png](CPU/Timing/LEA/LEA1/LEA1_68000.png) |
-| CPU/Timing/LEA/LEA1 | LEA1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/LINK/LINK1 | LINK1_68000 | FAIL | 2642 |  |  |  | [LINK1_68000.png](CPU/Timing/LINK/LINK1/LINK1_68000.png) |
-| CPU/Timing/LINK/LINK1 | LINK1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/LINK/LINK2 | LINK2_68000 | FAIL | 2642 |  |  |  | [LINK2_68000.png](CPU/Timing/LINK/LINK2/LINK2_68000.png) |
-| CPU/Timing/LINK/LINK2 | LINK2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE1/MOVE11B | MOVE11B_68000 | FAIL | 3708 |  |  |  | [MOVE11B_68000.png](CPU/Timing/MOVE1/MOVE11B/MOVE11B_68000.png) |
-| CPU/Timing/MOVE1/MOVE11B | MOVE11B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE1/MOVE11L | MOVE11L_68000 | FAIL | 3972 |  |  |  | [MOVE11L_68000.png](CPU/Timing/MOVE1/MOVE11L/MOVE11L_68000.png) |
-| CPU/Timing/MOVE1/MOVE11L | MOVE11L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE1/MOVE11W | MOVE11W_68000 | FAIL | 3708 |  |  |  | [MOVE11W_68000.png](CPU/Timing/MOVE1/MOVE11W/MOVE11W_68000.png) |
-| CPU/Timing/MOVE1/MOVE11W | MOVE11W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE1/MOVE1B | MOVE1B_68000 | FAIL | 2934 |  |  |  | [MOVE1B_68000.png](CPU/Timing/MOVE1/MOVE1B/MOVE1B_68000.png) |
-| CPU/Timing/MOVE1/MOVE1B | MOVE1B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE1/MOVE1L | MOVE1L_68000 | FAIL | 2942 |  |  |  | [MOVE1L_68000.png](CPU/Timing/MOVE1/MOVE1L/MOVE1L_68000.png) |
-| CPU/Timing/MOVE1/MOVE1L | MOVE1L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE1/MOVE1W | MOVE1W_68000 | FAIL | 2910 |  |  |  | [MOVE1W_68000.png](CPU/Timing/MOVE1/MOVE1W/MOVE1W_68000.png) |
-| CPU/Timing/MOVE1/MOVE1W | MOVE1W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE2/MOVE22B | MOVE22B_68000 | FAIL | 3342 |  |  |  | [MOVE22B_68000.png](CPU/Timing/MOVE2/MOVE22B/MOVE22B_68000.png) |
-| CPU/Timing/MOVE2/MOVE22B | MOVE22B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE2/MOVE22L | MOVE22L_68000 | FAIL | 3912 |  |  |  | [MOVE22L_68000.png](CPU/Timing/MOVE2/MOVE22L/MOVE22L_68000.png) |
-| CPU/Timing/MOVE2/MOVE22L | MOVE22L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE2/MOVE22W | MOVE22W_68000 | FAIL | 3342 |  |  |  | [MOVE22W_68000.png](CPU/Timing/MOVE2/MOVE22W/MOVE22W_68000.png) |
-| CPU/Timing/MOVE2/MOVE22W | MOVE22W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE2/MOVE2B | MOVE2B_68000 | FAIL | 2914 |  |  |  | [MOVE2B_68000.png](CPU/Timing/MOVE2/MOVE2B/MOVE2B_68000.png) |
-| CPU/Timing/MOVE2/MOVE2B | MOVE2B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE2/MOVE2L | MOVE2L_68000 | FAIL | 2994 |  |  |  | [MOVE2L_68000.png](CPU/Timing/MOVE2/MOVE2L/MOVE2L_68000.png) |
-| CPU/Timing/MOVE2/MOVE2L | MOVE2L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE2/MOVE2W | MOVE2W_68000 | FAIL | 2976 |  |  |  | [MOVE2W_68000.png](CPU/Timing/MOVE2/MOVE2W/MOVE2W_68000.png) |
-| CPU/Timing/MOVE2/MOVE2W | MOVE2W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE3/MOVE33B | MOVE33B_68000 | FAIL | 3484 |  |  |  | [MOVE33B_68000.png](CPU/Timing/MOVE3/MOVE33B/MOVE33B_68000.png) |
-| CPU/Timing/MOVE3/MOVE33B | MOVE33B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE3/MOVE33L | MOVE33L_68000 | FAIL | 4022 |  |  |  | [MOVE33L_68000.png](CPU/Timing/MOVE3/MOVE33L/MOVE33L_68000.png) |
-| CPU/Timing/MOVE3/MOVE33L | MOVE33L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE3/MOVE33W | MOVE33W_68000 | FAIL | 3662 |  |  |  | [MOVE33W_68000.png](CPU/Timing/MOVE3/MOVE33W/MOVE33W_68000.png) |
-| CPU/Timing/MOVE3/MOVE33W | MOVE33W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE3/MOVE3B | MOVE3B_68000 | FAIL | 3020 |  |  |  | [MOVE3B_68000.png](CPU/Timing/MOVE3/MOVE3B/MOVE3B_68000.png) |
-| CPU/Timing/MOVE3/MOVE3B | MOVE3B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE3/MOVE3L | MOVE3L_68000 | FAIL | 3158 |  |  |  | [MOVE3L_68000.png](CPU/Timing/MOVE3/MOVE3L/MOVE3L_68000.png) |
-| CPU/Timing/MOVE3/MOVE3L | MOVE3L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE3/MOVE3W | MOVE3W_68000 | FAIL | 3020 |  |  |  | [MOVE3W_68000.png](CPU/Timing/MOVE3/MOVE3W/MOVE3W_68000.png) |
-| CPU/Timing/MOVE3/MOVE3W | MOVE3W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE4/MOVE44B | MOVE44B_68000 | FAIL | 4022 |  |  |  | [MOVE44B_68000.png](CPU/Timing/MOVE4/MOVE44B/MOVE44B_68000.png) |
-| CPU/Timing/MOVE4/MOVE44B | MOVE44B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE4/MOVE44L | MOVE44L_68000 | FAIL | 4538 |  |  |  | [MOVE44L_68000.png](CPU/Timing/MOVE4/MOVE44L/MOVE44L_68000.png) |
-| CPU/Timing/MOVE4/MOVE44L | MOVE44L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE4/MOVE44W | MOVE44W_68000 | FAIL | 4022 |  |  |  | [MOVE44W_68000.png](CPU/Timing/MOVE4/MOVE44W/MOVE44W_68000.png) |
-| CPU/Timing/MOVE4/MOVE44W | MOVE44W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE4/MOVE4B | MOVE4B_68000 | FAIL | 3004 |  |  |  | [MOVE4B_68000.png](CPU/Timing/MOVE4/MOVE4B/MOVE4B_68000.png) |
-| CPU/Timing/MOVE4/MOVE4B | MOVE4B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE4/MOVE4L | MOVE4L_68000 | FAIL | 3134 |  |  |  | [MOVE4L_68000.png](CPU/Timing/MOVE4/MOVE4L/MOVE4L_68000.png) |
-| CPU/Timing/MOVE4/MOVE4L | MOVE4L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE4/MOVE4W | MOVE4W_68000 | FAIL | 3006 |  |  |  | [MOVE4W_68000.png](CPU/Timing/MOVE4/MOVE4W/MOVE4W_68000.png) |
-| CPU/Timing/MOVE4/MOVE4W | MOVE4W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE5/MOVE55B | MOVE55B_68000 | FAIL | 3276 |  |  |  | [MOVE55B_68000.png](CPU/Timing/MOVE5/MOVE55B/MOVE55B_68000.png) |
-| CPU/Timing/MOVE5/MOVE55B | MOVE55B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE5/MOVE55L | MOVE55L_68000 | FAIL | 4058 |  |  |  | [MOVE55L_68000.png](CPU/Timing/MOVE5/MOVE55L/MOVE55L_68000.png) |
-| CPU/Timing/MOVE5/MOVE55L | MOVE55L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE5/MOVE55W | MOVE55W_68000 | FAIL | 3650 |  |  |  | [MOVE55W_68000.png](CPU/Timing/MOVE5/MOVE55W/MOVE55W_68000.png) |
-| CPU/Timing/MOVE5/MOVE55W | MOVE55W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE5/MOVE5B | MOVE5B_68000 | FAIL | 3042 |  |  |  | [MOVE5B_68000.png](CPU/Timing/MOVE5/MOVE5B/MOVE5B_68000.png) |
-| CPU/Timing/MOVE5/MOVE5B | MOVE5B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE5/MOVE5L | MOVE5L_68000 | FAIL | 3222 |  |  |  | [MOVE5L_68000.png](CPU/Timing/MOVE5/MOVE5L/MOVE5L_68000.png) |
-| CPU/Timing/MOVE5/MOVE5L | MOVE5L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE5/MOVE5W | MOVE5W_68000 | FAIL | 3068 |  |  |  | [MOVE5W_68000.png](CPU/Timing/MOVE5/MOVE5W/MOVE5W_68000.png) |
-| CPU/Timing/MOVE5/MOVE5W | MOVE5W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE6/MOVE66B | MOVE66B_68000 | FAIL | 4412 |  |  |  | [MOVE66B_68000.png](CPU/Timing/MOVE6/MOVE66B/MOVE66B_68000.png) |
-| CPU/Timing/MOVE6/MOVE66B | MOVE66B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE6/MOVE66L | MOVE66L_68000 | FAIL | 4914 |  |  |  | [MOVE66L_68000.png](CPU/Timing/MOVE6/MOVE66L/MOVE66L_68000.png) |
-| CPU/Timing/MOVE6/MOVE66L | MOVE66L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE6/MOVE66W | MOVE66W_68000 | FAIL | 4412 |  |  |  | [MOVE66W_68000.png](CPU/Timing/MOVE6/MOVE66W/MOVE66W_68000.png) |
-| CPU/Timing/MOVE6/MOVE66W | MOVE66W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE6/MOVE6B | MOVE6B_68000 | FAIL | 3098 |  |  |  | [MOVE6B_68000.png](CPU/Timing/MOVE6/MOVE6B/MOVE6B_68000.png) |
-| CPU/Timing/MOVE6/MOVE6B | MOVE6B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE6/MOVE6L | MOVE6L_68000 | FAIL | 3314 |  |  |  | [MOVE6L_68000.png](CPU/Timing/MOVE6/MOVE6L/MOVE6L_68000.png) |
-| CPU/Timing/MOVE6/MOVE6L | MOVE6L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE6/MOVE6W | MOVE6W_68000 | FAIL | 3074 |  |  |  | [MOVE6W_68000.png](CPU/Timing/MOVE6/MOVE6W/MOVE6W_68000.png) |
-| CPU/Timing/MOVE6/MOVE6W | MOVE6W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE7/MOVE7B | MOVE7B_68000 | FAIL | 3068 |  |  |  | [MOVE7B_68000.png](CPU/Timing/MOVE7/MOVE7B/MOVE7B_68000.png) |
-| CPU/Timing/MOVE7/MOVE7B | MOVE7B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE7/MOVE7L | MOVE7L_68000 | FAIL | 3270 |  |  |  | [MOVE7L_68000.png](CPU/Timing/MOVE7/MOVE7L/MOVE7L_68000.png) |
-| CPU/Timing/MOVE7/MOVE7L | MOVE7L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE7/MOVE7W | MOVE7W_68000 | FAIL | 3068 |  |  |  | [MOVE7W_68000.png](CPU/Timing/MOVE7/MOVE7W/MOVE7W_68000.png) |
-| CPU/Timing/MOVE7/MOVE7W | MOVE7W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE8/MOVE88B | MOVE88B_68000 | FAIL | 3412 |  |  |  | [MOVE88B_68000.png](CPU/Timing/MOVE8/MOVE88B/MOVE88B_68000.png) |
-| CPU/Timing/MOVE8/MOVE88B | MOVE88B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE8/MOVE88L | MOVE88L_68000 | FAIL | 4198 |  |  |  | [MOVE88L_68000.png](CPU/Timing/MOVE8/MOVE88L/MOVE88L_68000.png) |
-| CPU/Timing/MOVE8/MOVE88L | MOVE88L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE8/MOVE88W | MOVE88W_68000 | FAIL | 3912 |  |  |  | [MOVE88W_68000.png](CPU/Timing/MOVE8/MOVE88W/MOVE88W_68000.png) |
-| CPU/Timing/MOVE8/MOVE88W | MOVE88W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE8/MOVE8B | MOVE8B_68000 | FAIL | 3026 |  |  |  | [MOVE8B_68000.png](CPU/Timing/MOVE8/MOVE8B/MOVE8B_68000.png) |
-| CPU/Timing/MOVE8/MOVE8B | MOVE8B_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE8/MOVE8L | MOVE8L_68000 | FAIL | 3278 |  |  |  | [MOVE8L_68000.png](CPU/Timing/MOVE8/MOVE8L/MOVE8L_68000.png) |
-| CPU/Timing/MOVE8/MOVE8L | MOVE8L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVE8/MOVE8W | MOVE8W_68000 | FAIL | 3132 |  |  |  | [MOVE8W_68000.png](CPU/Timing/MOVE8/MOVE8W/MOVE8W_68000.png) |
-| CPU/Timing/MOVE8/MOVE8W | MOVE8W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEA/MOVEA1L | MOVEA1L_68000 | FAIL | 3586 |  |  |  | [MOVEA1L_68000.png](CPU/Timing/MOVEA/MOVEA1L/MOVEA1L_68000.png) |
-| CPU/Timing/MOVEA/MOVEA1L | MOVEA1L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEA/MOVEA1W | MOVEA1W_68000 | FAIL | 3462 |  |  |  | [MOVEA1W_68000.png](CPU/Timing/MOVEA/MOVEA1W/MOVEA1W_68000.png) |
-| CPU/Timing/MOVEA/MOVEA1W | MOVEA1W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEA/MOVEA2L | MOVEA2L_68000 | FAIL | 4004 |  |  |  | [MOVEA2L_68000.png](CPU/Timing/MOVEA/MOVEA2L/MOVEA2L_68000.png) |
-| CPU/Timing/MOVEA/MOVEA2L | MOVEA2L_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEA/MOVEA2W | MOVEA2W_68000 | FAIL | 3676 |  |  |  | [MOVEA2W_68000.png](CPU/Timing/MOVEA/MOVEA2W/MOVEA2W_68000.png) |
-| CPU/Timing/MOVEA/MOVEA2W | MOVEA2W_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEC/MOVEC1 | MOVEC1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEC/MOVEC2 | MOVEC2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEC/MOVEC3 | MOVEC3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEC/MOVEC4 | MOVEC4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVECCR/MOVECCR1 | MOVECCR1_68000 | FAIL | 3788 |  |  |  | [MOVECCR1_68000.png](CPU/Timing/MOVECCR/MOVECCR1/MOVECCR1_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR1 | MOVECCR1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVECCR/MOVECCR2 | MOVECCR2_68000 | FAIL | 3450 |  |  |  | [MOVECCR2_68000.png](CPU/Timing/MOVECCR/MOVECCR2/MOVECCR2_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR2 | MOVECCR2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVECCR/MOVECCR3 | MOVECCR3_68000 | FAIL | 3832 |  |  |  | [MOVECCR3_68000.png](CPU/Timing/MOVECCR/MOVECCR3/MOVECCR3_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR3 | MOVECCR3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVECCR/MOVECCR4 | MOVECCR4_68000 | FAIL | 3450 |  |  |  | [MOVECCR4_68000.png](CPU/Timing/MOVECCR/MOVECCR4/MOVECCR4_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR4 | MOVECCR4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVECCR/MOVECCR5 | MOVECCR5_68000 | FAIL | 2682 |  |  |  | [MOVECCR5_68000.png](CPU/Timing/MOVECCR/MOVECCR5/MOVECCR5_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR5 | MOVECCR5_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEM/MOVEM1 | MOVEM1_68000 | FAIL | 3224 |  |  |  | [MOVEM1_68000.png](CPU/Timing/MOVEM/MOVEM1/MOVEM1_68000.png) |
-| CPU/Timing/MOVEM/MOVEM1 | MOVEM1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEP/MOVEP1 | MOVEP1_68000 | FAIL | 2880 |  |  |  | [MOVEP1_68000.png](CPU/Timing/MOVEP/MOVEP1/MOVEP1_68000.png) |
-| CPU/Timing/MOVEP/MOVEP1 | MOVEP1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEP/MOVEP2 | MOVEP2_68000 | FAIL | 4326 |  |  |  | [MOVEP2_68000.png](CPU/Timing/MOVEP/MOVEP2/MOVEP2_68000.png) |
-| CPU/Timing/MOVEP/MOVEP2 | MOVEP2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVEQ/MOVEQ | MOVEQ_68000 | FAIL | 2650 |  |  |  | [MOVEQ_68000.png](CPU/Timing/MOVEQ/MOVEQ/MOVEQ_68000.png) |
-| CPU/Timing/MOVEQ/MOVEQ | MOVEQ_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVESR/MOVESR1 | MOVESR1_68000 | FAIL | 2682 |  |  |  | [MOVESR1_68000.png](CPU/Timing/MOVESR/MOVESR1/MOVESR1_68000.png) |
-| CPU/Timing/MOVESR/MOVESR1 | MOVESR1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVESR/MOVESR2 | MOVESR2_68000 | FAIL | 2642 |  |  |  | [MOVESR2_68000.png](CPU/Timing/MOVESR/MOVESR2/MOVESR2_68000.png) |
-| CPU/Timing/MOVESR/MOVESR2 | MOVESR2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVESR/MOVESR3 | MOVESR3_68000 | FAIL | 2650 |  |  |  | [MOVESR3_68000.png](CPU/Timing/MOVESR/MOVESR3/MOVESR3_68000.png) |
-| CPU/Timing/MOVESR/MOVESR3 | MOVESR3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MOVESR/MOVESR4 | MOVESR4_68000 | FAIL | 2650 |  |  |  | [MOVESR4_68000.png](CPU/Timing/MOVESR/MOVESR4/MOVESR4_68000.png) |
-| CPU/Timing/MOVESR/MOVESR4 | MOVESR4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MUL/MULS1 | MULS1_68000 | FAIL | 2746 |  |  |  | [MULS1_68000.png](CPU/Timing/MUL/MULS1/MULS1_68000.png) |
-| CPU/Timing/MUL/MULS1 | MULS1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MUL/MULS2 | MULS2_68000 | FAIL | 2714 |  |  |  | [MULS2_68000.png](CPU/Timing/MUL/MULS2/MULS2_68000.png) |
-| CPU/Timing/MUL/MULS2 | MULS2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MUL/MULS3 | MULS3_68000 | FAIL | 2714 |  |  |  | [MULS3_68000.png](CPU/Timing/MUL/MULS3/MULS3_68000.png) |
-| CPU/Timing/MUL/MULS3 | MULS3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MUL/MULU1 | MULU1_68000 | FAIL | 2714 |  |  |  | [MULU1_68000.png](CPU/Timing/MUL/MULU1/MULU1_68000.png) |
-| CPU/Timing/MUL/MULU1 | MULU1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MUL/MULU2 | MULU2_68000 | FAIL | 2714 |  |  |  | [MULU2_68000.png](CPU/Timing/MUL/MULU2/MULU2_68000.png) |
-| CPU/Timing/MUL/MULU2 | MULU2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/MUL/MULU3 | MULU3_68000 | FAIL | 2714 |  |  |  | [MULU3_68000.png](CPU/Timing/MUL/MULU3/MULU3_68000.png) |
-| CPU/Timing/MUL/MULU3 | MULU3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NBCD/NBCD1 | NBCD1_68000 | FAIL | 3254 |  |  |  | [NBCD1_68000.png](CPU/Timing/NBCD/NBCD1/NBCD1_68000.png) |
-| CPU/Timing/NBCD/NBCD1 | NBCD1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NBCD/NBCD2 | NBCD2_68000 | FAIL | 3626 |  |  |  | [NBCD2_68000.png](CPU/Timing/NBCD/NBCD2/NBCD2_68000.png) |
-| CPU/Timing/NBCD/NBCD2 | NBCD2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEG1b | NEG1b_68000 | FAIL | 3196 |  |  |  | [NEG1b_68000.png](CPU/Timing/NEG/NEG1b/NEG1b_68000.png) |
-| CPU/Timing/NEG/NEG1b | NEG1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEG1l | NEG1l_68000 | FAIL | 4326 |  |  |  | [NEG1l_68000.png](CPU/Timing/NEG/NEG1l/NEG1l_68000.png) |
-| CPU/Timing/NEG/NEG1l | NEG1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEG1w | NEG1w_68000 | FAIL | 3522 |  |  |  | [NEG1w_68000.png](CPU/Timing/NEG/NEG1w/NEG1w_68000.png) |
-| CPU/Timing/NEG/NEG1w | NEG1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEG2b | NEG2b_68000 | FAIL | 3626 |  |  |  | [NEG2b_68000.png](CPU/Timing/NEG/NEG2b/NEG2b_68000.png) |
-| CPU/Timing/NEG/NEG2b | NEG2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEG2l | NEG2l_68000 | FAIL | 4204 |  |  |  | [NEG2l_68000.png](CPU/Timing/NEG/NEG2l/NEG2l_68000.png) |
-| CPU/Timing/NEG/NEG2l | NEG2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEG2w | NEG2w_68000 | FAIL | 3626 |  |  |  | [NEG2w_68000.png](CPU/Timing/NEG/NEG2w/NEG2w_68000.png) |
-| CPU/Timing/NEG/NEG2w | NEG2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEGX1b | NEGX1b_68000 | FAIL | 3126 |  |  |  | [NEGX1b_68000.png](CPU/Timing/NEG/NEGX1b/NEGX1b_68000.png) |
-| CPU/Timing/NEG/NEGX1b | NEGX1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEGX1l | NEGX1l_68000 | FAIL | 4226 |  |  |  | [NEGX1l_68000.png](CPU/Timing/NEG/NEGX1l/NEGX1l_68000.png) |
-| CPU/Timing/NEG/NEGX1l | NEGX1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEGX1w | NEGX1w_68000 | FAIL | 3428 |  |  |  | [NEGX1w_68000.png](CPU/Timing/NEG/NEGX1w/NEGX1w_68000.png) |
-| CPU/Timing/NEG/NEGX1w | NEGX1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEGX2b | NEGX2b_68000 | FAIL | 3550 |  |  |  | [NEGX2b_68000.png](CPU/Timing/NEG/NEGX2b/NEGX2b_68000.png) |
-| CPU/Timing/NEG/NEGX2b | NEGX2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEGX2l | NEGX2l_68000 | FAIL | 4134 |  |  |  | [NEGX2l_68000.png](CPU/Timing/NEG/NEGX2l/NEGX2l_68000.png) |
-| CPU/Timing/NEG/NEGX2l | NEGX2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NEG/NEGX2w | NEGX2w_68000 | FAIL | 3550 |  |  |  | [NEGX2w_68000.png](CPU/Timing/NEG/NEGX2w/NEGX2w_68000.png) |
-| CPU/Timing/NEG/NEGX2w | NEGX2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOP/NOP | NOP_68000 | FAIL | 2682 |  |  |  | [NOP_68000.png](CPU/Timing/NOP/NOP/NOP_68000.png) |
-| CPU/Timing/NOP/NOP | NOP_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOT/NOT1b | NOT1b_68000 | FAIL | 3126 |  |  |  | [NOT1b_68000.png](CPU/Timing/NOT/NOT1b/NOT1b_68000.png) |
-| CPU/Timing/NOT/NOT1b | NOT1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOT/NOT1l | NOT1l_68000 | FAIL | 4226 |  |  |  | [NOT1l_68000.png](CPU/Timing/NOT/NOT1l/NOT1l_68000.png) |
-| CPU/Timing/NOT/NOT1l | NOT1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOT/NOT1w | NOT1w_68000 | FAIL | 3428 |  |  |  | [NOT1w_68000.png](CPU/Timing/NOT/NOT1w/NOT1w_68000.png) |
-| CPU/Timing/NOT/NOT1w | NOT1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOT/NOT2b | NOT2b_68000 | FAIL | 3550 |  |  |  | [NOT2b_68000.png](CPU/Timing/NOT/NOT2b/NOT2b_68000.png) |
-| CPU/Timing/NOT/NOT2b | NOT2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOT/NOT2l | NOT2l_68000 | FAIL | 4134 |  |  |  | [NOT2l_68000.png](CPU/Timing/NOT/NOT2l/NOT2l_68000.png) |
-| CPU/Timing/NOT/NOT2l | NOT2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/NOT/NOT2w | NOT2w_68000 | FAIL | 3550 |  |  |  | [NOT2w_68000.png](CPU/Timing/NOT/NOT2w/NOT2w_68000.png) |
-| CPU/Timing/NOT/NOT2w | NOT2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/PEA/PEA1 | PEA1_68000 | FAIL | 2730 |  |  |  | [PEA1_68000.png](CPU/Timing/PEA/PEA1/PEA1_68000.png) |
-| CPU/Timing/PEA/PEA1 | PEA1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/RTE/RTE1 | RTE1_68000 | FAIL | 2706 |  |  |  | [RTE1_68000.png](CPU/Timing/RTE/RTE1/RTE1_68000.png) |
-| CPU/Timing/RTE/RTE1 | RTE1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/RTE/RTE2 | RTE2_68000 | FAIL | 2802 |  |  |  | [RTE2_68000.png](CPU/Timing/RTE/RTE2/RTE2_68000.png) |
-| CPU/Timing/RTE/RTE2 | RTE2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/RTR/RTR1 | RTR1_68000 | FAIL | 2820 |  |  |  | [RTR1_68000.png](CPU/Timing/RTR/RTR1/RTR1_68000.png) |
-| CPU/Timing/RTR/RTR1 | RTR1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/RTR/RTR2 | RTR2_68000 | FAIL | 3220 |  |  |  | [RTR2_68000.png](CPU/Timing/RTR/RTR2/RTR2_68000.png) |
-| CPU/Timing/RTR/RTR2 | RTR2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/RTS/RTS1 | RTS1_68000 | FAIL | 2678 |  |  |  | [RTS1_68000.png](CPU/Timing/RTS/RTS1/RTS1_68000.png) |
-| CPU/Timing/RTS/RTS1 | RTS1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/RTS/RTS2 | RTS2_68000 | FAIL | 2678 |  |  |  | [RTS2_68000.png](CPU/Timing/RTS/RTS2/RTS2_68000.png) |
-| CPU/Timing/RTS/RTS2 | RTS2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/STOP/stop1 | stop1_68000 | FAIL | 2782 |  |  |  | [stop1_68000.png](CPU/Timing/STOP/stop1/stop1_68000.png) |
-| CPU/Timing/STOP/stop1 | stop1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/STOP/stop2 | stop2_68000 | FAIL | 3394 |  |  |  | [stop2_68000.png](CPU/Timing/STOP/stop2/stop2_68000.png) |
-| CPU/Timing/STOP/stop2 | stop2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/STOP/stop3 | stop3_68000 | FAIL | 4764 |  |  |  | [stop3_68000.png](CPU/Timing/STOP/stop3/stop3_68000.png) |
-| CPU/Timing/STOP/stop3 | stop3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/STOP/stop4 | stop4_68000 | FAIL | 14356 |  |  |  | [stop4_68000.png](CPU/Timing/STOP/stop4/stop4_68000.png) |
-| CPU/Timing/STOP/stop4 | stop4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/STOP/stop5 | stop5_68000 | FAIL | 5328 |  |  |  | [stop5_68000.png](CPU/Timing/STOP/stop5/stop5_68000.png) |
-| CPU/Timing/STOP/stop5 | stop5_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/SWAP/SWAP1 | SWAP1_68000 | FAIL | 2650 |  |  |  | [SWAP1_68000.png](CPU/Timing/SWAP/SWAP1/SWAP1_68000.png) |
-| CPU/Timing/SWAP/SWAP1 | SWAP1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SEQ1 | SEQ1_68000 | FAIL | 3068 |  |  |  | [SEQ1_68000.png](CPU/Timing/Scc/SEQ1/SEQ1_68000.png) |
-| CPU/Timing/Scc/SEQ1 | SEQ1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SEQ2 | SEQ2_68000 | FAIL | 3330 |  |  |  | [SEQ2_68000.png](CPU/Timing/Scc/SEQ2/SEQ2_68000.png) |
-| CPU/Timing/Scc/SEQ2 | SEQ2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SEQ3 | SEQ3_68000 | FAIL | 2682 |  |  |  | [SEQ3_68000.png](CPU/Timing/Scc/SEQ3/SEQ3_68000.png) |
-| CPU/Timing/Scc/SEQ3 | SEQ3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SEQ4 | SEQ4_68000 | FAIL | 2682 |  |  |  | [SEQ4_68000.png](CPU/Timing/Scc/SEQ4/SEQ4_68000.png) |
-| CPU/Timing/Scc/SEQ4 | SEQ4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SEQ5 | SEQ5_68000 | FAIL | 2682 |  |  |  | [SEQ5_68000.png](CPU/Timing/Scc/SEQ5/SEQ5_68000.png) |
-| CPU/Timing/Scc/SEQ5 | SEQ5_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SEQ6 | SEQ6_68000 | FAIL | 2682 |  |  |  | [SEQ6_68000.png](CPU/Timing/Scc/SEQ6/SEQ6_68000.png) |
-| CPU/Timing/Scc/SEQ6 | SEQ6_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SNE1 | SNE1_68000 | FAIL | 3048 |  |  |  | [SNE1_68000.png](CPU/Timing/Scc/SNE1/SNE1_68000.png) |
-| CPU/Timing/Scc/SNE1 | SNE1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/Scc/SNE2 | SNE2_68000 | FAIL | 3192 |  |  |  | [SNE2_68000.png](CPU/Timing/Scc/SNE2/SNE2_68000.png) |
-| CPU/Timing/Scc/SNE2 | SNE2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TAS/TAS1 | TAS1_68000 | FAIL | 3188 |  |  |  | [TAS1_68000.png](CPU/Timing/TAS/TAS1/TAS1_68000.png) |
-| CPU/Timing/TAS/TAS1 | TAS1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TAS/TAS2 | TAS2_68000 | FAIL | 3728 |  |  |  | [TAS2_68000.png](CPU/Timing/TAS/TAS2/TAS2_68000.png) |
-| CPU/Timing/TAS/TAS2 | TAS2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAP1 | TRAP1_68000 | FAIL | 2690 |  |  |  | [TRAP1_68000.png](CPU/Timing/TRAP/TRAP1/TRAP1_68000.png) |
-| CPU/Timing/TRAP/TRAP1 | TRAP1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAP4 | TRAP4_68000 | FAIL | 3338 |  |  |  | [TRAP4_68000.png](CPU/Timing/TRAP/TRAP4/TRAP4_68000.png) |
-| CPU/Timing/TRAP/TRAP4 | TRAP4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAPV1 | TRAPV1_68000 | FAIL | 2654 |  |  |  | [TRAPV1_68000.png](CPU/Timing/TRAP/TRAPV1/TRAPV1_68000.png) |
-| CPU/Timing/TRAP/TRAPV1 | TRAPV1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAPV2 | TRAPV2_68000 | FAIL | 2714 |  |  |  | [TRAPV2_68000.png](CPU/Timing/TRAP/TRAPV2/TRAPV2_68000.png) |
-| CPU/Timing/TRAP/TRAPV2 | TRAPV2_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAPV3 | TRAPV3_68000 | FAIL | 2870 |  |  |  | [TRAPV3_68000.png](CPU/Timing/TRAP/TRAPV3/TRAPV3_68000.png) |
-| CPU/Timing/TRAP/TRAPV3 | TRAPV3_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAPV4 | TRAPV4_68000 | FAIL | 4090 |  |  |  | [TRAPV4_68000.png](CPU/Timing/TRAP/TRAPV4/TRAPV4_68000.png) |
-| CPU/Timing/TRAP/TRAPV4 | TRAPV4_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TRAP/TRAPV5 | TRAPV5_68000 | FAIL | 2774 |  |  |  | [TRAPV5_68000.png](CPU/Timing/TRAP/TRAPV5/TRAPV5_68000.png) |
-| CPU/Timing/TRAP/TRAPV5 | TRAPV5_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TST/TST1b | TST1b_68000 | FAIL | 3462 |  |  |  | [TST1b_68000.png](CPU/Timing/TST/TST1b/TST1b_68000.png) |
-| CPU/Timing/TST/TST1b | TST1b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TST/TST1l | TST1l_68000 | FAIL | 3586 |  |  |  | [TST1l_68000.png](CPU/Timing/TST/TST1l/TST1l_68000.png) |
-| CPU/Timing/TST/TST1l | TST1l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TST/TST1w | TST1w_68000 | FAIL | 3462 |  |  |  | [TST1w_68000.png](CPU/Timing/TST/TST1w/TST1w_68000.png) |
-| CPU/Timing/TST/TST1w | TST1w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TST/TST2b | TST2b_68000 | FAIL | 3664 |  |  |  | [TST2b_68000.png](CPU/Timing/TST/TST2b/TST2b_68000.png) |
-| CPU/Timing/TST/TST2b | TST2b_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TST/TST2l | TST2l_68000 | FAIL | 4012 |  |  |  | [TST2l_68000.png](CPU/Timing/TST/TST2l/TST2l_68000.png) |
-| CPU/Timing/TST/TST2l | TST2l_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/TST/TST2w | TST2w_68000 | FAIL | 3664 |  |  |  | [TST2w_68000.png](CPU/Timing/TST/TST2w/TST2w_68000.png) |
-| CPU/Timing/TST/TST2w | TST2w_68010 | DEVIATING_CONFIG | — |  |  |  | — |
-| CPU/Timing/UNLK/UNLK1 | UNLK1_68000 | FAIL | 2736 |  |  |  | [UNLK1_68000.png](CPU/Timing/UNLK/UNLK1/UNLK1_68000.png) |
-| CPU/Timing/UNLK/UNLK1 | UNLK1_68010 | DEVIATING_CONFIG | — |  |  |  | — |
+| Test | Variant | Machine | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
+|---|---|---|---|---|---|---|---|---|
+| CPU/Timing/ABCD/ABCD | ABCD_68000 | A500 ECS | FAIL | 2674 |  |  |  | [ABCD_68000.png](CPU/Timing/ABCD/ABCD/ABCD_68000.png) |
+| CPU/Timing/ABCD/ABCD2 | ABCD2_68000 | A500 ECS | FAIL | 2642 |  |  |  | [ABCD2_68000.png](CPU/Timing/ABCD/ABCD2/ABCD2_68000.png) |
+| CPU/Timing/ABCD/ABCD3 | ABCD3_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ABCD3_68000.png](CPU/Timing/ABCD/ABCD3/ABCD3_68000.png) |
+| CPU/Timing/ADD/ADD1b | ADD1b_68000 | A500 ECS | FAIL | 3876 |  |  |  | [ADD1b_68000.png](CPU/Timing/ADD/ADD1b/ADD1b_68000.png) |
+| CPU/Timing/ADD/ADD1l | ADD1l_68000 | A500 ECS | FAIL | 4352 |  |  |  | [ADD1l_68000.png](CPU/Timing/ADD/ADD1l/ADD1l_68000.png) |
+| CPU/Timing/ADD/ADD1w | ADD1w_68000 | A500 ECS | FAIL | 3876 |  |  |  | [ADD1w_68000.png](CPU/Timing/ADD/ADD1w/ADD1w_68000.png) |
+| CPU/Timing/ADD/ADD2b | ADD2b_68000 | A500 ECS | FAIL | 3864 |  |  |  | [ADD2b_68000.png](CPU/Timing/ADD/ADD2b/ADD2b_68000.png) |
+| CPU/Timing/ADD/ADD2l | ADD2l_68000 | A500 ECS | FAIL | 4672 |  |  |  | [ADD2l_68000.png](CPU/Timing/ADD/ADD2l/ADD2l_68000.png) |
+| CPU/Timing/ADD/ADD2w | ADD2w_68000 | A500 ECS | FAIL | 3864 |  |  |  | [ADD2w_68000.png](CPU/Timing/ADD/ADD2w/ADD2w_68000.png) |
+| CPU/Timing/ADD/ADDA1l | ADDA1l_68000 | A500 ECS | FAIL | 4404 |  |  |  | [ADDA1l_68000.png](CPU/Timing/ADD/ADDA1l/ADDA1l_68000.png) |
+| CPU/Timing/ADD/ADDA1w | ADDA1w_68000 | A500 ECS | FAIL | 4164 |  |  |  | [ADDA1w_68000.png](CPU/Timing/ADD/ADDA1w/ADDA1w_68000.png) |
+| CPU/Timing/ADD/ADDA2l | ADDA2l_68000 | A500 ECS | FAIL | 4164 |  |  |  | [ADDA2l_68000.png](CPU/Timing/ADD/ADDA2l/ADDA2l_68000.png) |
+| CPU/Timing/ADD/ADDA2w | ADDA2w_68000 | A500 ECS | FAIL | 3892 |  |  |  | [ADDA2w_68000.png](CPU/Timing/ADD/ADDA2w/ADDA2w_68000.png) |
+| CPU/Timing/ADD/ADDQ1b | ADDQ1b_68000 | A500 ECS | FAIL | 3652 |  |  |  | [ADDQ1b_68000.png](CPU/Timing/ADD/ADDQ1b/ADDQ1b_68000.png) |
+| CPU/Timing/ADD/ADDQ1l | ADDQ1l_68000 | A500 ECS | FAIL | 4310 |  |  |  | [ADDQ1l_68000.png](CPU/Timing/ADD/ADDQ1l/ADDQ1l_68000.png) |
+| CPU/Timing/ADD/ADDQ1w | ADDQ1w_68000 | A500 ECS | FAIL | 3652 |  |  |  | [ADDQ1w_68000.png](CPU/Timing/ADD/ADDQ1w/ADDQ1w_68000.png) |
+| CPU/Timing/ADD/ADDQ2b | ADDQ2b_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ2b_68000.png](CPU/Timing/ADD/ADDQ2b/ADDQ2b_68000.png) |
+| CPU/Timing/ADD/ADDQ2l | ADDQ2l_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ2l_68000.png](CPU/Timing/ADD/ADDQ2l/ADDQ2l_68000.png) |
+| CPU/Timing/ADD/ADDQ2w | ADDQ2w_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ2w_68000.png](CPU/Timing/ADD/ADDQ2w/ADDQ2w_68000.png) |
+| CPU/Timing/ADD/ADDQ3l | ADDQ3l_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ3l_68000.png](CPU/Timing/ADD/ADDQ3l/ADDQ3l_68000.png) |
+| CPU/Timing/ADD/ADDQ3w | ADDQ3w_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ3w_68000.png](CPU/Timing/ADD/ADDQ3w/ADDQ3w_68000.png) |
+| CPU/Timing/ADD/ADDXb | ADDXb_68000 | A500 ECS | FAIL | 3966 |  |  |  | [ADDXb_68000.png](CPU/Timing/ADD/ADDXb/ADDXb_68000.png) |
+| CPU/Timing/ADD/ADDXl | ADDXl_68000 | A500 ECS | FAIL | 3860 |  |  |  | [ADDXl_68000.png](CPU/Timing/ADD/ADDXl/ADDXl_68000.png) |
+| CPU/Timing/ADD/ADDXw | ADDXw_68000 | A500 ECS | FAIL | 3646 |  |  |  | [ADDXw_68000.png](CPU/Timing/ADD/ADDXw/ADDXw_68000.png) |
+| CPU/Timing/AND/AND1b | AND1b_68000 | A500 ECS | FAIL | 4484 |  |  |  | [AND1b_68000.png](CPU/Timing/AND/AND1b/AND1b_68000.png) |
+| CPU/Timing/AND/AND1l | AND1l_68000 | A500 ECS | FAIL | 5894 |  |  |  | [AND1l_68000.png](CPU/Timing/AND/AND1l/AND1l_68000.png) |
+| CPU/Timing/AND/AND1w | AND1w_68000 | A500 ECS | FAIL | 4484 |  |  |  | [AND1w_68000.png](CPU/Timing/AND/AND1w/AND1w_68000.png) |
+| CPU/Timing/AND/AND2l | AND2l_68000 | A500 ECS | FAIL | 6008 |  |  |  | [AND2l_68000.png](CPU/Timing/AND/AND2l/AND2l_68000.png) |
+| CPU/Timing/AND/AND2w | AND2w_68000 | A500 ECS | FAIL | 5006 |  |  |  | [AND2w_68000.png](CPU/Timing/AND/AND2w/AND2w_68000.png) |
+| CPU/Timing/AND/AND3l | AND3l_68000 | A500 ECS | FAIL | 5192 |  |  |  | [AND3l_68000.png](CPU/Timing/AND/AND3l/AND3l_68000.png) |
+| CPU/Timing/AND/AND3w | AND3w_68000 | A500 ECS | FAIL | 4252 |  |  |  | [AND3w_68000.png](CPU/Timing/AND/AND3w/AND3w_68000.png) |
+| CPU/Timing/AND/ANDCCR | ANDCCR_68000 | A500 ECS | FAIL | 2722 |  |  |  | [ANDCCR_68000.png](CPU/Timing/AND/ANDCCR/ANDCCR_68000.png) |
+| CPU/Timing/ASL/ASL1b | ASL1b_68000 | A500 ECS | FAIL | 2706 |  |  |  | [ASL1b_68000.png](CPU/Timing/ASL/ASL1b/ASL1b_68000.png) |
+| CPU/Timing/ASL/ASL1l | ASL1l_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ASL1l_68000.png](CPU/Timing/ASL/ASL1l/ASL1l_68000.png) |
+| CPU/Timing/ASL/ASL1w | ASL1w_68000 | A500 ECS | FAIL | 2704 |  |  |  | [ASL1w_68000.png](CPU/Timing/ASL/ASL1w/ASL1w_68000.png) |
+| CPU/Timing/ASL/ASL2w | ASL2w_68000 | A500 ECS | FAIL | 3868 |  |  |  | [ASL2w_68000.png](CPU/Timing/ASL/ASL2w/ASL2w_68000.png) |
+| CPU/Timing/BCHG/BCHG1 | BCHG1_68000 | A500 ECS | FAIL | 4400 |  |  |  | [BCHG1_68000.png](CPU/Timing/BCHG/BCHG1/BCHG1_68000.png) |
+| CPU/Timing/BCHG/BCHG2 | BCHG2_68000 | A500 ECS | FAIL | 4884 |  |  |  | [BCHG2_68000.png](CPU/Timing/BCHG/BCHG2/BCHG2_68000.png) |
+| CPU/Timing/BSET/BSET1 | BSET1_68000 | A500 ECS | FAIL | 4372 |  |  |  | [BSET1_68000.png](CPU/Timing/BSET/BSET1/BSET1_68000.png) |
+| CPU/Timing/BSET/BSET2 | BSET2_68000 | A500 ECS | FAIL | 4804 |  |  |  | [BSET2_68000.png](CPU/Timing/BSET/BSET2/BSET2_68000.png) |
+| CPU/Timing/BSR/BSR1 | BSR1_68000 | A500 ECS | FAIL | 2548 |  |  |  | [BSR1_68000.png](CPU/Timing/BSR/BSR1/BSR1_68000.png) |
+| CPU/Timing/BSR/BSR2 | BSR2_68000 | A500 ECS | FAIL | 2784 |  |  |  | [BSR2_68000.png](CPU/Timing/BSR/BSR2/BSR2_68000.png) |
+| CPU/Timing/BTST/BTST1 | BTST1_68000 | A500 ECS | FAIL | 4484 |  |  |  | [BTST1_68000.png](CPU/Timing/BTST/BTST1/BTST1_68000.png) |
+| CPU/Timing/BTST/BTST2 | BTST2_68000 | A500 ECS | FAIL | 4992 |  |  |  | [BTST2_68000.png](CPU/Timing/BTST/BTST2/BTST2_68000.png) |
+| CPU/Timing/BTST/BTST3 | BTST3_68000 | A500 ECS | FAIL | 4302 |  |  |  | [BTST3_68000.png](CPU/Timing/BTST/BTST3/BTST3_68000.png) |
+| CPU/Timing/Bcc/BEQ1 | BEQ1_68000 | A500 ECS | FAIL | 2714 |  |  |  | [BEQ1_68000.png](CPU/Timing/Bcc/BEQ1/BEQ1_68000.png) |
+| CPU/Timing/Bcc/BEQ1b | BEQ1b_68000 | A500 ECS | FAIL | 3130 |  |  |  | [BEQ1b_68000.png](CPU/Timing/Bcc/BEQ1b/BEQ1b_68000.png) |
+| CPU/Timing/Bcc/BRA1 | BRA1_68000 | A500 ECS | FAIL | 2698 |  |  |  | [BRA1_68000.png](CPU/Timing/Bcc/BRA1/BRA1_68000.png) |
+| CPU/Timing/Bcc/BRA1b | BRA1b_68000 | A500 ECS | FAIL | 3074 |  |  |  | [BRA1b_68000.png](CPU/Timing/Bcc/BRA1b/BRA1b_68000.png) |
+| CPU/Timing/Bcc/BRA1c | BRA1c_68000 | A500 ECS | FAIL | 2746 |  |  |  | [BRA1c_68000.png](CPU/Timing/Bcc/BRA1c/BRA1c_68000.png) |
+| CPU/Timing/CHK/CHK1 | CHK1_68000 | A500 ECS | FAIL | 2722 |  |  |  | [CHK1_68000.png](CPU/Timing/CHK/CHK1/CHK1_68000.png) |
+| CPU/Timing/CHK/CHK2 | CHK2_68000 | A500 ECS | FAIL | 2706 |  |  |  | [CHK2_68000.png](CPU/Timing/CHK/CHK2/CHK2_68000.png) |
+| CPU/Timing/CHK/CHK3 | CHK3_68000 | A500 ECS | FAIL | 2888 |  |  |  | [CHK3_68000.png](CPU/Timing/CHK/CHK3/CHK3_68000.png) |
+| CPU/Timing/CHK/CHK4 | CHK4_68000 | A500 ECS | FAIL | 3256 |  |  |  | [CHK4_68000.png](CPU/Timing/CHK/CHK4/CHK4_68000.png) |
+| CPU/Timing/CHK/CHK5 | CHK5_68000 | A500 ECS | FAIL | 2968 |  |  |  | [CHK5_68000.png](CPU/Timing/CHK/CHK5/CHK5_68000.png) |
+| CPU/Timing/CHK/CHK6 | CHK6_68000 | A500 ECS | FAIL | 3202 |  |  |  | [CHK6_68000.png](CPU/Timing/CHK/CHK6/CHK6_68000.png) |
+| CPU/Timing/CLR/CLR1b | CLR1b_68000 | A500 ECS | FAIL | 3346 |  |  |  | [CLR1b_68000.png](CPU/Timing/CLR/CLR1b/CLR1b_68000.png) |
+| CPU/Timing/CLR/CLR1l | CLR1l_68000 | A500 ECS | FAIL | 4078 |  |  |  | [CLR1l_68000.png](CPU/Timing/CLR/CLR1l/CLR1l_68000.png) |
+| CPU/Timing/CLR/CLR1ll | CLR1ll_68000 | A500 ECS | FAIL | 3362 |  |  |  | [CLR1ll_68000.png](CPU/Timing/CLR/CLR1ll/CLR1ll_68000.png) |
+| CPU/Timing/CLR/CLR1w | CLR1w_68000 | A500 ECS | FAIL | 3346 |  |  |  | [CLR1w_68000.png](CPU/Timing/CLR/CLR1w/CLR1w_68000.png) |
+| CPU/Timing/CLR/CLR2b | CLR2b_68000 | A500 ECS | FAIL | 4062 |  |  |  | [CLR2b_68000.png](CPU/Timing/CLR/CLR2b/CLR2b_68000.png) |
+| CPU/Timing/CLR/CLR2l | CLR2l_68000 | A500 ECS | FAIL | 4852 |  |  |  | [CLR2l_68000.png](CPU/Timing/CLR/CLR2l/CLR2l_68000.png) |
+| CPU/Timing/CLR/CLR2ll | CLR2ll_68000 | A500 ECS | FAIL | 4356 |  |  |  | [CLR2ll_68000.png](CPU/Timing/CLR/CLR2ll/CLR2ll_68000.png) |
+| CPU/Timing/CLR/CLR2w | CLR2w_68000 | A500 ECS | FAIL | 4062 |  |  |  | [CLR2w_68000.png](CPU/Timing/CLR/CLR2w/CLR2w_68000.png) |
+| CPU/Timing/CLR/CLR3b | CLR3b_68000 | A500 ECS | FAIL | 3574 |  |  |  | [CLR3b_68000.png](CPU/Timing/CLR/CLR3b/CLR3b_68000.png) |
+| CPU/Timing/CLR/CLR3l | CLR3l_68000 | A500 ECS | FAIL | 4434 |  |  |  | [CLR3l_68000.png](CPU/Timing/CLR/CLR3l/CLR3l_68000.png) |
+| CPU/Timing/CLR/CLR3w | CLR3w_68000 | A500 ECS | FAIL | 3574 |  |  |  | [CLR3w_68000.png](CPU/Timing/CLR/CLR3w/CLR3w_68000.png) |
+| CPU/Timing/CLR/CLR4b | CLR4b_68000 | A500 ECS | FAIL | 3612 |  |  |  | [CLR4b_68000.png](CPU/Timing/CLR/CLR4b/CLR4b_68000.png) |
+| CPU/Timing/CLR/CLR4l | CLR4l_68000 | A500 ECS | FAIL | 4386 |  |  |  | [CLR4l_68000.png](CPU/Timing/CLR/CLR4l/CLR4l_68000.png) |
+| CPU/Timing/CLR/CLR4w | CLR4w_68000 | A500 ECS | FAIL | 3612 |  |  |  | [CLR4w_68000.png](CPU/Timing/CLR/CLR4w/CLR4w_68000.png) |
+| CPU/Timing/CMP/CMP1b | CMP1b_68000 | A500 ECS | FAIL | 3462 |  |  |  | [CMP1b_68000.png](CPU/Timing/CMP/CMP1b/CMP1b_68000.png) |
+| CPU/Timing/CMP/CMP1l | CMP1l_68000 | A500 ECS | FAIL | 3842 |  |  |  | [CMP1l_68000.png](CPU/Timing/CMP/CMP1l/CMP1l_68000.png) |
+| CPU/Timing/CMP/CMP1w | CMP1w_68000 | A500 ECS | FAIL | 3462 |  |  |  | [CMP1w_68000.png](CPU/Timing/CMP/CMP1w/CMP1w_68000.png) |
+| CPU/Timing/CMP/CMP2b | CMP2b_68000 | A500 ECS | FAIL | 3652 |  |  |  | [CMP2b_68000.png](CPU/Timing/CMP/CMP2b/CMP2b_68000.png) |
+| CPU/Timing/CMP/CMP2l | CMP2l_68000 | A500 ECS | FAIL | 4140 |  |  |  | [CMP2l_68000.png](CPU/Timing/CMP/CMP2l/CMP2l_68000.png) |
+| CPU/Timing/CMP/CMP2w | CMP2w_68000 | A500 ECS | FAIL | 3652 |  |  |  | [CMP2w_68000.png](CPU/Timing/CMP/CMP2w/CMP2w_68000.png) |
+| CPU/Timing/CMP/CMP3b | CMP3b_68000 | A500 ECS | FAIL | 4202 |  |  |  | [CMP3b_68000.png](CPU/Timing/CMP/CMP3b/CMP3b_68000.png) |
+| CPU/Timing/CMP/CMP3l | CMP3l_68000 | A500 ECS | FAIL | 4834 |  |  |  | [CMP3l_68000.png](CPU/Timing/CMP/CMP3l/CMP3l_68000.png) |
+| CPU/Timing/CMP/CMP3w | CMP3w_68000 | A500 ECS | FAIL | 4202 |  |  |  | [CMP3w_68000.png](CPU/Timing/CMP/CMP3w/CMP3w_68000.png) |
+| CPU/Timing/CMP/CMP4b | CMP4b_68000 | A500 ECS | FAIL | 4290 |  |  |  | [CMP4b_68000.png](CPU/Timing/CMP/CMP4b/CMP4b_68000.png) |
+| CPU/Timing/CMP/CMP4l | CMP4l_68000 | A500 ECS | FAIL | 4906 |  |  |  | [CMP4l_68000.png](CPU/Timing/CMP/CMP4l/CMP4l_68000.png) |
+| CPU/Timing/CMP/CMP4w | CMP4w_68000 | A500 ECS | FAIL | 4290 |  |  |  | [CMP4w_68000.png](CPU/Timing/CMP/CMP4w/CMP4w_68000.png) |
+| CPU/Timing/CMP/CMP5b | CMP5b_68000 | A500 ECS | FAIL | 2682 |  |  |  | [CMP5b_68000.png](CPU/Timing/CMP/CMP5b/CMP5b_68000.png) |
+| CPU/Timing/CMP/CMP5l | CMP5l_68000 | A500 ECS | FAIL | 2714 |  |  |  | [CMP5l_68000.png](CPU/Timing/CMP/CMP5l/CMP5l_68000.png) |
+| CPU/Timing/CMP/CMP5w | CMP5w_68000 | A500 ECS | FAIL | 2682 |  |  |  | [CMP5w_68000.png](CPU/Timing/CMP/CMP5w/CMP5w_68000.png) |
+| CPU/Timing/CMP/CMPA1l | CMPA1l_68000 | A500 ECS | FAIL | 3842 |  |  |  | [CMPA1l_68000.png](CPU/Timing/CMP/CMPA1l/CMPA1l_68000.png) |
+| CPU/Timing/CMP/CMPA1w | CMPA1w_68000 | A500 ECS | FAIL | 3588 |  |  |  | [CMPA1w_68000.png](CPU/Timing/CMP/CMPA1w/CMPA1w_68000.png) |
+| CPU/Timing/CMP/CMPA2l | CMPA2l_68000 | A500 ECS | FAIL | 4136 |  |  |  | [CMPA2l_68000.png](CPU/Timing/CMP/CMPA2l/CMPA2l_68000.png) |
+| CPU/Timing/CMP/CMPA2w | CMPA2w_68000 | A500 ECS | FAIL | 3874 |  |  |  | [CMPA2w_68000.png](CPU/Timing/CMP/CMPA2w/CMPA2w_68000.png) |
+| CPU/Timing/CMP/CMPI1b | CMPI1b_68000 | A500 ECS | FAIL | 3406 |  |  |  | [CMPI1b_68000.png](CPU/Timing/CMP/CMPI1b/CMPI1b_68000.png) |
+| CPU/Timing/CMP/CMPI1l | CMPI1l_68000 | A500 ECS | FAIL | 3618 |  |  |  | [CMPI1l_68000.png](CPU/Timing/CMP/CMPI1l/CMPI1l_68000.png) |
+| CPU/Timing/CMP/CMPI1w | CMPI1w_68000 | A500 ECS | FAIL | 3406 |  |  |  | [CMPI1w_68000.png](CPU/Timing/CMP/CMPI1w/CMPI1w_68000.png) |
+| CPU/Timing/CMP/CMPI2b | CMPI2b_68000 | A500 ECS | FAIL | 3984 |  |  |  | [CMPI2b_68000.png](CPU/Timing/CMP/CMPI2b/CMPI2b_68000.png) |
+| CPU/Timing/CMP/CMPI2l | CMPI2l_68000 | A500 ECS | FAIL | 4310 |  |  |  | [CMPI2l_68000.png](CPU/Timing/CMP/CMPI2l/CMPI2l_68000.png) |
+| CPU/Timing/CMP/CMPI2w | CMPI2w_68000 | A500 ECS | FAIL | 3984 |  |  |  | [CMPI2w_68000.png](CPU/Timing/CMP/CMPI2w/CMPI2w_68000.png) |
+| CPU/Timing/CMP/CMPMb | CMPMb_68000 | A500 ECS | FAIL | 4966 |  |  |  | [CMPMb_68000.png](CPU/Timing/CMP/CMPMb/CMPMb_68000.png) |
+| CPU/Timing/CMP/CMPMl | CMPMl_68000 | A500 ECS | FAIL | 6020 |  |  |  | [CMPMl_68000.png](CPU/Timing/CMP/CMPMl/CMPMl_68000.png) |
+| CPU/Timing/CMP/CMPMw | CMPMw_68000 | A500 ECS | FAIL | 4966 |  |  |  | [CMPMw_68000.png](CPU/Timing/CMP/CMPMw/CMPMw_68000.png) |
+| CPU/Timing/DBcc/DBEQ1 | DBEQ1_68000 | A500 ECS | FAIL | 2642 |  |  |  | [DBEQ1_68000.png](CPU/Timing/DBcc/DBEQ1/DBEQ1_68000.png) |
+| CPU/Timing/DBcc/DBEQ2 | DBEQ2_68000 | A500 ECS | FAIL | 2746 |  |  |  | [DBEQ2_68000.png](CPU/Timing/DBcc/DBEQ2/DBEQ2_68000.png) |
+| CPU/Timing/DBcc/DBEQ3 | DBEQ3_68000 | A500 ECS | FAIL | 2618 |  |  |  | [DBEQ3_68000.png](CPU/Timing/DBcc/DBEQ3/DBEQ3_68000.png) |
+| CPU/Timing/DBcc/DBRA1 | DBRA1_68000 | A500 ECS | FAIL | 2746 |  |  |  | [DBRA1_68000.png](CPU/Timing/DBcc/DBRA1/DBRA1_68000.png) |
+| CPU/Timing/DBcc/DBRA1b | DBRA1b_68000 | A500 ECS | FAIL | 3130 |  |  |  | [DBRA1b_68000.png](CPU/Timing/DBcc/DBRA1b/DBRA1b_68000.png) |
+| CPU/Timing/DBcc/DBRA1c | DBRA1c_68000 | A500 ECS | FAIL | 2746 |  |  |  | [DBRA1c_68000.png](CPU/Timing/DBcc/DBRA1c/DBRA1c_68000.png) |
+| CPU/Timing/DIV/DIVS1 | DIVS1_68000 | A500 ECS | FAIL | 2838 |  |  |  | [DIVS1_68000.png](CPU/Timing/DIV/DIVS1/DIVS1_68000.png) |
+| CPU/Timing/DIV/DIVU1 | DIVU1_68000 | A500 ECS | FAIL | 2896 |  |  |  | [DIVU1_68000.png](CPU/Timing/DIV/DIVU1/DIVU1_68000.png) |
+| CPU/Timing/EXG/EXG1 | EXG1_68000 | A500 ECS | FAIL | 2786 |  |  |  | [EXG1_68000.png](CPU/Timing/EXG/EXG1/EXG1_68000.png) |
+| CPU/Timing/EXT/EXT1l | EXT1l_68000 | A500 ECS | FAIL | 2810 |  |  |  | [EXT1l_68000.png](CPU/Timing/EXT/EXT1l/EXT1l_68000.png) |
+| CPU/Timing/EXT/EXT1w | EXT1w_68000 | A500 ECS | FAIL | 2810 |  |  |  | [EXT1w_68000.png](CPU/Timing/EXT/EXT1w/EXT1w_68000.png) |
+| CPU/Timing/JMP/JMP1 | JMP1_68000 | A500 ECS | FAIL | 2714 |  |  |  | [JMP1_68000.png](CPU/Timing/JMP/JMP1/JMP1_68000.png) |
+| CPU/Timing/JMP/JMP2 | JMP2_68000 | A500 ECS | FAIL | 3090 |  |  |  | [JMP2_68000.png](CPU/Timing/JMP/JMP2/JMP2_68000.png) |
+| CPU/Timing/JMP/JMP3 | JMP3_68000 | A500 ECS | FAIL | 6020 |  |  |  | [JMP3_68000.png](CPU/Timing/JMP/JMP3/JMP3_68000.png) |
+| CPU/Timing/JSR/JSR1 | JSR1_68000 | A500 ECS | FAIL | 2564 |  |  |  | [JSR1_68000.png](CPU/Timing/JSR/JSR1/JSR1_68000.png) |
+| CPU/Timing/JSR/JSR2 | JSR2_68000 | A500 ECS | FAIL | 2784 |  |  |  | [JSR2_68000.png](CPU/Timing/JSR/JSR2/JSR2_68000.png) |
+| CPU/Timing/LEA/LEA1 | LEA1_68000 | A500 ECS | FAIL | 2596 |  |  |  | [LEA1_68000.png](CPU/Timing/LEA/LEA1/LEA1_68000.png) |
+| CPU/Timing/LINK/LINK1 | LINK1_68000 | A500 ECS | FAIL | 2642 |  |  |  | [LINK1_68000.png](CPU/Timing/LINK/LINK1/LINK1_68000.png) |
+| CPU/Timing/LINK/LINK2 | LINK2_68000 | A500 ECS | FAIL | 2642 |  |  |  | [LINK2_68000.png](CPU/Timing/LINK/LINK2/LINK2_68000.png) |
+| CPU/Timing/MOVE1/MOVE11B | MOVE11B_68000 | A500 ECS | FAIL | 3708 |  |  |  | [MOVE11B_68000.png](CPU/Timing/MOVE1/MOVE11B/MOVE11B_68000.png) |
+| CPU/Timing/MOVE1/MOVE11L | MOVE11L_68000 | A500 ECS | FAIL | 3972 |  |  |  | [MOVE11L_68000.png](CPU/Timing/MOVE1/MOVE11L/MOVE11L_68000.png) |
+| CPU/Timing/MOVE1/MOVE11W | MOVE11W_68000 | A500 ECS | FAIL | 3708 |  |  |  | [MOVE11W_68000.png](CPU/Timing/MOVE1/MOVE11W/MOVE11W_68000.png) |
+| CPU/Timing/MOVE1/MOVE1B | MOVE1B_68000 | A500 ECS | FAIL | 2934 |  |  |  | [MOVE1B_68000.png](CPU/Timing/MOVE1/MOVE1B/MOVE1B_68000.png) |
+| CPU/Timing/MOVE1/MOVE1L | MOVE1L_68000 | A500 ECS | FAIL | 2942 |  |  |  | [MOVE1L_68000.png](CPU/Timing/MOVE1/MOVE1L/MOVE1L_68000.png) |
+| CPU/Timing/MOVE1/MOVE1W | MOVE1W_68000 | A500 ECS | FAIL | 2910 |  |  |  | [MOVE1W_68000.png](CPU/Timing/MOVE1/MOVE1W/MOVE1W_68000.png) |
+| CPU/Timing/MOVE2/MOVE22B | MOVE22B_68000 | A500 ECS | FAIL | 3342 |  |  |  | [MOVE22B_68000.png](CPU/Timing/MOVE2/MOVE22B/MOVE22B_68000.png) |
+| CPU/Timing/MOVE2/MOVE22L | MOVE22L_68000 | A500 ECS | FAIL | 3912 |  |  |  | [MOVE22L_68000.png](CPU/Timing/MOVE2/MOVE22L/MOVE22L_68000.png) |
+| CPU/Timing/MOVE2/MOVE22W | MOVE22W_68000 | A500 ECS | FAIL | 3342 |  |  |  | [MOVE22W_68000.png](CPU/Timing/MOVE2/MOVE22W/MOVE22W_68000.png) |
+| CPU/Timing/MOVE2/MOVE2B | MOVE2B_68000 | A500 ECS | FAIL | 2914 |  |  |  | [MOVE2B_68000.png](CPU/Timing/MOVE2/MOVE2B/MOVE2B_68000.png) |
+| CPU/Timing/MOVE2/MOVE2L | MOVE2L_68000 | A500 ECS | FAIL | 2994 |  |  |  | [MOVE2L_68000.png](CPU/Timing/MOVE2/MOVE2L/MOVE2L_68000.png) |
+| CPU/Timing/MOVE2/MOVE2W | MOVE2W_68000 | A500 ECS | FAIL | 2976 |  |  |  | [MOVE2W_68000.png](CPU/Timing/MOVE2/MOVE2W/MOVE2W_68000.png) |
+| CPU/Timing/MOVE3/MOVE33B | MOVE33B_68000 | A500 ECS | FAIL | 3484 |  |  |  | [MOVE33B_68000.png](CPU/Timing/MOVE3/MOVE33B/MOVE33B_68000.png) |
+| CPU/Timing/MOVE3/MOVE33L | MOVE33L_68000 | A500 ECS | FAIL | 4022 |  |  |  | [MOVE33L_68000.png](CPU/Timing/MOVE3/MOVE33L/MOVE33L_68000.png) |
+| CPU/Timing/MOVE3/MOVE33W | MOVE33W_68000 | A500 ECS | FAIL | 3662 |  |  |  | [MOVE33W_68000.png](CPU/Timing/MOVE3/MOVE33W/MOVE33W_68000.png) |
+| CPU/Timing/MOVE3/MOVE3B | MOVE3B_68000 | A500 ECS | FAIL | 3020 |  |  |  | [MOVE3B_68000.png](CPU/Timing/MOVE3/MOVE3B/MOVE3B_68000.png) |
+| CPU/Timing/MOVE3/MOVE3L | MOVE3L_68000 | A500 ECS | FAIL | 3158 |  |  |  | [MOVE3L_68000.png](CPU/Timing/MOVE3/MOVE3L/MOVE3L_68000.png) |
+| CPU/Timing/MOVE3/MOVE3W | MOVE3W_68000 | A500 ECS | FAIL | 3020 |  |  |  | [MOVE3W_68000.png](CPU/Timing/MOVE3/MOVE3W/MOVE3W_68000.png) |
+| CPU/Timing/MOVE4/MOVE44B | MOVE44B_68000 | A500 ECS | FAIL | 4022 |  |  |  | [MOVE44B_68000.png](CPU/Timing/MOVE4/MOVE44B/MOVE44B_68000.png) |
+| CPU/Timing/MOVE4/MOVE44L | MOVE44L_68000 | A500 ECS | FAIL | 4538 |  |  |  | [MOVE44L_68000.png](CPU/Timing/MOVE4/MOVE44L/MOVE44L_68000.png) |
+| CPU/Timing/MOVE4/MOVE44W | MOVE44W_68000 | A500 ECS | FAIL | 4022 |  |  |  | [MOVE44W_68000.png](CPU/Timing/MOVE4/MOVE44W/MOVE44W_68000.png) |
+| CPU/Timing/MOVE4/MOVE4B | MOVE4B_68000 | A500 ECS | FAIL | 3004 |  |  |  | [MOVE4B_68000.png](CPU/Timing/MOVE4/MOVE4B/MOVE4B_68000.png) |
+| CPU/Timing/MOVE4/MOVE4L | MOVE4L_68000 | A500 ECS | FAIL | 3134 |  |  |  | [MOVE4L_68000.png](CPU/Timing/MOVE4/MOVE4L/MOVE4L_68000.png) |
+| CPU/Timing/MOVE4/MOVE4W | MOVE4W_68000 | A500 ECS | FAIL | 3006 |  |  |  | [MOVE4W_68000.png](CPU/Timing/MOVE4/MOVE4W/MOVE4W_68000.png) |
+| CPU/Timing/MOVE5/MOVE55B | MOVE55B_68000 | A500 ECS | FAIL | 3276 |  |  |  | [MOVE55B_68000.png](CPU/Timing/MOVE5/MOVE55B/MOVE55B_68000.png) |
+| CPU/Timing/MOVE5/MOVE55L | MOVE55L_68000 | A500 ECS | FAIL | 4058 |  |  |  | [MOVE55L_68000.png](CPU/Timing/MOVE5/MOVE55L/MOVE55L_68000.png) |
+| CPU/Timing/MOVE5/MOVE55W | MOVE55W_68000 | A500 ECS | FAIL | 3650 |  |  |  | [MOVE55W_68000.png](CPU/Timing/MOVE5/MOVE55W/MOVE55W_68000.png) |
+| CPU/Timing/MOVE5/MOVE5B | MOVE5B_68000 | A500 ECS | FAIL | 3042 |  |  |  | [MOVE5B_68000.png](CPU/Timing/MOVE5/MOVE5B/MOVE5B_68000.png) |
+| CPU/Timing/MOVE5/MOVE5L | MOVE5L_68000 | A500 ECS | FAIL | 3222 |  |  |  | [MOVE5L_68000.png](CPU/Timing/MOVE5/MOVE5L/MOVE5L_68000.png) |
+| CPU/Timing/MOVE5/MOVE5W | MOVE5W_68000 | A500 ECS | FAIL | 3068 |  |  |  | [MOVE5W_68000.png](CPU/Timing/MOVE5/MOVE5W/MOVE5W_68000.png) |
+| CPU/Timing/MOVE6/MOVE66B | MOVE66B_68000 | A500 ECS | FAIL | 4412 |  |  |  | [MOVE66B_68000.png](CPU/Timing/MOVE6/MOVE66B/MOVE66B_68000.png) |
+| CPU/Timing/MOVE6/MOVE66L | MOVE66L_68000 | A500 ECS | FAIL | 4914 |  |  |  | [MOVE66L_68000.png](CPU/Timing/MOVE6/MOVE66L/MOVE66L_68000.png) |
+| CPU/Timing/MOVE6/MOVE66W | MOVE66W_68000 | A500 ECS | FAIL | 4412 |  |  |  | [MOVE66W_68000.png](CPU/Timing/MOVE6/MOVE66W/MOVE66W_68000.png) |
+| CPU/Timing/MOVE6/MOVE6B | MOVE6B_68000 | A500 ECS | FAIL | 3098 |  |  |  | [MOVE6B_68000.png](CPU/Timing/MOVE6/MOVE6B/MOVE6B_68000.png) |
+| CPU/Timing/MOVE6/MOVE6L | MOVE6L_68000 | A500 ECS | FAIL | 3314 |  |  |  | [MOVE6L_68000.png](CPU/Timing/MOVE6/MOVE6L/MOVE6L_68000.png) |
+| CPU/Timing/MOVE6/MOVE6W | MOVE6W_68000 | A500 ECS | FAIL | 3074 |  |  |  | [MOVE6W_68000.png](CPU/Timing/MOVE6/MOVE6W/MOVE6W_68000.png) |
+| CPU/Timing/MOVE7/MOVE7B | MOVE7B_68000 | A500 ECS | FAIL | 3068 |  |  |  | [MOVE7B_68000.png](CPU/Timing/MOVE7/MOVE7B/MOVE7B_68000.png) |
+| CPU/Timing/MOVE7/MOVE7L | MOVE7L_68000 | A500 ECS | FAIL | 3270 |  |  |  | [MOVE7L_68000.png](CPU/Timing/MOVE7/MOVE7L/MOVE7L_68000.png) |
+| CPU/Timing/MOVE7/MOVE7W | MOVE7W_68000 | A500 ECS | FAIL | 3068 |  |  |  | [MOVE7W_68000.png](CPU/Timing/MOVE7/MOVE7W/MOVE7W_68000.png) |
+| CPU/Timing/MOVE8/MOVE88B | MOVE88B_68000 | A500 ECS | FAIL | 3412 |  |  |  | [MOVE88B_68000.png](CPU/Timing/MOVE8/MOVE88B/MOVE88B_68000.png) |
+| CPU/Timing/MOVE8/MOVE88L | MOVE88L_68000 | A500 ECS | FAIL | 4198 |  |  |  | [MOVE88L_68000.png](CPU/Timing/MOVE8/MOVE88L/MOVE88L_68000.png) |
+| CPU/Timing/MOVE8/MOVE88W | MOVE88W_68000 | A500 ECS | FAIL | 3912 |  |  |  | [MOVE88W_68000.png](CPU/Timing/MOVE8/MOVE88W/MOVE88W_68000.png) |
+| CPU/Timing/MOVE8/MOVE8B | MOVE8B_68000 | A500 ECS | FAIL | 3026 |  |  |  | [MOVE8B_68000.png](CPU/Timing/MOVE8/MOVE8B/MOVE8B_68000.png) |
+| CPU/Timing/MOVE8/MOVE8L | MOVE8L_68000 | A500 ECS | FAIL | 3278 |  |  |  | [MOVE8L_68000.png](CPU/Timing/MOVE8/MOVE8L/MOVE8L_68000.png) |
+| CPU/Timing/MOVE8/MOVE8W | MOVE8W_68000 | A500 ECS | FAIL | 3132 |  |  |  | [MOVE8W_68000.png](CPU/Timing/MOVE8/MOVE8W/MOVE8W_68000.png) |
+| CPU/Timing/MOVEA/MOVEA1L | MOVEA1L_68000 | A500 ECS | FAIL | 3586 |  |  |  | [MOVEA1L_68000.png](CPU/Timing/MOVEA/MOVEA1L/MOVEA1L_68000.png) |
+| CPU/Timing/MOVEA/MOVEA1W | MOVEA1W_68000 | A500 ECS | FAIL | 3462 |  |  |  | [MOVEA1W_68000.png](CPU/Timing/MOVEA/MOVEA1W/MOVEA1W_68000.png) |
+| CPU/Timing/MOVEA/MOVEA2L | MOVEA2L_68000 | A500 ECS | FAIL | 4004 |  |  |  | [MOVEA2L_68000.png](CPU/Timing/MOVEA/MOVEA2L/MOVEA2L_68000.png) |
+| CPU/Timing/MOVEA/MOVEA2W | MOVEA2W_68000 | A500 ECS | FAIL | 3676 |  |  |  | [MOVEA2W_68000.png](CPU/Timing/MOVEA/MOVEA2W/MOVEA2W_68000.png) |
+| CPU/Timing/MOVECCR/MOVECCR1 | MOVECCR1_68000 | A500 ECS | FAIL | 3788 |  |  |  | [MOVECCR1_68000.png](CPU/Timing/MOVECCR/MOVECCR1/MOVECCR1_68000.png) |
+| CPU/Timing/MOVECCR/MOVECCR2 | MOVECCR2_68000 | A500 ECS | FAIL | 3450 |  |  |  | [MOVECCR2_68000.png](CPU/Timing/MOVECCR/MOVECCR2/MOVECCR2_68000.png) |
+| CPU/Timing/MOVECCR/MOVECCR3 | MOVECCR3_68000 | A500 ECS | FAIL | 3832 |  |  |  | [MOVECCR3_68000.png](CPU/Timing/MOVECCR/MOVECCR3/MOVECCR3_68000.png) |
+| CPU/Timing/MOVECCR/MOVECCR4 | MOVECCR4_68000 | A500 ECS | FAIL | 3450 |  |  |  | [MOVECCR4_68000.png](CPU/Timing/MOVECCR/MOVECCR4/MOVECCR4_68000.png) |
+| CPU/Timing/MOVECCR/MOVECCR5 | MOVECCR5_68000 | A500 ECS | FAIL | 2682 |  |  |  | [MOVECCR5_68000.png](CPU/Timing/MOVECCR/MOVECCR5/MOVECCR5_68000.png) |
+| CPU/Timing/MOVEM/MOVEM1 | MOVEM1_68000 | A500 ECS | FAIL | 3224 |  |  |  | [MOVEM1_68000.png](CPU/Timing/MOVEM/MOVEM1/MOVEM1_68000.png) |
+| CPU/Timing/MOVEP/MOVEP1 | MOVEP1_68000 | A500 ECS | FAIL | 2880 |  |  |  | [MOVEP1_68000.png](CPU/Timing/MOVEP/MOVEP1/MOVEP1_68000.png) |
+| CPU/Timing/MOVEP/MOVEP2 | MOVEP2_68000 | A500 ECS | FAIL | 4326 |  |  |  | [MOVEP2_68000.png](CPU/Timing/MOVEP/MOVEP2/MOVEP2_68000.png) |
+| CPU/Timing/MOVEQ/MOVEQ | MOVEQ_68000 | A500 ECS | FAIL | 2650 |  |  |  | [MOVEQ_68000.png](CPU/Timing/MOVEQ/MOVEQ/MOVEQ_68000.png) |
+| CPU/Timing/MOVESR/MOVESR1 | MOVESR1_68000 | A500 ECS | FAIL | 2682 |  |  |  | [MOVESR1_68000.png](CPU/Timing/MOVESR/MOVESR1/MOVESR1_68000.png) |
+| CPU/Timing/MOVESR/MOVESR2 | MOVESR2_68000 | A500 ECS | FAIL | 2642 |  |  |  | [MOVESR2_68000.png](CPU/Timing/MOVESR/MOVESR2/MOVESR2_68000.png) |
+| CPU/Timing/MOVESR/MOVESR3 | MOVESR3_68000 | A500 ECS | FAIL | 2650 |  |  |  | [MOVESR3_68000.png](CPU/Timing/MOVESR/MOVESR3/MOVESR3_68000.png) |
+| CPU/Timing/MOVESR/MOVESR4 | MOVESR4_68000 | A500 ECS | FAIL | 2650 |  |  |  | [MOVESR4_68000.png](CPU/Timing/MOVESR/MOVESR4/MOVESR4_68000.png) |
+| CPU/Timing/MUL/MULS1 | MULS1_68000 | A500 ECS | FAIL | 2746 |  |  |  | [MULS1_68000.png](CPU/Timing/MUL/MULS1/MULS1_68000.png) |
+| CPU/Timing/MUL/MULS2 | MULS2_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULS2_68000.png](CPU/Timing/MUL/MULS2/MULS2_68000.png) |
+| CPU/Timing/MUL/MULS3 | MULS3_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULS3_68000.png](CPU/Timing/MUL/MULS3/MULS3_68000.png) |
+| CPU/Timing/MUL/MULU1 | MULU1_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULU1_68000.png](CPU/Timing/MUL/MULU1/MULU1_68000.png) |
+| CPU/Timing/MUL/MULU2 | MULU2_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULU2_68000.png](CPU/Timing/MUL/MULU2/MULU2_68000.png) |
+| CPU/Timing/MUL/MULU3 | MULU3_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULU3_68000.png](CPU/Timing/MUL/MULU3/MULU3_68000.png) |
+| CPU/Timing/NBCD/NBCD1 | NBCD1_68000 | A500 ECS | FAIL | 3254 |  |  |  | [NBCD1_68000.png](CPU/Timing/NBCD/NBCD1/NBCD1_68000.png) |
+| CPU/Timing/NBCD/NBCD2 | NBCD2_68000 | A500 ECS | FAIL | 3626 |  |  |  | [NBCD2_68000.png](CPU/Timing/NBCD/NBCD2/NBCD2_68000.png) |
+| CPU/Timing/NEG/NEG1b | NEG1b_68000 | A500 ECS | FAIL | 3196 |  |  |  | [NEG1b_68000.png](CPU/Timing/NEG/NEG1b/NEG1b_68000.png) |
+| CPU/Timing/NEG/NEG1l | NEG1l_68000 | A500 ECS | FAIL | 4326 |  |  |  | [NEG1l_68000.png](CPU/Timing/NEG/NEG1l/NEG1l_68000.png) |
+| CPU/Timing/NEG/NEG1w | NEG1w_68000 | A500 ECS | FAIL | 3522 |  |  |  | [NEG1w_68000.png](CPU/Timing/NEG/NEG1w/NEG1w_68000.png) |
+| CPU/Timing/NEG/NEG2b | NEG2b_68000 | A500 ECS | FAIL | 3626 |  |  |  | [NEG2b_68000.png](CPU/Timing/NEG/NEG2b/NEG2b_68000.png) |
+| CPU/Timing/NEG/NEG2l | NEG2l_68000 | A500 ECS | FAIL | 4204 |  |  |  | [NEG2l_68000.png](CPU/Timing/NEG/NEG2l/NEG2l_68000.png) |
+| CPU/Timing/NEG/NEG2w | NEG2w_68000 | A500 ECS | FAIL | 3626 |  |  |  | [NEG2w_68000.png](CPU/Timing/NEG/NEG2w/NEG2w_68000.png) |
+| CPU/Timing/NEG/NEGX1b | NEGX1b_68000 | A500 ECS | FAIL | 3126 |  |  |  | [NEGX1b_68000.png](CPU/Timing/NEG/NEGX1b/NEGX1b_68000.png) |
+| CPU/Timing/NEG/NEGX1l | NEGX1l_68000 | A500 ECS | FAIL | 4226 |  |  |  | [NEGX1l_68000.png](CPU/Timing/NEG/NEGX1l/NEGX1l_68000.png) |
+| CPU/Timing/NEG/NEGX1w | NEGX1w_68000 | A500 ECS | FAIL | 3428 |  |  |  | [NEGX1w_68000.png](CPU/Timing/NEG/NEGX1w/NEGX1w_68000.png) |
+| CPU/Timing/NEG/NEGX2b | NEGX2b_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NEGX2b_68000.png](CPU/Timing/NEG/NEGX2b/NEGX2b_68000.png) |
+| CPU/Timing/NEG/NEGX2l | NEGX2l_68000 | A500 ECS | FAIL | 4134 |  |  |  | [NEGX2l_68000.png](CPU/Timing/NEG/NEGX2l/NEGX2l_68000.png) |
+| CPU/Timing/NEG/NEGX2w | NEGX2w_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NEGX2w_68000.png](CPU/Timing/NEG/NEGX2w/NEGX2w_68000.png) |
+| CPU/Timing/NOP/NOP | NOP_68000 | A500 ECS | FAIL | 2682 |  |  |  | [NOP_68000.png](CPU/Timing/NOP/NOP/NOP_68000.png) |
+| CPU/Timing/NOT/NOT1b | NOT1b_68000 | A500 ECS | FAIL | 3126 |  |  |  | [NOT1b_68000.png](CPU/Timing/NOT/NOT1b/NOT1b_68000.png) |
+| CPU/Timing/NOT/NOT1l | NOT1l_68000 | A500 ECS | FAIL | 4226 |  |  |  | [NOT1l_68000.png](CPU/Timing/NOT/NOT1l/NOT1l_68000.png) |
+| CPU/Timing/NOT/NOT1w | NOT1w_68000 | A500 ECS | FAIL | 3428 |  |  |  | [NOT1w_68000.png](CPU/Timing/NOT/NOT1w/NOT1w_68000.png) |
+| CPU/Timing/NOT/NOT2b | NOT2b_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NOT2b_68000.png](CPU/Timing/NOT/NOT2b/NOT2b_68000.png) |
+| CPU/Timing/NOT/NOT2l | NOT2l_68000 | A500 ECS | FAIL | 4134 |  |  |  | [NOT2l_68000.png](CPU/Timing/NOT/NOT2l/NOT2l_68000.png) |
+| CPU/Timing/NOT/NOT2w | NOT2w_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NOT2w_68000.png](CPU/Timing/NOT/NOT2w/NOT2w_68000.png) |
+| CPU/Timing/PEA/PEA1 | PEA1_68000 | A500 ECS | FAIL | 2730 |  |  |  | [PEA1_68000.png](CPU/Timing/PEA/PEA1/PEA1_68000.png) |
+| CPU/Timing/RTE/RTE1 | RTE1_68000 | A500 ECS | FAIL | 2706 |  |  |  | [RTE1_68000.png](CPU/Timing/RTE/RTE1/RTE1_68000.png) |
+| CPU/Timing/RTE/RTE2 | RTE2_68000 | A500 ECS | FAIL | 2802 |  |  |  | [RTE2_68000.png](CPU/Timing/RTE/RTE2/RTE2_68000.png) |
+| CPU/Timing/RTR/RTR1 | RTR1_68000 | A500 ECS | FAIL | 2820 |  |  |  | [RTR1_68000.png](CPU/Timing/RTR/RTR1/RTR1_68000.png) |
+| CPU/Timing/RTR/RTR2 | RTR2_68000 | A500 ECS | FAIL | 3220 |  |  |  | [RTR2_68000.png](CPU/Timing/RTR/RTR2/RTR2_68000.png) |
+| CPU/Timing/RTS/RTS1 | RTS1_68000 | A500 ECS | FAIL | 2678 |  |  |  | [RTS1_68000.png](CPU/Timing/RTS/RTS1/RTS1_68000.png) |
+| CPU/Timing/RTS/RTS2 | RTS2_68000 | A500 ECS | FAIL | 2678 |  |  |  | [RTS2_68000.png](CPU/Timing/RTS/RTS2/RTS2_68000.png) |
+| CPU/Timing/STOP/stop1 | stop1_68000 | A500 ECS | FAIL | 2782 |  |  |  | [stop1_68000.png](CPU/Timing/STOP/stop1/stop1_68000.png) |
+| CPU/Timing/STOP/stop2 | stop2_68000 | A500 ECS | FAIL | 3394 |  |  |  | [stop2_68000.png](CPU/Timing/STOP/stop2/stop2_68000.png) |
+| CPU/Timing/STOP/stop3 | stop3_68000 | A500 ECS | FAIL | 4764 |  |  |  | [stop3_68000.png](CPU/Timing/STOP/stop3/stop3_68000.png) |
+| CPU/Timing/STOP/stop4 | stop4_68000 | A500 ECS | FAIL | 14356 |  |  |  | [stop4_68000.png](CPU/Timing/STOP/stop4/stop4_68000.png) |
+| CPU/Timing/STOP/stop5 | stop5_68000 | A500 ECS | FAIL | 5328 |  |  |  | [stop5_68000.png](CPU/Timing/STOP/stop5/stop5_68000.png) |
+| CPU/Timing/SWAP/SWAP1 | SWAP1_68000 | A500 ECS | FAIL | 2650 |  |  |  | [SWAP1_68000.png](CPU/Timing/SWAP/SWAP1/SWAP1_68000.png) |
+| CPU/Timing/Scc/SEQ1 | SEQ1_68000 | A500 ECS | FAIL | 3068 |  |  |  | [SEQ1_68000.png](CPU/Timing/Scc/SEQ1/SEQ1_68000.png) |
+| CPU/Timing/Scc/SEQ2 | SEQ2_68000 | A500 ECS | FAIL | 3330 |  |  |  | [SEQ2_68000.png](CPU/Timing/Scc/SEQ2/SEQ2_68000.png) |
+| CPU/Timing/Scc/SEQ3 | SEQ3_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ3_68000.png](CPU/Timing/Scc/SEQ3/SEQ3_68000.png) |
+| CPU/Timing/Scc/SEQ4 | SEQ4_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ4_68000.png](CPU/Timing/Scc/SEQ4/SEQ4_68000.png) |
+| CPU/Timing/Scc/SEQ5 | SEQ5_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ5_68000.png](CPU/Timing/Scc/SEQ5/SEQ5_68000.png) |
+| CPU/Timing/Scc/SEQ6 | SEQ6_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ6_68000.png](CPU/Timing/Scc/SEQ6/SEQ6_68000.png) |
+| CPU/Timing/Scc/SNE1 | SNE1_68000 | A500 ECS | FAIL | 3048 |  |  |  | [SNE1_68000.png](CPU/Timing/Scc/SNE1/SNE1_68000.png) |
+| CPU/Timing/Scc/SNE2 | SNE2_68000 | A500 ECS | FAIL | 3192 |  |  |  | [SNE2_68000.png](CPU/Timing/Scc/SNE2/SNE2_68000.png) |
+| CPU/Timing/TAS/TAS1 | TAS1_68000 | A500 ECS | FAIL | 3188 |  |  |  | [TAS1_68000.png](CPU/Timing/TAS/TAS1/TAS1_68000.png) |
+| CPU/Timing/TAS/TAS2 | TAS2_68000 | A500 ECS | FAIL | 3728 |  |  |  | [TAS2_68000.png](CPU/Timing/TAS/TAS2/TAS2_68000.png) |
+| CPU/Timing/TRAP/TRAP1 | TRAP1_68000 | A500 ECS | FAIL | 2690 |  |  |  | [TRAP1_68000.png](CPU/Timing/TRAP/TRAP1/TRAP1_68000.png) |
+| CPU/Timing/TRAP/TRAP4 | TRAP4_68000 | A500 ECS | FAIL | 3338 |  |  |  | [TRAP4_68000.png](CPU/Timing/TRAP/TRAP4/TRAP4_68000.png) |
+| CPU/Timing/TRAP/TRAPV1 | TRAPV1_68000 | A500 ECS | FAIL | 2654 |  |  |  | [TRAPV1_68000.png](CPU/Timing/TRAP/TRAPV1/TRAPV1_68000.png) |
+| CPU/Timing/TRAP/TRAPV2 | TRAPV2_68000 | A500 ECS | FAIL | 2714 |  |  |  | [TRAPV2_68000.png](CPU/Timing/TRAP/TRAPV2/TRAPV2_68000.png) |
+| CPU/Timing/TRAP/TRAPV3 | TRAPV3_68000 | A500 ECS | FAIL | 2870 |  |  |  | [TRAPV3_68000.png](CPU/Timing/TRAP/TRAPV3/TRAPV3_68000.png) |
+| CPU/Timing/TRAP/TRAPV4 | TRAPV4_68000 | A500 ECS | FAIL | 4090 |  |  |  | [TRAPV4_68000.png](CPU/Timing/TRAP/TRAPV4/TRAPV4_68000.png) |
+| CPU/Timing/TRAP/TRAPV5 | TRAPV5_68000 | A500 ECS | FAIL | 2774 |  |  |  | [TRAPV5_68000.png](CPU/Timing/TRAP/TRAPV5/TRAPV5_68000.png) |
+| CPU/Timing/TST/TST1b | TST1b_68000 | A500 ECS | FAIL | 3462 |  |  |  | [TST1b_68000.png](CPU/Timing/TST/TST1b/TST1b_68000.png) |
+| CPU/Timing/TST/TST1l | TST1l_68000 | A500 ECS | FAIL | 3586 |  |  |  | [TST1l_68000.png](CPU/Timing/TST/TST1l/TST1l_68000.png) |
+| CPU/Timing/TST/TST1w | TST1w_68000 | A500 ECS | FAIL | 3462 |  |  |  | [TST1w_68000.png](CPU/Timing/TST/TST1w/TST1w_68000.png) |
+| CPU/Timing/TST/TST2b | TST2b_68000 | A500 ECS | FAIL | 3664 |  |  |  | [TST2b_68000.png](CPU/Timing/TST/TST2b/TST2b_68000.png) |
+| CPU/Timing/TST/TST2l | TST2l_68000 | A500 ECS | FAIL | 4012 |  |  |  | [TST2l_68000.png](CPU/Timing/TST/TST2l/TST2l_68000.png) |
+| CPU/Timing/TST/TST2w | TST2w_68000 | A500 ECS | FAIL | 3664 |  |  |  | [TST2w_68000.png](CPU/Timing/TST/TST2w/TST2w_68000.png) |
+| CPU/Timing/UNLK/UNLK1 | UNLK1_68000 | A500 ECS | FAIL | 2736 |  |  |  | [UNLK1_68000.png](CPU/Timing/UNLK/UNLK1/UNLK1_68000.png) |
+
+## Not compared
+
+| Test | Variant | Machine | Result | Reason | Labels |
+|---|---|---|---|---|---|
+| CPU/Timing/ABCD/ABCD | ABCD_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ABCD/ABCD2 | ABCD2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ABCD/ABCD3 | ABCD3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADD1b | ADD1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADD1l | ADD1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADD1w | ADD1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADD2b | ADD2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADD2l | ADD2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADD2w | ADD2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDA1l | ADDA1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDA1w | ADDA1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDA2l | ADDA2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDA2w | ADDA2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ1b | ADDQ1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ1l | ADDQ1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ1w | ADDQ1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ2b | ADDQ2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ2l | ADDQ2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ2w | ADDQ2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ3l | ADDQ3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDQ3w | ADDQ3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDXb | ADDXb_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDXl | ADDXl_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ADD/ADDXw | ADDXw_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND1b | AND1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND1l | AND1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND1w | AND1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND2l | AND2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND2w | AND2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND3l | AND3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/AND3w | AND3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/AND/ANDCCR | ANDCCR_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ASL/ASL1b | ASL1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ASL/ASL1l | ASL1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ASL/ASL1w | ASL1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/ASL/ASL2w | ASL2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BCHG/BCHG1 | BCHG1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BCHG/BCHG2 | BCHG2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BKPT/BKPT1 | BKPT1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BSET/BSET1 | BSET1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BSET/BSET2 | BSET2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BSR/BSR1 | BSR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BSR/BSR2 | BSR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BTST/BTST1 | BTST1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BTST/BTST2 | BTST2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/BTST/BTST3 | BTST3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Bcc/BEQ1 | BEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Bcc/BEQ1b | BEQ1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Bcc/BRA1 | BRA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Bcc/BRA1b | BRA1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Bcc/BRA1c | BRA1c_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CHK/CHK1 | CHK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CHK/CHK2 | CHK2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CHK/CHK3 | CHK3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CHK/CHK4 | CHK4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CHK/CHK5 | CHK5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CHK/CHK6 | CHK6_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR1b | CLR1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR1l | CLR1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR1ll | CLR1ll_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR1w | CLR1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR2b | CLR2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR2l | CLR2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR2ll | CLR2ll_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR2w | CLR2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR3b | CLR3b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR3l | CLR3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR3w | CLR3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR4b | CLR4b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR4l | CLR4l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CLR/CLR4w | CLR4w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP1b | CMP1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP1l | CMP1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP1w | CMP1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP2b | CMP2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP2l | CMP2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP2w | CMP2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP3b | CMP3b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP3l | CMP3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP3w | CMP3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP4b | CMP4b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP4l | CMP4l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP4w | CMP4w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP5b | CMP5b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP5l | CMP5l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMP5w | CMP5w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPA1l | CMPA1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPA1w | CMPA1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPA2l | CMPA2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPA2w | CMPA2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPI1b | CMPI1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPI1l | CMPI1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPI1w | CMPI1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPI2b | CMPI2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPI2l | CMPI2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPI2w | CMPI2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPMb | CMPMb_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPMl | CMPMl_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/CMP/CMPMw | CMPMw_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DBcc/DBEQ1 | DBEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DBcc/DBEQ2 | DBEQ2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DBcc/DBEQ3 | DBEQ3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DBcc/DBRA1 | DBRA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DBcc/DBRA1b | DBRA1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DBcc/DBRA1c | DBRA1c_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DIV/DIVS1 | DIVS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/DIV/DIVU1 | DIVU1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/EXG/EXG1 | EXG1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/EXT/EXT1l | EXT1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/EXT/EXT1w | EXT1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/JMP/JMP1 | JMP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/JMP/JMP2 | JMP2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/JMP/JMP3 | JMP3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/JSR/JSR1 | JSR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/JSR/JSR2 | JSR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/LEA/LEA1 | LEA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/LINK/LINK1 | LINK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/LINK/LINK2 | LINK2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE1/MOVE11B | MOVE11B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE1/MOVE11L | MOVE11L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE1/MOVE11W | MOVE11W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE1/MOVE1B | MOVE1B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE1/MOVE1L | MOVE1L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE1/MOVE1W | MOVE1W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE2/MOVE22B | MOVE22B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE2/MOVE22L | MOVE22L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE2/MOVE22W | MOVE22W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE2/MOVE2B | MOVE2B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE2/MOVE2L | MOVE2L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE2/MOVE2W | MOVE2W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE3/MOVE33B | MOVE33B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE3/MOVE33L | MOVE33L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE3/MOVE33W | MOVE33W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE3/MOVE3B | MOVE3B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE3/MOVE3L | MOVE3L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE3/MOVE3W | MOVE3W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE4/MOVE44B | MOVE44B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE4/MOVE44L | MOVE44L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE4/MOVE44W | MOVE44W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE4/MOVE4B | MOVE4B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE4/MOVE4L | MOVE4L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE4/MOVE4W | MOVE4W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE5/MOVE55B | MOVE55B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE5/MOVE55L | MOVE55L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE5/MOVE55W | MOVE55W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE5/MOVE5B | MOVE5B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE5/MOVE5L | MOVE5L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE5/MOVE5W | MOVE5W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE6/MOVE66B | MOVE66B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE6/MOVE66L | MOVE66L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE6/MOVE66W | MOVE66W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE6/MOVE6B | MOVE6B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE6/MOVE6L | MOVE6L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE6/MOVE6W | MOVE6W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE7/MOVE7B | MOVE7B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE7/MOVE7L | MOVE7L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE7/MOVE7W | MOVE7W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE8/MOVE88B | MOVE88B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE8/MOVE88L | MOVE88L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE8/MOVE88W | MOVE88W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE8/MOVE8B | MOVE8B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE8/MOVE8L | MOVE8L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVE8/MOVE8W | MOVE8W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEA/MOVEA1L | MOVEA1L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEA/MOVEA1W | MOVEA1W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEA/MOVEA2L | MOVEA2L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEA/MOVEA2W | MOVEA2W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEC/MOVEC1 | MOVEC1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEC/MOVEC2 | MOVEC2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEC/MOVEC3 | MOVEC3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEC/MOVEC4 | MOVEC4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVECCR/MOVECCR1 | MOVECCR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVECCR/MOVECCR2 | MOVECCR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVECCR/MOVECCR3 | MOVECCR3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVECCR/MOVECCR4 | MOVECCR4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVECCR/MOVECCR5 | MOVECCR5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEM/MOVEM1 | MOVEM1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEP/MOVEP1 | MOVEP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEP/MOVEP2 | MOVEP2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVEQ/MOVEQ | MOVEQ_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVESR/MOVESR1 | MOVESR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVESR/MOVESR2 | MOVESR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVESR/MOVESR3 | MOVESR3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MOVESR/MOVESR4 | MOVESR4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MUL/MULS1 | MULS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MUL/MULS2 | MULS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MUL/MULS3 | MULS3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MUL/MULU1 | MULU1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MUL/MULU2 | MULU2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/MUL/MULU3 | MULU3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NBCD/NBCD1 | NBCD1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NBCD/NBCD2 | NBCD2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEG1b | NEG1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEG1l | NEG1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEG1w | NEG1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEG2b | NEG2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEG2l | NEG2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEG2w | NEG2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEGX1b | NEGX1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEGX1l | NEGX1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEGX1w | NEGX1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEGX2b | NEGX2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEGX2l | NEGX2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NEG/NEGX2w | NEGX2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOP/NOP | NOP_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOT/NOT1b | NOT1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOT/NOT1l | NOT1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOT/NOT1w | NOT1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOT/NOT2b | NOT2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOT/NOT2l | NOT2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/NOT/NOT2w | NOT2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/PEA/PEA1 | PEA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/RTE/RTE1 | RTE1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/RTE/RTE2 | RTE2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/RTR/RTR1 | RTR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/RTR/RTR2 | RTR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/RTS/RTS1 | RTS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/RTS/RTS2 | RTS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/STOP/stop1 | stop1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/STOP/stop2 | stop2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/STOP/stop3 | stop3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/STOP/stop4 | stop4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/STOP/stop5 | stop5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/SWAP/SWAP1 | SWAP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SEQ1 | SEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SEQ2 | SEQ2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SEQ3 | SEQ3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SEQ4 | SEQ4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SEQ5 | SEQ5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SEQ6 | SEQ6_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SNE1 | SNE1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/Scc/SNE2 | SNE2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TAS/TAS1 | TAS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TAS/TAS2 | TAS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAP1 | TRAP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAP4 | TRAP4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAPV1 | TRAPV1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAPV2 | TRAPV2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAPV3 | TRAPV3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAPV4 | TRAPV4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TRAP/TRAPV5 | TRAPV5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TST/TST1b | TST1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TST/TST1l | TST1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TST/TST1w | TST1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TST/TST2b | TST2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TST/TST2l | TST2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/TST/TST2w | TST2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| CPU/Timing/UNLK/UNLK1 | UNLK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |

@@ -23,5 +23,5 @@
   "wall_time": 983.881,
   "differing_pixels": 4702,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/UART/tsre/tsre6/tsre6_OCS/tsre6_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

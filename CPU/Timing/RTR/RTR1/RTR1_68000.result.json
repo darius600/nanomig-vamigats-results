@@ -23,5 +23,5 @@
   "wall_time": 916.08,
   "differing_pixels": 2820,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/RTR/RTR1/RTR1_68000/RTR1_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

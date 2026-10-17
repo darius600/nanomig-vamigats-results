@@ -23,5 +23,5 @@
   "wall_time": 891.237,
   "differing_pixels": 10104,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Sprites/collision/sprcoll8/sprcoll8_OCS/sprcoll8_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 1055.069,
   "differing_pixels": 4,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Memory/Ram/byteacc/byteacc1/byteacc1/byteacc1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 965.337,
   "differing_pixels": 14470,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/irqbpl/irqbpl4/irqbpl4_ECS/irqbpl4_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

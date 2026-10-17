@@ -23,5 +23,5 @@
   "wall_time": 885.308,
   "differing_pixels": 20,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/Wait/waitblt5/waitblt5_ocs/waitblt5_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

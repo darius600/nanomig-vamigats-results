@@ -23,5 +23,5 @@
   "wall_time": 905.105,
   "differing_pixels": 2906,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/coptim/coptim1/coptim1_ocs/coptim1_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

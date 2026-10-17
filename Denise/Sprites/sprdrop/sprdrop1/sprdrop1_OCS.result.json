@@ -22,5 +22,6 @@
   "end_time": "2026-10-14T14:55:36.143002+02:00",
   "wall_time": 873.881,
   "differing_pixels": 0,
-  "raw_status": "byte-identical"
+  "raw_status": "byte-identical",
+  "machine": "A500_OCS_1MB"
 }

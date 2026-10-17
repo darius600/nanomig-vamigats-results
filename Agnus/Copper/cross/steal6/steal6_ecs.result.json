@@ -23,5 +23,5 @@
   "wall_time": 875.706,
   "differing_pixels": 2478,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/cross/steal6/steal6_ecs/steal6_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

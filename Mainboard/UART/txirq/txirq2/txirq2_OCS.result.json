@@ -23,5 +23,5 @@
   "wall_time": 1044.753,
   "differing_pixels": 3260,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/UART/txirq/txirq2/txirq2_OCS/txirq2_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 890.527,
   "differing_pixels": 11704,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/oldDMACON/oldbplen2/oldbplen2_OCS/oldbplen2_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

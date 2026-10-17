@@ -23,5 +23,5 @@
   "wall_time": 1029.337,
   "differing_pixels": 40416,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/Ports/POT/pot0dat4/pot0dat4/pot0dat4_diff.png"
+  "machine": "A500_ECS_1MB"
 }

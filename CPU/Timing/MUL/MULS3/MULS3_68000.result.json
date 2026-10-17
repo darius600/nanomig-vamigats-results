@@ -23,5 +23,5 @@
   "wall_time": 936.723,
   "differing_pixels": 2714,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/MUL/MULS3/MULS3_68000/MULS3_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

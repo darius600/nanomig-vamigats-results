@@ -23,5 +23,5 @@
   "wall_time": 860.807,
   "differing_pixels": 12992,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing2/MOVECCR/MOVECCR1/MOVECCR1_68000/MOVECCR1_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

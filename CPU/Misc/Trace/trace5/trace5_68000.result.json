@@ -23,5 +23,5 @@
   "wall_time": 1012.572,
   "differing_pixels": 1310,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Misc/Trace/trace5/trace5_68000/trace5_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

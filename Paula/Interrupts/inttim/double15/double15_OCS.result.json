@@ -23,5 +23,5 @@
   "wall_time": 1051.539,
   "differing_pixels": 8338,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Paula/Interrupts/inttim/double15/double15_OCS/double15_OCS_diff.png"
+  "machine": "A500_OCS_1MB"
 }

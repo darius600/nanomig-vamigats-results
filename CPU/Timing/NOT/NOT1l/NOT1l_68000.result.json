@@ -23,5 +23,5 @@
   "wall_time": 903.377,
   "differing_pixels": 4226,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/NOT/NOT1l/NOT1l_68000/NOT1l_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

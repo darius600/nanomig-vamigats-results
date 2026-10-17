@@ -23,5 +23,5 @@
   "wall_time": 1005.683,
   "differing_pixels": 8,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/dmacon/dmacon8/dmacon8/dmacon8_diff.png"
+  "machine": "A500_ECS_1MB"
 }

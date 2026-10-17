@@ -23,5 +23,5 @@
   "wall_time": 1071.107,
   "differing_pixels": 146854,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Memory/Ram/uninit/uninit1/uninit1/uninit1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 891.775,
   "differing_pixels": 9184,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/BPLPTR/dropcpu43/dropcpu43_ocs/dropcpu43_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

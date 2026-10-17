@@ -23,5 +23,5 @@
   "wall_time": 1051.443,
   "differing_pixels": 8872,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/UART/txirq/txirq1/txirq1_ECS/txirq1_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 894.839,
   "differing_pixels": 67264,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/DMACON/sprdiscop1/sprdiscop1_ecs/sprdiscop1_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

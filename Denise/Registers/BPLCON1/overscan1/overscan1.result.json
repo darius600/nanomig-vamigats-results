@@ -23,5 +23,5 @@
   "wall_time": 908.987,
   "differing_pixels": 228,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Registers/BPLCON1/overscan1/overscan1/overscan1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

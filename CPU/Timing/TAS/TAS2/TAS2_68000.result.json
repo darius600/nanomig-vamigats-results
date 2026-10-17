@@ -23,5 +23,5 @@
   "wall_time": 915.95,
   "differing_pixels": 3728,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/TAS/TAS2/TAS2_68000/TAS2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

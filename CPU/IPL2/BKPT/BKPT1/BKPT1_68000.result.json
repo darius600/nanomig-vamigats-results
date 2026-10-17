@@ -23,5 +23,5 @@
   "wall_time": 956.67,
   "differing_pixels": 3268,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL2/BKPT/BKPT1/BKPT1_68000/BKPT1_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

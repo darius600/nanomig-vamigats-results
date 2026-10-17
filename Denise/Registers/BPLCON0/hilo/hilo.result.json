@@ -23,5 +23,5 @@
   "wall_time": 875.55,
   "differing_pixels": 6716,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Registers/BPLCON0/hilo/hilo/hilo_diff.png"
+  "machine": "A500_ECS_1MB"
 }

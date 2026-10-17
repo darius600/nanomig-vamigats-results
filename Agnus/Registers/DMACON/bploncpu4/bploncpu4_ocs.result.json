@@ -23,5 +23,5 @@
   "wall_time": 906.709,
   "differing_pixels": 17094,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Registers/DMACON/bploncpu4/bploncpu4_ocs/bploncpu4_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

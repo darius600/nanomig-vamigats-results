@@ -23,5 +23,5 @@
   "wall_time": 879.435,
   "differing_pixels": 14988,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/bususage/bususage2l/bususage2l/bususage2l_diff.png"
+  "machine": "A500_ECS_1MB"
 }

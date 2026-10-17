@@ -23,5 +23,5 @@
   "wall_time": 872.456,
   "differing_pixels": 16106,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/CopDma/cycleE0/cycleE0_ocs/cycleE0_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

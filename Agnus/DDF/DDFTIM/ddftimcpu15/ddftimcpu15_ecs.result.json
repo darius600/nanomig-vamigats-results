@@ -23,5 +23,5 @@
   "wall_time": 957.268,
   "differing_pixels": 5788,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/DDF/DDFTIM/ddftimcpu15/ddftimcpu15_ecs/ddftimcpu15_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

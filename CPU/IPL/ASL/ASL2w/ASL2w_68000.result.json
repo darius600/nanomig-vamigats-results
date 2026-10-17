@@ -23,5 +23,5 @@
   "wall_time": 879.113,
   "differing_pixels": 18568,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/ASL/ASL2w/ASL2w_68000/ASL2w_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

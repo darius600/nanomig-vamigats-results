@@ -23,5 +23,5 @@
   "wall_time": 897.211,
   "differing_pixels": 5328,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/Timing/STOP/stop5/stop5_68000/stop5_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

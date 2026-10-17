@@ -23,5 +23,5 @@
   "wall_time": 896.442,
   "differing_pixels": 7716,
   "raw_status": "bytes differ",
-  "diff_image": "runs/blitter/Agnus/Blitter/race/race14/race14/race14_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 1072.721,
   "differing_pixels": 14272,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/NBCD/NBCD2/NBCD2_68000/NBCD2_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

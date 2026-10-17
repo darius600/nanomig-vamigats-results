@@ -23,5 +23,5 @@
   "wall_time": 997.623,
   "differing_pixels": 21068,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/MUL/MULU3/MULU3_68000/MULU3_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }

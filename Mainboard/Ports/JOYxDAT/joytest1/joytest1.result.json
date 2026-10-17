@@ -23,5 +23,5 @@
   "wall_time": 1027.021,
   "differing_pixels": 18388,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Mainboard/Ports/JOYxDAT/joytest1/joytest1/joytest1_diff.png"
+  "machine": "A500_ECS_1MB"
 }

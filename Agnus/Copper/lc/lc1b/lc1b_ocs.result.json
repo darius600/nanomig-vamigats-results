@@ -23,5 +23,5 @@
   "wall_time": 979.064,
   "differing_pixels": 86904,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/lc/lc1b/lc1b_ocs/lc1b_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

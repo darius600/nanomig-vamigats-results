@@ -23,5 +23,5 @@
   "wall_time": 883.918,
   "differing_pixels": 160,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Sprites/general/sprbpu2/sprbpu2_ECS/sprbpu2_ECS_diff.png"
+  "machine": "A500_ECS_1MB"
 }

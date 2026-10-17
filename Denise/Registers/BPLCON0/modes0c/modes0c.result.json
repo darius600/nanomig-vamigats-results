@@ -23,5 +23,5 @@
   "wall_time": 889.835,
   "differing_pixels": 13824,
   "raw_status": "bytes differ",
-  "diff_image": "runs/denise/Denise/Registers/BPLCON0/modes0c/modes0c/modes0c_diff.png"
+  "machine": "A500_ECS_1MB"
 }

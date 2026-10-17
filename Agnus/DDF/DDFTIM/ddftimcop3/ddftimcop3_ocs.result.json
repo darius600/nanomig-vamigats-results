@@ -23,5 +23,5 @@
   "wall_time": 1011.864,
   "differing_pixels": 2478,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/DDF/DDFTIM/ddftimcop3/ddftimcop3_ocs/ddftimcop3_ocs_diff.png"
+  "machine": "A500_OCS_1MB"
 }

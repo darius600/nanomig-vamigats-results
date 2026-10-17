@@ -23,5 +23,5 @@
   "wall_time": 1063.703,
   "differing_pixels": 1038,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-c/Misc/Init/Registers/showcia2/showcia2/showcia2_diff.png"
+  "machine": "A500_ECS_1MB"
 }

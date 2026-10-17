@@ -23,5 +23,5 @@
   "wall_time": 1037.336,
   "differing_pixels": 566,
   "raw_status": "bytes differ",
-  "diff_image": "runs/agnus/Agnus/Copper/mask/waitmask2/waitmask2_ecs/waitmask2_ecs_diff.png"
+  "machine": "A500_ECS_1MB"
 }

@@ -23,5 +23,5 @@
   "wall_time": 902.326,
   "differing_pixels": 19404,
   "raw_status": "bytes differ",
-  "diff_image": "runs/block-b/CPU/IPL/BSET/BSET3/BSET3_68000/BSET3_68000_diff.png"
+  "machine": "A500_ECS_1MB"
 }
