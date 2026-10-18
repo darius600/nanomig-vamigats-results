@@ -24,5 +24,9 @@
   "differing_pixels": null,
   "raw_status": null,
   "geometry": "908x627",
+  "recompared": {
+    "date": "2026-10-17T16:05:02.235340+02:00",
+    "regression_sha": "b0e43cbeaa5f30697058f4db6372e8aaec9d78ce-dirty"
+  },
   "machine": "A500_OCS_1MB"
 }

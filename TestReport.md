@@ -1,37 +1,16 @@
 # NanoMig vAmigaTS Test Report
 
 - **NanoMig:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c) · **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4) · **Build profile:** Tang Nano 20k, fx68k
-- **Simulated:** 2026-10-10 to 2026-10-17 · **Published:** 2026-10-17
-- **Published with:** [nanomig-vamigats-regression `b0e43cb`](https://github.com/darius600/nanomig-vamigats-regression/commit/b0e43cbeaa5f30697058f4db6372e8aaec9d78ce)
-
-## Where to start
-
-**1975 variants compared: 458 identical to the reference (PASS), 1517 different (FAIL).** The other 635 were not compared (DEVIATING_CONFIG 610, NOT_CALIBRATED 13, NO_REFERENCE 12; see [How to read](#how-to-read)). ERROR: 0.
-
-The 10 FAILs closest to the reference. Each is one test that reruns in about 15 minutes:
-
-| Test | Variant | Machine | Differing px | Image |
-|---|---|---|---:|---|
-| Mainboard/Ports/POT/stop1 | stop1 | A500 ECS | 2 | [stop1.png](Mainboard/Ports/POT/stop1/stop1.png) |
-| Agnus/Copper/Wait/waitblt1 | waitblt1_ecs | A500 ECS | 4 | [waitblt1_ecs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ecs.png) |
-| Agnus/Copper/Wait/waitblt1 | waitblt1_ocs | A500 OCS | 4 | [waitblt1_ocs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ocs.png) |
-| Agnus/Copper/Wait/waitblt4 | waitblt4_ecs | A500 ECS | 4 | [waitblt4_ecs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ecs.png) |
-| Agnus/Copper/Wait/waitblt4 | waitblt4_ocs | A500 OCS | 4 | [waitblt4_ocs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ocs.png) |
-| Denise/Registers/BPLCON1/overscan6 | overscan6 | A500 ECS | 4 | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
-| Memory/Ram/byteacc/byteacc1 | byteacc1 | A500 ECS | 4 | [byteacc1.png](Memory/Ram/byteacc/byteacc1/byteacc1.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ecs | A500 ECS | 6 | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ocs | A500 OCS | 6 | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
-| Agnus/DDF/DDF/farright3 | farright3_ocs | A500 OCS | 6 | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
-
-All 52 FAILs with 20 differing pixels or fewer: [Near misses](#near-misses).
-
-**One routine behind many FAILs:** 632 of the 1517 FAILs come from tests whose source calls vAmigaTS's `synccpu` routine (`include/util.i`). It synchronises the CPU with the beam and draws the magenta bar at the top of the image. Where that bar differs, everything the CPU draws after it is shifted as well, so these FAILs may share one cause. That has not been established yet.
+- **Simulated:** 2026-10-10 to 2026-10-17 · **Published:** 2026-10-18
+- **Published with:** [nanomig-vamigats-regression `d49005a`](https://github.com/darius600/nanomig-vamigats-regression/commit/d49005ac63be60732195ba663dbfb44d7b52d6aa)
 
 ## Summary
 
+**1986 variants compared: 464 identical to the reference (PASS), 1522 different (FAIL).** The other 624 were not compared (DEVIATING_CONFIG 610, NOT_CALIBRATED 2, NO_REFERENCE 12; see [How to read](#how-to-read)). ERROR: 0.
+
 | Variants | PASS | FAIL | DEVIATING_CONFIG | NOT_CALIBRATED | NO_REFERENCE | ERROR |
 |---:|---:|---:|---:|---:|---:|---:|
-| 2610 | 458 | 1517 | 610 | 13 | 12 | 0 |
+| 2610 | 464 | 1522 | 610 | 2 | 12 | 0 |
 
 ## Results per group
 
@@ -41,7 +20,7 @@ All 52 FAILs with 20 differing pixels or fewer: [Near misses](#near-misses).
 | [Agnus/Copper](Agnus_Copper.md) | 223 | 86 | 137 | 0 | 0 | 0 | 0 |
 | [Agnus/DDF](Agnus_DDF.md) | 124 | 35 | 89 | 0 | 0 | 0 | 0 |
 | [Agnus/DIW](Agnus_DIW.md) | 62 | 46 | 16 | 0 | 0 | 0 | 0 |
-| [Agnus/Misc](Agnus_Misc.md) | 12 | 1 | 0 | 0 | 11 | 0 | 0 |
+| [Agnus/Misc](Agnus_Misc.md) | 12 | 7 | 5 | 0 | 0 | 0 | 0 |
 | [Agnus/Registers](Agnus_Registers.md) | 249 | 42 | 205 | 0 | 2 | 0 | 0 |
 | [CIA/CIA](CIA_CIA.md) | 10 | 0 | 0 | 0 | 0 | 10 | 0 |
 | [CPU/68010](CPU_68010.md) | 40 | 0 | 0 | 40 | 0 | 0 | 0 |
@@ -65,7 +44,28 @@ All 52 FAILs with 20 differing pixels or fewer: [Near misses](#near-misses).
 | [Paula/Drive](Paula_Drive.md) | 7 | 0 | 6 | 1 | 0 | 0 | 0 |
 | [Paula/Interrupts](Paula_Interrupts.md) | 164 | 24 | 140 | 0 | 0 | 0 | 0 |
 | [Paula/Registers](Paula_Registers.md) | 2 | 2 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **2610** | **458** | **1517** | **610** | **13** | **12** | **0** |
+| **Total** | **2610** | **464** | **1522** | **610** | **2** | **12** | **0** |
+
+## Where to start
+
+The 10 FAILs closest to the reference. Each is one test that reruns in about 15 minutes:
+
+| Test | Variant | Machine | Differing px | Image |
+|---|---|---|---:|---|
+| Mainboard/Ports/POT/stop1 | stop1 | A500 ECS | 2 | [stop1.png](Mainboard/Ports/POT/stop1/stop1.png) |
+| Agnus/Copper/Wait/waitblt1 | waitblt1_ecs | A500 ECS | 4 | [waitblt1_ecs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ecs.png) |
+| Agnus/Copper/Wait/waitblt1 | waitblt1_ocs | A500 OCS | 4 | [waitblt1_ocs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ocs.png) |
+| Agnus/Copper/Wait/waitblt4 | waitblt4_ecs | A500 ECS | 4 | [waitblt4_ecs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ecs.png) |
+| Agnus/Copper/Wait/waitblt4 | waitblt4_ocs | A500 OCS | 4 | [waitblt4_ocs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ocs.png) |
+| Denise/Registers/BPLCON1/overscan6 | overscan6 | A500 ECS | 4 | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
+| Memory/Ram/byteacc/byteacc1 | byteacc1 | A500 ECS | 4 | [byteacc1.png](Memory/Ram/byteacc/byteacc1/byteacc1.png) |
+| Agnus/DDF/DDF/farright1 | farright1_ecs | A500 ECS | 6 | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
+| Agnus/DDF/DDF/farright1 | farright1_ocs | A500 OCS | 6 | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
+| Agnus/DDF/DDF/farright3 | farright3_ocs | A500 OCS | 6 | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
+
+All 52 FAILs with 20 differing pixels or fewer: [Near misses](#near-misses).
+
+**One routine behind many FAILs:** 632 of the 1522 FAILs come from tests whose source calls vAmigaTS's `synccpu` routine (`include/util.i`). It synchronises the CPU with the beam and draws the magenta bar at the top of the image. Where that bar differs, everything the CPU draws after it is shifted as well, so these FAILs may share one cause. That has not been established yet.
 
 ## How far off the FAILs are
 
@@ -77,7 +77,7 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | Agnus/Copper | 86 | 10 | 18 | 14 | 87 | 8 |
 | Agnus/DDF | 35 | 11 | 0 | 7 | 67 | 4 |
 | Agnus/DIW | 46 | 0 | 1 | 7 | 1 | 7 |
-| Agnus/Misc | 1 | 0 | 0 | 0 | 0 | 0 |
+| Agnus/Misc | 7 | 0 | 0 | 3 | 2 | 0 |
 | Agnus/Registers | 42 | 14 | 6 | 14 | 113 | 58 |
 | CPU/Exceptions | 15 | 0 | 0 | 0 | 0 | 0 |
 | CPU/IPL | 2 | 0 | 0 | 0 | 172 | 41 |
@@ -99,7 +99,7 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | Paula/Drive | 0 | 0 | 0 | 0 | 6 | 0 |
 | Paula/Interrupts | 24 | 0 | 0 | 0 | 136 | 4 |
 | Paula/Registers | 2 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **458** | **52** | **47** | **114** | **1105** | **199** |
+| **Total** | **464** | **52** | **47** | **117** | **1107** | **199** |
 
 ## Agreement with the 2024 hand verdicts
 
@@ -111,15 +111,17 @@ Counted per **test directory**, not per variant: one directory holds the variant
 | [Agnus/Copper](Agnus_Copper.md) | 43 | 28 | 43 | 0 |
 | [Agnus/DDF](Agnus_DDF.md) | 14 | 28 | 20 | 0 |
 | [Agnus/DIW](Agnus_DIW.md) | 20 | 5 | 6 | 0 |
+| [Agnus/Misc](Agnus_Misc.md) | 1 | 4 | 1 | 0 |
 | [Agnus/Registers](Agnus_Registers.md) | 6 | 87 | 11 | 0 |
-| **Total** | **131** | **302** | **111** | **0** |
+| **Total** | **132** | **306** | **112** | **0** |
 
 ## How to read
 
-- **PASS:** The frame is identical to the vAmigaTS reference at the Amiga's 4 bits per channel inside the cutout. In all 458 PASS the `.raw` rebuilt from the capture is also byte-identical to the reference (`raw_status`).
+- **PASS:** The frame is identical to the vAmigaTS reference at the Amiga's 4 bits per channel inside the cutout. In all 464 PASS the `.raw` rebuilt from the capture is also byte-identical to the reference (`raw_status`).
 - **FAIL:** Differences were found inside the compared area (cutout). The group pages give the number of differing pixels and link the image.
-- **DEVIATING_CONFIG:** The script asks for something NanoMig on a Tang Nano 20k cannot be configured to: a 68010, joystick, mouse or keyboard input, further floppy drives. Not simulated; the reason is on the group page.
-- **NOT_CALIBRATED:** Simulated, but the raster (NTSC, interlace) has no verified crop yet, so it is not compared.
+- **DEVIATING_CONFIG:** The script asks for something this run could not set NanoMig on a Tang Nano 20k up for, e.g. a 68010. Not simulated; the reason is on the group page.
+- **NOT_CALIBRATED:** Simulated, but the raster has no verified crop yet, so it is not compared.
+- **NTSC** frames are compared on the 237 rows an NTSC beam reaches; the `_ocs` NTSC references are black there, so their PASS says little.
 - **NO_REFERENCE:** vAmigaTS ships no reference `.raw` for this variant; not simulated.
 - **ERROR:** The simulation itself failed or exceeded its time limit. Rerun it.
 - **`raw_status` "missing colours"** (in `.result.json`): NanoMig produced a colour that no reference uses, so no `.raw` can be rebuilt. The frame is still compared at 4 bits per channel.

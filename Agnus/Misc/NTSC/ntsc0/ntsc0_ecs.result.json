@@ -1,7 +1,7 @@
 {
   "variant": "ntsc0_ecs",
-  "class": "NOT_CALIBRATED",
-  "detail": "uncalibrated geometry: 908x524",
+  "class": "FAIL",
+  "detail": "2928 differing pixels",
   "labels": [],
   "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
@@ -21,8 +21,11 @@
   "start_time": "2026-10-11T15:15:30.660476+02:00",
   "end_time": "2026-10-11T15:33:48.560086+02:00",
   "wall_time": 1097.888,
-  "differing_pixels": null,
-  "raw_status": null,
-  "geometry": "908x524",
+  "differing_pixels": 2928,
+  "raw_status": "bytes differ",
+  "recompared": {
+    "date": "2026-10-17T16:04:59.401677+02:00",
+    "regression_sha": "b0e43cbeaa5f30697058f4db6372e8aaec9d78ce-dirty"
+  },
   "machine": "A500_ECS_1MB"
 }

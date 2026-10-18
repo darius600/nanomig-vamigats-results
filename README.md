@@ -6,7 +6,7 @@ NanoMig is based on the [MiSTer Minimig-AGA](https://github.com/MiSTer-devel/Min
 
 Every frame is compared pixel by pixel with the test's `.raw` reference. **These references are screenshots made by the vAmiga emulator**, the baselines vAmigaTS uses for vAmiga's own regression tests. A `PASS` therefore means *identical to vAmiga*. The vAmigaTS test folders also hold photos of real Amiga screens (`*_A500_*.JPG`); only those show real hardware. [REFERENCES.md](./REFERENCES.md) explains this, which machines are compared, and the known cases where a reference contradicts the photo.
 
-👉 **Start at [TestReport.md](./TestReport.md)**: the FAILs closest to the reference first, then the summary, the results per group and how far off the FAILs are.
+👉 **Start at [TestReport.md](./TestReport.md)**: summary, results per group, then where to start (the FAILs closest to the reference) and how far off the FAILs are.
 
 ## Contents
 
