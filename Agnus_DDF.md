@@ -1,131 +1,131 @@
-# Agnus_DDF
+# Agnus/DDF
 
-- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/harbaum/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
+- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
 - **Compared:** 124 (PASS 35, FAIL 89) | **ERROR:** 0 | **Not compared:** 0
 
-| Test | Variant | Machine | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
-|---|---|---|---|---|---|---|---|---|
-| Agnus/DDF/DDF/ddf1 | ddf1_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [ddf1_ecs.png](Agnus/DDF/DDF/ddf1/ddf1_ecs.png) |
-| Agnus/DDF/DDF/ddf1 | ddf1_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf1_ocs.png](Agnus/DDF/DDF/ddf1/ddf1_ocs.png) |
-| Agnus/DDF/DDF/ddf10 | ddf10_ecs | A500 ECS | FAIL | 18 |  | ✅ Identical |  | [ddf10_ecs.png](Agnus/DDF/DDF/ddf10/ddf10_ecs.png) |
-| Agnus/DDF/DDF/ddf10 | ddf10_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf10_ocs.png](Agnus/DDF/DDF/ddf10/ddf10_ocs.png) |
-| Agnus/DDF/DDF/ddf2 | ddf2_ecs | A500 ECS | FAIL | 18 |  | ✅ Identical |  | [ddf2_ecs.png](Agnus/DDF/DDF/ddf2/ddf2_ecs.png) |
-| Agnus/DDF/DDF/ddf2 | ddf2_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf2_ocs.png](Agnus/DDF/DDF/ddf2/ddf2_ocs.png) |
-| Agnus/DDF/DDF/ddf3 | ddf3_ecs | A500 ECS | FAIL | 18 |  | ✅ Identical |  | [ddf3_ecs.png](Agnus/DDF/DDF/ddf3/ddf3_ecs.png) |
-| Agnus/DDF/DDF/ddf3 | ddf3_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf3_ocs.png](Agnus/DDF/DDF/ddf3/ddf3_ocs.png) |
-| Agnus/DDF/DDF/ddf4 | ddf4_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [ddf4_ecs.png](Agnus/DDF/DDF/ddf4/ddf4_ecs.png) |
-| Agnus/DDF/DDF/ddf4 | ddf4_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf4_ocs.png](Agnus/DDF/DDF/ddf4/ddf4_ocs.png) |
-| Agnus/DDF/DDF/ddf5 | ddf5_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [ddf5_ecs.png](Agnus/DDF/DDF/ddf5/ddf5_ecs.png) |
-| Agnus/DDF/DDF/ddf5 | ddf5_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf5_ocs.png](Agnus/DDF/DDF/ddf5/ddf5_ocs.png) |
-| Agnus/DDF/DDF/ddf6 | ddf6_ecs | A500 ECS | FAIL | 18 |  | ✅ Identical |  | [ddf6_ecs.png](Agnus/DDF/DDF/ddf6/ddf6_ecs.png) |
-| Agnus/DDF/DDF/ddf6 | ddf6_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf6_ocs.png](Agnus/DDF/DDF/ddf6/ddf6_ocs.png) |
-| Agnus/DDF/DDF/ddf7 | ddf7_ecs | A500 ECS | FAIL | 18 |  | ✅ Identical |  | [ddf7_ecs.png](Agnus/DDF/DDF/ddf7/ddf7_ecs.png) |
-| Agnus/DDF/DDF/ddf7 | ddf7_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf7_ocs.png](Agnus/DDF/DDF/ddf7/ddf7_ocs.png) |
-| Agnus/DDF/DDF/ddf8 | ddf8_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [ddf8_ecs.png](Agnus/DDF/DDF/ddf8/ddf8_ecs.png) |
-| Agnus/DDF/DDF/ddf8 | ddf8_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf8_ocs.png](Agnus/DDF/DDF/ddf8/ddf8_ocs.png) |
-| Agnus/DDF/DDF/ddf9 | ddf9_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [ddf9_ecs.png](Agnus/DDF/DDF/ddf9/ddf9_ecs.png) |
-| Agnus/DDF/DDF/ddf9 | ddf9_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [ddf9_ocs.png](Agnus/DDF/DDF/ddf9/ddf9_ocs.png) |
-| Agnus/DDF/DDF/dmaslots | dmaslots_ecs | A500 ECS | FAIL | 5478 |  | ✅ Identical |  | [dmaslots_ecs.png](Agnus/DDF/DDF/dmaslots/dmaslots_ecs.png) |
-| Agnus/DDF/DDF/dmaslots | dmaslots_ocs | A500 OCS | FAIL | 5478 |  | ✅ Identical |  | [dmaslots_ocs.png](Agnus/DDF/DDF/dmaslots/dmaslots_ocs.png) |
-| Agnus/DDF/DDF/doublematch1 | doublematch1_ecs | A500 ECS | FAIL | 1664 |  | ❌ Different |  | [doublematch1_ecs.png](Agnus/DDF/DDF/doublematch1/doublematch1_ecs.png) |
-| Agnus/DDF/DDF/doublematch1 | doublematch1_ocs | A500 OCS | FAIL | 1792 |  | ❌ Different |  | [doublematch1_ocs.png](Agnus/DDF/DDF/doublematch1/doublematch1_ocs.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ecs | A500 ECS | FAIL | 6 |  | ✅ Identical |  | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ocs | A500 OCS | FAIL | 6 |  | ✅ Identical |  | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
-| Agnus/DDF/DDF/farright3 | farright3_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [farright3_ecs.png](Agnus/DDF/DDF/farright3/farright3_ecs.png) |
-| Agnus/DDF/DDF/farright3 | farright3_ocs | A500 OCS | FAIL | 6 |  | ✅ Identical |  | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
-| Agnus/DDF/DDF/hwstop1 | hwstop1_ecs | A500 ECS | FAIL | 14887 |  | ❌ Different | OCS different | [hwstop1_ecs.png](Agnus/DDF/DDF/hwstop1/hwstop1_ecs.png) |
-| Agnus/DDF/DDF/hwstop1 | hwstop1_ocs | A500 OCS | FAIL | 2294 |  | ❌ Different | OCS different | [hwstop1_ocs.png](Agnus/DDF/DDF/hwstop1/hwstop1_ocs.png) |
-| Agnus/DDF/DDF/hwstop2 | hwstop2_ecs | A500 ECS | FAIL | 14633 |  | ❌ Different | OCS different | [hwstop2_ecs.png](Agnus/DDF/DDF/hwstop2/hwstop2_ecs.png) |
-| Agnus/DDF/DDF/hwstop2 | hwstop2_ocs | A500 OCS | FAIL | 2310 |  | ❌ Different | OCS different | [hwstop2_ocs.png](Agnus/DDF/DDF/hwstop2/hwstop2_ocs.png) |
-| Agnus/DDF/DDF/hwstop3 | hwstop3_ecs | A500 ECS | FAIL | 11608 |  | ❌ Different | OCS different | [hwstop3_ecs.png](Agnus/DDF/DDF/hwstop3/hwstop3_ecs.png) |
-| Agnus/DDF/DDF/hwstop3 | hwstop3_ocs | A500 OCS | FAIL | 12128 |  | ❌ Different | OCS different | [hwstop3_ocs.png](Agnus/DDF/DDF/hwstop3/hwstop3_ocs.png) |
-| Agnus/DDF/DDF/hwstop4 | hwstop4_ecs | A500 ECS | FAIL | 11624 |  | ❌ Different | OCS different | [hwstop4_ecs.png](Agnus/DDF/DDF/hwstop4/hwstop4_ecs.png) |
-| Agnus/DDF/DDF/hwstop4 | hwstop4_ocs | A500 OCS | FAIL | 10992 |  | ❌ Different | OCS different | [hwstop4_ocs.png](Agnus/DDF/DDF/hwstop4/hwstop4_ocs.png) |
-| Agnus/DDF/DDF/hwstop5 | hwstop5_ecs | A500 ECS | FAIL | 11624 |  | ❌ Different | OCS different | [hwstop5_ecs.png](Agnus/DDF/DDF/hwstop5/hwstop5_ecs.png) |
-| Agnus/DDF/DDF/hwstop5 | hwstop5_ocs | A500 OCS | FAIL | 10992 |  | ❌ Different | OCS different | [hwstop5_ocs.png](Agnus/DDF/DDF/hwstop5/hwstop5_ocs.png) |
-| Agnus/DDF/DDF/hwstop6 | hwstop6_ecs | A500 ECS | FAIL | 12713 |  | ❌ Different | OCS different | [hwstop6_ecs.png](Agnus/DDF/DDF/hwstop6/hwstop6_ecs.png) |
-| Agnus/DDF/DDF/hwstop6 | hwstop6_ocs | A500 OCS | FAIL | 4458 |  | ❌ Different | OCS different | [hwstop6_ocs.png](Agnus/DDF/DDF/hwstop6/hwstop6_ocs.png) |
-| Agnus/DDF/DDF/hwstop7 | hwstop7_ecs | A500 ECS | FAIL | 15817 |  | ✅ Identical |  | [hwstop7_ecs.png](Agnus/DDF/DDF/hwstop7/hwstop7_ecs.png) |
-| Agnus/DDF/DDF/hwstop7 | hwstop7_ocs | A500 OCS | FAIL | 2127 |  | ✅ Identical |  | [hwstop7_ocs.png](Agnus/DDF/DDF/hwstop7/hwstop7_ocs.png) |
-| Agnus/DDF/DDF/hwstop8 | hwstop8_ecs | A500 ECS | FAIL | 15523 |  | ❌ Different | OCS different | [hwstop8_ecs.png](Agnus/DDF/DDF/hwstop8/hwstop8_ecs.png) |
-| Agnus/DDF/DDF/hwstop8 | hwstop8_ocs | A500 OCS | FAIL | 4044 |  | ❌ Different | OCS different | [hwstop8_ocs.png](Agnus/DDF/DDF/hwstop8/hwstop8_ocs.png) |
-| Agnus/DDF/DDF/lupo1 | lupo1_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [lupo1_ecs.png](Agnus/DDF/DDF/lupo1/lupo1_ecs.png) |
-| Agnus/DDF/DDF/lupo1 | lupo1_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [lupo1_ocs.png](Agnus/DDF/DDF/lupo1/lupo1_ocs.png) |
-| Agnus/DDF/DDF/oldhwstop1 | oldhwstop1_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [oldhwstop1_ecs.png](Agnus/DDF/DDF/oldhwstop1/oldhwstop1_ecs.png) |
-| Agnus/DDF/DDF/oldhwstop1 | oldhwstop1_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [oldhwstop1_ocs.png](Agnus/DDF/DDF/oldhwstop1/oldhwstop1_ocs.png) |
-| Agnus/DDF/DDF/oldhwstop2 | oldhwstop2_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [oldhwstop2_ecs.png](Agnus/DDF/DDF/oldhwstop2/oldhwstop2_ecs.png) |
-| Agnus/DDF/DDF/oldhwstop2 | oldhwstop2_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [oldhwstop2_ocs.png](Agnus/DDF/DDF/oldhwstop2/oldhwstop2_ocs.png) |
-| Agnus/DDF/DDF/oldhwstop3 | oldhwstop3_ecs | A500 ECS | FAIL | 126998 |  | ❌ Different | OCS different | [oldhwstop3_ecs.png](Agnus/DDF/DDF/oldhwstop3/oldhwstop3_ecs.png) |
-| Agnus/DDF/DDF/oldhwstop3 | oldhwstop3_ocs | A500 OCS | FAIL | 132914 |  | ❌ Different | OCS different | [oldhwstop3_ocs.png](Agnus/DDF/DDF/oldhwstop3/oldhwstop3_ocs.png) |
-| Agnus/DDF/DDF/oldhwstop4 | oldhwstop4_ecs | A500 ECS | FAIL | 119210 |  | ❌ Different | OCS different | [oldhwstop4_ecs.png](Agnus/DDF/DDF/oldhwstop4/oldhwstop4_ecs.png) |
-| Agnus/DDF/DDF/oldhwstop4 | oldhwstop4_ocs | A500 OCS | FAIL | 116392 |  | ❌ Different | OCS different | [oldhwstop4_ocs.png](Agnus/DDF/DDF/oldhwstop4/oldhwstop4_ocs.png) |
-| Agnus/DDF/DDF/reenable1 | reenable1_ecs | A500 ECS | FAIL | 2002 |  | ✅ Identical |  | [reenable1_ecs.png](Agnus/DDF/DDF/reenable1/reenable1_ecs.png) |
-| Agnus/DDF/DDF/reenable1 | reenable1_ocs | A500 OCS | FAIL | 526 |  | ✅ Identical |  | [reenable1_ocs.png](Agnus/DDF/DDF/reenable1/reenable1_ocs.png) |
-| Agnus/DDF/DDF/shift1 | shift1_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [shift1_ecs.png](Agnus/DDF/DDF/shift1/shift1_ecs.png) |
-| Agnus/DDF/DDF/shift1 | shift1_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [shift1_ocs.png](Agnus/DDF/DDF/shift1/shift1_ocs.png) |
-| Agnus/DDF/DDF/shift2 | shift2_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [shift2_ecs.png](Agnus/DDF/DDF/shift2/shift2_ecs.png) |
-| Agnus/DDF/DDF/shift2 | shift2_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [shift2_ocs.png](Agnus/DDF/DDF/shift2/shift2_ocs.png) |
-| Agnus/DDF/DDF/shift3 | shift3_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [shift3_ecs.png](Agnus/DDF/DDF/shift3/shift3_ecs.png) |
-| Agnus/DDF/DDF/shift3 | shift3_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [shift3_ocs.png](Agnus/DDF/DDF/shift3/shift3_ocs.png) |
-| Agnus/DDF/DDF/shift4 | shift4_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [shift4_ecs.png](Agnus/DDF/DDF/shift4/shift4_ecs.png) |
-| Agnus/DDF/DDF/shift4 | shift4_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [shift4_ocs.png](Agnus/DDF/DDF/shift4/shift4_ocs.png) |
-| Agnus/DDF/DDF/shift5 | shift5_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [shift5_ecs.png](Agnus/DDF/DDF/shift5/shift5_ecs.png) |
-| Agnus/DDF/DDF/shift5 | shift5_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [shift5_ocs.png](Agnus/DDF/DDF/shift5/shift5_ocs.png) |
-| Agnus/DDF/DDF/single1 | single1_ecs | A500 ECS | FAIL | 14414 |  | ❌ Different | ECS different | [single1_ecs.png](Agnus/DDF/DDF/single1/single1_ecs.png) |
-| Agnus/DDF/DDF/single1 | single1_ocs | A500 OCS | FAIL | 6 |  | ❌ Different | ECS different | [single1_ocs.png](Agnus/DDF/DDF/single1/single1_ocs.png) |
-| Agnus/DDF/DDF/single2 | single2_ecs | A500 ECS | FAIL | 9537 |  | ❌ Different | ECS different | [single2_ecs.png](Agnus/DDF/DDF/single2/single2_ecs.png) |
-| Agnus/DDF/DDF/single2 | single2_ocs | A500 OCS | PASS | 0 |  | ❌ Different | ECS different | [single2_ocs.png](Agnus/DDF/DDF/single2/single2_ocs.png) |
-| Agnus/DDF/DDF/single3 | single3_ecs | A500 ECS | PASS | 0 |  | ✅ Identical |  | [single3_ecs.png](Agnus/DDF/DDF/single3/single3_ecs.png) |
-| Agnus/DDF/DDF/single3 | single3_ocs | A500 OCS | PASS | 0 |  | ✅ Identical |  | [single3_ocs.png](Agnus/DDF/DDF/single3/single3_ocs.png) |
-| Agnus/DDF/DDF/single4 | single4_ecs | A500 ECS | FAIL | 19901 |  | ❌ Different | ECS different | [single4_ecs.png](Agnus/DDF/DDF/single4/single4_ecs.png) |
-| Agnus/DDF/DDF/single4 | single4_ocs | A500 OCS | FAIL | 6 |  | ❌ Different | ECS different | [single4_ocs.png](Agnus/DDF/DDF/single4/single4_ocs.png) |
-| Agnus/DDF/DDF/single5 | single5_ecs | A500 ECS | FAIL | 6 |  | ✅ Identical |  | [single5_ecs.png](Agnus/DDF/DDF/single5/single5_ecs.png) |
-| Agnus/DDF/DDF/single5 | single5_ocs | A500 OCS | FAIL | 1701 |  | ✅ Identical |  | [single5_ocs.png](Agnus/DDF/DDF/single5/single5_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop1 | ddftimcop1_ecs | A500 ECS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop1_ecs.png](Agnus/DDF/DDFTIM/ddftimcop1/ddftimcop1_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop1 | ddftimcop1_ocs | A500 OCS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop1_ocs.png](Agnus/DDF/DDFTIM/ddftimcop1/ddftimcop1_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop2 | ddftimcop2_ecs | A500 ECS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop2_ecs.png](Agnus/DDF/DDFTIM/ddftimcop2/ddftimcop2_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop2 | ddftimcop2_ocs | A500 OCS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop2_ocs.png](Agnus/DDF/DDFTIM/ddftimcop2/ddftimcop2_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop3 | ddftimcop3_ecs | A500 ECS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop3_ecs.png](Agnus/DDF/DDFTIM/ddftimcop3/ddftimcop3_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop3 | ddftimcop3_ocs | A500 OCS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop3_ocs.png](Agnus/DDF/DDFTIM/ddftimcop3/ddftimcop3_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop4 | ddftimcop4_ecs | A500 ECS | FAIL | 2772 |  | ✅ Identical |  | [ddftimcop4_ecs.png](Agnus/DDF/DDFTIM/ddftimcop4/ddftimcop4_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop4 | ddftimcop4_ocs | A500 OCS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop4_ocs.png](Agnus/DDF/DDFTIM/ddftimcop4/ddftimcop4_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop5 | ddftimcop5_ecs | A500 ECS | FAIL | 6576 |  | ✅ Identical |  | [ddftimcop5_ecs.png](Agnus/DDF/DDFTIM/ddftimcop5/ddftimcop5_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop5 | ddftimcop5_ocs | A500 OCS | FAIL | 7084 |  | ✅ Identical |  | [ddftimcop5_ocs.png](Agnus/DDF/DDFTIM/ddftimcop5/ddftimcop5_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop6 | ddftimcop6_ecs | A500 ECS | FAIL | 566 |  | ✅ Identical |  | [ddftimcop6_ecs.png](Agnus/DDF/DDFTIM/ddftimcop6/ddftimcop6_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop6 | ddftimcop6_ocs | A500 OCS | FAIL | 7084 |  | ✅ Identical |  | [ddftimcop6_ocs.png](Agnus/DDF/DDFTIM/ddftimcop6/ddftimcop6_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop7 | ddftimcop7_ecs | A500 ECS | FAIL | 6576 |  | ✅ Identical |  | [ddftimcop7_ecs.png](Agnus/DDF/DDFTIM/ddftimcop7/ddftimcop7_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop7 | ddftimcop7_ocs | A500 OCS | FAIL | 2772 |  | ✅ Identical |  | [ddftimcop7_ocs.png](Agnus/DDF/DDFTIM/ddftimcop7/ddftimcop7_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop8 | ddftimcop8_ecs | A500 ECS | FAIL | 6576 |  | ✅ Identical |  | [ddftimcop8_ecs.png](Agnus/DDF/DDFTIM/ddftimcop8/ddftimcop8_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop8 | ddftimcop8_ocs | A500 OCS | FAIL | 2772 |  | ✅ Identical |  | [ddftimcop8_ocs.png](Agnus/DDF/DDFTIM/ddftimcop8/ddftimcop8_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop9 | ddftimcop9_ecs | A500 ECS | FAIL | 7084 |  | ✅ Identical |  | [ddftimcop9_ecs.png](Agnus/DDF/DDFTIM/ddftimcop9/ddftimcop9_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcop9 | ddftimcop9_ocs | A500 OCS | FAIL | 2478 |  | ✅ Identical |  | [ddftimcop9_ocs.png](Agnus/DDF/DDFTIM/ddftimcop9/ddftimcop9_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu1 | ddftimcpu1_ecs | A500 ECS | FAIL | 7508 |  | ❌ Different |  | [ddftimcpu1_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu1/ddftimcpu1_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu1 | ddftimcpu1_ocs | A500 OCS | FAIL | 7508 |  | ❌ Different |  | [ddftimcpu1_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu1/ddftimcpu1_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu10 | ddftimcpu10_ecs | A500 ECS | FAIL | 7532 |  | ❌ Different |  | [ddftimcpu10_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu10 | ddftimcpu10_ocs | A500 OCS | FAIL | 7304 |  | ❌ Different |  | [ddftimcpu10_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu11 | ddftimcpu11_ecs | A500 ECS | FAIL | 5690 |  | ❌ Different |  | [ddftimcpu11_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu11/ddftimcpu11_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu11 | ddftimcpu11_ocs | A500 OCS | FAIL | 2710 |  | ❌ Different |  | [ddftimcpu11_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu11/ddftimcpu11_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu12 | ddftimcpu12_ecs | A500 ECS | FAIL | 1142 |  | ❌ Different |  | [ddftimcpu12_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu12/ddftimcpu12_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu12 | ddftimcpu12_ocs | A500 OCS | FAIL | 2710 |  | ❌ Different |  | [ddftimcpu12_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu12/ddftimcpu12_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu13 | ddftimcpu13_ecs | A500 ECS | FAIL | 7528 |  | ❌ Different |  | [ddftimcpu13_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu13/ddftimcpu13_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu13 | ddftimcpu13_ocs | A500 OCS | FAIL | 7332 |  | ❌ Different |  | [ddftimcpu13_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu13/ddftimcpu13_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu14 | ddftimcpu14_ecs | A500 ECS | FAIL | 5768 |  | ❌ Different |  | [ddftimcpu14_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu14/ddftimcpu14_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu14 | ddftimcpu14_ocs | A500 OCS | FAIL | 7528 |  | ❌ Different |  | [ddftimcpu14_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu14/ddftimcpu14_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu15 | ddftimcpu15_ecs | A500 ECS | FAIL | 5788 |  | ❌ Different |  | [ddftimcpu15_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu15/ddftimcpu15_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu15 | ddftimcpu15_ocs | A500 OCS | FAIL | 5748 |  | ❌ Different |  | [ddftimcpu15_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu15/ddftimcpu15_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu2 | ddftimcpu2_ecs | A500 ECS | FAIL | 7568 |  | ❌ Different |  | [ddftimcpu2_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu2/ddftimcpu2_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu2 | ddftimcpu2_ocs | A500 OCS | FAIL | 7508 |  | ❌ Different |  | [ddftimcpu2_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu2/ddftimcpu2_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu3 | ddftimcpu3_ecs | A500 ECS | FAIL | 2754 |  | ❌ Different |  | [ddftimcpu3_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu3/ddftimcpu3_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu3 | ddftimcpu3_ocs | A500 OCS | FAIL | 2754 |  | ❌ Different |  | [ddftimcpu3_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu3/ddftimcpu3_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu4 | ddftimcpu4_ecs | A500 ECS | FAIL | 2866 |  | ❌ Different |  | [ddftimcpu4_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu4/ddftimcpu4_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu4 | ddftimcpu4_ocs | A500 OCS | FAIL | 2754 |  | ❌ Different |  | [ddftimcpu4_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu4/ddftimcpu4_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu5 | ddftimcpu5_ecs | A500 ECS | FAIL | 1128 |  | ❌ Different |  | [ddftimcpu5_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu5/ddftimcpu5_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu5 | ddftimcpu5_ocs | A500 OCS | FAIL | 3904 |  | ❌ Different |  | [ddftimcpu5_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu5/ddftimcpu5_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu6 | ddftimcpu6_ecs | A500 ECS | FAIL | 5276 |  | ❌ Different |  | [ddftimcpu6_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu6/ddftimcpu6_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu6 | ddftimcpu6_ocs | A500 OCS | FAIL | 3904 |  | ❌ Different |  | [ddftimcpu6_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu6/ddftimcpu6_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu7 | ddftimcpu7_ecs | A500 ECS | FAIL | 3478 |  | ❌ Different |  | [ddftimcpu7_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu7/ddftimcpu7_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu7 | ddftimcpu7_ocs | A500 OCS | FAIL | 2382 |  | ❌ Different |  | [ddftimcpu7_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu7/ddftimcpu7_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu8 | ddftimcpu8_ecs | A500 ECS | FAIL | 3204 |  | ❌ Different |  | [ddftimcpu8_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu8/ddftimcpu8_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu8 | ddftimcpu8_ocs | A500 OCS | FAIL | 2382 |  | ❌ Different |  | [ddftimcpu8_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu8/ddftimcpu8_ocs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu9 | ddftimcpu9_ecs | A500 ECS | FAIL | 7304 |  | ❌ Different |  | [ddftimcpu9_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu9/ddftimcpu9_ecs.png) |
-| Agnus/DDF/DDFTIM/ddftimcpu9 | ddftimcpu9_ocs | A500 OCS | FAIL | 7360 |  | ❌ Different |  | [ddftimcpu9_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu9/ddftimcpu9_ocs.png) |
+| Test | Variant | Machine | Result | Differing px | Labels | Image |
+|---|---|---|---|---|---|---|
+| [Agnus/DDF/DDF/ddf1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf1) | ddf1_ecs | A500 ECS | PASS | 0 |  | [ddf1_ecs.png](Agnus/DDF/DDF/ddf1/ddf1_ecs.png) |
+| [Agnus/DDF/DDF/ddf1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf1) | ddf1_ocs | A500 OCS | PASS | 0 |  | [ddf1_ocs.png](Agnus/DDF/DDF/ddf1/ddf1_ocs.png) |
+| [Agnus/DDF/DDF/ddf10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf10) | ddf10_ecs | A500 ECS | FAIL | 18 |  | [ddf10_ecs.png](Agnus/DDF/DDF/ddf10/ddf10_ecs.png) |
+| [Agnus/DDF/DDF/ddf10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf10) | ddf10_ocs | A500 OCS | PASS | 0 |  | [ddf10_ocs.png](Agnus/DDF/DDF/ddf10/ddf10_ocs.png) |
+| [Agnus/DDF/DDF/ddf2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf2) | ddf2_ecs | A500 ECS | FAIL | 18 |  | [ddf2_ecs.png](Agnus/DDF/DDF/ddf2/ddf2_ecs.png) |
+| [Agnus/DDF/DDF/ddf2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf2) | ddf2_ocs | A500 OCS | PASS | 0 |  | [ddf2_ocs.png](Agnus/DDF/DDF/ddf2/ddf2_ocs.png) |
+| [Agnus/DDF/DDF/ddf3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf3) | ddf3_ecs | A500 ECS | FAIL | 18 |  | [ddf3_ecs.png](Agnus/DDF/DDF/ddf3/ddf3_ecs.png) |
+| [Agnus/DDF/DDF/ddf3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf3) | ddf3_ocs | A500 OCS | PASS | 0 |  | [ddf3_ocs.png](Agnus/DDF/DDF/ddf3/ddf3_ocs.png) |
+| [Agnus/DDF/DDF/ddf4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf4) | ddf4_ecs | A500 ECS | PASS | 0 |  | [ddf4_ecs.png](Agnus/DDF/DDF/ddf4/ddf4_ecs.png) |
+| [Agnus/DDF/DDF/ddf4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf4) | ddf4_ocs | A500 OCS | PASS | 0 |  | [ddf4_ocs.png](Agnus/DDF/DDF/ddf4/ddf4_ocs.png) |
+| [Agnus/DDF/DDF/ddf5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf5) | ddf5_ecs | A500 ECS | PASS | 0 |  | [ddf5_ecs.png](Agnus/DDF/DDF/ddf5/ddf5_ecs.png) |
+| [Agnus/DDF/DDF/ddf5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf5) | ddf5_ocs | A500 OCS | PASS | 0 |  | [ddf5_ocs.png](Agnus/DDF/DDF/ddf5/ddf5_ocs.png) |
+| [Agnus/DDF/DDF/ddf6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf6) | ddf6_ecs | A500 ECS | FAIL | 18 |  | [ddf6_ecs.png](Agnus/DDF/DDF/ddf6/ddf6_ecs.png) |
+| [Agnus/DDF/DDF/ddf6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf6) | ddf6_ocs | A500 OCS | PASS | 0 |  | [ddf6_ocs.png](Agnus/DDF/DDF/ddf6/ddf6_ocs.png) |
+| [Agnus/DDF/DDF/ddf7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf7) | ddf7_ecs | A500 ECS | FAIL | 18 |  | [ddf7_ecs.png](Agnus/DDF/DDF/ddf7/ddf7_ecs.png) |
+| [Agnus/DDF/DDF/ddf7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf7) | ddf7_ocs | A500 OCS | PASS | 0 |  | [ddf7_ocs.png](Agnus/DDF/DDF/ddf7/ddf7_ocs.png) |
+| [Agnus/DDF/DDF/ddf8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf8) | ddf8_ecs | A500 ECS | PASS | 0 |  | [ddf8_ecs.png](Agnus/DDF/DDF/ddf8/ddf8_ecs.png) |
+| [Agnus/DDF/DDF/ddf8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf8) | ddf8_ocs | A500 OCS | PASS | 0 |  | [ddf8_ocs.png](Agnus/DDF/DDF/ddf8/ddf8_ocs.png) |
+| [Agnus/DDF/DDF/ddf9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf9) | ddf9_ecs | A500 ECS | PASS | 0 |  | [ddf9_ecs.png](Agnus/DDF/DDF/ddf9/ddf9_ecs.png) |
+| [Agnus/DDF/DDF/ddf9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf9) | ddf9_ocs | A500 OCS | PASS | 0 |  | [ddf9_ocs.png](Agnus/DDF/DDF/ddf9/ddf9_ocs.png) |
+| [Agnus/DDF/DDF/dmaslots](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/dmaslots) | dmaslots_ecs | A500 ECS | FAIL | 5478 | `synccpu` | [dmaslots_ecs.png](Agnus/DDF/DDF/dmaslots/dmaslots_ecs.png) |
+| [Agnus/DDF/DDF/dmaslots](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/dmaslots) | dmaslots_ocs | A500 OCS | FAIL | 5478 | `synccpu` | [dmaslots_ocs.png](Agnus/DDF/DDF/dmaslots/dmaslots_ocs.png) |
+| [Agnus/DDF/DDF/doublematch1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/doublematch1) | doublematch1_ecs | A500 ECS | FAIL | 1664 |  | [doublematch1_ecs.png](Agnus/DDF/DDF/doublematch1/doublematch1_ecs.png) |
+| [Agnus/DDF/DDF/doublematch1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/doublematch1) | doublematch1_ocs | A500 OCS | FAIL | 1792 |  | [doublematch1_ocs.png](Agnus/DDF/DDF/doublematch1/doublematch1_ocs.png) |
+| [Agnus/DDF/DDF/farright1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright1) | farright1_ecs | A500 ECS | FAIL | 6 |  | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
+| [Agnus/DDF/DDF/farright1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright1) | farright1_ocs | A500 OCS | FAIL | 6 |  | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
+| [Agnus/DDF/DDF/farright3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright3) | farright3_ecs | A500 ECS | PASS | 0 |  | [farright3_ecs.png](Agnus/DDF/DDF/farright3/farright3_ecs.png) |
+| [Agnus/DDF/DDF/farright3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright3) | farright3_ocs | A500 OCS | FAIL | 6 |  | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
+| [Agnus/DDF/DDF/hwstop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop1) | hwstop1_ecs | A500 ECS | FAIL | 14887 |  | [hwstop1_ecs.png](Agnus/DDF/DDF/hwstop1/hwstop1_ecs.png) |
+| [Agnus/DDF/DDF/hwstop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop1) | hwstop1_ocs | A500 OCS | FAIL | 2294 |  | [hwstop1_ocs.png](Agnus/DDF/DDF/hwstop1/hwstop1_ocs.png) |
+| [Agnus/DDF/DDF/hwstop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop2) | hwstop2_ecs | A500 ECS | FAIL | 14633 |  | [hwstop2_ecs.png](Agnus/DDF/DDF/hwstop2/hwstop2_ecs.png) |
+| [Agnus/DDF/DDF/hwstop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop2) | hwstop2_ocs | A500 OCS | FAIL | 2310 |  | [hwstop2_ocs.png](Agnus/DDF/DDF/hwstop2/hwstop2_ocs.png) |
+| [Agnus/DDF/DDF/hwstop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop3) | hwstop3_ecs | A500 ECS | FAIL | 11608 |  | [hwstop3_ecs.png](Agnus/DDF/DDF/hwstop3/hwstop3_ecs.png) |
+| [Agnus/DDF/DDF/hwstop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop3) | hwstop3_ocs | A500 OCS | FAIL | 12128 |  | [hwstop3_ocs.png](Agnus/DDF/DDF/hwstop3/hwstop3_ocs.png) |
+| [Agnus/DDF/DDF/hwstop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop4) | hwstop4_ecs | A500 ECS | FAIL | 11624 |  | [hwstop4_ecs.png](Agnus/DDF/DDF/hwstop4/hwstop4_ecs.png) |
+| [Agnus/DDF/DDF/hwstop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop4) | hwstop4_ocs | A500 OCS | FAIL | 10992 |  | [hwstop4_ocs.png](Agnus/DDF/DDF/hwstop4/hwstop4_ocs.png) |
+| [Agnus/DDF/DDF/hwstop5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop5) | hwstop5_ecs | A500 ECS | FAIL | 11624 |  | [hwstop5_ecs.png](Agnus/DDF/DDF/hwstop5/hwstop5_ecs.png) |
+| [Agnus/DDF/DDF/hwstop5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop5) | hwstop5_ocs | A500 OCS | FAIL | 10992 |  | [hwstop5_ocs.png](Agnus/DDF/DDF/hwstop5/hwstop5_ocs.png) |
+| [Agnus/DDF/DDF/hwstop6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop6) | hwstop6_ecs | A500 ECS | FAIL | 12713 |  | [hwstop6_ecs.png](Agnus/DDF/DDF/hwstop6/hwstop6_ecs.png) |
+| [Agnus/DDF/DDF/hwstop6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop6) | hwstop6_ocs | A500 OCS | FAIL | 4458 |  | [hwstop6_ocs.png](Agnus/DDF/DDF/hwstop6/hwstop6_ocs.png) |
+| [Agnus/DDF/DDF/hwstop7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop7) | hwstop7_ecs | A500 ECS | FAIL | 15817 |  | [hwstop7_ecs.png](Agnus/DDF/DDF/hwstop7/hwstop7_ecs.png) |
+| [Agnus/DDF/DDF/hwstop7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop7) | hwstop7_ocs | A500 OCS | FAIL | 2127 |  | [hwstop7_ocs.png](Agnus/DDF/DDF/hwstop7/hwstop7_ocs.png) |
+| [Agnus/DDF/DDF/hwstop8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop8) | hwstop8_ecs | A500 ECS | FAIL | 15523 |  | [hwstop8_ecs.png](Agnus/DDF/DDF/hwstop8/hwstop8_ecs.png) |
+| [Agnus/DDF/DDF/hwstop8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/hwstop8) | hwstop8_ocs | A500 OCS | FAIL | 4044 |  | [hwstop8_ocs.png](Agnus/DDF/DDF/hwstop8/hwstop8_ocs.png) |
+| [Agnus/DDF/DDF/lupo1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/lupo1) | lupo1_ecs | A500 ECS | PASS | 0 |  | [lupo1_ecs.png](Agnus/DDF/DDF/lupo1/lupo1_ecs.png) |
+| [Agnus/DDF/DDF/lupo1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/lupo1) | lupo1_ocs | A500 OCS | PASS | 0 |  | [lupo1_ocs.png](Agnus/DDF/DDF/lupo1/lupo1_ocs.png) |
+| [Agnus/DDF/DDF/oldhwstop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop1) | oldhwstop1_ecs | A500 ECS | PASS | 0 |  | [oldhwstop1_ecs.png](Agnus/DDF/DDF/oldhwstop1/oldhwstop1_ecs.png) |
+| [Agnus/DDF/DDF/oldhwstop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop1) | oldhwstop1_ocs | A500 OCS | PASS | 0 |  | [oldhwstop1_ocs.png](Agnus/DDF/DDF/oldhwstop1/oldhwstop1_ocs.png) |
+| [Agnus/DDF/DDF/oldhwstop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop2) | oldhwstop2_ecs | A500 ECS | PASS | 0 |  | [oldhwstop2_ecs.png](Agnus/DDF/DDF/oldhwstop2/oldhwstop2_ecs.png) |
+| [Agnus/DDF/DDF/oldhwstop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop2) | oldhwstop2_ocs | A500 OCS | PASS | 0 |  | [oldhwstop2_ocs.png](Agnus/DDF/DDF/oldhwstop2/oldhwstop2_ocs.png) |
+| [Agnus/DDF/DDF/oldhwstop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop3) | oldhwstop3_ecs | A500 ECS | FAIL | 126998 |  | [oldhwstop3_ecs.png](Agnus/DDF/DDF/oldhwstop3/oldhwstop3_ecs.png) |
+| [Agnus/DDF/DDF/oldhwstop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop3) | oldhwstop3_ocs | A500 OCS | FAIL | 132914 |  | [oldhwstop3_ocs.png](Agnus/DDF/DDF/oldhwstop3/oldhwstop3_ocs.png) |
+| [Agnus/DDF/DDF/oldhwstop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop4) | oldhwstop4_ecs | A500 ECS | FAIL | 119210 |  | [oldhwstop4_ecs.png](Agnus/DDF/DDF/oldhwstop4/oldhwstop4_ecs.png) |
+| [Agnus/DDF/DDF/oldhwstop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/oldhwstop4) | oldhwstop4_ocs | A500 OCS | FAIL | 116392 |  | [oldhwstop4_ocs.png](Agnus/DDF/DDF/oldhwstop4/oldhwstop4_ocs.png) |
+| [Agnus/DDF/DDF/reenable1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/reenable1) | reenable1_ecs | A500 ECS | FAIL | 2002 |  | [reenable1_ecs.png](Agnus/DDF/DDF/reenable1/reenable1_ecs.png) |
+| [Agnus/DDF/DDF/reenable1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/reenable1) | reenable1_ocs | A500 OCS | FAIL | 526 |  | [reenable1_ocs.png](Agnus/DDF/DDF/reenable1/reenable1_ocs.png) |
+| [Agnus/DDF/DDF/shift1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift1) | shift1_ecs | A500 ECS | PASS | 0 |  | [shift1_ecs.png](Agnus/DDF/DDF/shift1/shift1_ecs.png) |
+| [Agnus/DDF/DDF/shift1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift1) | shift1_ocs | A500 OCS | PASS | 0 |  | [shift1_ocs.png](Agnus/DDF/DDF/shift1/shift1_ocs.png) |
+| [Agnus/DDF/DDF/shift2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift2) | shift2_ecs | A500 ECS | PASS | 0 |  | [shift2_ecs.png](Agnus/DDF/DDF/shift2/shift2_ecs.png) |
+| [Agnus/DDF/DDF/shift2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift2) | shift2_ocs | A500 OCS | PASS | 0 |  | [shift2_ocs.png](Agnus/DDF/DDF/shift2/shift2_ocs.png) |
+| [Agnus/DDF/DDF/shift3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift3) | shift3_ecs | A500 ECS | PASS | 0 |  | [shift3_ecs.png](Agnus/DDF/DDF/shift3/shift3_ecs.png) |
+| [Agnus/DDF/DDF/shift3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift3) | shift3_ocs | A500 OCS | PASS | 0 |  | [shift3_ocs.png](Agnus/DDF/DDF/shift3/shift3_ocs.png) |
+| [Agnus/DDF/DDF/shift4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift4) | shift4_ecs | A500 ECS | PASS | 0 |  | [shift4_ecs.png](Agnus/DDF/DDF/shift4/shift4_ecs.png) |
+| [Agnus/DDF/DDF/shift4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift4) | shift4_ocs | A500 OCS | PASS | 0 |  | [shift4_ocs.png](Agnus/DDF/DDF/shift4/shift4_ocs.png) |
+| [Agnus/DDF/DDF/shift5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift5) | shift5_ecs | A500 ECS | PASS | 0 |  | [shift5_ecs.png](Agnus/DDF/DDF/shift5/shift5_ecs.png) |
+| [Agnus/DDF/DDF/shift5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/shift5) | shift5_ocs | A500 OCS | PASS | 0 |  | [shift5_ocs.png](Agnus/DDF/DDF/shift5/shift5_ocs.png) |
+| [Agnus/DDF/DDF/single1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single1) | single1_ecs | A500 ECS | FAIL | 14414 |  | [single1_ecs.png](Agnus/DDF/DDF/single1/single1_ecs.png) |
+| [Agnus/DDF/DDF/single1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single1) | single1_ocs | A500 OCS | FAIL | 6 |  | [single1_ocs.png](Agnus/DDF/DDF/single1/single1_ocs.png) |
+| [Agnus/DDF/DDF/single2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single2) | single2_ecs | A500 ECS | FAIL | 9537 |  | [single2_ecs.png](Agnus/DDF/DDF/single2/single2_ecs.png) |
+| [Agnus/DDF/DDF/single2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single2) | single2_ocs | A500 OCS | PASS | 0 |  | [single2_ocs.png](Agnus/DDF/DDF/single2/single2_ocs.png) |
+| [Agnus/DDF/DDF/single3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single3) | single3_ecs | A500 ECS | PASS | 0 |  | [single3_ecs.png](Agnus/DDF/DDF/single3/single3_ecs.png) |
+| [Agnus/DDF/DDF/single3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single3) | single3_ocs | A500 OCS | PASS | 0 |  | [single3_ocs.png](Agnus/DDF/DDF/single3/single3_ocs.png) |
+| [Agnus/DDF/DDF/single4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single4) | single4_ecs | A500 ECS | FAIL | 19901 |  | [single4_ecs.png](Agnus/DDF/DDF/single4/single4_ecs.png) |
+| [Agnus/DDF/DDF/single4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single4) | single4_ocs | A500 OCS | FAIL | 6 |  | [single4_ocs.png](Agnus/DDF/DDF/single4/single4_ocs.png) |
+| [Agnus/DDF/DDF/single5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single5) | single5_ecs | A500 ECS | FAIL | 6 |  | [single5_ecs.png](Agnus/DDF/DDF/single5/single5_ecs.png) |
+| [Agnus/DDF/DDF/single5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single5) | single5_ocs | A500 OCS | FAIL | 1701 |  | [single5_ocs.png](Agnus/DDF/DDF/single5/single5_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop1) | ddftimcop1_ecs | A500 ECS | FAIL | 2478 |  | [ddftimcop1_ecs.png](Agnus/DDF/DDFTIM/ddftimcop1/ddftimcop1_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop1) | ddftimcop1_ocs | A500 OCS | FAIL | 2478 |  | [ddftimcop1_ocs.png](Agnus/DDF/DDFTIM/ddftimcop1/ddftimcop1_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop2) | ddftimcop2_ecs | A500 ECS | FAIL | 2478 |  | [ddftimcop2_ecs.png](Agnus/DDF/DDFTIM/ddftimcop2/ddftimcop2_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop2) | ddftimcop2_ocs | A500 OCS | FAIL | 2478 |  | [ddftimcop2_ocs.png](Agnus/DDF/DDFTIM/ddftimcop2/ddftimcop2_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop3) | ddftimcop3_ecs | A500 ECS | FAIL | 2478 |  | [ddftimcop3_ecs.png](Agnus/DDF/DDFTIM/ddftimcop3/ddftimcop3_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop3) | ddftimcop3_ocs | A500 OCS | FAIL | 2478 |  | [ddftimcop3_ocs.png](Agnus/DDF/DDFTIM/ddftimcop3/ddftimcop3_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop4) | ddftimcop4_ecs | A500 ECS | FAIL | 2772 |  | [ddftimcop4_ecs.png](Agnus/DDF/DDFTIM/ddftimcop4/ddftimcop4_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop4) | ddftimcop4_ocs | A500 OCS | FAIL | 2478 |  | [ddftimcop4_ocs.png](Agnus/DDF/DDFTIM/ddftimcop4/ddftimcop4_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop5) | ddftimcop5_ecs | A500 ECS | FAIL | 6576 |  | [ddftimcop5_ecs.png](Agnus/DDF/DDFTIM/ddftimcop5/ddftimcop5_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop5) | ddftimcop5_ocs | A500 OCS | FAIL | 7084 |  | [ddftimcop5_ocs.png](Agnus/DDF/DDFTIM/ddftimcop5/ddftimcop5_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop6) | ddftimcop6_ecs | A500 ECS | FAIL | 566 |  | [ddftimcop6_ecs.png](Agnus/DDF/DDFTIM/ddftimcop6/ddftimcop6_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop6) | ddftimcop6_ocs | A500 OCS | FAIL | 7084 |  | [ddftimcop6_ocs.png](Agnus/DDF/DDFTIM/ddftimcop6/ddftimcop6_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop7) | ddftimcop7_ecs | A500 ECS | FAIL | 6576 |  | [ddftimcop7_ecs.png](Agnus/DDF/DDFTIM/ddftimcop7/ddftimcop7_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop7) | ddftimcop7_ocs | A500 OCS | FAIL | 2772 |  | [ddftimcop7_ocs.png](Agnus/DDF/DDFTIM/ddftimcop7/ddftimcop7_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop8) | ddftimcop8_ecs | A500 ECS | FAIL | 6576 |  | [ddftimcop8_ecs.png](Agnus/DDF/DDFTIM/ddftimcop8/ddftimcop8_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop8) | ddftimcop8_ocs | A500 OCS | FAIL | 2772 |  | [ddftimcop8_ocs.png](Agnus/DDF/DDFTIM/ddftimcop8/ddftimcop8_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop9) | ddftimcop9_ecs | A500 ECS | FAIL | 7084 |  | [ddftimcop9_ecs.png](Agnus/DDF/DDFTIM/ddftimcop9/ddftimcop9_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcop9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcop9) | ddftimcop9_ocs | A500 OCS | FAIL | 2478 |  | [ddftimcop9_ocs.png](Agnus/DDF/DDFTIM/ddftimcop9/ddftimcop9_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu1) | ddftimcpu1_ecs | A500 ECS | FAIL | 7508 |  | [ddftimcpu1_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu1/ddftimcpu1_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu1) | ddftimcpu1_ocs | A500 OCS | FAIL | 7508 |  | [ddftimcpu1_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu1/ddftimcpu1_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu10) | ddftimcpu10_ecs | A500 ECS | FAIL | 7532 |  | [ddftimcpu10_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu10) | ddftimcpu10_ocs | A500 OCS | FAIL | 7304 |  | [ddftimcpu10_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu10/ddftimcpu10_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu11](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu11) | ddftimcpu11_ecs | A500 ECS | FAIL | 5690 |  | [ddftimcpu11_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu11/ddftimcpu11_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu11](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu11) | ddftimcpu11_ocs | A500 OCS | FAIL | 2710 |  | [ddftimcpu11_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu11/ddftimcpu11_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu12](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu12) | ddftimcpu12_ecs | A500 ECS | FAIL | 1142 |  | [ddftimcpu12_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu12/ddftimcpu12_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu12](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu12) | ddftimcpu12_ocs | A500 OCS | FAIL | 2710 |  | [ddftimcpu12_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu12/ddftimcpu12_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu13](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu13) | ddftimcpu13_ecs | A500 ECS | FAIL | 7528 |  | [ddftimcpu13_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu13/ddftimcpu13_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu13](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu13) | ddftimcpu13_ocs | A500 OCS | FAIL | 7332 |  | [ddftimcpu13_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu13/ddftimcpu13_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu14](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu14) | ddftimcpu14_ecs | A500 ECS | FAIL | 5768 |  | [ddftimcpu14_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu14/ddftimcpu14_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu14](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu14) | ddftimcpu14_ocs | A500 OCS | FAIL | 7528 |  | [ddftimcpu14_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu14/ddftimcpu14_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu15](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu15) | ddftimcpu15_ecs | A500 ECS | FAIL | 5788 |  | [ddftimcpu15_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu15/ddftimcpu15_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu15](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu15) | ddftimcpu15_ocs | A500 OCS | FAIL | 5748 |  | [ddftimcpu15_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu15/ddftimcpu15_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu2) | ddftimcpu2_ecs | A500 ECS | FAIL | 7568 |  | [ddftimcpu2_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu2/ddftimcpu2_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu2) | ddftimcpu2_ocs | A500 OCS | FAIL | 7508 |  | [ddftimcpu2_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu2/ddftimcpu2_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu3) | ddftimcpu3_ecs | A500 ECS | FAIL | 2754 |  | [ddftimcpu3_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu3/ddftimcpu3_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu3) | ddftimcpu3_ocs | A500 OCS | FAIL | 2754 |  | [ddftimcpu3_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu3/ddftimcpu3_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu4) | ddftimcpu4_ecs | A500 ECS | FAIL | 2866 |  | [ddftimcpu4_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu4/ddftimcpu4_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu4) | ddftimcpu4_ocs | A500 OCS | FAIL | 2754 |  | [ddftimcpu4_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu4/ddftimcpu4_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu5) | ddftimcpu5_ecs | A500 ECS | FAIL | 1128 |  | [ddftimcpu5_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu5/ddftimcpu5_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu5) | ddftimcpu5_ocs | A500 OCS | FAIL | 3904 |  | [ddftimcpu5_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu5/ddftimcpu5_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu6) | ddftimcpu6_ecs | A500 ECS | FAIL | 5276 |  | [ddftimcpu6_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu6/ddftimcpu6_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu6) | ddftimcpu6_ocs | A500 OCS | FAIL | 3904 |  | [ddftimcpu6_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu6/ddftimcpu6_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu7) | ddftimcpu7_ecs | A500 ECS | FAIL | 3478 |  | [ddftimcpu7_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu7/ddftimcpu7_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu7) | ddftimcpu7_ocs | A500 OCS | FAIL | 2382 |  | [ddftimcpu7_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu7/ddftimcpu7_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu8) | ddftimcpu8_ecs | A500 ECS | FAIL | 3204 |  | [ddftimcpu8_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu8/ddftimcpu8_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu8) | ddftimcpu8_ocs | A500 OCS | FAIL | 2382 |  | [ddftimcpu8_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu8/ddftimcpu8_ocs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu9) | ddftimcpu9_ecs | A500 ECS | FAIL | 7304 |  | [ddftimcpu9_ecs.png](Agnus/DDF/DDFTIM/ddftimcpu9/ddftimcpu9_ecs.png) |
+| [Agnus/DDF/DDFTIM/ddftimcpu9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDFTIM/ddftimcpu9) | ddftimcpu9_ocs | A500 OCS | FAIL | 7360 |  | [ddftimcpu9_ocs.png](Agnus/DDF/DDFTIM/ddftimcpu9/ddftimcpu9_ocs.png) |

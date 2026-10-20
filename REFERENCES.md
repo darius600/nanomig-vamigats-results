@@ -31,7 +31,7 @@ Sources: vAmiga at 899da5dd,
 [`AgnusTypes.h`](https://github.com/dirkwhoffmann/vAmiga/blob/899da5ddd872dfb2e9e35e80247cbb2b36086524/Core/Components/Agnus/AgnusTypes.h) and
 [`DeniseTypes.h`](https://github.com/dirkwhoffmann/vAmiga/blob/899da5ddd872dfb2e9e35e80247cbb2b36086524/Core/Components/Denise/DeniseTypes.h);
 NanoMig at the pinned commit,
-[`src/minimig-aga/minimig.v`](https://github.com/harbaum/NanoMig/blob/0f3d2fdac8dd7097127d07d78029c31f3758c32c/src/minimig-aga/minimig.v)
+[`src/minimig-aga/minimig.v`](https://github.com/MiSTle-Dev/NanoMig/blob/4315acba5e9f1e15103037627aa78b3460cae8af/src/minimig-aga/minimig.v#L488)
 (one `ecs` signal feeds Agnus, Denise and Gary).
 
 The photos labelled `A500_ECS` show the same configuration as vAmiga's `A500_ECS_1MB`: on

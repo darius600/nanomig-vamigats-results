@@ -1,9 +1,9 @@
 # NanoMig vAmigaTS Test Report
 
-- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/harbaum/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) · **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4) · **Build profile:** Tang Nano 20k, fx68k
+- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) · **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4) · **Build profile:** Tang Nano 20k, fx68k
 - **Simulated:** 2026-10-18 to 2026-10-20 · **Published:** 2026-10-20
 - **Simulated on:** AMD Ryzen 7 5800H with Radeon Graphics, 8 cores (1223 variants); Intel(R) Core(TM) Ultra 7 165H, 11 cores (778 variants)
-- **Published with:** [nanomig-vamigats-regression `d285734`](https://github.com/darius600/nanomig-vamigats-regression/commit/d285734b62b0f813aee35a4ea716292395d0e333)
+- **nanomig-vamigats-regression:** results made with [`52cfceb`](https://github.com/darius600/nanomig-vamigats-regression/commit/52cfcebe6b459281c51c43870da6b78f6d67417d) (2405 variants), [`f2ae07b`](https://github.com/darius600/nanomig-vamigats-regression/commit/f2ae07b41bbc746ee39016d1935592f2520a7ed3) (205 variants); published with [`703d0f5`](https://github.com/darius600/nanomig-vamigats-regression/commit/703d0f581af9487e927dabd53b3a75bcd398f07e)
 
 ## Summary
 
@@ -49,24 +49,24 @@
 
 ## Where to start
 
-The 10 FAILs closest to the reference. Each is one test that reruns in about 15 minutes:
+The 10 FAILs closest to the reference. Each is one test that reruns in about 15 minutes; the test links to its source, description and hardware photos in vAmigaTS, and *Where* is the area of the differing pixels in vAmiga's coordinates (see the image):
 
-| Test | Variant | Machine | Differing px | Image |
-|---|---|---|---:|---|
-| Mainboard/Ports/POT/stop1 | stop1 | A500 ECS | 2 | [stop1.png](Mainboard/Ports/POT/stop1/stop1.png) |
-| Agnus/Copper/Wait/waitblt1 | waitblt1_ecs | A500 ECS | 4 | [waitblt1_ecs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ecs.png) |
-| Agnus/Copper/Wait/waitblt1 | waitblt1_ocs | A500 OCS | 4 | [waitblt1_ocs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ocs.png) |
-| Agnus/Copper/Wait/waitblt4 | waitblt4_ecs | A500 ECS | 4 | [waitblt4_ecs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ecs.png) |
-| Agnus/Copper/Wait/waitblt4 | waitblt4_ocs | A500 OCS | 4 | [waitblt4_ocs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ocs.png) |
-| Denise/Registers/BPLCON1/overscan6 | overscan6 | A500 ECS | 4 | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
-| Memory/Ram/byteacc/byteacc1 | byteacc1 | A500 ECS | 4 | [byteacc1.png](Memory/Ram/byteacc/byteacc1/byteacc1.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ecs | A500 ECS | 6 | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ocs | A500 OCS | 6 | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
-| Agnus/DDF/DDF/farright3 | farright3_ocs | A500 OCS | 6 | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
+| Test | Variant | Machine | Differing px | Where | Image |
+|---|---|---|---:|---|---|
+| [Mainboard/Ports/POT/stop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/POT/stop1) | stop1 | A500 ECS | 2 | x 256–257, y 40 | [stop1.png](Mainboard/Ports/POT/stop1/stop1.png) |
+| [Agnus/Copper/Wait/waitblt1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt1) | waitblt1_ecs | A500 ECS | 4 | x 196–199, y 178 | [waitblt1_ecs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ecs.png) |
+| [Agnus/Copper/Wait/waitblt1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt1) | waitblt1_ocs | A500 OCS | 4 | x 196–199, y 178 | [waitblt1_ocs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ocs.png) |
+| [Agnus/Copper/Wait/waitblt4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt4) | waitblt4_ecs | A500 ECS | 4 | x 384–421, y 240–274 | [waitblt4_ecs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ecs.png) |
+| [Agnus/Copper/Wait/waitblt4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt4) | waitblt4_ocs | A500 OCS | 4 | x 384–421, y 240–274 | [waitblt4_ocs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ocs.png) |
+| [Denise/Registers/BPLCON1/overscan6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan6) | overscan6 | A500 ECS | 4 | x 890–893, y 144–256 | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
+| [Memory/Ram/byteacc/byteacc1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Memory/Ram/byteacc/byteacc1) | byteacc1 | A500 ECS | 4 | x 224–225, y 208–224 | [byteacc1.png](Memory/Ram/byteacc/byteacc1/byteacc1.png) |
+| [Agnus/DDF/DDF/farright1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright1) | farright1_ecs | A500 ECS | 6 | x 890–896, y 144–256 | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
+| [Agnus/DDF/DDF/farright1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright1) | farright1_ocs | A500 OCS | 6 | x 890–896, y 144–256 | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
+| [Agnus/DDF/DDF/farright3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright3) | farright3_ocs | A500 OCS | 6 | x 892–897, y 144 | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
 
 All 52 FAILs with 20 differing pixels or fewer: [Near misses](#near-misses).
 
-**One routine behind many FAILs:** 632 of the 1525 FAILs come from tests whose source calls vAmigaTS's `synccpu` routine (`include/util.i`). It synchronises the CPU with the beam and draws the magenta bar at the top of the image. Where that bar differs, everything the CPU draws after it is shifted as well, so these FAILs may share one cause. That has not been established yet.
+**One routine behind many FAILs:** 632 of the 1525 FAILs come from tests whose source calls vAmigaTS's `synccpu` routine (`include/util.i`). It synchronises the CPU with the beam and draws the magenta bar at the top of the image. Where that bar differs, everything the CPU draws after it is shifted as well, so these FAILs may share one cause. That has not been established yet. Their rows carry the label `synccpu`.
 
 ## How far off the FAILs are
 
@@ -102,91 +102,78 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | Paula/Registers | 2 | 0 | 0 | 0 | 0 | 0 |
 | **Total** | **474** | **52** | **47** | **117** | **1109** | **200** |
 
-## Agreement with the 2024 hand verdicts
-
-Counted per **test directory**, not per variant: one directory holds the variants of one test (`_ocs`, `_ecs`, ...). A directory counts as identical when all its compared variants PASS, and as different when one of them FAILs. Groups without any hand verdict are left out. Where the two disagree, the class counts: it comes from the exact comparison, while the hand verdict was made by eye on older screenshots.
-
-| Group | Both identical | Both different | Hand identical, now different | Hand different, now identical |
-|---|---:|---:|---:|---:|
-| [Agnus/Blitter](Agnus_Blitter.md) | 48 | 154 | 31 | 0 |
-| [Agnus/Copper](Agnus_Copper.md) | 43 | 28 | 43 | 0 |
-| [Agnus/DDF](Agnus_DDF.md) | 14 | 28 | 20 | 0 |
-| [Agnus/DIW](Agnus_DIW.md) | 20 | 5 | 6 | 0 |
-| [Agnus/Misc](Agnus_Misc.md) | 1 | 4 | 1 | 0 |
-| [Agnus/Registers](Agnus_Registers.md) | 6 | 87 | 11 | 0 |
-| **Total** | **132** | **306** | **112** | **0** |
-
 ## How to read
 
-- **PASS:** The frame is identical to the vAmigaTS reference at the Amiga's 4 bits per channel inside the cutout. In all 474 PASS the `.raw` rebuilt from the capture is also byte-identical to the reference (`raw_status`).
+- **Test and variant:** a test is a vAmigaTS test directory (one program); a variant is one of its scripts, usually one per machine. All counts are variants. Variant names come from vAmigaTS and follow no single scheme; the *Machine* column says which machine a variant runs.
+- **PASS:** The frame is identical to the vAmigaTS reference at the Amiga's 4 bits per channel inside the cutout, the part of the screen the script compares. In all 474 PASS the `.raw` rebuilt from the capture is also byte-identical to the reference (`raw_status`).
 - **FAIL:** Differences were found inside the compared area (cutout). The group pages give the number of differing pixels and link the image.
 - **DEVIATING_CONFIG:** The script asks for something this run could not set NanoMig on a Tang Nano 20k up for, e.g. a 68010. Not simulated; the reason is on the group page.
 - **NOT_CALIBRATED:** Simulated, but the raster has no verified crop yet, so it is not compared.
-- **NTSC** frames are compared on the 237 rows an NTSC beam reaches; the `_ocs` NTSC references are black there, so their PASS says little.
+- **NTSC** frames are compared on the 237 rows an NTSC beam reaches.
 - **NO_REFERENCE:** vAmigaTS ships no reference `.raw` for this variant; not simulated.
 - **ERROR:** The simulation itself failed or exceeded its time limit. Rerun it.
 - **`raw_status` "missing colours"** (in `.result.json`): NanoMig produced a colour that no reference uses, so no `.raw` can be rebuilt. The frame is still compared at 4 bits per channel.
 - **The references are vAmiga screenshots**, not photos of real hardware: `PASS` means identical to vAmiga. See [REFERENCES.md](REFERENCES.md).
-- **Labels** never change a result. `denise-ecs-sensitive`: an `_ecs` test that uses an ECS-only Denise feature; vAmiga's A500 ECS has an OCS Denise, NanoMig's ECS mode an ECS Denise. `reference-contradicts-photo`: the vAmigaTS hardware photo of this test shows something else than the reference.
+- **Labels** never change a result. `reference-uniform`: the reference is one single colour in the compared area (all NTSC `_ocs` references are black there), so a PASS only says that NanoMig draws that colour. `synccpu`: the test calls vAmigaTS's `synccpu` routine (see *Where to start*). `denise-ecs-sensitive`: an `_ecs` test that uses an ECS-only Denise feature; vAmiga's A500 ECS has an OCS Denise, NanoMig's ECS mode an ECS Denise. Where the test also has an `_plus` variant (A500+, ECS Denise on both sides), that variant is the like-for-like comparison: a FAIL it shares is not explained by the label. `reference-contradicts-photo`: the vAmigaTS hardware photo of this test shows something else than the reference.
 - **Image titles** give positions in vAmiga's coordinates (x 196–911, y 26–310); in the 716 × 285 panels, subtract 196 from x and 26 from y.
 - **Several machines** simulated this run (see *Simulated on*, and `simulated_on` in each `.result.json`). All ran the same harness binary, and a machine took part only after its captures of a control set were byte-identical with those of the publishing machine.
-- **Hand verdicts (2024):** The hand verdicts of August 2024 are kept in tag `manual-2024-08`, whose `_ecs` screenshots came from a simulation without an ECS mode.
+- **2024:** an earlier comparison by eye is kept in tag `manual-2024-08`; the exact comparison here replaces it.
 
 ## Near misses
 
-All FAILs with 20 differing pixels or fewer, fewest first.
+All FAILs with 20 differing pixels or fewer, fewest first; the first 10 are those under *Where to start*.
 
-| Test | Variant | Machine | Differing px | Image |
-|---|---|---|---:|---|
-| Mainboard/Ports/POT/stop1 | stop1 | A500 ECS | 2 | [stop1.png](Mainboard/Ports/POT/stop1/stop1.png) |
-| Agnus/Copper/Wait/waitblt1 | waitblt1_ecs | A500 ECS | 4 | [waitblt1_ecs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ecs.png) |
-| Agnus/Copper/Wait/waitblt1 | waitblt1_ocs | A500 OCS | 4 | [waitblt1_ocs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ocs.png) |
-| Agnus/Copper/Wait/waitblt4 | waitblt4_ecs | A500 ECS | 4 | [waitblt4_ecs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ecs.png) |
-| Agnus/Copper/Wait/waitblt4 | waitblt4_ocs | A500 OCS | 4 | [waitblt4_ocs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ocs.png) |
-| Denise/Registers/BPLCON1/overscan6 | overscan6 | A500 ECS | 4 | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
-| Memory/Ram/byteacc/byteacc1 | byteacc1 | A500 ECS | 4 | [byteacc1.png](Memory/Ram/byteacc/byteacc1/byteacc1.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ecs | A500 ECS | 6 | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
-| Agnus/DDF/DDF/farright1 | farright1_ocs | A500 OCS | 6 | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
-| Agnus/DDF/DDF/farright3 | farright3_ocs | A500 OCS | 6 | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
-| Agnus/DDF/DDF/single1 | single1_ocs | A500 OCS | 6 | [single1_ocs.png](Agnus/DDF/DDF/single1/single1_ocs.png) |
-| Agnus/DDF/DDF/single4 | single4_ocs | A500 OCS | 6 | [single4_ocs.png](Agnus/DDF/DDF/single4/single4_ocs.png) |
-| Agnus/DDF/DDF/single5 | single5_ecs | A500 ECS | 6 | [single5_ecs.png](Agnus/DDF/DDF/single5/single5_ecs.png) |
-| Agnus/Registers/DMACON/bpumod4 | bpumod4_ecs | A500 ECS | 6 | [bpumod4_ecs.png](Agnus/Registers/DMACON/bpumod4/bpumod4_ecs.png) |
-| Agnus/Registers/DMACON/bpumod4 | bpumod4_ocs | A500 OCS | 6 | [bpumod4_ocs.png](Agnus/Registers/DMACON/bpumod4/bpumod4_ocs.png) |
-| Denise/Registers/BPLCON1/overscan6b | overscan6b | A500 ECS | 6 | [overscan6b.png](Denise/Registers/BPLCON1/overscan6b/overscan6b.png) |
-| Denise/Sprites/clip/clip2h | clip2h | A500 ECS | 6 | [clip2h.png](Denise/Sprites/clip/clip2h/clip2h.png) |
-| Agnus/Blitter/dmacon/dmacon1 | dmacon1 | A500 ECS | 8 | [dmacon1.png](Agnus/Blitter/dmacon/dmacon1/dmacon1.png) |
-| Agnus/Blitter/dmacon/dmacon2 | dmacon2 | A500 ECS | 8 | [dmacon2.png](Agnus/Blitter/dmacon/dmacon2/dmacon2.png) |
-| Agnus/Blitter/dmacon/dmacon3 | dmacon3 | A500 ECS | 8 | [dmacon3.png](Agnus/Blitter/dmacon/dmacon3/dmacon3.png) |
-| Agnus/Blitter/dmacon/dmacon4 | dmacon4 | A500 ECS | 8 | [dmacon4.png](Agnus/Blitter/dmacon/dmacon4/dmacon4.png) |
-| Agnus/Blitter/dmacon/dmacon5 | dmacon5 | A500 ECS | 8 | [dmacon5.png](Agnus/Blitter/dmacon/dmacon5/dmacon5.png) |
-| Agnus/Blitter/dmacon/dmacon6 | dmacon6 | A500 ECS | 8 | [dmacon6.png](Agnus/Blitter/dmacon/dmacon6/dmacon6.png) |
-| Agnus/Blitter/dmacon/dmacon7 | dmacon7 | A500 ECS | 8 | [dmacon7.png](Agnus/Blitter/dmacon/dmacon7/dmacon7.png) |
-| Agnus/Blitter/dmacon/dmacon8 | dmacon8 | A500 ECS | 8 | [dmacon8.png](Agnus/Blitter/dmacon/dmacon8/dmacon8.png) |
-| Agnus/Blitter/dmacon/dmacon9 | dmacon9 | A500 ECS | 8 | [dmacon9.png](Agnus/Blitter/dmacon/dmacon9/dmacon9.png) |
-| Agnus/Registers/oldDMACON/bplen1 | bplen1_OCS | A500 OCS | 8 | [bplen1_OCS.png](Agnus/Registers/oldDMACON/bplen1/bplen1_OCS.png) |
-| Agnus/Registers/oldDMACON/bplen2 | bplen2_ECS | A500 ECS | 8 | [bplen2_ECS.png](Agnus/Registers/oldDMACON/bplen2/bplen2_ECS.png) |
-| Agnus/Registers/oldDMACON/oldbplen1 | oldbplen1_OCS | A500 OCS | 8 | [oldbplen1_OCS.png](Agnus/Registers/oldDMACON/oldbplen1/oldbplen1_OCS.png) |
-| Agnus/Registers/oldDMACON/oldbplen2 | oldbplen2_ECS | A500 ECS | 8 | [oldbplen2_ECS.png](Agnus/Registers/oldDMACON/oldbplen2/oldbplen2_ECS.png) |
-| Agnus/Registers/DMACON/bpumod1 | bpumod1_ecs | A500 ECS | 12 | [bpumod1_ecs.png](Agnus/Registers/DMACON/bpumod1/bpumod1_ecs.png) |
-| Agnus/Registers/DMACON/bpumod1 | bpumod1_ocs | A500 OCS | 12 | [bpumod1_ocs.png](Agnus/Registers/DMACON/bpumod1/bpumod1_ocs.png) |
-| Agnus/Registers/DMACON/resmod3 | resmod3_ecs | A500 ECS | 15 | [resmod3_ecs.png](Agnus/Registers/DMACON/resmod3/resmod3_ecs.png) |
-| Agnus/Registers/DMACON/resmod3 | resmod3_ocs | A500 OCS | 15 | [resmod3_ocs.png](Agnus/Registers/DMACON/resmod3/resmod3_ocs.png) |
-| Agnus/Copper/Skip/copskip1 | copskip1_ecs | A500 ECS | 16 | [copskip1_ecs.png](Agnus/Copper/Skip/copskip1/copskip1_ecs.png) |
-| Agnus/Copper/Skip/copskip1 | copskip1_ocs | A500 OCS | 16 | [copskip1_ocs.png](Agnus/Copper/Skip/copskip1/copskip1_ocs.png) |
-| CPU/Misc/Order/moveorder1 | moveorder1_68000 | A500 ECS | 16 | [moveorder1_68000.png](CPU/Misc/Order/moveorder1/moveorder1_68000.png) |
-| Denise/Sprites/general/sprbpu1 | sprbpu1_ECS | A500 ECS | 16 | [sprbpu1_ECS.png](Denise/Sprites/general/sprbpu1/sprbpu1_ECS.png) |
-| Denise/Sprites/general/sprbpu1 | sprbpu1_OCS | A500 OCS | 16 | [sprbpu1_OCS.png](Denise/Sprites/general/sprbpu1/sprbpu1_OCS.png) |
-| Agnus/DDF/DDF/ddf10 | ddf10_ecs | A500 ECS | 18 | [ddf10_ecs.png](Agnus/DDF/DDF/ddf10/ddf10_ecs.png) |
-| Agnus/DDF/DDF/ddf2 | ddf2_ecs | A500 ECS | 18 | [ddf2_ecs.png](Agnus/DDF/DDF/ddf2/ddf2_ecs.png) |
-| Agnus/DDF/DDF/ddf3 | ddf3_ecs | A500 ECS | 18 | [ddf3_ecs.png](Agnus/DDF/DDF/ddf3/ddf3_ecs.png) |
-| Agnus/DDF/DDF/ddf6 | ddf6_ecs | A500 ECS | 18 | [ddf6_ecs.png](Agnus/DDF/DDF/ddf6/ddf6_ecs.png) |
-| Agnus/DDF/DDF/ddf7 | ddf7_ecs | A500 ECS | 18 | [ddf7_ecs.png](Agnus/DDF/DDF/ddf7/ddf7_ecs.png) |
-| Agnus/Registers/DMACON/bpumod2 | bpumod2_ecs | A500 ECS | 18 | [bpumod2_ecs.png](Agnus/Registers/DMACON/bpumod2/bpumod2_ecs.png) |
-| Agnus/Registers/DMACON/bpumod2 | bpumod2_ocs | A500 OCS | 18 | [bpumod2_ocs.png](Agnus/Registers/DMACON/bpumod2/bpumod2_ocs.png) |
-| Agnus/Registers/DMACON/bpumod3 | bpumod3_ecs | A500 ECS | 18 | [bpumod3_ecs.png](Agnus/Registers/DMACON/bpumod3/bpumod3_ecs.png) |
-| Agnus/Registers/DMACON/bpumod3 | bpumod3_ocs | A500 OCS | 18 | [bpumod3_ocs.png](Agnus/Registers/DMACON/bpumod3/bpumod3_ocs.png) |
-| Agnus/Copper/Wait/waitblt5 | waitblt5_ecs | A500 ECS | 20 | [waitblt5_ecs.png](Agnus/Copper/Wait/waitblt5/waitblt5_ecs.png) |
-| Agnus/Copper/Wait/waitblt5 | waitblt5_ocs | A500 OCS | 20 | [waitblt5_ocs.png](Agnus/Copper/Wait/waitblt5/waitblt5_ocs.png) |
-| Agnus/Copper/oldJump/jump3a | jump3a_ecs | A500 ECS | 20 | [jump3a_ecs.png](Agnus/Copper/oldJump/jump3a/jump3a_ecs.png) |
-| Agnus/Copper/oldJump/jump3a | jump3a_ocs | A500 OCS | 20 | [jump3a_ocs.png](Agnus/Copper/oldJump/jump3a/jump3a_ocs.png) |
+| Test | Variant | Machine | Differing px | Where | Image |
+|---|---|---|---:|---|---|
+| [Mainboard/Ports/POT/stop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/POT/stop1) | stop1 | A500 ECS | 2 | x 256–257, y 40 | [stop1.png](Mainboard/Ports/POT/stop1/stop1.png) |
+| [Agnus/Copper/Wait/waitblt1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt1) | waitblt1_ecs | A500 ECS | 4 | x 196–199, y 178 | [waitblt1_ecs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ecs.png) |
+| [Agnus/Copper/Wait/waitblt1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt1) | waitblt1_ocs | A500 OCS | 4 | x 196–199, y 178 | [waitblt1_ocs.png](Agnus/Copper/Wait/waitblt1/waitblt1_ocs.png) |
+| [Agnus/Copper/Wait/waitblt4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt4) | waitblt4_ecs | A500 ECS | 4 | x 384–421, y 240–274 | [waitblt4_ecs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ecs.png) |
+| [Agnus/Copper/Wait/waitblt4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt4) | waitblt4_ocs | A500 OCS | 4 | x 384–421, y 240–274 | [waitblt4_ocs.png](Agnus/Copper/Wait/waitblt4/waitblt4_ocs.png) |
+| [Denise/Registers/BPLCON1/overscan6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan6) | overscan6 | A500 ECS | 4 | x 890–893, y 144–256 | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
+| [Memory/Ram/byteacc/byteacc1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Memory/Ram/byteacc/byteacc1) | byteacc1 | A500 ECS | 4 | x 224–225, y 208–224 | [byteacc1.png](Memory/Ram/byteacc/byteacc1/byteacc1.png) |
+| [Agnus/DDF/DDF/farright1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright1) | farright1_ecs | A500 ECS | 6 | x 890–896, y 144–256 | [farright1_ecs.png](Agnus/DDF/DDF/farright1/farright1_ecs.png) |
+| [Agnus/DDF/DDF/farright1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright1) | farright1_ocs | A500 OCS | 6 | x 890–896, y 144–256 | [farright1_ocs.png](Agnus/DDF/DDF/farright1/farright1_ocs.png) |
+| [Agnus/DDF/DDF/farright3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/farright3) | farright3_ocs | A500 OCS | 6 | x 892–897, y 144 | [farright3_ocs.png](Agnus/DDF/DDF/farright3/farright3_ocs.png) |
+| [Agnus/DDF/DDF/single1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single1) | single1_ocs | A500 OCS | 6 | x 890–896, y 144–256 | [single1_ocs.png](Agnus/DDF/DDF/single1/single1_ocs.png) |
+| [Agnus/DDF/DDF/single4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single4) | single4_ocs | A500 OCS | 6 | x 890–896, y 144–256 | [single4_ocs.png](Agnus/DDF/DDF/single4/single4_ocs.png) |
+| [Agnus/DDF/DDF/single5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/single5) | single5_ecs | A500 ECS | 6 | x 890–896, y 144–256 | [single5_ecs.png](Agnus/DDF/DDF/single5/single5_ecs.png) |
+| [Agnus/Registers/DMACON/bpumod4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod4) | bpumod4_ecs | A500 ECS | 6 | x 412–417, y 80 | [bpumod4_ecs.png](Agnus/Registers/DMACON/bpumod4/bpumod4_ecs.png) |
+| [Agnus/Registers/DMACON/bpumod4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod4) | bpumod4_ocs | A500 OCS | 6 | x 412–417, y 80 | [bpumod4_ocs.png](Agnus/Registers/DMACON/bpumod4/bpumod4_ocs.png) |
+| [Denise/Registers/BPLCON1/overscan6b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan6b) | overscan6b | A500 ECS | 6 | x 890–897, y 144–256 | [overscan6b.png](Denise/Registers/BPLCON1/overscan6b/overscan6b.png) |
+| [Denise/Sprites/clip/clip2h](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Sprites/clip/clip2h) | clip2h | A500 ECS | 6 | x 364–429, y 128–288 | [clip2h.png](Denise/Sprites/clip/clip2h/clip2h.png) |
+| [Agnus/Blitter/dmacon/dmacon1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon1) | dmacon1 | A500 ECS | 8 | x 232–673, y 160–208 | [dmacon1.png](Agnus/Blitter/dmacon/dmacon1/dmacon1.png) |
+| [Agnus/Blitter/dmacon/dmacon2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon2) | dmacon2 | A500 ECS | 8 | x 232–665, y 160–208 | [dmacon2.png](Agnus/Blitter/dmacon/dmacon2/dmacon2.png) |
+| [Agnus/Blitter/dmacon/dmacon3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon3) | dmacon3 | A500 ECS | 8 | x 232–665, y 160–208 | [dmacon3.png](Agnus/Blitter/dmacon/dmacon3/dmacon3.png) |
+| [Agnus/Blitter/dmacon/dmacon4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon4) | dmacon4 | A500 ECS | 8 | x 232–665, y 160–208 | [dmacon4.png](Agnus/Blitter/dmacon/dmacon4/dmacon4.png) |
+| [Agnus/Blitter/dmacon/dmacon5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon5) | dmacon5 | A500 ECS | 8 | x 232–665, y 160–208 | [dmacon5.png](Agnus/Blitter/dmacon/dmacon5/dmacon5.png) |
+| [Agnus/Blitter/dmacon/dmacon6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon6) | dmacon6 | A500 ECS | 8 | x 232–665, y 160–208 | [dmacon6.png](Agnus/Blitter/dmacon/dmacon6/dmacon6.png) |
+| [Agnus/Blitter/dmacon/dmacon7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon7) | dmacon7 | A500 ECS | 8 | x 232–673, y 160–208 | [dmacon7.png](Agnus/Blitter/dmacon/dmacon7/dmacon7.png) |
+| [Agnus/Blitter/dmacon/dmacon8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon8) | dmacon8 | A500 ECS | 8 | x 232–665, y 160–208 | [dmacon8.png](Agnus/Blitter/dmacon/dmacon8/dmacon8.png) |
+| [Agnus/Blitter/dmacon/dmacon9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Blitter/dmacon/dmacon9) | dmacon9 | A500 ECS | 8 | x 232–665, y 160–162 | [dmacon9.png](Agnus/Blitter/dmacon/dmacon9/dmacon9.png) |
+| [Agnus/Registers/oldDMACON/bplen1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/oldDMACON/bplen1) | bplen1_OCS | A500 OCS | 8 | x 698–705, y 256 | [bplen1_OCS.png](Agnus/Registers/oldDMACON/bplen1/bplen1_OCS.png) |
+| [Agnus/Registers/oldDMACON/bplen2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/oldDMACON/bplen2) | bplen2_ECS | A500 ECS | 8 | x 674–681, y 192 | [bplen2_ECS.png](Agnus/Registers/oldDMACON/bplen2/bplen2_ECS.png) |
+| [Agnus/Registers/oldDMACON/oldbplen1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/oldDMACON/oldbplen1) | oldbplen1_OCS | A500 OCS | 8 | x 698–705, y 256 | [oldbplen1_OCS.png](Agnus/Registers/oldDMACON/oldbplen1/oldbplen1_OCS.png) |
+| [Agnus/Registers/oldDMACON/oldbplen2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/oldDMACON/oldbplen2) | oldbplen2_ECS | A500 ECS | 8 | x 674–681, y 192 | [oldbplen2_ECS.png](Agnus/Registers/oldDMACON/oldbplen2/oldbplen2_ECS.png) |
+| [Agnus/Registers/DMACON/bpumod1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod1) | bpumod1_ecs | A500 ECS | 12 | x 412–481, y 72–80 | [bpumod1_ecs.png](Agnus/Registers/DMACON/bpumod1/bpumod1_ecs.png) |
+| [Agnus/Registers/DMACON/bpumod1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod1) | bpumod1_ocs | A500 OCS | 12 | x 412–481, y 72–80 | [bpumod1_ocs.png](Agnus/Registers/DMACON/bpumod1/bpumod1_ocs.png) |
+| [Agnus/Registers/DMACON/resmod3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/resmod3) | resmod3_ecs | A500 ECS | 15 | x 450–479, y 104–120 | [resmod3_ecs.png](Agnus/Registers/DMACON/resmod3/resmod3_ecs.png) |
+| [Agnus/Registers/DMACON/resmod3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/resmod3) | resmod3_ocs | A500 OCS | 15 | x 450–479, y 104–120 | [resmod3_ocs.png](Agnus/Registers/DMACON/resmod3/resmod3_ocs.png) |
+| [Agnus/Copper/Skip/copskip1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Skip/copskip1) | copskip1_ecs | A500 ECS | 16 | x 196–911, y 171–172 | [copskip1_ecs.png](Agnus/Copper/Skip/copskip1/copskip1_ecs.png) |
+| [Agnus/Copper/Skip/copskip1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Skip/copskip1) | copskip1_ocs | A500 OCS | 16 | x 196–911, y 171–172 | [copskip1_ocs.png](Agnus/Copper/Skip/copskip1/copskip1_ocs.png) |
+| [CPU/Misc/Order/moveorder1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Misc/Order/moveorder1) | moveorder1_68000 | A500 ECS | 16 | x 416–481, y 81–87 | [moveorder1_68000.png](CPU/Misc/Order/moveorder1/moveorder1_68000.png) |
+| [Denise/Sprites/general/sprbpu1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Sprites/general/sprbpu1) | sprbpu1_ECS | A500 ECS | 16 | x 412–735, y 57–289 | [sprbpu1_ECS.png](Denise/Sprites/general/sprbpu1/sprbpu1_ECS.png) |
+| [Denise/Sprites/general/sprbpu1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Sprites/general/sprbpu1) | sprbpu1_OCS | A500 OCS | 16 | x 412–735, y 57–289 | [sprbpu1_OCS.png](Denise/Sprites/general/sprbpu1/sprbpu1_OCS.png) |
+| [Agnus/DDF/DDF/ddf10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf10) | ddf10_ecs | A500 ECS | 18 | x 890–911, y 144–256 | [ddf10_ecs.png](Agnus/DDF/DDF/ddf10/ddf10_ecs.png) |
+| [Agnus/DDF/DDF/ddf2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf2) | ddf2_ecs | A500 ECS | 18 | x 890–911, y 144–256 | [ddf2_ecs.png](Agnus/DDF/DDF/ddf2/ddf2_ecs.png) |
+| [Agnus/DDF/DDF/ddf3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf3) | ddf3_ecs | A500 ECS | 18 | x 890–911, y 144–256 | [ddf3_ecs.png](Agnus/DDF/DDF/ddf3/ddf3_ecs.png) |
+| [Agnus/DDF/DDF/ddf6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf6) | ddf6_ecs | A500 ECS | 18 | x 890–911, y 144–256 | [ddf6_ecs.png](Agnus/DDF/DDF/ddf6/ddf6_ecs.png) |
+| [Agnus/DDF/DDF/ddf7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/DDF/DDF/ddf7) | ddf7_ecs | A500 ECS | 18 | x 890–911, y 144–256 | [ddf7_ecs.png](Agnus/DDF/DDF/ddf7/ddf7_ecs.png) |
+| [Agnus/Registers/DMACON/bpumod2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod2) | bpumod2_ecs | A500 ECS | 18 | x 412–481, y 80–112 | [bpumod2_ecs.png](Agnus/Registers/DMACON/bpumod2/bpumod2_ecs.png) |
+| [Agnus/Registers/DMACON/bpumod2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod2) | bpumod2_ocs | A500 OCS | 18 | x 412–481, y 80–112 | [bpumod2_ocs.png](Agnus/Registers/DMACON/bpumod2/bpumod2_ocs.png) |
+| [Agnus/Registers/DMACON/bpumod3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod3) | bpumod3_ecs | A500 ECS | 18 | x 412–481, y 80–112 | [bpumod3_ecs.png](Agnus/Registers/DMACON/bpumod3/bpumod3_ecs.png) |
+| [Agnus/Registers/DMACON/bpumod3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Registers/DMACON/bpumod3) | bpumod3_ocs | A500 OCS | 18 | x 412–481, y 80–112 | [bpumod3_ocs.png](Agnus/Registers/DMACON/bpumod3/bpumod3_ocs.png) |
+| [Agnus/Copper/Wait/waitblt5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt5) | waitblt5_ecs | A500 ECS | 20 | x 420–855, y 240–260 | [waitblt5_ecs.png](Agnus/Copper/Wait/waitblt5/waitblt5_ecs.png) |
+| [Agnus/Copper/Wait/waitblt5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/Wait/waitblt5) | waitblt5_ocs | A500 OCS | 20 | x 420–855, y 240–260 | [waitblt5_ocs.png](Agnus/Copper/Wait/waitblt5/waitblt5_ocs.png) |
+| [Agnus/Copper/oldJump/jump3a](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/oldJump/jump3a) | jump3a_ecs | A500 ECS | 20 | x 196–287, y 248–254 | [jump3a_ecs.png](Agnus/Copper/oldJump/jump3a/jump3a_ecs.png) |
+| [Agnus/Copper/oldJump/jump3a](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Agnus/Copper/oldJump/jump3a) | jump3a_ocs | A500 OCS | 20 | x 196–287, y 248–254 | [jump3a_ocs.png](Agnus/Copper/oldJump/jump3a/jump3a_ocs.png) |

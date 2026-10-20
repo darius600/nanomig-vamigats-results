@@ -1,75 +1,75 @@
-# Denise_Registers
+# Denise/Registers
 
-- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/harbaum/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
+- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
 - **Compared:** 68 (PASS 8, FAIL 60) | **ERROR:** 0 | **Not compared:** 0
 
-| Test | Variant | Machine | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
-|---|---|---|---|---|---|---|---|---|
-| Denise/Registers/BPL0DAT/bpl0dat1 | bpl0dat1 | A500 ECS | FAIL | 480 |  |  |  | [bpl0dat1.png](Denise/Registers/BPL0DAT/bpl0dat1/bpl0dat1.png) |
-| Denise/Registers/BPL0DAT/bpl0dat2 | bpl0dat2 | A500 ECS | FAIL | 656 |  |  |  | [bpl0dat2.png](Denise/Registers/BPL0DAT/bpl0dat2/bpl0dat2.png) |
-| Denise/Registers/BPL0DAT/bpl0dat3 | bpl0dat3 | A500 ECS | FAIL | 480 |  |  |  | [bpl0dat3.png](Denise/Registers/BPL0DAT/bpl0dat3/bpl0dat3.png) |
-| Denise/Registers/BPL0DAT/bpl0dat4 | bpl0dat4 | A500 ECS | FAIL | 544 |  |  |  | [bpl0dat4.png](Denise/Registers/BPL0DAT/bpl0dat4/bpl0dat4.png) |
-| Denise/Registers/BPLCON0/block0 | block0 | A500 ECS | FAIL | 6144 |  |  |  | [block0.png](Denise/Registers/BPLCON0/block0/block0.png) |
-| Denise/Registers/BPLCON0/block0m | block0m | A500 ECS | FAIL | 8832 |  |  |  | [block0m.png](Denise/Registers/BPLCON0/block0m/block0m.png) |
-| Denise/Registers/BPLCON0/block1 | block1 | A500 ECS | FAIL | 6144 |  |  |  | [block1.png](Denise/Registers/BPLCON0/block1/block1.png) |
-| Denise/Registers/BPLCON0/block1m | block1m | A500 ECS | FAIL | 8832 |  |  |  | [block1m.png](Denise/Registers/BPLCON0/block1m/block1m.png) |
-| Denise/Registers/BPLCON0/block2 | block2 | A500 ECS | FAIL | 6144 |  |  |  | [block2.png](Denise/Registers/BPLCON0/block2/block2.png) |
-| Denise/Registers/BPLCON0/block2m | block2m | A500 ECS | FAIL | 6144 |  |  |  | [block2m.png](Denise/Registers/BPLCON0/block2m/block2m.png) |
-| Denise/Registers/BPLCON0/block3 | block3 | A500 ECS | FAIL | 11264 |  |  |  | [block3.png](Denise/Registers/BPLCON0/block3/block3.png) |
-| Denise/Registers/BPLCON0/block3m | block3m | A500 ECS | FAIL | 8352 |  |  |  | [block3m.png](Denise/Registers/BPLCON0/block3m/block3m.png) |
-| Denise/Registers/BPLCON0/hilo | hilo | A500 ECS | FAIL | 6716 |  |  |  | [hilo.png](Denise/Registers/BPLCON0/hilo/hilo.png) |
-| Denise/Registers/BPLCON0/invplanes1 | invplanes1 | A500 ECS | FAIL | 43200 |  |  |  | [invplanes1.png](Denise/Registers/BPLCON0/invplanes1/invplanes1.png) |
-| Denise/Registers/BPLCON0/invprio0 | invprio0 | A500 ECS | FAIL | 19584 |  |  |  | [invprio0.png](Denise/Registers/BPLCON0/invprio0/invprio0.png) |
-| Denise/Registers/BPLCON0/invprio1 | invprio1 | A500 ECS | FAIL | 27072 |  |  |  | [invprio1.png](Denise/Registers/BPLCON0/invprio1/invprio1.png) |
-| Denise/Registers/BPLCON0/invprio2 | invprio2 | A500 ECS | FAIL | 17280 |  |  |  | [invprio2.png](Denise/Registers/BPLCON0/invprio2/invprio2.png) |
-| Denise/Registers/BPLCON0/invprio3 | invprio3 | A500 ECS | FAIL | 56448 |  |  |  | [invprio3.png](Denise/Registers/BPLCON0/invprio3/invprio3.png) |
-| Denise/Registers/BPLCON0/modes0 | modes0 | A500 ECS | FAIL | 12384 |  |  |  | [modes0.png](Denise/Registers/BPLCON0/modes0/modes0.png) |
-| Denise/Registers/BPLCON0/modes0b | modes0b | A500 ECS | FAIL | 14400 |  |  |  | [modes0b.png](Denise/Registers/BPLCON0/modes0b/modes0b.png) |
-| Denise/Registers/BPLCON0/modes0c | modes0c | A500 ECS | FAIL | 13824 |  |  |  | [modes0c.png](Denise/Registers/BPLCON0/modes0c/modes0c.png) |
-| Denise/Registers/BPLCON0/modes1 | modes1 | A500 ECS | FAIL | 12384 |  |  |  | [modes1.png](Denise/Registers/BPLCON0/modes1/modes1.png) |
-| Denise/Registers/BPLCON0/modes1b | modes1b | A500 ECS | FAIL | 14400 |  |  |  | [modes1b.png](Denise/Registers/BPLCON0/modes1b/modes1b.png) |
-| Denise/Registers/BPLCON0/modes1c | modes1c | A500 ECS | FAIL | 13824 |  |  |  | [modes1c.png](Denise/Registers/BPLCON0/modes1c/modes1c.png) |
-| Denise/Registers/BPLCON0/modes2 | modes2 | A500 ECS | FAIL | 12384 |  |  |  | [modes2.png](Denise/Registers/BPLCON0/modes2/modes2.png) |
-| Denise/Registers/BPLCON0/modes2b | modes2b | A500 ECS | FAIL | 14056 |  |  |  | [modes2b.png](Denise/Registers/BPLCON0/modes2b/modes2b.png) |
-| Denise/Registers/BPLCON0/modes2c | modes2c | A500 ECS | FAIL | 12904 |  |  |  | [modes2c.png](Denise/Registers/BPLCON0/modes2c/modes2c.png) |
-| Denise/Registers/BPLCON0/modes3 | modes3 | A500 ECS | FAIL | 27360 |  |  |  | [modes3.png](Denise/Registers/BPLCON0/modes3/modes3.png) |
-| Denise/Registers/BPLCON0/modes3b | modes3b | A500 ECS | FAIL | 29608 |  |  |  | [modes3b.png](Denise/Registers/BPLCON0/modes3b/modes3b.png) |
-| Denise/Registers/BPLCON0/modes3c | modes3c | A500 ECS | FAIL | 28168 |  |  |  | [modes3c.png](Denise/Registers/BPLCON0/modes3c/modes3c.png) |
-| Denise/Registers/BPLCON0/modes4 | modes4 | A500 ECS | FAIL | 22176 |  |  |  | [modes4.png](Denise/Registers/BPLCON0/modes4/modes4.png) |
-| Denise/Registers/BPLCON1/overscan1 | overscan1 | A500 ECS | FAIL | 228 |  |  |  | [overscan1.png](Denise/Registers/BPLCON1/overscan1/overscan1.png) |
-| Denise/Registers/BPLCON1/overscan1b | overscan1b | A500 ECS | FAIL | 248 |  |  |  | [overscan1b.png](Denise/Registers/BPLCON1/overscan1b/overscan1b.png) |
-| Denise/Registers/BPLCON1/overscan2 | overscan2 | A500 ECS | FAIL | 156 |  |  |  | [overscan2.png](Denise/Registers/BPLCON1/overscan2/overscan2.png) |
-| Denise/Registers/BPLCON1/overscan2b | overscan2b | A500 ECS | FAIL | 168 |  |  |  | [overscan2b.png](Denise/Registers/BPLCON1/overscan2b/overscan2b.png) |
-| Denise/Registers/BPLCON1/overscan3 | overscan3 | A500 ECS | FAIL | 142 |  |  |  | [overscan3.png](Denise/Registers/BPLCON1/overscan3/overscan3.png) |
-| Denise/Registers/BPLCON1/overscan3b | overscan3b | A500 ECS | FAIL | 148 |  |  |  | [overscan3b.png](Denise/Registers/BPLCON1/overscan3b/overscan3b.png) |
-| Denise/Registers/BPLCON1/overscan4 | overscan4 | A500 ECS | FAIL | 162 |  |  |  | [overscan4.png](Denise/Registers/BPLCON1/overscan4/overscan4.png) |
-| Denise/Registers/BPLCON1/overscan4b | overscan4b | A500 ECS | FAIL | 164 |  |  |  | [overscan4b.png](Denise/Registers/BPLCON1/overscan4b/overscan4b.png) |
-| Denise/Registers/BPLCON1/overscan5 | overscan5 | A500 ECS | FAIL | 21 |  |  |  | [overscan5.png](Denise/Registers/BPLCON1/overscan5/overscan5.png) |
-| Denise/Registers/BPLCON1/overscan5b | overscan5b | A500 ECS | FAIL | 27 |  |  |  | [overscan5b.png](Denise/Registers/BPLCON1/overscan5b/overscan5b.png) |
-| Denise/Registers/BPLCON1/overscan6 | overscan6 | A500 ECS | FAIL | 4 |  |  |  | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
-| Denise/Registers/BPLCON1/overscan6b | overscan6b | A500 ECS | FAIL | 6 |  |  |  | [overscan6b.png](Denise/Registers/BPLCON1/overscan6b/overscan6b.png) |
-| Denise/Registers/BPLCON1/simple0 | simple0 | A500 ECS | PASS | 0 |  |  |  | [simple0.png](Denise/Registers/BPLCON1/simple0/simple0.png) |
-| Denise/Registers/BPLCON1/simple10 | simple10 | A500 ECS | PASS | 0 |  |  |  | [simple10.png](Denise/Registers/BPLCON1/simple10/simple10.png) |
-| Denise/Registers/BPLCON1/simple12 | simple12 | A500 ECS | PASS | 0 |  |  |  | [simple12.png](Denise/Registers/BPLCON1/simple12/simple12.png) |
-| Denise/Registers/BPLCON1/simple14 | simple14 | A500 ECS | PASS | 0 |  |  |  | [simple14.png](Denise/Registers/BPLCON1/simple14/simple14.png) |
-| Denise/Registers/BPLCON1/simple2 | simple2 | A500 ECS | PASS | 0 |  |  |  | [simple2.png](Denise/Registers/BPLCON1/simple2/simple2.png) |
-| Denise/Registers/BPLCON1/simple4 | simple4 | A500 ECS | PASS | 0 |  |  |  | [simple4.png](Denise/Registers/BPLCON1/simple4/simple4.png) |
-| Denise/Registers/BPLCON1/simple6 | simple6 | A500 ECS | PASS | 0 |  |  |  | [simple6.png](Denise/Registers/BPLCON1/simple6/simple6.png) |
-| Denise/Registers/BPLCON1/simple8 | simple8 | A500 ECS | PASS | 0 |  |  |  | [simple8.png](Denise/Registers/BPLCON1/simple8/simple8.png) |
-| Denise/Registers/BPLCON1/timing1 | timing1 | A500 ECS | FAIL | 702 |  |  |  | [timing1.png](Denise/Registers/BPLCON1/timing1/timing1.png) |
-| Denise/Registers/BPLCON1/timing2 | timing2 | A500 ECS | FAIL | 1440 |  |  |  | [timing2.png](Denise/Registers/BPLCON1/timing2/timing2.png) |
-| Denise/Registers/BPLCON1/timing3 | timing3 | A500 ECS | FAIL | 1092 |  |  |  | [timing3.png](Denise/Registers/BPLCON1/timing3/timing3.png) |
-| Denise/Registers/BPLCON1/timing4 | timing4 | A500 ECS | FAIL | 1301 |  |  |  | [timing4.png](Denise/Registers/BPLCON1/timing4/timing4.png) |
-| Denise/Registers/BPLCON1/timing5 | timing5 | A500 ECS | FAIL | 1123 |  |  |  | [timing5.png](Denise/Registers/BPLCON1/timing5/timing5.png) |
-| Denise/Registers/BPLCON2/dualpf1 | dualpf1 | A500 ECS | FAIL | 54592 |  |  |  | [dualpf1.png](Denise/Registers/BPLCON2/dualpf1/dualpf1.png) |
-| Denise/Registers/BPLCON2/dualpf10 | dualpf10 | A500 ECS | FAIL | 47912 |  |  |  | [dualpf10.png](Denise/Registers/BPLCON2/dualpf10/dualpf10.png) |
-| Denise/Registers/BPLCON2/dualpf11 | dualpf11 | A500 ECS | FAIL | 21240 |  |  |  | [dualpf11.png](Denise/Registers/BPLCON2/dualpf11/dualpf11.png) |
-| Denise/Registers/BPLCON2/dualpf12 | dualpf12 | A500 ECS | FAIL | 48312 |  |  |  | [dualpf12.png](Denise/Registers/BPLCON2/dualpf12/dualpf12.png) |
-| Denise/Registers/BPLCON2/dualpf2 | dualpf2 | A500 ECS | FAIL | 54000 |  |  |  | [dualpf2.png](Denise/Registers/BPLCON2/dualpf2/dualpf2.png) |
-| Denise/Registers/BPLCON2/dualpf3 | dualpf3 | A500 ECS | FAIL | 55136 |  |  |  | [dualpf3.png](Denise/Registers/BPLCON2/dualpf3/dualpf3.png) |
-| Denise/Registers/BPLCON2/dualpf4 | dualpf4 | A500 ECS | FAIL | 53632 |  |  |  | [dualpf4.png](Denise/Registers/BPLCON2/dualpf4/dualpf4.png) |
-| Denise/Registers/BPLCON2/dualpf5 | dualpf5 | A500 ECS | FAIL | 71920 |  |  |  | [dualpf5.png](Denise/Registers/BPLCON2/dualpf5/dualpf5.png) |
-| Denise/Registers/BPLCON2/dualpf6 | dualpf6 | A500 ECS | FAIL | 70692 |  |  |  | [dualpf6.png](Denise/Registers/BPLCON2/dualpf6/dualpf6.png) |
-| Denise/Registers/BPLCON2/dualpf7 | dualpf7 | A500 ECS | FAIL | 71760 |  |  |  | [dualpf7.png](Denise/Registers/BPLCON2/dualpf7/dualpf7.png) |
-| Denise/Registers/BPLCON2/dualpf8 | dualpf8 | A500 ECS | FAIL | 70632 |  |  |  | [dualpf8.png](Denise/Registers/BPLCON2/dualpf8/dualpf8.png) |
-| Denise/Registers/BPLCON2/dualpf9 | dualpf9 | A500 ECS | FAIL | 25344 |  |  |  | [dualpf9.png](Denise/Registers/BPLCON2/dualpf9/dualpf9.png) |
+| Test | Variant | Machine | Result | Differing px | Labels | Image |
+|---|---|---|---|---|---|---|
+| [Denise/Registers/BPL0DAT/bpl0dat1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPL0DAT/bpl0dat1) | bpl0dat1 | A500 ECS | FAIL | 480 |  | [bpl0dat1.png](Denise/Registers/BPL0DAT/bpl0dat1/bpl0dat1.png) |
+| [Denise/Registers/BPL0DAT/bpl0dat2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPL0DAT/bpl0dat2) | bpl0dat2 | A500 ECS | FAIL | 656 |  | [bpl0dat2.png](Denise/Registers/BPL0DAT/bpl0dat2/bpl0dat2.png) |
+| [Denise/Registers/BPL0DAT/bpl0dat3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPL0DAT/bpl0dat3) | bpl0dat3 | A500 ECS | FAIL | 480 |  | [bpl0dat3.png](Denise/Registers/BPL0DAT/bpl0dat3/bpl0dat3.png) |
+| [Denise/Registers/BPL0DAT/bpl0dat4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPL0DAT/bpl0dat4) | bpl0dat4 | A500 ECS | FAIL | 544 |  | [bpl0dat4.png](Denise/Registers/BPL0DAT/bpl0dat4/bpl0dat4.png) |
+| [Denise/Registers/BPLCON0/block0](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block0) | block0 | A500 ECS | FAIL | 6144 |  | [block0.png](Denise/Registers/BPLCON0/block0/block0.png) |
+| [Denise/Registers/BPLCON0/block0m](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block0m) | block0m | A500 ECS | FAIL | 8832 |  | [block0m.png](Denise/Registers/BPLCON0/block0m/block0m.png) |
+| [Denise/Registers/BPLCON0/block1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block1) | block1 | A500 ECS | FAIL | 6144 |  | [block1.png](Denise/Registers/BPLCON0/block1/block1.png) |
+| [Denise/Registers/BPLCON0/block1m](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block1m) | block1m | A500 ECS | FAIL | 8832 |  | [block1m.png](Denise/Registers/BPLCON0/block1m/block1m.png) |
+| [Denise/Registers/BPLCON0/block2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block2) | block2 | A500 ECS | FAIL | 6144 |  | [block2.png](Denise/Registers/BPLCON0/block2/block2.png) |
+| [Denise/Registers/BPLCON0/block2m](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block2m) | block2m | A500 ECS | FAIL | 6144 |  | [block2m.png](Denise/Registers/BPLCON0/block2m/block2m.png) |
+| [Denise/Registers/BPLCON0/block3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block3) | block3 | A500 ECS | FAIL | 11264 |  | [block3.png](Denise/Registers/BPLCON0/block3/block3.png) |
+| [Denise/Registers/BPLCON0/block3m](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/block3m) | block3m | A500 ECS | FAIL | 8352 |  | [block3m.png](Denise/Registers/BPLCON0/block3m/block3m.png) |
+| [Denise/Registers/BPLCON0/hilo](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/hilo) | hilo | A500 ECS | FAIL | 6716 | `synccpu` | [hilo.png](Denise/Registers/BPLCON0/hilo/hilo.png) |
+| [Denise/Registers/BPLCON0/invplanes1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/invplanes1) | invplanes1 | A500 ECS | FAIL | 43200 |  | [invplanes1.png](Denise/Registers/BPLCON0/invplanes1/invplanes1.png) |
+| [Denise/Registers/BPLCON0/invprio0](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/invprio0) | invprio0 | A500 ECS | FAIL | 19584 |  | [invprio0.png](Denise/Registers/BPLCON0/invprio0/invprio0.png) |
+| [Denise/Registers/BPLCON0/invprio1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/invprio1) | invprio1 | A500 ECS | FAIL | 27072 |  | [invprio1.png](Denise/Registers/BPLCON0/invprio1/invprio1.png) |
+| [Denise/Registers/BPLCON0/invprio2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/invprio2) | invprio2 | A500 ECS | FAIL | 17280 |  | [invprio2.png](Denise/Registers/BPLCON0/invprio2/invprio2.png) |
+| [Denise/Registers/BPLCON0/invprio3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/invprio3) | invprio3 | A500 ECS | FAIL | 56448 |  | [invprio3.png](Denise/Registers/BPLCON0/invprio3/invprio3.png) |
+| [Denise/Registers/BPLCON0/modes0](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes0) | modes0 | A500 ECS | FAIL | 12384 |  | [modes0.png](Denise/Registers/BPLCON0/modes0/modes0.png) |
+| [Denise/Registers/BPLCON0/modes0b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes0b) | modes0b | A500 ECS | FAIL | 14400 |  | [modes0b.png](Denise/Registers/BPLCON0/modes0b/modes0b.png) |
+| [Denise/Registers/BPLCON0/modes0c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes0c) | modes0c | A500 ECS | FAIL | 13824 |  | [modes0c.png](Denise/Registers/BPLCON0/modes0c/modes0c.png) |
+| [Denise/Registers/BPLCON0/modes1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes1) | modes1 | A500 ECS | FAIL | 12384 |  | [modes1.png](Denise/Registers/BPLCON0/modes1/modes1.png) |
+| [Denise/Registers/BPLCON0/modes1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes1b) | modes1b | A500 ECS | FAIL | 14400 |  | [modes1b.png](Denise/Registers/BPLCON0/modes1b/modes1b.png) |
+| [Denise/Registers/BPLCON0/modes1c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes1c) | modes1c | A500 ECS | FAIL | 13824 |  | [modes1c.png](Denise/Registers/BPLCON0/modes1c/modes1c.png) |
+| [Denise/Registers/BPLCON0/modes2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes2) | modes2 | A500 ECS | FAIL | 12384 |  | [modes2.png](Denise/Registers/BPLCON0/modes2/modes2.png) |
+| [Denise/Registers/BPLCON0/modes2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes2b) | modes2b | A500 ECS | FAIL | 14056 |  | [modes2b.png](Denise/Registers/BPLCON0/modes2b/modes2b.png) |
+| [Denise/Registers/BPLCON0/modes2c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes2c) | modes2c | A500 ECS | FAIL | 12904 |  | [modes2c.png](Denise/Registers/BPLCON0/modes2c/modes2c.png) |
+| [Denise/Registers/BPLCON0/modes3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes3) | modes3 | A500 ECS | FAIL | 27360 |  | [modes3.png](Denise/Registers/BPLCON0/modes3/modes3.png) |
+| [Denise/Registers/BPLCON0/modes3b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes3b) | modes3b | A500 ECS | FAIL | 29608 |  | [modes3b.png](Denise/Registers/BPLCON0/modes3b/modes3b.png) |
+| [Denise/Registers/BPLCON0/modes3c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes3c) | modes3c | A500 ECS | FAIL | 28168 |  | [modes3c.png](Denise/Registers/BPLCON0/modes3c/modes3c.png) |
+| [Denise/Registers/BPLCON0/modes4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON0/modes4) | modes4 | A500 ECS | FAIL | 22176 |  | [modes4.png](Denise/Registers/BPLCON0/modes4/modes4.png) |
+| [Denise/Registers/BPLCON1/overscan1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan1) | overscan1 | A500 ECS | FAIL | 228 |  | [overscan1.png](Denise/Registers/BPLCON1/overscan1/overscan1.png) |
+| [Denise/Registers/BPLCON1/overscan1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan1b) | overscan1b | A500 ECS | FAIL | 248 |  | [overscan1b.png](Denise/Registers/BPLCON1/overscan1b/overscan1b.png) |
+| [Denise/Registers/BPLCON1/overscan2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan2) | overscan2 | A500 ECS | FAIL | 156 |  | [overscan2.png](Denise/Registers/BPLCON1/overscan2/overscan2.png) |
+| [Denise/Registers/BPLCON1/overscan2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan2b) | overscan2b | A500 ECS | FAIL | 168 |  | [overscan2b.png](Denise/Registers/BPLCON1/overscan2b/overscan2b.png) |
+| [Denise/Registers/BPLCON1/overscan3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan3) | overscan3 | A500 ECS | FAIL | 142 |  | [overscan3.png](Denise/Registers/BPLCON1/overscan3/overscan3.png) |
+| [Denise/Registers/BPLCON1/overscan3b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan3b) | overscan3b | A500 ECS | FAIL | 148 |  | [overscan3b.png](Denise/Registers/BPLCON1/overscan3b/overscan3b.png) |
+| [Denise/Registers/BPLCON1/overscan4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan4) | overscan4 | A500 ECS | FAIL | 162 |  | [overscan4.png](Denise/Registers/BPLCON1/overscan4/overscan4.png) |
+| [Denise/Registers/BPLCON1/overscan4b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan4b) | overscan4b | A500 ECS | FAIL | 164 |  | [overscan4b.png](Denise/Registers/BPLCON1/overscan4b/overscan4b.png) |
+| [Denise/Registers/BPLCON1/overscan5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan5) | overscan5 | A500 ECS | FAIL | 21 |  | [overscan5.png](Denise/Registers/BPLCON1/overscan5/overscan5.png) |
+| [Denise/Registers/BPLCON1/overscan5b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan5b) | overscan5b | A500 ECS | FAIL | 27 |  | [overscan5b.png](Denise/Registers/BPLCON1/overscan5b/overscan5b.png) |
+| [Denise/Registers/BPLCON1/overscan6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan6) | overscan6 | A500 ECS | FAIL | 4 |  | [overscan6.png](Denise/Registers/BPLCON1/overscan6/overscan6.png) |
+| [Denise/Registers/BPLCON1/overscan6b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/overscan6b) | overscan6b | A500 ECS | FAIL | 6 |  | [overscan6b.png](Denise/Registers/BPLCON1/overscan6b/overscan6b.png) |
+| [Denise/Registers/BPLCON1/simple0](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple0) | simple0 | A500 ECS | PASS | 0 |  | [simple0.png](Denise/Registers/BPLCON1/simple0/simple0.png) |
+| [Denise/Registers/BPLCON1/simple10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple10) | simple10 | A500 ECS | PASS | 0 |  | [simple10.png](Denise/Registers/BPLCON1/simple10/simple10.png) |
+| [Denise/Registers/BPLCON1/simple12](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple12) | simple12 | A500 ECS | PASS | 0 |  | [simple12.png](Denise/Registers/BPLCON1/simple12/simple12.png) |
+| [Denise/Registers/BPLCON1/simple14](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple14) | simple14 | A500 ECS | PASS | 0 |  | [simple14.png](Denise/Registers/BPLCON1/simple14/simple14.png) |
+| [Denise/Registers/BPLCON1/simple2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple2) | simple2 | A500 ECS | PASS | 0 |  | [simple2.png](Denise/Registers/BPLCON1/simple2/simple2.png) |
+| [Denise/Registers/BPLCON1/simple4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple4) | simple4 | A500 ECS | PASS | 0 |  | [simple4.png](Denise/Registers/BPLCON1/simple4/simple4.png) |
+| [Denise/Registers/BPLCON1/simple6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple6) | simple6 | A500 ECS | PASS | 0 |  | [simple6.png](Denise/Registers/BPLCON1/simple6/simple6.png) |
+| [Denise/Registers/BPLCON1/simple8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/simple8) | simple8 | A500 ECS | PASS | 0 |  | [simple8.png](Denise/Registers/BPLCON1/simple8/simple8.png) |
+| [Denise/Registers/BPLCON1/timing1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/timing1) | timing1 | A500 ECS | FAIL | 702 |  | [timing1.png](Denise/Registers/BPLCON1/timing1/timing1.png) |
+| [Denise/Registers/BPLCON1/timing2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/timing2) | timing2 | A500 ECS | FAIL | 1440 |  | [timing2.png](Denise/Registers/BPLCON1/timing2/timing2.png) |
+| [Denise/Registers/BPLCON1/timing3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/timing3) | timing3 | A500 ECS | FAIL | 1092 |  | [timing3.png](Denise/Registers/BPLCON1/timing3/timing3.png) |
+| [Denise/Registers/BPLCON1/timing4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/timing4) | timing4 | A500 ECS | FAIL | 1301 |  | [timing4.png](Denise/Registers/BPLCON1/timing4/timing4.png) |
+| [Denise/Registers/BPLCON1/timing5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON1/timing5) | timing5 | A500 ECS | FAIL | 1123 |  | [timing5.png](Denise/Registers/BPLCON1/timing5/timing5.png) |
+| [Denise/Registers/BPLCON2/dualpf1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf1) | dualpf1 | A500 ECS | FAIL | 54592 |  | [dualpf1.png](Denise/Registers/BPLCON2/dualpf1/dualpf1.png) |
+| [Denise/Registers/BPLCON2/dualpf10](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf10) | dualpf10 | A500 ECS | FAIL | 47912 |  | [dualpf10.png](Denise/Registers/BPLCON2/dualpf10/dualpf10.png) |
+| [Denise/Registers/BPLCON2/dualpf11](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf11) | dualpf11 | A500 ECS | FAIL | 21240 |  | [dualpf11.png](Denise/Registers/BPLCON2/dualpf11/dualpf11.png) |
+| [Denise/Registers/BPLCON2/dualpf12](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf12) | dualpf12 | A500 ECS | FAIL | 48312 |  | [dualpf12.png](Denise/Registers/BPLCON2/dualpf12/dualpf12.png) |
+| [Denise/Registers/BPLCON2/dualpf2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf2) | dualpf2 | A500 ECS | FAIL | 54000 |  | [dualpf2.png](Denise/Registers/BPLCON2/dualpf2/dualpf2.png) |
+| [Denise/Registers/BPLCON2/dualpf3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf3) | dualpf3 | A500 ECS | FAIL | 55136 |  | [dualpf3.png](Denise/Registers/BPLCON2/dualpf3/dualpf3.png) |
+| [Denise/Registers/BPLCON2/dualpf4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf4) | dualpf4 | A500 ECS | FAIL | 53632 |  | [dualpf4.png](Denise/Registers/BPLCON2/dualpf4/dualpf4.png) |
+| [Denise/Registers/BPLCON2/dualpf5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf5) | dualpf5 | A500 ECS | FAIL | 71920 |  | [dualpf5.png](Denise/Registers/BPLCON2/dualpf5/dualpf5.png) |
+| [Denise/Registers/BPLCON2/dualpf6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf6) | dualpf6 | A500 ECS | FAIL | 70692 |  | [dualpf6.png](Denise/Registers/BPLCON2/dualpf6/dualpf6.png) |
+| [Denise/Registers/BPLCON2/dualpf7](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf7) | dualpf7 | A500 ECS | FAIL | 71760 |  | [dualpf7.png](Denise/Registers/BPLCON2/dualpf7/dualpf7.png) |
+| [Denise/Registers/BPLCON2/dualpf8](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf8) | dualpf8 | A500 ECS | FAIL | 70632 |  | [dualpf8.png](Denise/Registers/BPLCON2/dualpf8/dualpf8.png) |
+| [Denise/Registers/BPLCON2/dualpf9](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Denise/Registers/BPLCON2/dualpf9) | dualpf9 | A500 ECS | FAIL | 25344 |  | [dualpf9.png](Denise/Registers/BPLCON2/dualpf9/dualpf9.png) |

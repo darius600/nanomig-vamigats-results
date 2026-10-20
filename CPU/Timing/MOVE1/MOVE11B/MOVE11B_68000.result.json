@@ -2,7 +2,9 @@
   "variant": "MOVE11B_68000",
   "class": "FAIL",
   "detail": "3708 differing pixels",
-  "labels": [],
+  "labels": [
+    "synccpu"
+  ],
   "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
   "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",

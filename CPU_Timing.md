@@ -1,503 +1,503 @@
-# CPU_Timing
+# CPU/Timing
 
-- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/harbaum/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
+- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
 - **Compared:** 243 (PASS 0, FAIL 243) | **ERROR:** 0 | **Not compared:** 248 (DEVIATING_CONFIG 248, NOT_CALIBRATED 0, NO_REFERENCE 0; listed at the end)
 
-| Test | Variant | Machine | Result | Differing px | Labels | Hand 2024 | Hand comment | Image |
-|---|---|---|---|---|---|---|---|---|
-| CPU/Timing/ABCD/ABCD | ABCD_68000 | A500 ECS | FAIL | 2674 |  |  |  | [ABCD_68000.png](CPU/Timing/ABCD/ABCD/ABCD_68000.png) |
-| CPU/Timing/ABCD/ABCD2 | ABCD2_68000 | A500 ECS | FAIL | 2642 |  |  |  | [ABCD2_68000.png](CPU/Timing/ABCD/ABCD2/ABCD2_68000.png) |
-| CPU/Timing/ABCD/ABCD3 | ABCD3_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ABCD3_68000.png](CPU/Timing/ABCD/ABCD3/ABCD3_68000.png) |
-| CPU/Timing/ADD/ADD1b | ADD1b_68000 | A500 ECS | FAIL | 3876 |  |  |  | [ADD1b_68000.png](CPU/Timing/ADD/ADD1b/ADD1b_68000.png) |
-| CPU/Timing/ADD/ADD1l | ADD1l_68000 | A500 ECS | FAIL | 4352 |  |  |  | [ADD1l_68000.png](CPU/Timing/ADD/ADD1l/ADD1l_68000.png) |
-| CPU/Timing/ADD/ADD1w | ADD1w_68000 | A500 ECS | FAIL | 3876 |  |  |  | [ADD1w_68000.png](CPU/Timing/ADD/ADD1w/ADD1w_68000.png) |
-| CPU/Timing/ADD/ADD2b | ADD2b_68000 | A500 ECS | FAIL | 3864 |  |  |  | [ADD2b_68000.png](CPU/Timing/ADD/ADD2b/ADD2b_68000.png) |
-| CPU/Timing/ADD/ADD2l | ADD2l_68000 | A500 ECS | FAIL | 4672 |  |  |  | [ADD2l_68000.png](CPU/Timing/ADD/ADD2l/ADD2l_68000.png) |
-| CPU/Timing/ADD/ADD2w | ADD2w_68000 | A500 ECS | FAIL | 3864 |  |  |  | [ADD2w_68000.png](CPU/Timing/ADD/ADD2w/ADD2w_68000.png) |
-| CPU/Timing/ADD/ADDA1l | ADDA1l_68000 | A500 ECS | FAIL | 4404 |  |  |  | [ADDA1l_68000.png](CPU/Timing/ADD/ADDA1l/ADDA1l_68000.png) |
-| CPU/Timing/ADD/ADDA1w | ADDA1w_68000 | A500 ECS | FAIL | 4164 |  |  |  | [ADDA1w_68000.png](CPU/Timing/ADD/ADDA1w/ADDA1w_68000.png) |
-| CPU/Timing/ADD/ADDA2l | ADDA2l_68000 | A500 ECS | FAIL | 4164 |  |  |  | [ADDA2l_68000.png](CPU/Timing/ADD/ADDA2l/ADDA2l_68000.png) |
-| CPU/Timing/ADD/ADDA2w | ADDA2w_68000 | A500 ECS | FAIL | 3892 |  |  |  | [ADDA2w_68000.png](CPU/Timing/ADD/ADDA2w/ADDA2w_68000.png) |
-| CPU/Timing/ADD/ADDQ1b | ADDQ1b_68000 | A500 ECS | FAIL | 3652 |  |  |  | [ADDQ1b_68000.png](CPU/Timing/ADD/ADDQ1b/ADDQ1b_68000.png) |
-| CPU/Timing/ADD/ADDQ1l | ADDQ1l_68000 | A500 ECS | FAIL | 4310 |  |  |  | [ADDQ1l_68000.png](CPU/Timing/ADD/ADDQ1l/ADDQ1l_68000.png) |
-| CPU/Timing/ADD/ADDQ1w | ADDQ1w_68000 | A500 ECS | FAIL | 3652 |  |  |  | [ADDQ1w_68000.png](CPU/Timing/ADD/ADDQ1w/ADDQ1w_68000.png) |
-| CPU/Timing/ADD/ADDQ2b | ADDQ2b_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ2b_68000.png](CPU/Timing/ADD/ADDQ2b/ADDQ2b_68000.png) |
-| CPU/Timing/ADD/ADDQ2l | ADDQ2l_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ2l_68000.png](CPU/Timing/ADD/ADDQ2l/ADDQ2l_68000.png) |
-| CPU/Timing/ADD/ADDQ2w | ADDQ2w_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ2w_68000.png](CPU/Timing/ADD/ADDQ2w/ADDQ2w_68000.png) |
-| CPU/Timing/ADD/ADDQ3l | ADDQ3l_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ3l_68000.png](CPU/Timing/ADD/ADDQ3l/ADDQ3l_68000.png) |
-| CPU/Timing/ADD/ADDQ3w | ADDQ3w_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ADDQ3w_68000.png](CPU/Timing/ADD/ADDQ3w/ADDQ3w_68000.png) |
-| CPU/Timing/ADD/ADDXb | ADDXb_68000 | A500 ECS | FAIL | 3966 |  |  |  | [ADDXb_68000.png](CPU/Timing/ADD/ADDXb/ADDXb_68000.png) |
-| CPU/Timing/ADD/ADDXl | ADDXl_68000 | A500 ECS | FAIL | 3860 |  |  |  | [ADDXl_68000.png](CPU/Timing/ADD/ADDXl/ADDXl_68000.png) |
-| CPU/Timing/ADD/ADDXw | ADDXw_68000 | A500 ECS | FAIL | 3646 |  |  |  | [ADDXw_68000.png](CPU/Timing/ADD/ADDXw/ADDXw_68000.png) |
-| CPU/Timing/AND/AND1b | AND1b_68000 | A500 ECS | FAIL | 4484 |  |  |  | [AND1b_68000.png](CPU/Timing/AND/AND1b/AND1b_68000.png) |
-| CPU/Timing/AND/AND1l | AND1l_68000 | A500 ECS | FAIL | 5894 |  |  |  | [AND1l_68000.png](CPU/Timing/AND/AND1l/AND1l_68000.png) |
-| CPU/Timing/AND/AND1w | AND1w_68000 | A500 ECS | FAIL | 4484 |  |  |  | [AND1w_68000.png](CPU/Timing/AND/AND1w/AND1w_68000.png) |
-| CPU/Timing/AND/AND2l | AND2l_68000 | A500 ECS | FAIL | 6008 |  |  |  | [AND2l_68000.png](CPU/Timing/AND/AND2l/AND2l_68000.png) |
-| CPU/Timing/AND/AND2w | AND2w_68000 | A500 ECS | FAIL | 5006 |  |  |  | [AND2w_68000.png](CPU/Timing/AND/AND2w/AND2w_68000.png) |
-| CPU/Timing/AND/AND3l | AND3l_68000 | A500 ECS | FAIL | 5192 |  |  |  | [AND3l_68000.png](CPU/Timing/AND/AND3l/AND3l_68000.png) |
-| CPU/Timing/AND/AND3w | AND3w_68000 | A500 ECS | FAIL | 4252 |  |  |  | [AND3w_68000.png](CPU/Timing/AND/AND3w/AND3w_68000.png) |
-| CPU/Timing/AND/ANDCCR | ANDCCR_68000 | A500 ECS | FAIL | 2722 |  |  |  | [ANDCCR_68000.png](CPU/Timing/AND/ANDCCR/ANDCCR_68000.png) |
-| CPU/Timing/ASL/ASL1b | ASL1b_68000 | A500 ECS | FAIL | 2706 |  |  |  | [ASL1b_68000.png](CPU/Timing/ASL/ASL1b/ASL1b_68000.png) |
-| CPU/Timing/ASL/ASL1l | ASL1l_68000 | A500 ECS | FAIL | 2682 |  |  |  | [ASL1l_68000.png](CPU/Timing/ASL/ASL1l/ASL1l_68000.png) |
-| CPU/Timing/ASL/ASL1w | ASL1w_68000 | A500 ECS | FAIL | 2704 |  |  |  | [ASL1w_68000.png](CPU/Timing/ASL/ASL1w/ASL1w_68000.png) |
-| CPU/Timing/ASL/ASL2w | ASL2w_68000 | A500 ECS | FAIL | 3868 |  |  |  | [ASL2w_68000.png](CPU/Timing/ASL/ASL2w/ASL2w_68000.png) |
-| CPU/Timing/BCHG/BCHG1 | BCHG1_68000 | A500 ECS | FAIL | 4400 |  |  |  | [BCHG1_68000.png](CPU/Timing/BCHG/BCHG1/BCHG1_68000.png) |
-| CPU/Timing/BCHG/BCHG2 | BCHG2_68000 | A500 ECS | FAIL | 4884 |  |  |  | [BCHG2_68000.png](CPU/Timing/BCHG/BCHG2/BCHG2_68000.png) |
-| CPU/Timing/BSET/BSET1 | BSET1_68000 | A500 ECS | FAIL | 4372 |  |  |  | [BSET1_68000.png](CPU/Timing/BSET/BSET1/BSET1_68000.png) |
-| CPU/Timing/BSET/BSET2 | BSET2_68000 | A500 ECS | FAIL | 4804 |  |  |  | [BSET2_68000.png](CPU/Timing/BSET/BSET2/BSET2_68000.png) |
-| CPU/Timing/BSR/BSR1 | BSR1_68000 | A500 ECS | FAIL | 2548 |  |  |  | [BSR1_68000.png](CPU/Timing/BSR/BSR1/BSR1_68000.png) |
-| CPU/Timing/BSR/BSR2 | BSR2_68000 | A500 ECS | FAIL | 2784 |  |  |  | [BSR2_68000.png](CPU/Timing/BSR/BSR2/BSR2_68000.png) |
-| CPU/Timing/BTST/BTST1 | BTST1_68000 | A500 ECS | FAIL | 4484 |  |  |  | [BTST1_68000.png](CPU/Timing/BTST/BTST1/BTST1_68000.png) |
-| CPU/Timing/BTST/BTST2 | BTST2_68000 | A500 ECS | FAIL | 4992 |  |  |  | [BTST2_68000.png](CPU/Timing/BTST/BTST2/BTST2_68000.png) |
-| CPU/Timing/BTST/BTST3 | BTST3_68000 | A500 ECS | FAIL | 4302 |  |  |  | [BTST3_68000.png](CPU/Timing/BTST/BTST3/BTST3_68000.png) |
-| CPU/Timing/Bcc/BEQ1 | BEQ1_68000 | A500 ECS | FAIL | 2714 |  |  |  | [BEQ1_68000.png](CPU/Timing/Bcc/BEQ1/BEQ1_68000.png) |
-| CPU/Timing/Bcc/BEQ1b | BEQ1b_68000 | A500 ECS | FAIL | 3130 |  |  |  | [BEQ1b_68000.png](CPU/Timing/Bcc/BEQ1b/BEQ1b_68000.png) |
-| CPU/Timing/Bcc/BRA1 | BRA1_68000 | A500 ECS | FAIL | 2698 |  |  |  | [BRA1_68000.png](CPU/Timing/Bcc/BRA1/BRA1_68000.png) |
-| CPU/Timing/Bcc/BRA1b | BRA1b_68000 | A500 ECS | FAIL | 3074 |  |  |  | [BRA1b_68000.png](CPU/Timing/Bcc/BRA1b/BRA1b_68000.png) |
-| CPU/Timing/Bcc/BRA1c | BRA1c_68000 | A500 ECS | FAIL | 2746 |  |  |  | [BRA1c_68000.png](CPU/Timing/Bcc/BRA1c/BRA1c_68000.png) |
-| CPU/Timing/CHK/CHK1 | CHK1_68000 | A500 ECS | FAIL | 2722 |  |  |  | [CHK1_68000.png](CPU/Timing/CHK/CHK1/CHK1_68000.png) |
-| CPU/Timing/CHK/CHK2 | CHK2_68000 | A500 ECS | FAIL | 2706 |  |  |  | [CHK2_68000.png](CPU/Timing/CHK/CHK2/CHK2_68000.png) |
-| CPU/Timing/CHK/CHK3 | CHK3_68000 | A500 ECS | FAIL | 2888 |  |  |  | [CHK3_68000.png](CPU/Timing/CHK/CHK3/CHK3_68000.png) |
-| CPU/Timing/CHK/CHK4 | CHK4_68000 | A500 ECS | FAIL | 3256 |  |  |  | [CHK4_68000.png](CPU/Timing/CHK/CHK4/CHK4_68000.png) |
-| CPU/Timing/CHK/CHK5 | CHK5_68000 | A500 ECS | FAIL | 2968 |  |  |  | [CHK5_68000.png](CPU/Timing/CHK/CHK5/CHK5_68000.png) |
-| CPU/Timing/CHK/CHK6 | CHK6_68000 | A500 ECS | FAIL | 3202 |  |  |  | [CHK6_68000.png](CPU/Timing/CHK/CHK6/CHK6_68000.png) |
-| CPU/Timing/CLR/CLR1b | CLR1b_68000 | A500 ECS | FAIL | 3346 |  |  |  | [CLR1b_68000.png](CPU/Timing/CLR/CLR1b/CLR1b_68000.png) |
-| CPU/Timing/CLR/CLR1l | CLR1l_68000 | A500 ECS | FAIL | 4078 |  |  |  | [CLR1l_68000.png](CPU/Timing/CLR/CLR1l/CLR1l_68000.png) |
-| CPU/Timing/CLR/CLR1ll | CLR1ll_68000 | A500 ECS | FAIL | 3362 |  |  |  | [CLR1ll_68000.png](CPU/Timing/CLR/CLR1ll/CLR1ll_68000.png) |
-| CPU/Timing/CLR/CLR1w | CLR1w_68000 | A500 ECS | FAIL | 3346 |  |  |  | [CLR1w_68000.png](CPU/Timing/CLR/CLR1w/CLR1w_68000.png) |
-| CPU/Timing/CLR/CLR2b | CLR2b_68000 | A500 ECS | FAIL | 4062 |  |  |  | [CLR2b_68000.png](CPU/Timing/CLR/CLR2b/CLR2b_68000.png) |
-| CPU/Timing/CLR/CLR2l | CLR2l_68000 | A500 ECS | FAIL | 4852 |  |  |  | [CLR2l_68000.png](CPU/Timing/CLR/CLR2l/CLR2l_68000.png) |
-| CPU/Timing/CLR/CLR2ll | CLR2ll_68000 | A500 ECS | FAIL | 4356 |  |  |  | [CLR2ll_68000.png](CPU/Timing/CLR/CLR2ll/CLR2ll_68000.png) |
-| CPU/Timing/CLR/CLR2w | CLR2w_68000 | A500 ECS | FAIL | 4062 |  |  |  | [CLR2w_68000.png](CPU/Timing/CLR/CLR2w/CLR2w_68000.png) |
-| CPU/Timing/CLR/CLR3b | CLR3b_68000 | A500 ECS | FAIL | 3574 |  |  |  | [CLR3b_68000.png](CPU/Timing/CLR/CLR3b/CLR3b_68000.png) |
-| CPU/Timing/CLR/CLR3l | CLR3l_68000 | A500 ECS | FAIL | 4434 |  |  |  | [CLR3l_68000.png](CPU/Timing/CLR/CLR3l/CLR3l_68000.png) |
-| CPU/Timing/CLR/CLR3w | CLR3w_68000 | A500 ECS | FAIL | 3574 |  |  |  | [CLR3w_68000.png](CPU/Timing/CLR/CLR3w/CLR3w_68000.png) |
-| CPU/Timing/CLR/CLR4b | CLR4b_68000 | A500 ECS | FAIL | 3612 |  |  |  | [CLR4b_68000.png](CPU/Timing/CLR/CLR4b/CLR4b_68000.png) |
-| CPU/Timing/CLR/CLR4l | CLR4l_68000 | A500 ECS | FAIL | 4386 |  |  |  | [CLR4l_68000.png](CPU/Timing/CLR/CLR4l/CLR4l_68000.png) |
-| CPU/Timing/CLR/CLR4w | CLR4w_68000 | A500 ECS | FAIL | 3612 |  |  |  | [CLR4w_68000.png](CPU/Timing/CLR/CLR4w/CLR4w_68000.png) |
-| CPU/Timing/CMP/CMP1b | CMP1b_68000 | A500 ECS | FAIL | 3462 |  |  |  | [CMP1b_68000.png](CPU/Timing/CMP/CMP1b/CMP1b_68000.png) |
-| CPU/Timing/CMP/CMP1l | CMP1l_68000 | A500 ECS | FAIL | 3842 |  |  |  | [CMP1l_68000.png](CPU/Timing/CMP/CMP1l/CMP1l_68000.png) |
-| CPU/Timing/CMP/CMP1w | CMP1w_68000 | A500 ECS | FAIL | 3462 |  |  |  | [CMP1w_68000.png](CPU/Timing/CMP/CMP1w/CMP1w_68000.png) |
-| CPU/Timing/CMP/CMP2b | CMP2b_68000 | A500 ECS | FAIL | 3652 |  |  |  | [CMP2b_68000.png](CPU/Timing/CMP/CMP2b/CMP2b_68000.png) |
-| CPU/Timing/CMP/CMP2l | CMP2l_68000 | A500 ECS | FAIL | 4140 |  |  |  | [CMP2l_68000.png](CPU/Timing/CMP/CMP2l/CMP2l_68000.png) |
-| CPU/Timing/CMP/CMP2w | CMP2w_68000 | A500 ECS | FAIL | 3652 |  |  |  | [CMP2w_68000.png](CPU/Timing/CMP/CMP2w/CMP2w_68000.png) |
-| CPU/Timing/CMP/CMP3b | CMP3b_68000 | A500 ECS | FAIL | 4202 |  |  |  | [CMP3b_68000.png](CPU/Timing/CMP/CMP3b/CMP3b_68000.png) |
-| CPU/Timing/CMP/CMP3l | CMP3l_68000 | A500 ECS | FAIL | 4834 |  |  |  | [CMP3l_68000.png](CPU/Timing/CMP/CMP3l/CMP3l_68000.png) |
-| CPU/Timing/CMP/CMP3w | CMP3w_68000 | A500 ECS | FAIL | 4202 |  |  |  | [CMP3w_68000.png](CPU/Timing/CMP/CMP3w/CMP3w_68000.png) |
-| CPU/Timing/CMP/CMP4b | CMP4b_68000 | A500 ECS | FAIL | 4290 |  |  |  | [CMP4b_68000.png](CPU/Timing/CMP/CMP4b/CMP4b_68000.png) |
-| CPU/Timing/CMP/CMP4l | CMP4l_68000 | A500 ECS | FAIL | 4906 |  |  |  | [CMP4l_68000.png](CPU/Timing/CMP/CMP4l/CMP4l_68000.png) |
-| CPU/Timing/CMP/CMP4w | CMP4w_68000 | A500 ECS | FAIL | 4290 |  |  |  | [CMP4w_68000.png](CPU/Timing/CMP/CMP4w/CMP4w_68000.png) |
-| CPU/Timing/CMP/CMP5b | CMP5b_68000 | A500 ECS | FAIL | 2682 |  |  |  | [CMP5b_68000.png](CPU/Timing/CMP/CMP5b/CMP5b_68000.png) |
-| CPU/Timing/CMP/CMP5l | CMP5l_68000 | A500 ECS | FAIL | 2714 |  |  |  | [CMP5l_68000.png](CPU/Timing/CMP/CMP5l/CMP5l_68000.png) |
-| CPU/Timing/CMP/CMP5w | CMP5w_68000 | A500 ECS | FAIL | 2682 |  |  |  | [CMP5w_68000.png](CPU/Timing/CMP/CMP5w/CMP5w_68000.png) |
-| CPU/Timing/CMP/CMPA1l | CMPA1l_68000 | A500 ECS | FAIL | 3842 |  |  |  | [CMPA1l_68000.png](CPU/Timing/CMP/CMPA1l/CMPA1l_68000.png) |
-| CPU/Timing/CMP/CMPA1w | CMPA1w_68000 | A500 ECS | FAIL | 3588 |  |  |  | [CMPA1w_68000.png](CPU/Timing/CMP/CMPA1w/CMPA1w_68000.png) |
-| CPU/Timing/CMP/CMPA2l | CMPA2l_68000 | A500 ECS | FAIL | 4136 |  |  |  | [CMPA2l_68000.png](CPU/Timing/CMP/CMPA2l/CMPA2l_68000.png) |
-| CPU/Timing/CMP/CMPA2w | CMPA2w_68000 | A500 ECS | FAIL | 3874 |  |  |  | [CMPA2w_68000.png](CPU/Timing/CMP/CMPA2w/CMPA2w_68000.png) |
-| CPU/Timing/CMP/CMPI1b | CMPI1b_68000 | A500 ECS | FAIL | 3406 |  |  |  | [CMPI1b_68000.png](CPU/Timing/CMP/CMPI1b/CMPI1b_68000.png) |
-| CPU/Timing/CMP/CMPI1l | CMPI1l_68000 | A500 ECS | FAIL | 3618 |  |  |  | [CMPI1l_68000.png](CPU/Timing/CMP/CMPI1l/CMPI1l_68000.png) |
-| CPU/Timing/CMP/CMPI1w | CMPI1w_68000 | A500 ECS | FAIL | 3406 |  |  |  | [CMPI1w_68000.png](CPU/Timing/CMP/CMPI1w/CMPI1w_68000.png) |
-| CPU/Timing/CMP/CMPI2b | CMPI2b_68000 | A500 ECS | FAIL | 3984 |  |  |  | [CMPI2b_68000.png](CPU/Timing/CMP/CMPI2b/CMPI2b_68000.png) |
-| CPU/Timing/CMP/CMPI2l | CMPI2l_68000 | A500 ECS | FAIL | 4310 |  |  |  | [CMPI2l_68000.png](CPU/Timing/CMP/CMPI2l/CMPI2l_68000.png) |
-| CPU/Timing/CMP/CMPI2w | CMPI2w_68000 | A500 ECS | FAIL | 3984 |  |  |  | [CMPI2w_68000.png](CPU/Timing/CMP/CMPI2w/CMPI2w_68000.png) |
-| CPU/Timing/CMP/CMPMb | CMPMb_68000 | A500 ECS | FAIL | 4966 |  |  |  | [CMPMb_68000.png](CPU/Timing/CMP/CMPMb/CMPMb_68000.png) |
-| CPU/Timing/CMP/CMPMl | CMPMl_68000 | A500 ECS | FAIL | 6020 |  |  |  | [CMPMl_68000.png](CPU/Timing/CMP/CMPMl/CMPMl_68000.png) |
-| CPU/Timing/CMP/CMPMw | CMPMw_68000 | A500 ECS | FAIL | 4966 |  |  |  | [CMPMw_68000.png](CPU/Timing/CMP/CMPMw/CMPMw_68000.png) |
-| CPU/Timing/DBcc/DBEQ1 | DBEQ1_68000 | A500 ECS | FAIL | 2642 |  |  |  | [DBEQ1_68000.png](CPU/Timing/DBcc/DBEQ1/DBEQ1_68000.png) |
-| CPU/Timing/DBcc/DBEQ2 | DBEQ2_68000 | A500 ECS | FAIL | 2746 |  |  |  | [DBEQ2_68000.png](CPU/Timing/DBcc/DBEQ2/DBEQ2_68000.png) |
-| CPU/Timing/DBcc/DBEQ3 | DBEQ3_68000 | A500 ECS | FAIL | 2618 |  |  |  | [DBEQ3_68000.png](CPU/Timing/DBcc/DBEQ3/DBEQ3_68000.png) |
-| CPU/Timing/DBcc/DBRA1 | DBRA1_68000 | A500 ECS | FAIL | 2746 |  |  |  | [DBRA1_68000.png](CPU/Timing/DBcc/DBRA1/DBRA1_68000.png) |
-| CPU/Timing/DBcc/DBRA1b | DBRA1b_68000 | A500 ECS | FAIL | 3130 |  |  |  | [DBRA1b_68000.png](CPU/Timing/DBcc/DBRA1b/DBRA1b_68000.png) |
-| CPU/Timing/DBcc/DBRA1c | DBRA1c_68000 | A500 ECS | FAIL | 2746 |  |  |  | [DBRA1c_68000.png](CPU/Timing/DBcc/DBRA1c/DBRA1c_68000.png) |
-| CPU/Timing/DIV/DIVS1 | DIVS1_68000 | A500 ECS | FAIL | 2838 |  |  |  | [DIVS1_68000.png](CPU/Timing/DIV/DIVS1/DIVS1_68000.png) |
-| CPU/Timing/DIV/DIVU1 | DIVU1_68000 | A500 ECS | FAIL | 2896 |  |  |  | [DIVU1_68000.png](CPU/Timing/DIV/DIVU1/DIVU1_68000.png) |
-| CPU/Timing/EXG/EXG1 | EXG1_68000 | A500 ECS | FAIL | 2786 |  |  |  | [EXG1_68000.png](CPU/Timing/EXG/EXG1/EXG1_68000.png) |
-| CPU/Timing/EXT/EXT1l | EXT1l_68000 | A500 ECS | FAIL | 2810 |  |  |  | [EXT1l_68000.png](CPU/Timing/EXT/EXT1l/EXT1l_68000.png) |
-| CPU/Timing/EXT/EXT1w | EXT1w_68000 | A500 ECS | FAIL | 2810 |  |  |  | [EXT1w_68000.png](CPU/Timing/EXT/EXT1w/EXT1w_68000.png) |
-| CPU/Timing/JMP/JMP1 | JMP1_68000 | A500 ECS | FAIL | 2714 |  |  |  | [JMP1_68000.png](CPU/Timing/JMP/JMP1/JMP1_68000.png) |
-| CPU/Timing/JMP/JMP2 | JMP2_68000 | A500 ECS | FAIL | 3090 |  |  |  | [JMP2_68000.png](CPU/Timing/JMP/JMP2/JMP2_68000.png) |
-| CPU/Timing/JMP/JMP3 | JMP3_68000 | A500 ECS | FAIL | 6020 |  |  |  | [JMP3_68000.png](CPU/Timing/JMP/JMP3/JMP3_68000.png) |
-| CPU/Timing/JSR/JSR1 | JSR1_68000 | A500 ECS | FAIL | 2564 |  |  |  | [JSR1_68000.png](CPU/Timing/JSR/JSR1/JSR1_68000.png) |
-| CPU/Timing/JSR/JSR2 | JSR2_68000 | A500 ECS | FAIL | 2784 |  |  |  | [JSR2_68000.png](CPU/Timing/JSR/JSR2/JSR2_68000.png) |
-| CPU/Timing/LEA/LEA1 | LEA1_68000 | A500 ECS | FAIL | 2596 |  |  |  | [LEA1_68000.png](CPU/Timing/LEA/LEA1/LEA1_68000.png) |
-| CPU/Timing/LINK/LINK1 | LINK1_68000 | A500 ECS | FAIL | 2642 |  |  |  | [LINK1_68000.png](CPU/Timing/LINK/LINK1/LINK1_68000.png) |
-| CPU/Timing/LINK/LINK2 | LINK2_68000 | A500 ECS | FAIL | 2642 |  |  |  | [LINK2_68000.png](CPU/Timing/LINK/LINK2/LINK2_68000.png) |
-| CPU/Timing/MOVE1/MOVE11B | MOVE11B_68000 | A500 ECS | FAIL | 3708 |  |  |  | [MOVE11B_68000.png](CPU/Timing/MOVE1/MOVE11B/MOVE11B_68000.png) |
-| CPU/Timing/MOVE1/MOVE11L | MOVE11L_68000 | A500 ECS | FAIL | 3972 |  |  |  | [MOVE11L_68000.png](CPU/Timing/MOVE1/MOVE11L/MOVE11L_68000.png) |
-| CPU/Timing/MOVE1/MOVE11W | MOVE11W_68000 | A500 ECS | FAIL | 3708 |  |  |  | [MOVE11W_68000.png](CPU/Timing/MOVE1/MOVE11W/MOVE11W_68000.png) |
-| CPU/Timing/MOVE1/MOVE1B | MOVE1B_68000 | A500 ECS | FAIL | 2934 |  |  |  | [MOVE1B_68000.png](CPU/Timing/MOVE1/MOVE1B/MOVE1B_68000.png) |
-| CPU/Timing/MOVE1/MOVE1L | MOVE1L_68000 | A500 ECS | FAIL | 2942 |  |  |  | [MOVE1L_68000.png](CPU/Timing/MOVE1/MOVE1L/MOVE1L_68000.png) |
-| CPU/Timing/MOVE1/MOVE1W | MOVE1W_68000 | A500 ECS | FAIL | 2910 |  |  |  | [MOVE1W_68000.png](CPU/Timing/MOVE1/MOVE1W/MOVE1W_68000.png) |
-| CPU/Timing/MOVE2/MOVE22B | MOVE22B_68000 | A500 ECS | FAIL | 3342 |  |  |  | [MOVE22B_68000.png](CPU/Timing/MOVE2/MOVE22B/MOVE22B_68000.png) |
-| CPU/Timing/MOVE2/MOVE22L | MOVE22L_68000 | A500 ECS | FAIL | 3912 |  |  |  | [MOVE22L_68000.png](CPU/Timing/MOVE2/MOVE22L/MOVE22L_68000.png) |
-| CPU/Timing/MOVE2/MOVE22W | MOVE22W_68000 | A500 ECS | FAIL | 3342 |  |  |  | [MOVE22W_68000.png](CPU/Timing/MOVE2/MOVE22W/MOVE22W_68000.png) |
-| CPU/Timing/MOVE2/MOVE2B | MOVE2B_68000 | A500 ECS | FAIL | 2914 |  |  |  | [MOVE2B_68000.png](CPU/Timing/MOVE2/MOVE2B/MOVE2B_68000.png) |
-| CPU/Timing/MOVE2/MOVE2L | MOVE2L_68000 | A500 ECS | FAIL | 2994 |  |  |  | [MOVE2L_68000.png](CPU/Timing/MOVE2/MOVE2L/MOVE2L_68000.png) |
-| CPU/Timing/MOVE2/MOVE2W | MOVE2W_68000 | A500 ECS | FAIL | 2976 |  |  |  | [MOVE2W_68000.png](CPU/Timing/MOVE2/MOVE2W/MOVE2W_68000.png) |
-| CPU/Timing/MOVE3/MOVE33B | MOVE33B_68000 | A500 ECS | FAIL | 3484 |  |  |  | [MOVE33B_68000.png](CPU/Timing/MOVE3/MOVE33B/MOVE33B_68000.png) |
-| CPU/Timing/MOVE3/MOVE33L | MOVE33L_68000 | A500 ECS | FAIL | 4022 |  |  |  | [MOVE33L_68000.png](CPU/Timing/MOVE3/MOVE33L/MOVE33L_68000.png) |
-| CPU/Timing/MOVE3/MOVE33W | MOVE33W_68000 | A500 ECS | FAIL | 3662 |  |  |  | [MOVE33W_68000.png](CPU/Timing/MOVE3/MOVE33W/MOVE33W_68000.png) |
-| CPU/Timing/MOVE3/MOVE3B | MOVE3B_68000 | A500 ECS | FAIL | 3020 |  |  |  | [MOVE3B_68000.png](CPU/Timing/MOVE3/MOVE3B/MOVE3B_68000.png) |
-| CPU/Timing/MOVE3/MOVE3L | MOVE3L_68000 | A500 ECS | FAIL | 3158 |  |  |  | [MOVE3L_68000.png](CPU/Timing/MOVE3/MOVE3L/MOVE3L_68000.png) |
-| CPU/Timing/MOVE3/MOVE3W | MOVE3W_68000 | A500 ECS | FAIL | 3020 |  |  |  | [MOVE3W_68000.png](CPU/Timing/MOVE3/MOVE3W/MOVE3W_68000.png) |
-| CPU/Timing/MOVE4/MOVE44B | MOVE44B_68000 | A500 ECS | FAIL | 4022 |  |  |  | [MOVE44B_68000.png](CPU/Timing/MOVE4/MOVE44B/MOVE44B_68000.png) |
-| CPU/Timing/MOVE4/MOVE44L | MOVE44L_68000 | A500 ECS | FAIL | 4538 |  |  |  | [MOVE44L_68000.png](CPU/Timing/MOVE4/MOVE44L/MOVE44L_68000.png) |
-| CPU/Timing/MOVE4/MOVE44W | MOVE44W_68000 | A500 ECS | FAIL | 4022 |  |  |  | [MOVE44W_68000.png](CPU/Timing/MOVE4/MOVE44W/MOVE44W_68000.png) |
-| CPU/Timing/MOVE4/MOVE4B | MOVE4B_68000 | A500 ECS | FAIL | 3004 |  |  |  | [MOVE4B_68000.png](CPU/Timing/MOVE4/MOVE4B/MOVE4B_68000.png) |
-| CPU/Timing/MOVE4/MOVE4L | MOVE4L_68000 | A500 ECS | FAIL | 3134 |  |  |  | [MOVE4L_68000.png](CPU/Timing/MOVE4/MOVE4L/MOVE4L_68000.png) |
-| CPU/Timing/MOVE4/MOVE4W | MOVE4W_68000 | A500 ECS | FAIL | 3006 |  |  |  | [MOVE4W_68000.png](CPU/Timing/MOVE4/MOVE4W/MOVE4W_68000.png) |
-| CPU/Timing/MOVE5/MOVE55B | MOVE55B_68000 | A500 ECS | FAIL | 3276 |  |  |  | [MOVE55B_68000.png](CPU/Timing/MOVE5/MOVE55B/MOVE55B_68000.png) |
-| CPU/Timing/MOVE5/MOVE55L | MOVE55L_68000 | A500 ECS | FAIL | 4058 |  |  |  | [MOVE55L_68000.png](CPU/Timing/MOVE5/MOVE55L/MOVE55L_68000.png) |
-| CPU/Timing/MOVE5/MOVE55W | MOVE55W_68000 | A500 ECS | FAIL | 3650 |  |  |  | [MOVE55W_68000.png](CPU/Timing/MOVE5/MOVE55W/MOVE55W_68000.png) |
-| CPU/Timing/MOVE5/MOVE5B | MOVE5B_68000 | A500 ECS | FAIL | 3042 |  |  |  | [MOVE5B_68000.png](CPU/Timing/MOVE5/MOVE5B/MOVE5B_68000.png) |
-| CPU/Timing/MOVE5/MOVE5L | MOVE5L_68000 | A500 ECS | FAIL | 3222 |  |  |  | [MOVE5L_68000.png](CPU/Timing/MOVE5/MOVE5L/MOVE5L_68000.png) |
-| CPU/Timing/MOVE5/MOVE5W | MOVE5W_68000 | A500 ECS | FAIL | 3068 |  |  |  | [MOVE5W_68000.png](CPU/Timing/MOVE5/MOVE5W/MOVE5W_68000.png) |
-| CPU/Timing/MOVE6/MOVE66B | MOVE66B_68000 | A500 ECS | FAIL | 4412 |  |  |  | [MOVE66B_68000.png](CPU/Timing/MOVE6/MOVE66B/MOVE66B_68000.png) |
-| CPU/Timing/MOVE6/MOVE66L | MOVE66L_68000 | A500 ECS | FAIL | 4914 |  |  |  | [MOVE66L_68000.png](CPU/Timing/MOVE6/MOVE66L/MOVE66L_68000.png) |
-| CPU/Timing/MOVE6/MOVE66W | MOVE66W_68000 | A500 ECS | FAIL | 4412 |  |  |  | [MOVE66W_68000.png](CPU/Timing/MOVE6/MOVE66W/MOVE66W_68000.png) |
-| CPU/Timing/MOVE6/MOVE6B | MOVE6B_68000 | A500 ECS | FAIL | 3098 |  |  |  | [MOVE6B_68000.png](CPU/Timing/MOVE6/MOVE6B/MOVE6B_68000.png) |
-| CPU/Timing/MOVE6/MOVE6L | MOVE6L_68000 | A500 ECS | FAIL | 3314 |  |  |  | [MOVE6L_68000.png](CPU/Timing/MOVE6/MOVE6L/MOVE6L_68000.png) |
-| CPU/Timing/MOVE6/MOVE6W | MOVE6W_68000 | A500 ECS | FAIL | 3074 |  |  |  | [MOVE6W_68000.png](CPU/Timing/MOVE6/MOVE6W/MOVE6W_68000.png) |
-| CPU/Timing/MOVE7/MOVE7B | MOVE7B_68000 | A500 ECS | FAIL | 3068 |  |  |  | [MOVE7B_68000.png](CPU/Timing/MOVE7/MOVE7B/MOVE7B_68000.png) |
-| CPU/Timing/MOVE7/MOVE7L | MOVE7L_68000 | A500 ECS | FAIL | 3270 |  |  |  | [MOVE7L_68000.png](CPU/Timing/MOVE7/MOVE7L/MOVE7L_68000.png) |
-| CPU/Timing/MOVE7/MOVE7W | MOVE7W_68000 | A500 ECS | FAIL | 3068 |  |  |  | [MOVE7W_68000.png](CPU/Timing/MOVE7/MOVE7W/MOVE7W_68000.png) |
-| CPU/Timing/MOVE8/MOVE88B | MOVE88B_68000 | A500 ECS | FAIL | 3412 |  |  |  | [MOVE88B_68000.png](CPU/Timing/MOVE8/MOVE88B/MOVE88B_68000.png) |
-| CPU/Timing/MOVE8/MOVE88L | MOVE88L_68000 | A500 ECS | FAIL | 4198 |  |  |  | [MOVE88L_68000.png](CPU/Timing/MOVE8/MOVE88L/MOVE88L_68000.png) |
-| CPU/Timing/MOVE8/MOVE88W | MOVE88W_68000 | A500 ECS | FAIL | 3912 |  |  |  | [MOVE88W_68000.png](CPU/Timing/MOVE8/MOVE88W/MOVE88W_68000.png) |
-| CPU/Timing/MOVE8/MOVE8B | MOVE8B_68000 | A500 ECS | FAIL | 3026 |  |  |  | [MOVE8B_68000.png](CPU/Timing/MOVE8/MOVE8B/MOVE8B_68000.png) |
-| CPU/Timing/MOVE8/MOVE8L | MOVE8L_68000 | A500 ECS | FAIL | 3278 |  |  |  | [MOVE8L_68000.png](CPU/Timing/MOVE8/MOVE8L/MOVE8L_68000.png) |
-| CPU/Timing/MOVE8/MOVE8W | MOVE8W_68000 | A500 ECS | FAIL | 3132 |  |  |  | [MOVE8W_68000.png](CPU/Timing/MOVE8/MOVE8W/MOVE8W_68000.png) |
-| CPU/Timing/MOVEA/MOVEA1L | MOVEA1L_68000 | A500 ECS | FAIL | 3586 |  |  |  | [MOVEA1L_68000.png](CPU/Timing/MOVEA/MOVEA1L/MOVEA1L_68000.png) |
-| CPU/Timing/MOVEA/MOVEA1W | MOVEA1W_68000 | A500 ECS | FAIL | 3462 |  |  |  | [MOVEA1W_68000.png](CPU/Timing/MOVEA/MOVEA1W/MOVEA1W_68000.png) |
-| CPU/Timing/MOVEA/MOVEA2L | MOVEA2L_68000 | A500 ECS | FAIL | 4004 |  |  |  | [MOVEA2L_68000.png](CPU/Timing/MOVEA/MOVEA2L/MOVEA2L_68000.png) |
-| CPU/Timing/MOVEA/MOVEA2W | MOVEA2W_68000 | A500 ECS | FAIL | 3676 |  |  |  | [MOVEA2W_68000.png](CPU/Timing/MOVEA/MOVEA2W/MOVEA2W_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR1 | MOVECCR1_68000 | A500 ECS | FAIL | 3788 |  |  |  | [MOVECCR1_68000.png](CPU/Timing/MOVECCR/MOVECCR1/MOVECCR1_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR2 | MOVECCR2_68000 | A500 ECS | FAIL | 3450 |  |  |  | [MOVECCR2_68000.png](CPU/Timing/MOVECCR/MOVECCR2/MOVECCR2_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR3 | MOVECCR3_68000 | A500 ECS | FAIL | 3832 |  |  |  | [MOVECCR3_68000.png](CPU/Timing/MOVECCR/MOVECCR3/MOVECCR3_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR4 | MOVECCR4_68000 | A500 ECS | FAIL | 3450 |  |  |  | [MOVECCR4_68000.png](CPU/Timing/MOVECCR/MOVECCR4/MOVECCR4_68000.png) |
-| CPU/Timing/MOVECCR/MOVECCR5 | MOVECCR5_68000 | A500 ECS | FAIL | 2682 |  |  |  | [MOVECCR5_68000.png](CPU/Timing/MOVECCR/MOVECCR5/MOVECCR5_68000.png) |
-| CPU/Timing/MOVEM/MOVEM1 | MOVEM1_68000 | A500 ECS | FAIL | 3224 |  |  |  | [MOVEM1_68000.png](CPU/Timing/MOVEM/MOVEM1/MOVEM1_68000.png) |
-| CPU/Timing/MOVEP/MOVEP1 | MOVEP1_68000 | A500 ECS | FAIL | 2880 |  |  |  | [MOVEP1_68000.png](CPU/Timing/MOVEP/MOVEP1/MOVEP1_68000.png) |
-| CPU/Timing/MOVEP/MOVEP2 | MOVEP2_68000 | A500 ECS | FAIL | 4326 |  |  |  | [MOVEP2_68000.png](CPU/Timing/MOVEP/MOVEP2/MOVEP2_68000.png) |
-| CPU/Timing/MOVEQ/MOVEQ | MOVEQ_68000 | A500 ECS | FAIL | 2650 |  |  |  | [MOVEQ_68000.png](CPU/Timing/MOVEQ/MOVEQ/MOVEQ_68000.png) |
-| CPU/Timing/MOVESR/MOVESR1 | MOVESR1_68000 | A500 ECS | FAIL | 2682 |  |  |  | [MOVESR1_68000.png](CPU/Timing/MOVESR/MOVESR1/MOVESR1_68000.png) |
-| CPU/Timing/MOVESR/MOVESR2 | MOVESR2_68000 | A500 ECS | FAIL | 2642 |  |  |  | [MOVESR2_68000.png](CPU/Timing/MOVESR/MOVESR2/MOVESR2_68000.png) |
-| CPU/Timing/MOVESR/MOVESR3 | MOVESR3_68000 | A500 ECS | FAIL | 2650 |  |  |  | [MOVESR3_68000.png](CPU/Timing/MOVESR/MOVESR3/MOVESR3_68000.png) |
-| CPU/Timing/MOVESR/MOVESR4 | MOVESR4_68000 | A500 ECS | FAIL | 2650 |  |  |  | [MOVESR4_68000.png](CPU/Timing/MOVESR/MOVESR4/MOVESR4_68000.png) |
-| CPU/Timing/MUL/MULS1 | MULS1_68000 | A500 ECS | FAIL | 2746 |  |  |  | [MULS1_68000.png](CPU/Timing/MUL/MULS1/MULS1_68000.png) |
-| CPU/Timing/MUL/MULS2 | MULS2_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULS2_68000.png](CPU/Timing/MUL/MULS2/MULS2_68000.png) |
-| CPU/Timing/MUL/MULS3 | MULS3_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULS3_68000.png](CPU/Timing/MUL/MULS3/MULS3_68000.png) |
-| CPU/Timing/MUL/MULU1 | MULU1_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULU1_68000.png](CPU/Timing/MUL/MULU1/MULU1_68000.png) |
-| CPU/Timing/MUL/MULU2 | MULU2_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULU2_68000.png](CPU/Timing/MUL/MULU2/MULU2_68000.png) |
-| CPU/Timing/MUL/MULU3 | MULU3_68000 | A500 ECS | FAIL | 2714 |  |  |  | [MULU3_68000.png](CPU/Timing/MUL/MULU3/MULU3_68000.png) |
-| CPU/Timing/NBCD/NBCD1 | NBCD1_68000 | A500 ECS | FAIL | 3254 |  |  |  | [NBCD1_68000.png](CPU/Timing/NBCD/NBCD1/NBCD1_68000.png) |
-| CPU/Timing/NBCD/NBCD2 | NBCD2_68000 | A500 ECS | FAIL | 3626 |  |  |  | [NBCD2_68000.png](CPU/Timing/NBCD/NBCD2/NBCD2_68000.png) |
-| CPU/Timing/NEG/NEG1b | NEG1b_68000 | A500 ECS | FAIL | 3196 |  |  |  | [NEG1b_68000.png](CPU/Timing/NEG/NEG1b/NEG1b_68000.png) |
-| CPU/Timing/NEG/NEG1l | NEG1l_68000 | A500 ECS | FAIL | 4326 |  |  |  | [NEG1l_68000.png](CPU/Timing/NEG/NEG1l/NEG1l_68000.png) |
-| CPU/Timing/NEG/NEG1w | NEG1w_68000 | A500 ECS | FAIL | 3522 |  |  |  | [NEG1w_68000.png](CPU/Timing/NEG/NEG1w/NEG1w_68000.png) |
-| CPU/Timing/NEG/NEG2b | NEG2b_68000 | A500 ECS | FAIL | 3626 |  |  |  | [NEG2b_68000.png](CPU/Timing/NEG/NEG2b/NEG2b_68000.png) |
-| CPU/Timing/NEG/NEG2l | NEG2l_68000 | A500 ECS | FAIL | 4204 |  |  |  | [NEG2l_68000.png](CPU/Timing/NEG/NEG2l/NEG2l_68000.png) |
-| CPU/Timing/NEG/NEG2w | NEG2w_68000 | A500 ECS | FAIL | 3626 |  |  |  | [NEG2w_68000.png](CPU/Timing/NEG/NEG2w/NEG2w_68000.png) |
-| CPU/Timing/NEG/NEGX1b | NEGX1b_68000 | A500 ECS | FAIL | 3126 |  |  |  | [NEGX1b_68000.png](CPU/Timing/NEG/NEGX1b/NEGX1b_68000.png) |
-| CPU/Timing/NEG/NEGX1l | NEGX1l_68000 | A500 ECS | FAIL | 4226 |  |  |  | [NEGX1l_68000.png](CPU/Timing/NEG/NEGX1l/NEGX1l_68000.png) |
-| CPU/Timing/NEG/NEGX1w | NEGX1w_68000 | A500 ECS | FAIL | 3428 |  |  |  | [NEGX1w_68000.png](CPU/Timing/NEG/NEGX1w/NEGX1w_68000.png) |
-| CPU/Timing/NEG/NEGX2b | NEGX2b_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NEGX2b_68000.png](CPU/Timing/NEG/NEGX2b/NEGX2b_68000.png) |
-| CPU/Timing/NEG/NEGX2l | NEGX2l_68000 | A500 ECS | FAIL | 4134 |  |  |  | [NEGX2l_68000.png](CPU/Timing/NEG/NEGX2l/NEGX2l_68000.png) |
-| CPU/Timing/NEG/NEGX2w | NEGX2w_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NEGX2w_68000.png](CPU/Timing/NEG/NEGX2w/NEGX2w_68000.png) |
-| CPU/Timing/NOP/NOP | NOP_68000 | A500 ECS | FAIL | 2682 |  |  |  | [NOP_68000.png](CPU/Timing/NOP/NOP/NOP_68000.png) |
-| CPU/Timing/NOT/NOT1b | NOT1b_68000 | A500 ECS | FAIL | 3126 |  |  |  | [NOT1b_68000.png](CPU/Timing/NOT/NOT1b/NOT1b_68000.png) |
-| CPU/Timing/NOT/NOT1l | NOT1l_68000 | A500 ECS | FAIL | 4226 |  |  |  | [NOT1l_68000.png](CPU/Timing/NOT/NOT1l/NOT1l_68000.png) |
-| CPU/Timing/NOT/NOT1w | NOT1w_68000 | A500 ECS | FAIL | 3428 |  |  |  | [NOT1w_68000.png](CPU/Timing/NOT/NOT1w/NOT1w_68000.png) |
-| CPU/Timing/NOT/NOT2b | NOT2b_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NOT2b_68000.png](CPU/Timing/NOT/NOT2b/NOT2b_68000.png) |
-| CPU/Timing/NOT/NOT2l | NOT2l_68000 | A500 ECS | FAIL | 4134 |  |  |  | [NOT2l_68000.png](CPU/Timing/NOT/NOT2l/NOT2l_68000.png) |
-| CPU/Timing/NOT/NOT2w | NOT2w_68000 | A500 ECS | FAIL | 3550 |  |  |  | [NOT2w_68000.png](CPU/Timing/NOT/NOT2w/NOT2w_68000.png) |
-| CPU/Timing/PEA/PEA1 | PEA1_68000 | A500 ECS | FAIL | 2730 |  |  |  | [PEA1_68000.png](CPU/Timing/PEA/PEA1/PEA1_68000.png) |
-| CPU/Timing/RTE/RTE1 | RTE1_68000 | A500 ECS | FAIL | 2706 |  |  |  | [RTE1_68000.png](CPU/Timing/RTE/RTE1/RTE1_68000.png) |
-| CPU/Timing/RTE/RTE2 | RTE2_68000 | A500 ECS | FAIL | 2802 |  |  |  | [RTE2_68000.png](CPU/Timing/RTE/RTE2/RTE2_68000.png) |
-| CPU/Timing/RTR/RTR1 | RTR1_68000 | A500 ECS | FAIL | 2820 |  |  |  | [RTR1_68000.png](CPU/Timing/RTR/RTR1/RTR1_68000.png) |
-| CPU/Timing/RTR/RTR2 | RTR2_68000 | A500 ECS | FAIL | 3220 |  |  |  | [RTR2_68000.png](CPU/Timing/RTR/RTR2/RTR2_68000.png) |
-| CPU/Timing/RTS/RTS1 | RTS1_68000 | A500 ECS | FAIL | 2678 |  |  |  | [RTS1_68000.png](CPU/Timing/RTS/RTS1/RTS1_68000.png) |
-| CPU/Timing/RTS/RTS2 | RTS2_68000 | A500 ECS | FAIL | 2678 |  |  |  | [RTS2_68000.png](CPU/Timing/RTS/RTS2/RTS2_68000.png) |
-| CPU/Timing/STOP/stop1 | stop1_68000 | A500 ECS | FAIL | 2782 |  |  |  | [stop1_68000.png](CPU/Timing/STOP/stop1/stop1_68000.png) |
-| CPU/Timing/STOP/stop2 | stop2_68000 | A500 ECS | FAIL | 3394 |  |  |  | [stop2_68000.png](CPU/Timing/STOP/stop2/stop2_68000.png) |
-| CPU/Timing/STOP/stop3 | stop3_68000 | A500 ECS | FAIL | 4764 |  |  |  | [stop3_68000.png](CPU/Timing/STOP/stop3/stop3_68000.png) |
-| CPU/Timing/STOP/stop4 | stop4_68000 | A500 ECS | FAIL | 14356 |  |  |  | [stop4_68000.png](CPU/Timing/STOP/stop4/stop4_68000.png) |
-| CPU/Timing/STOP/stop5 | stop5_68000 | A500 ECS | FAIL | 5328 |  |  |  | [stop5_68000.png](CPU/Timing/STOP/stop5/stop5_68000.png) |
-| CPU/Timing/SWAP/SWAP1 | SWAP1_68000 | A500 ECS | FAIL | 2650 |  |  |  | [SWAP1_68000.png](CPU/Timing/SWAP/SWAP1/SWAP1_68000.png) |
-| CPU/Timing/Scc/SEQ1 | SEQ1_68000 | A500 ECS | FAIL | 3068 |  |  |  | [SEQ1_68000.png](CPU/Timing/Scc/SEQ1/SEQ1_68000.png) |
-| CPU/Timing/Scc/SEQ2 | SEQ2_68000 | A500 ECS | FAIL | 3330 |  |  |  | [SEQ2_68000.png](CPU/Timing/Scc/SEQ2/SEQ2_68000.png) |
-| CPU/Timing/Scc/SEQ3 | SEQ3_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ3_68000.png](CPU/Timing/Scc/SEQ3/SEQ3_68000.png) |
-| CPU/Timing/Scc/SEQ4 | SEQ4_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ4_68000.png](CPU/Timing/Scc/SEQ4/SEQ4_68000.png) |
-| CPU/Timing/Scc/SEQ5 | SEQ5_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ5_68000.png](CPU/Timing/Scc/SEQ5/SEQ5_68000.png) |
-| CPU/Timing/Scc/SEQ6 | SEQ6_68000 | A500 ECS | FAIL | 2682 |  |  |  | [SEQ6_68000.png](CPU/Timing/Scc/SEQ6/SEQ6_68000.png) |
-| CPU/Timing/Scc/SNE1 | SNE1_68000 | A500 ECS | FAIL | 3048 |  |  |  | [SNE1_68000.png](CPU/Timing/Scc/SNE1/SNE1_68000.png) |
-| CPU/Timing/Scc/SNE2 | SNE2_68000 | A500 ECS | FAIL | 3192 |  |  |  | [SNE2_68000.png](CPU/Timing/Scc/SNE2/SNE2_68000.png) |
-| CPU/Timing/TAS/TAS1 | TAS1_68000 | A500 ECS | FAIL | 3188 |  |  |  | [TAS1_68000.png](CPU/Timing/TAS/TAS1/TAS1_68000.png) |
-| CPU/Timing/TAS/TAS2 | TAS2_68000 | A500 ECS | FAIL | 3728 |  |  |  | [TAS2_68000.png](CPU/Timing/TAS/TAS2/TAS2_68000.png) |
-| CPU/Timing/TRAP/TRAP1 | TRAP1_68000 | A500 ECS | FAIL | 2690 |  |  |  | [TRAP1_68000.png](CPU/Timing/TRAP/TRAP1/TRAP1_68000.png) |
-| CPU/Timing/TRAP/TRAP4 | TRAP4_68000 | A500 ECS | FAIL | 3338 |  |  |  | [TRAP4_68000.png](CPU/Timing/TRAP/TRAP4/TRAP4_68000.png) |
-| CPU/Timing/TRAP/TRAPV1 | TRAPV1_68000 | A500 ECS | FAIL | 2654 |  |  |  | [TRAPV1_68000.png](CPU/Timing/TRAP/TRAPV1/TRAPV1_68000.png) |
-| CPU/Timing/TRAP/TRAPV2 | TRAPV2_68000 | A500 ECS | FAIL | 2714 |  |  |  | [TRAPV2_68000.png](CPU/Timing/TRAP/TRAPV2/TRAPV2_68000.png) |
-| CPU/Timing/TRAP/TRAPV3 | TRAPV3_68000 | A500 ECS | FAIL | 2870 |  |  |  | [TRAPV3_68000.png](CPU/Timing/TRAP/TRAPV3/TRAPV3_68000.png) |
-| CPU/Timing/TRAP/TRAPV4 | TRAPV4_68000 | A500 ECS | FAIL | 4090 |  |  |  | [TRAPV4_68000.png](CPU/Timing/TRAP/TRAPV4/TRAPV4_68000.png) |
-| CPU/Timing/TRAP/TRAPV5 | TRAPV5_68000 | A500 ECS | FAIL | 2774 |  |  |  | [TRAPV5_68000.png](CPU/Timing/TRAP/TRAPV5/TRAPV5_68000.png) |
-| CPU/Timing/TST/TST1b | TST1b_68000 | A500 ECS | FAIL | 3462 |  |  |  | [TST1b_68000.png](CPU/Timing/TST/TST1b/TST1b_68000.png) |
-| CPU/Timing/TST/TST1l | TST1l_68000 | A500 ECS | FAIL | 3586 |  |  |  | [TST1l_68000.png](CPU/Timing/TST/TST1l/TST1l_68000.png) |
-| CPU/Timing/TST/TST1w | TST1w_68000 | A500 ECS | FAIL | 3462 |  |  |  | [TST1w_68000.png](CPU/Timing/TST/TST1w/TST1w_68000.png) |
-| CPU/Timing/TST/TST2b | TST2b_68000 | A500 ECS | FAIL | 3664 |  |  |  | [TST2b_68000.png](CPU/Timing/TST/TST2b/TST2b_68000.png) |
-| CPU/Timing/TST/TST2l | TST2l_68000 | A500 ECS | FAIL | 4012 |  |  |  | [TST2l_68000.png](CPU/Timing/TST/TST2l/TST2l_68000.png) |
-| CPU/Timing/TST/TST2w | TST2w_68000 | A500 ECS | FAIL | 3664 |  |  |  | [TST2w_68000.png](CPU/Timing/TST/TST2w/TST2w_68000.png) |
-| CPU/Timing/UNLK/UNLK1 | UNLK1_68000 | A500 ECS | FAIL | 2736 |  |  |  | [UNLK1_68000.png](CPU/Timing/UNLK/UNLK1/UNLK1_68000.png) |
+| Test | Variant | Machine | Result | Differing px | Labels | Image |
+|---|---|---|---|---|---|---|
+| [CPU/Timing/ABCD/ABCD](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ABCD/ABCD) | ABCD_68000 | A500 ECS | FAIL | 2674 | `synccpu` | [ABCD_68000.png](CPU/Timing/ABCD/ABCD/ABCD_68000.png) |
+| [CPU/Timing/ABCD/ABCD2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ABCD/ABCD2) | ABCD2_68000 | A500 ECS | FAIL | 2642 | `synccpu` | [ABCD2_68000.png](CPU/Timing/ABCD/ABCD2/ABCD2_68000.png) |
+| [CPU/Timing/ABCD/ABCD3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ABCD/ABCD3) | ABCD3_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ABCD3_68000.png](CPU/Timing/ABCD/ABCD3/ABCD3_68000.png) |
+| [CPU/Timing/ADD/ADD1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD1b) | ADD1b_68000 | A500 ECS | FAIL | 3876 | `synccpu` | [ADD1b_68000.png](CPU/Timing/ADD/ADD1b/ADD1b_68000.png) |
+| [CPU/Timing/ADD/ADD1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD1l) | ADD1l_68000 | A500 ECS | FAIL | 4352 | `synccpu` | [ADD1l_68000.png](CPU/Timing/ADD/ADD1l/ADD1l_68000.png) |
+| [CPU/Timing/ADD/ADD1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD1w) | ADD1w_68000 | A500 ECS | FAIL | 3876 | `synccpu` | [ADD1w_68000.png](CPU/Timing/ADD/ADD1w/ADD1w_68000.png) |
+| [CPU/Timing/ADD/ADD2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD2b) | ADD2b_68000 | A500 ECS | FAIL | 3864 | `synccpu` | [ADD2b_68000.png](CPU/Timing/ADD/ADD2b/ADD2b_68000.png) |
+| [CPU/Timing/ADD/ADD2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD2l) | ADD2l_68000 | A500 ECS | FAIL | 4672 | `synccpu` | [ADD2l_68000.png](CPU/Timing/ADD/ADD2l/ADD2l_68000.png) |
+| [CPU/Timing/ADD/ADD2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD2w) | ADD2w_68000 | A500 ECS | FAIL | 3864 | `synccpu` | [ADD2w_68000.png](CPU/Timing/ADD/ADD2w/ADD2w_68000.png) |
+| [CPU/Timing/ADD/ADDA1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA1l) | ADDA1l_68000 | A500 ECS | FAIL | 4404 | `synccpu` | [ADDA1l_68000.png](CPU/Timing/ADD/ADDA1l/ADDA1l_68000.png) |
+| [CPU/Timing/ADD/ADDA1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA1w) | ADDA1w_68000 | A500 ECS | FAIL | 4164 | `synccpu` | [ADDA1w_68000.png](CPU/Timing/ADD/ADDA1w/ADDA1w_68000.png) |
+| [CPU/Timing/ADD/ADDA2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA2l) | ADDA2l_68000 | A500 ECS | FAIL | 4164 | `synccpu` | [ADDA2l_68000.png](CPU/Timing/ADD/ADDA2l/ADDA2l_68000.png) |
+| [CPU/Timing/ADD/ADDA2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA2w) | ADDA2w_68000 | A500 ECS | FAIL | 3892 | `synccpu` | [ADDA2w_68000.png](CPU/Timing/ADD/ADDA2w/ADDA2w_68000.png) |
+| [CPU/Timing/ADD/ADDQ1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ1b) | ADDQ1b_68000 | A500 ECS | FAIL | 3652 | `synccpu` | [ADDQ1b_68000.png](CPU/Timing/ADD/ADDQ1b/ADDQ1b_68000.png) |
+| [CPU/Timing/ADD/ADDQ1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ1l) | ADDQ1l_68000 | A500 ECS | FAIL | 4310 | `synccpu` | [ADDQ1l_68000.png](CPU/Timing/ADD/ADDQ1l/ADDQ1l_68000.png) |
+| [CPU/Timing/ADD/ADDQ1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ1w) | ADDQ1w_68000 | A500 ECS | FAIL | 3652 | `synccpu` | [ADDQ1w_68000.png](CPU/Timing/ADD/ADDQ1w/ADDQ1w_68000.png) |
+| [CPU/Timing/ADD/ADDQ2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ2b) | ADDQ2b_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ADDQ2b_68000.png](CPU/Timing/ADD/ADDQ2b/ADDQ2b_68000.png) |
+| [CPU/Timing/ADD/ADDQ2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ2l) | ADDQ2l_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ADDQ2l_68000.png](CPU/Timing/ADD/ADDQ2l/ADDQ2l_68000.png) |
+| [CPU/Timing/ADD/ADDQ2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ2w) | ADDQ2w_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ADDQ2w_68000.png](CPU/Timing/ADD/ADDQ2w/ADDQ2w_68000.png) |
+| [CPU/Timing/ADD/ADDQ3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ3l) | ADDQ3l_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ADDQ3l_68000.png](CPU/Timing/ADD/ADDQ3l/ADDQ3l_68000.png) |
+| [CPU/Timing/ADD/ADDQ3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ3w) | ADDQ3w_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ADDQ3w_68000.png](CPU/Timing/ADD/ADDQ3w/ADDQ3w_68000.png) |
+| [CPU/Timing/ADD/ADDXb](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDXb) | ADDXb_68000 | A500 ECS | FAIL | 3966 | `synccpu` | [ADDXb_68000.png](CPU/Timing/ADD/ADDXb/ADDXb_68000.png) |
+| [CPU/Timing/ADD/ADDXl](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDXl) | ADDXl_68000 | A500 ECS | FAIL | 3860 | `synccpu` | [ADDXl_68000.png](CPU/Timing/ADD/ADDXl/ADDXl_68000.png) |
+| [CPU/Timing/ADD/ADDXw](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDXw) | ADDXw_68000 | A500 ECS | FAIL | 3646 | `synccpu` | [ADDXw_68000.png](CPU/Timing/ADD/ADDXw/ADDXw_68000.png) |
+| [CPU/Timing/AND/AND1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND1b) | AND1b_68000 | A500 ECS | FAIL | 4484 | `synccpu` | [AND1b_68000.png](CPU/Timing/AND/AND1b/AND1b_68000.png) |
+| [CPU/Timing/AND/AND1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND1l) | AND1l_68000 | A500 ECS | FAIL | 5894 | `synccpu` | [AND1l_68000.png](CPU/Timing/AND/AND1l/AND1l_68000.png) |
+| [CPU/Timing/AND/AND1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND1w) | AND1w_68000 | A500 ECS | FAIL | 4484 | `synccpu` | [AND1w_68000.png](CPU/Timing/AND/AND1w/AND1w_68000.png) |
+| [CPU/Timing/AND/AND2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND2l) | AND2l_68000 | A500 ECS | FAIL | 6008 | `synccpu` | [AND2l_68000.png](CPU/Timing/AND/AND2l/AND2l_68000.png) |
+| [CPU/Timing/AND/AND2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND2w) | AND2w_68000 | A500 ECS | FAIL | 5006 | `synccpu` | [AND2w_68000.png](CPU/Timing/AND/AND2w/AND2w_68000.png) |
+| [CPU/Timing/AND/AND3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND3l) | AND3l_68000 | A500 ECS | FAIL | 5192 | `synccpu` | [AND3l_68000.png](CPU/Timing/AND/AND3l/AND3l_68000.png) |
+| [CPU/Timing/AND/AND3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND3w) | AND3w_68000 | A500 ECS | FAIL | 4252 | `synccpu` | [AND3w_68000.png](CPU/Timing/AND/AND3w/AND3w_68000.png) |
+| [CPU/Timing/AND/ANDCCR](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/ANDCCR) | ANDCCR_68000 | A500 ECS | FAIL | 2722 | `synccpu` | [ANDCCR_68000.png](CPU/Timing/AND/ANDCCR/ANDCCR_68000.png) |
+| [CPU/Timing/ASL/ASL1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL1b) | ASL1b_68000 | A500 ECS | FAIL | 2706 | `synccpu` | [ASL1b_68000.png](CPU/Timing/ASL/ASL1b/ASL1b_68000.png) |
+| [CPU/Timing/ASL/ASL1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL1l) | ASL1l_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [ASL1l_68000.png](CPU/Timing/ASL/ASL1l/ASL1l_68000.png) |
+| [CPU/Timing/ASL/ASL1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL1w) | ASL1w_68000 | A500 ECS | FAIL | 2704 | `synccpu` | [ASL1w_68000.png](CPU/Timing/ASL/ASL1w/ASL1w_68000.png) |
+| [CPU/Timing/ASL/ASL2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL2w) | ASL2w_68000 | A500 ECS | FAIL | 3868 | `synccpu` | [ASL2w_68000.png](CPU/Timing/ASL/ASL2w/ASL2w_68000.png) |
+| [CPU/Timing/BCHG/BCHG1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BCHG/BCHG1) | BCHG1_68000 | A500 ECS | FAIL | 4400 | `synccpu` | [BCHG1_68000.png](CPU/Timing/BCHG/BCHG1/BCHG1_68000.png) |
+| [CPU/Timing/BCHG/BCHG2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BCHG/BCHG2) | BCHG2_68000 | A500 ECS | FAIL | 4884 | `synccpu` | [BCHG2_68000.png](CPU/Timing/BCHG/BCHG2/BCHG2_68000.png) |
+| [CPU/Timing/BSET/BSET1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSET/BSET1) | BSET1_68000 | A500 ECS | FAIL | 4372 | `synccpu` | [BSET1_68000.png](CPU/Timing/BSET/BSET1/BSET1_68000.png) |
+| [CPU/Timing/BSET/BSET2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSET/BSET2) | BSET2_68000 | A500 ECS | FAIL | 4804 | `synccpu` | [BSET2_68000.png](CPU/Timing/BSET/BSET2/BSET2_68000.png) |
+| [CPU/Timing/BSR/BSR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSR/BSR1) | BSR1_68000 | A500 ECS | FAIL | 2548 | `synccpu` | [BSR1_68000.png](CPU/Timing/BSR/BSR1/BSR1_68000.png) |
+| [CPU/Timing/BSR/BSR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSR/BSR2) | BSR2_68000 | A500 ECS | FAIL | 2784 | `synccpu` | [BSR2_68000.png](CPU/Timing/BSR/BSR2/BSR2_68000.png) |
+| [CPU/Timing/BTST/BTST1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BTST/BTST1) | BTST1_68000 | A500 ECS | FAIL | 4484 | `synccpu` | [BTST1_68000.png](CPU/Timing/BTST/BTST1/BTST1_68000.png) |
+| [CPU/Timing/BTST/BTST2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BTST/BTST2) | BTST2_68000 | A500 ECS | FAIL | 4992 | `synccpu` | [BTST2_68000.png](CPU/Timing/BTST/BTST2/BTST2_68000.png) |
+| [CPU/Timing/BTST/BTST3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BTST/BTST3) | BTST3_68000 | A500 ECS | FAIL | 4302 | `synccpu` | [BTST3_68000.png](CPU/Timing/BTST/BTST3/BTST3_68000.png) |
+| [CPU/Timing/Bcc/BEQ1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BEQ1) | BEQ1_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [BEQ1_68000.png](CPU/Timing/Bcc/BEQ1/BEQ1_68000.png) |
+| [CPU/Timing/Bcc/BEQ1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BEQ1b) | BEQ1b_68000 | A500 ECS | FAIL | 3130 | `synccpu` | [BEQ1b_68000.png](CPU/Timing/Bcc/BEQ1b/BEQ1b_68000.png) |
+| [CPU/Timing/Bcc/BRA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BRA1) | BRA1_68000 | A500 ECS | FAIL | 2698 | `synccpu` | [BRA1_68000.png](CPU/Timing/Bcc/BRA1/BRA1_68000.png) |
+| [CPU/Timing/Bcc/BRA1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BRA1b) | BRA1b_68000 | A500 ECS | FAIL | 3074 | `synccpu` | [BRA1b_68000.png](CPU/Timing/Bcc/BRA1b/BRA1b_68000.png) |
+| [CPU/Timing/Bcc/BRA1c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BRA1c) | BRA1c_68000 | A500 ECS | FAIL | 2746 | `synccpu` | [BRA1c_68000.png](CPU/Timing/Bcc/BRA1c/BRA1c_68000.png) |
+| [CPU/Timing/CHK/CHK1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK1) | CHK1_68000 | A500 ECS | FAIL | 2722 | `synccpu` | [CHK1_68000.png](CPU/Timing/CHK/CHK1/CHK1_68000.png) |
+| [CPU/Timing/CHK/CHK2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK2) | CHK2_68000 | A500 ECS | FAIL | 2706 | `synccpu` | [CHK2_68000.png](CPU/Timing/CHK/CHK2/CHK2_68000.png) |
+| [CPU/Timing/CHK/CHK3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK3) | CHK3_68000 | A500 ECS | FAIL | 2888 | `synccpu` | [CHK3_68000.png](CPU/Timing/CHK/CHK3/CHK3_68000.png) |
+| [CPU/Timing/CHK/CHK4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK4) | CHK4_68000 | A500 ECS | FAIL | 3256 | `synccpu` | [CHK4_68000.png](CPU/Timing/CHK/CHK4/CHK4_68000.png) |
+| [CPU/Timing/CHK/CHK5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK5) | CHK5_68000 | A500 ECS | FAIL | 2968 | `synccpu` | [CHK5_68000.png](CPU/Timing/CHK/CHK5/CHK5_68000.png) |
+| [CPU/Timing/CHK/CHK6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK6) | CHK6_68000 | A500 ECS | FAIL | 3202 | `synccpu` | [CHK6_68000.png](CPU/Timing/CHK/CHK6/CHK6_68000.png) |
+| [CPU/Timing/CLR/CLR1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1b) | CLR1b_68000 | A500 ECS | FAIL | 3346 | `synccpu` | [CLR1b_68000.png](CPU/Timing/CLR/CLR1b/CLR1b_68000.png) |
+| [CPU/Timing/CLR/CLR1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1l) | CLR1l_68000 | A500 ECS | FAIL | 4078 | `synccpu` | [CLR1l_68000.png](CPU/Timing/CLR/CLR1l/CLR1l_68000.png) |
+| [CPU/Timing/CLR/CLR1ll](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1ll) | CLR1ll_68000 | A500 ECS | FAIL | 3362 | `synccpu` | [CLR1ll_68000.png](CPU/Timing/CLR/CLR1ll/CLR1ll_68000.png) |
+| [CPU/Timing/CLR/CLR1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1w) | CLR1w_68000 | A500 ECS | FAIL | 3346 | `synccpu` | [CLR1w_68000.png](CPU/Timing/CLR/CLR1w/CLR1w_68000.png) |
+| [CPU/Timing/CLR/CLR2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2b) | CLR2b_68000 | A500 ECS | FAIL | 4062 | `synccpu` | [CLR2b_68000.png](CPU/Timing/CLR/CLR2b/CLR2b_68000.png) |
+| [CPU/Timing/CLR/CLR2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2l) | CLR2l_68000 | A500 ECS | FAIL | 4852 | `synccpu` | [CLR2l_68000.png](CPU/Timing/CLR/CLR2l/CLR2l_68000.png) |
+| [CPU/Timing/CLR/CLR2ll](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2ll) | CLR2ll_68000 | A500 ECS | FAIL | 4356 | `synccpu` | [CLR2ll_68000.png](CPU/Timing/CLR/CLR2ll/CLR2ll_68000.png) |
+| [CPU/Timing/CLR/CLR2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2w) | CLR2w_68000 | A500 ECS | FAIL | 4062 | `synccpu` | [CLR2w_68000.png](CPU/Timing/CLR/CLR2w/CLR2w_68000.png) |
+| [CPU/Timing/CLR/CLR3b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR3b) | CLR3b_68000 | A500 ECS | FAIL | 3574 | `synccpu` | [CLR3b_68000.png](CPU/Timing/CLR/CLR3b/CLR3b_68000.png) |
+| [CPU/Timing/CLR/CLR3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR3l) | CLR3l_68000 | A500 ECS | FAIL | 4434 | `synccpu` | [CLR3l_68000.png](CPU/Timing/CLR/CLR3l/CLR3l_68000.png) |
+| [CPU/Timing/CLR/CLR3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR3w) | CLR3w_68000 | A500 ECS | FAIL | 3574 | `synccpu` | [CLR3w_68000.png](CPU/Timing/CLR/CLR3w/CLR3w_68000.png) |
+| [CPU/Timing/CLR/CLR4b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR4b) | CLR4b_68000 | A500 ECS | FAIL | 3612 | `synccpu` | [CLR4b_68000.png](CPU/Timing/CLR/CLR4b/CLR4b_68000.png) |
+| [CPU/Timing/CLR/CLR4l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR4l) | CLR4l_68000 | A500 ECS | FAIL | 4386 | `synccpu` | [CLR4l_68000.png](CPU/Timing/CLR/CLR4l/CLR4l_68000.png) |
+| [CPU/Timing/CLR/CLR4w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR4w) | CLR4w_68000 | A500 ECS | FAIL | 3612 | `synccpu` | [CLR4w_68000.png](CPU/Timing/CLR/CLR4w/CLR4w_68000.png) |
+| [CPU/Timing/CMP/CMP1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP1b) | CMP1b_68000 | A500 ECS | FAIL | 3462 | `synccpu` | [CMP1b_68000.png](CPU/Timing/CMP/CMP1b/CMP1b_68000.png) |
+| [CPU/Timing/CMP/CMP1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP1l) | CMP1l_68000 | A500 ECS | FAIL | 3842 | `synccpu` | [CMP1l_68000.png](CPU/Timing/CMP/CMP1l/CMP1l_68000.png) |
+| [CPU/Timing/CMP/CMP1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP1w) | CMP1w_68000 | A500 ECS | FAIL | 3462 | `synccpu` | [CMP1w_68000.png](CPU/Timing/CMP/CMP1w/CMP1w_68000.png) |
+| [CPU/Timing/CMP/CMP2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP2b) | CMP2b_68000 | A500 ECS | FAIL | 3652 | `synccpu` | [CMP2b_68000.png](CPU/Timing/CMP/CMP2b/CMP2b_68000.png) |
+| [CPU/Timing/CMP/CMP2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP2l) | CMP2l_68000 | A500 ECS | FAIL | 4140 | `synccpu` | [CMP2l_68000.png](CPU/Timing/CMP/CMP2l/CMP2l_68000.png) |
+| [CPU/Timing/CMP/CMP2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP2w) | CMP2w_68000 | A500 ECS | FAIL | 3652 | `synccpu` | [CMP2w_68000.png](CPU/Timing/CMP/CMP2w/CMP2w_68000.png) |
+| [CPU/Timing/CMP/CMP3b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP3b) | CMP3b_68000 | A500 ECS | FAIL | 4202 | `synccpu` | [CMP3b_68000.png](CPU/Timing/CMP/CMP3b/CMP3b_68000.png) |
+| [CPU/Timing/CMP/CMP3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP3l) | CMP3l_68000 | A500 ECS | FAIL | 4834 | `synccpu` | [CMP3l_68000.png](CPU/Timing/CMP/CMP3l/CMP3l_68000.png) |
+| [CPU/Timing/CMP/CMP3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP3w) | CMP3w_68000 | A500 ECS | FAIL | 4202 | `synccpu` | [CMP3w_68000.png](CPU/Timing/CMP/CMP3w/CMP3w_68000.png) |
+| [CPU/Timing/CMP/CMP4b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP4b) | CMP4b_68000 | A500 ECS | FAIL | 4290 | `synccpu` | [CMP4b_68000.png](CPU/Timing/CMP/CMP4b/CMP4b_68000.png) |
+| [CPU/Timing/CMP/CMP4l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP4l) | CMP4l_68000 | A500 ECS | FAIL | 4906 | `synccpu` | [CMP4l_68000.png](CPU/Timing/CMP/CMP4l/CMP4l_68000.png) |
+| [CPU/Timing/CMP/CMP4w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP4w) | CMP4w_68000 | A500 ECS | FAIL | 4290 | `synccpu` | [CMP4w_68000.png](CPU/Timing/CMP/CMP4w/CMP4w_68000.png) |
+| [CPU/Timing/CMP/CMP5b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP5b) | CMP5b_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [CMP5b_68000.png](CPU/Timing/CMP/CMP5b/CMP5b_68000.png) |
+| [CPU/Timing/CMP/CMP5l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP5l) | CMP5l_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [CMP5l_68000.png](CPU/Timing/CMP/CMP5l/CMP5l_68000.png) |
+| [CPU/Timing/CMP/CMP5w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP5w) | CMP5w_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [CMP5w_68000.png](CPU/Timing/CMP/CMP5w/CMP5w_68000.png) |
+| [CPU/Timing/CMP/CMPA1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA1l) | CMPA1l_68000 | A500 ECS | FAIL | 3842 | `synccpu` | [CMPA1l_68000.png](CPU/Timing/CMP/CMPA1l/CMPA1l_68000.png) |
+| [CPU/Timing/CMP/CMPA1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA1w) | CMPA1w_68000 | A500 ECS | FAIL | 3588 | `synccpu` | [CMPA1w_68000.png](CPU/Timing/CMP/CMPA1w/CMPA1w_68000.png) |
+| [CPU/Timing/CMP/CMPA2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA2l) | CMPA2l_68000 | A500 ECS | FAIL | 4136 | `synccpu` | [CMPA2l_68000.png](CPU/Timing/CMP/CMPA2l/CMPA2l_68000.png) |
+| [CPU/Timing/CMP/CMPA2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA2w) | CMPA2w_68000 | A500 ECS | FAIL | 3874 | `synccpu` | [CMPA2w_68000.png](CPU/Timing/CMP/CMPA2w/CMPA2w_68000.png) |
+| [CPU/Timing/CMP/CMPI1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI1b) | CMPI1b_68000 | A500 ECS | FAIL | 3406 | `synccpu` | [CMPI1b_68000.png](CPU/Timing/CMP/CMPI1b/CMPI1b_68000.png) |
+| [CPU/Timing/CMP/CMPI1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI1l) | CMPI1l_68000 | A500 ECS | FAIL | 3618 | `synccpu` | [CMPI1l_68000.png](CPU/Timing/CMP/CMPI1l/CMPI1l_68000.png) |
+| [CPU/Timing/CMP/CMPI1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI1w) | CMPI1w_68000 | A500 ECS | FAIL | 3406 | `synccpu` | [CMPI1w_68000.png](CPU/Timing/CMP/CMPI1w/CMPI1w_68000.png) |
+| [CPU/Timing/CMP/CMPI2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI2b) | CMPI2b_68000 | A500 ECS | FAIL | 3984 | `synccpu` | [CMPI2b_68000.png](CPU/Timing/CMP/CMPI2b/CMPI2b_68000.png) |
+| [CPU/Timing/CMP/CMPI2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI2l) | CMPI2l_68000 | A500 ECS | FAIL | 4310 | `synccpu` | [CMPI2l_68000.png](CPU/Timing/CMP/CMPI2l/CMPI2l_68000.png) |
+| [CPU/Timing/CMP/CMPI2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI2w) | CMPI2w_68000 | A500 ECS | FAIL | 3984 | `synccpu` | [CMPI2w_68000.png](CPU/Timing/CMP/CMPI2w/CMPI2w_68000.png) |
+| [CPU/Timing/CMP/CMPMb](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPMb) | CMPMb_68000 | A500 ECS | FAIL | 4966 | `synccpu` | [CMPMb_68000.png](CPU/Timing/CMP/CMPMb/CMPMb_68000.png) |
+| [CPU/Timing/CMP/CMPMl](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPMl) | CMPMl_68000 | A500 ECS | FAIL | 6020 | `synccpu` | [CMPMl_68000.png](CPU/Timing/CMP/CMPMl/CMPMl_68000.png) |
+| [CPU/Timing/CMP/CMPMw](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPMw) | CMPMw_68000 | A500 ECS | FAIL | 4966 | `synccpu` | [CMPMw_68000.png](CPU/Timing/CMP/CMPMw/CMPMw_68000.png) |
+| [CPU/Timing/DBcc/DBEQ1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBEQ1) | DBEQ1_68000 | A500 ECS | FAIL | 2642 | `synccpu` | [DBEQ1_68000.png](CPU/Timing/DBcc/DBEQ1/DBEQ1_68000.png) |
+| [CPU/Timing/DBcc/DBEQ2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBEQ2) | DBEQ2_68000 | A500 ECS | FAIL | 2746 | `synccpu` | [DBEQ2_68000.png](CPU/Timing/DBcc/DBEQ2/DBEQ2_68000.png) |
+| [CPU/Timing/DBcc/DBEQ3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBEQ3) | DBEQ3_68000 | A500 ECS | FAIL | 2618 | `synccpu` | [DBEQ3_68000.png](CPU/Timing/DBcc/DBEQ3/DBEQ3_68000.png) |
+| [CPU/Timing/DBcc/DBRA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBRA1) | DBRA1_68000 | A500 ECS | FAIL | 2746 | `synccpu` | [DBRA1_68000.png](CPU/Timing/DBcc/DBRA1/DBRA1_68000.png) |
+| [CPU/Timing/DBcc/DBRA1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBRA1b) | DBRA1b_68000 | A500 ECS | FAIL | 3130 | `synccpu` | [DBRA1b_68000.png](CPU/Timing/DBcc/DBRA1b/DBRA1b_68000.png) |
+| [CPU/Timing/DBcc/DBRA1c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBRA1c) | DBRA1c_68000 | A500 ECS | FAIL | 2746 | `synccpu` | [DBRA1c_68000.png](CPU/Timing/DBcc/DBRA1c/DBRA1c_68000.png) |
+| [CPU/Timing/DIV/DIVS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DIV/DIVS1) | DIVS1_68000 | A500 ECS | FAIL | 2838 | `synccpu` | [DIVS1_68000.png](CPU/Timing/DIV/DIVS1/DIVS1_68000.png) |
+| [CPU/Timing/DIV/DIVU1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DIV/DIVU1) | DIVU1_68000 | A500 ECS | FAIL | 2896 | `synccpu` | [DIVU1_68000.png](CPU/Timing/DIV/DIVU1/DIVU1_68000.png) |
+| [CPU/Timing/EXG/EXG1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/EXG/EXG1) | EXG1_68000 | A500 ECS | FAIL | 2786 | `synccpu` | [EXG1_68000.png](CPU/Timing/EXG/EXG1/EXG1_68000.png) |
+| [CPU/Timing/EXT/EXT1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/EXT/EXT1l) | EXT1l_68000 | A500 ECS | FAIL | 2810 | `synccpu` | [EXT1l_68000.png](CPU/Timing/EXT/EXT1l/EXT1l_68000.png) |
+| [CPU/Timing/EXT/EXT1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/EXT/EXT1w) | EXT1w_68000 | A500 ECS | FAIL | 2810 | `synccpu` | [EXT1w_68000.png](CPU/Timing/EXT/EXT1w/EXT1w_68000.png) |
+| [CPU/Timing/JMP/JMP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JMP/JMP1) | JMP1_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [JMP1_68000.png](CPU/Timing/JMP/JMP1/JMP1_68000.png) |
+| [CPU/Timing/JMP/JMP2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JMP/JMP2) | JMP2_68000 | A500 ECS | FAIL | 3090 | `synccpu` | [JMP2_68000.png](CPU/Timing/JMP/JMP2/JMP2_68000.png) |
+| [CPU/Timing/JMP/JMP3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JMP/JMP3) | JMP3_68000 | A500 ECS | FAIL | 6020 | `synccpu` | [JMP3_68000.png](CPU/Timing/JMP/JMP3/JMP3_68000.png) |
+| [CPU/Timing/JSR/JSR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JSR/JSR1) | JSR1_68000 | A500 ECS | FAIL | 2564 | `synccpu` | [JSR1_68000.png](CPU/Timing/JSR/JSR1/JSR1_68000.png) |
+| [CPU/Timing/JSR/JSR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JSR/JSR2) | JSR2_68000 | A500 ECS | FAIL | 2784 | `synccpu` | [JSR2_68000.png](CPU/Timing/JSR/JSR2/JSR2_68000.png) |
+| [CPU/Timing/LEA/LEA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/LEA/LEA1) | LEA1_68000 | A500 ECS | FAIL | 2596 | `synccpu` | [LEA1_68000.png](CPU/Timing/LEA/LEA1/LEA1_68000.png) |
+| [CPU/Timing/LINK/LINK1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/LINK/LINK1) | LINK1_68000 | A500 ECS | FAIL | 2642 | `synccpu` | [LINK1_68000.png](CPU/Timing/LINK/LINK1/LINK1_68000.png) |
+| [CPU/Timing/LINK/LINK2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/LINK/LINK2) | LINK2_68000 | A500 ECS | FAIL | 2642 | `synccpu` | [LINK2_68000.png](CPU/Timing/LINK/LINK2/LINK2_68000.png) |
+| [CPU/Timing/MOVE1/MOVE11B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE11B) | MOVE11B_68000 | A500 ECS | FAIL | 3708 | `synccpu` | [MOVE11B_68000.png](CPU/Timing/MOVE1/MOVE11B/MOVE11B_68000.png) |
+| [CPU/Timing/MOVE1/MOVE11L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE11L) | MOVE11L_68000 | A500 ECS | FAIL | 3972 | `synccpu` | [MOVE11L_68000.png](CPU/Timing/MOVE1/MOVE11L/MOVE11L_68000.png) |
+| [CPU/Timing/MOVE1/MOVE11W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE11W) | MOVE11W_68000 | A500 ECS | FAIL | 3708 | `synccpu` | [MOVE11W_68000.png](CPU/Timing/MOVE1/MOVE11W/MOVE11W_68000.png) |
+| [CPU/Timing/MOVE1/MOVE1B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE1B) | MOVE1B_68000 | A500 ECS | FAIL | 2934 | `synccpu` | [MOVE1B_68000.png](CPU/Timing/MOVE1/MOVE1B/MOVE1B_68000.png) |
+| [CPU/Timing/MOVE1/MOVE1L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE1L) | MOVE1L_68000 | A500 ECS | FAIL | 2942 | `synccpu` | [MOVE1L_68000.png](CPU/Timing/MOVE1/MOVE1L/MOVE1L_68000.png) |
+| [CPU/Timing/MOVE1/MOVE1W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE1W) | MOVE1W_68000 | A500 ECS | FAIL | 2910 | `synccpu` | [MOVE1W_68000.png](CPU/Timing/MOVE1/MOVE1W/MOVE1W_68000.png) |
+| [CPU/Timing/MOVE2/MOVE22B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE22B) | MOVE22B_68000 | A500 ECS | FAIL | 3342 | `synccpu` | [MOVE22B_68000.png](CPU/Timing/MOVE2/MOVE22B/MOVE22B_68000.png) |
+| [CPU/Timing/MOVE2/MOVE22L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE22L) | MOVE22L_68000 | A500 ECS | FAIL | 3912 | `synccpu` | [MOVE22L_68000.png](CPU/Timing/MOVE2/MOVE22L/MOVE22L_68000.png) |
+| [CPU/Timing/MOVE2/MOVE22W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE22W) | MOVE22W_68000 | A500 ECS | FAIL | 3342 | `synccpu` | [MOVE22W_68000.png](CPU/Timing/MOVE2/MOVE22W/MOVE22W_68000.png) |
+| [CPU/Timing/MOVE2/MOVE2B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE2B) | MOVE2B_68000 | A500 ECS | FAIL | 2914 | `synccpu` | [MOVE2B_68000.png](CPU/Timing/MOVE2/MOVE2B/MOVE2B_68000.png) |
+| [CPU/Timing/MOVE2/MOVE2L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE2L) | MOVE2L_68000 | A500 ECS | FAIL | 2994 | `synccpu` | [MOVE2L_68000.png](CPU/Timing/MOVE2/MOVE2L/MOVE2L_68000.png) |
+| [CPU/Timing/MOVE2/MOVE2W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE2W) | MOVE2W_68000 | A500 ECS | FAIL | 2976 | `synccpu` | [MOVE2W_68000.png](CPU/Timing/MOVE2/MOVE2W/MOVE2W_68000.png) |
+| [CPU/Timing/MOVE3/MOVE33B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE33B) | MOVE33B_68000 | A500 ECS | FAIL | 3484 | `synccpu` | [MOVE33B_68000.png](CPU/Timing/MOVE3/MOVE33B/MOVE33B_68000.png) |
+| [CPU/Timing/MOVE3/MOVE33L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE33L) | MOVE33L_68000 | A500 ECS | FAIL | 4022 | `synccpu` | [MOVE33L_68000.png](CPU/Timing/MOVE3/MOVE33L/MOVE33L_68000.png) |
+| [CPU/Timing/MOVE3/MOVE33W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE33W) | MOVE33W_68000 | A500 ECS | FAIL | 3662 | `synccpu` | [MOVE33W_68000.png](CPU/Timing/MOVE3/MOVE33W/MOVE33W_68000.png) |
+| [CPU/Timing/MOVE3/MOVE3B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE3B) | MOVE3B_68000 | A500 ECS | FAIL | 3020 | `synccpu` | [MOVE3B_68000.png](CPU/Timing/MOVE3/MOVE3B/MOVE3B_68000.png) |
+| [CPU/Timing/MOVE3/MOVE3L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE3L) | MOVE3L_68000 | A500 ECS | FAIL | 3158 | `synccpu` | [MOVE3L_68000.png](CPU/Timing/MOVE3/MOVE3L/MOVE3L_68000.png) |
+| [CPU/Timing/MOVE3/MOVE3W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE3W) | MOVE3W_68000 | A500 ECS | FAIL | 3020 | `synccpu` | [MOVE3W_68000.png](CPU/Timing/MOVE3/MOVE3W/MOVE3W_68000.png) |
+| [CPU/Timing/MOVE4/MOVE44B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE44B) | MOVE44B_68000 | A500 ECS | FAIL | 4022 | `synccpu` | [MOVE44B_68000.png](CPU/Timing/MOVE4/MOVE44B/MOVE44B_68000.png) |
+| [CPU/Timing/MOVE4/MOVE44L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE44L) | MOVE44L_68000 | A500 ECS | FAIL | 4538 | `synccpu` | [MOVE44L_68000.png](CPU/Timing/MOVE4/MOVE44L/MOVE44L_68000.png) |
+| [CPU/Timing/MOVE4/MOVE44W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE44W) | MOVE44W_68000 | A500 ECS | FAIL | 4022 | `synccpu` | [MOVE44W_68000.png](CPU/Timing/MOVE4/MOVE44W/MOVE44W_68000.png) |
+| [CPU/Timing/MOVE4/MOVE4B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE4B) | MOVE4B_68000 | A500 ECS | FAIL | 3004 | `synccpu` | [MOVE4B_68000.png](CPU/Timing/MOVE4/MOVE4B/MOVE4B_68000.png) |
+| [CPU/Timing/MOVE4/MOVE4L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE4L) | MOVE4L_68000 | A500 ECS | FAIL | 3134 | `synccpu` | [MOVE4L_68000.png](CPU/Timing/MOVE4/MOVE4L/MOVE4L_68000.png) |
+| [CPU/Timing/MOVE4/MOVE4W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE4W) | MOVE4W_68000 | A500 ECS | FAIL | 3006 | `synccpu` | [MOVE4W_68000.png](CPU/Timing/MOVE4/MOVE4W/MOVE4W_68000.png) |
+| [CPU/Timing/MOVE5/MOVE55B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE55B) | MOVE55B_68000 | A500 ECS | FAIL | 3276 | `synccpu` | [MOVE55B_68000.png](CPU/Timing/MOVE5/MOVE55B/MOVE55B_68000.png) |
+| [CPU/Timing/MOVE5/MOVE55L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE55L) | MOVE55L_68000 | A500 ECS | FAIL | 4058 | `synccpu` | [MOVE55L_68000.png](CPU/Timing/MOVE5/MOVE55L/MOVE55L_68000.png) |
+| [CPU/Timing/MOVE5/MOVE55W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE55W) | MOVE55W_68000 | A500 ECS | FAIL | 3650 | `synccpu` | [MOVE55W_68000.png](CPU/Timing/MOVE5/MOVE55W/MOVE55W_68000.png) |
+| [CPU/Timing/MOVE5/MOVE5B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE5B) | MOVE5B_68000 | A500 ECS | FAIL | 3042 | `synccpu` | [MOVE5B_68000.png](CPU/Timing/MOVE5/MOVE5B/MOVE5B_68000.png) |
+| [CPU/Timing/MOVE5/MOVE5L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE5L) | MOVE5L_68000 | A500 ECS | FAIL | 3222 | `synccpu` | [MOVE5L_68000.png](CPU/Timing/MOVE5/MOVE5L/MOVE5L_68000.png) |
+| [CPU/Timing/MOVE5/MOVE5W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE5W) | MOVE5W_68000 | A500 ECS | FAIL | 3068 | `synccpu` | [MOVE5W_68000.png](CPU/Timing/MOVE5/MOVE5W/MOVE5W_68000.png) |
+| [CPU/Timing/MOVE6/MOVE66B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE66B) | MOVE66B_68000 | A500 ECS | FAIL | 4412 | `synccpu` | [MOVE66B_68000.png](CPU/Timing/MOVE6/MOVE66B/MOVE66B_68000.png) |
+| [CPU/Timing/MOVE6/MOVE66L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE66L) | MOVE66L_68000 | A500 ECS | FAIL | 4914 | `synccpu` | [MOVE66L_68000.png](CPU/Timing/MOVE6/MOVE66L/MOVE66L_68000.png) |
+| [CPU/Timing/MOVE6/MOVE66W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE66W) | MOVE66W_68000 | A500 ECS | FAIL | 4412 | `synccpu` | [MOVE66W_68000.png](CPU/Timing/MOVE6/MOVE66W/MOVE66W_68000.png) |
+| [CPU/Timing/MOVE6/MOVE6B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE6B) | MOVE6B_68000 | A500 ECS | FAIL | 3098 | `synccpu` | [MOVE6B_68000.png](CPU/Timing/MOVE6/MOVE6B/MOVE6B_68000.png) |
+| [CPU/Timing/MOVE6/MOVE6L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE6L) | MOVE6L_68000 | A500 ECS | FAIL | 3314 | `synccpu` | [MOVE6L_68000.png](CPU/Timing/MOVE6/MOVE6L/MOVE6L_68000.png) |
+| [CPU/Timing/MOVE6/MOVE6W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE6W) | MOVE6W_68000 | A500 ECS | FAIL | 3074 | `synccpu` | [MOVE6W_68000.png](CPU/Timing/MOVE6/MOVE6W/MOVE6W_68000.png) |
+| [CPU/Timing/MOVE7/MOVE7B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE7/MOVE7B) | MOVE7B_68000 | A500 ECS | FAIL | 3068 | `synccpu` | [MOVE7B_68000.png](CPU/Timing/MOVE7/MOVE7B/MOVE7B_68000.png) |
+| [CPU/Timing/MOVE7/MOVE7L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE7/MOVE7L) | MOVE7L_68000 | A500 ECS | FAIL | 3270 | `synccpu` | [MOVE7L_68000.png](CPU/Timing/MOVE7/MOVE7L/MOVE7L_68000.png) |
+| [CPU/Timing/MOVE7/MOVE7W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE7/MOVE7W) | MOVE7W_68000 | A500 ECS | FAIL | 3068 | `synccpu` | [MOVE7W_68000.png](CPU/Timing/MOVE7/MOVE7W/MOVE7W_68000.png) |
+| [CPU/Timing/MOVE8/MOVE88B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE88B) | MOVE88B_68000 | A500 ECS | FAIL | 3412 | `synccpu` | [MOVE88B_68000.png](CPU/Timing/MOVE8/MOVE88B/MOVE88B_68000.png) |
+| [CPU/Timing/MOVE8/MOVE88L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE88L) | MOVE88L_68000 | A500 ECS | FAIL | 4198 | `synccpu` | [MOVE88L_68000.png](CPU/Timing/MOVE8/MOVE88L/MOVE88L_68000.png) |
+| [CPU/Timing/MOVE8/MOVE88W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE88W) | MOVE88W_68000 | A500 ECS | FAIL | 3912 | `synccpu` | [MOVE88W_68000.png](CPU/Timing/MOVE8/MOVE88W/MOVE88W_68000.png) |
+| [CPU/Timing/MOVE8/MOVE8B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE8B) | MOVE8B_68000 | A500 ECS | FAIL | 3026 | `synccpu` | [MOVE8B_68000.png](CPU/Timing/MOVE8/MOVE8B/MOVE8B_68000.png) |
+| [CPU/Timing/MOVE8/MOVE8L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE8L) | MOVE8L_68000 | A500 ECS | FAIL | 3278 | `synccpu` | [MOVE8L_68000.png](CPU/Timing/MOVE8/MOVE8L/MOVE8L_68000.png) |
+| [CPU/Timing/MOVE8/MOVE8W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE8W) | MOVE8W_68000 | A500 ECS | FAIL | 3132 | `synccpu` | [MOVE8W_68000.png](CPU/Timing/MOVE8/MOVE8W/MOVE8W_68000.png) |
+| [CPU/Timing/MOVEA/MOVEA1L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA1L) | MOVEA1L_68000 | A500 ECS | FAIL | 3586 | `synccpu` | [MOVEA1L_68000.png](CPU/Timing/MOVEA/MOVEA1L/MOVEA1L_68000.png) |
+| [CPU/Timing/MOVEA/MOVEA1W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA1W) | MOVEA1W_68000 | A500 ECS | FAIL | 3462 | `synccpu` | [MOVEA1W_68000.png](CPU/Timing/MOVEA/MOVEA1W/MOVEA1W_68000.png) |
+| [CPU/Timing/MOVEA/MOVEA2L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA2L) | MOVEA2L_68000 | A500 ECS | FAIL | 4004 | `synccpu` | [MOVEA2L_68000.png](CPU/Timing/MOVEA/MOVEA2L/MOVEA2L_68000.png) |
+| [CPU/Timing/MOVEA/MOVEA2W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA2W) | MOVEA2W_68000 | A500 ECS | FAIL | 3676 | `synccpu` | [MOVEA2W_68000.png](CPU/Timing/MOVEA/MOVEA2W/MOVEA2W_68000.png) |
+| [CPU/Timing/MOVECCR/MOVECCR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR1) | MOVECCR1_68000 | A500 ECS | FAIL | 3788 | `synccpu` | [MOVECCR1_68000.png](CPU/Timing/MOVECCR/MOVECCR1/MOVECCR1_68000.png) |
+| [CPU/Timing/MOVECCR/MOVECCR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR2) | MOVECCR2_68000 | A500 ECS | FAIL | 3450 | `synccpu` | [MOVECCR2_68000.png](CPU/Timing/MOVECCR/MOVECCR2/MOVECCR2_68000.png) |
+| [CPU/Timing/MOVECCR/MOVECCR3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR3) | MOVECCR3_68000 | A500 ECS | FAIL | 3832 | `synccpu` | [MOVECCR3_68000.png](CPU/Timing/MOVECCR/MOVECCR3/MOVECCR3_68000.png) |
+| [CPU/Timing/MOVECCR/MOVECCR4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR4) | MOVECCR4_68000 | A500 ECS | FAIL | 3450 | `synccpu` | [MOVECCR4_68000.png](CPU/Timing/MOVECCR/MOVECCR4/MOVECCR4_68000.png) |
+| [CPU/Timing/MOVECCR/MOVECCR5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR5) | MOVECCR5_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [MOVECCR5_68000.png](CPU/Timing/MOVECCR/MOVECCR5/MOVECCR5_68000.png) |
+| [CPU/Timing/MOVEM/MOVEM1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEM/MOVEM1) | MOVEM1_68000 | A500 ECS | FAIL | 3224 | `synccpu` | [MOVEM1_68000.png](CPU/Timing/MOVEM/MOVEM1/MOVEM1_68000.png) |
+| [CPU/Timing/MOVEP/MOVEP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEP/MOVEP1) | MOVEP1_68000 | A500 ECS | FAIL | 2880 | `synccpu` | [MOVEP1_68000.png](CPU/Timing/MOVEP/MOVEP1/MOVEP1_68000.png) |
+| [CPU/Timing/MOVEP/MOVEP2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEP/MOVEP2) | MOVEP2_68000 | A500 ECS | FAIL | 4326 | `synccpu` | [MOVEP2_68000.png](CPU/Timing/MOVEP/MOVEP2/MOVEP2_68000.png) |
+| [CPU/Timing/MOVEQ/MOVEQ](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEQ/MOVEQ) | MOVEQ_68000 | A500 ECS | FAIL | 2650 | `synccpu` | [MOVEQ_68000.png](CPU/Timing/MOVEQ/MOVEQ/MOVEQ_68000.png) |
+| [CPU/Timing/MOVESR/MOVESR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR1) | MOVESR1_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [MOVESR1_68000.png](CPU/Timing/MOVESR/MOVESR1/MOVESR1_68000.png) |
+| [CPU/Timing/MOVESR/MOVESR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR2) | MOVESR2_68000 | A500 ECS | FAIL | 2642 | `synccpu` | [MOVESR2_68000.png](CPU/Timing/MOVESR/MOVESR2/MOVESR2_68000.png) |
+| [CPU/Timing/MOVESR/MOVESR3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR3) | MOVESR3_68000 | A500 ECS | FAIL | 2650 | `synccpu` | [MOVESR3_68000.png](CPU/Timing/MOVESR/MOVESR3/MOVESR3_68000.png) |
+| [CPU/Timing/MOVESR/MOVESR4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR4) | MOVESR4_68000 | A500 ECS | FAIL | 2650 | `synccpu` | [MOVESR4_68000.png](CPU/Timing/MOVESR/MOVESR4/MOVESR4_68000.png) |
+| [CPU/Timing/MUL/MULS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULS1) | MULS1_68000 | A500 ECS | FAIL | 2746 | `synccpu` | [MULS1_68000.png](CPU/Timing/MUL/MULS1/MULS1_68000.png) |
+| [CPU/Timing/MUL/MULS2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULS2) | MULS2_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [MULS2_68000.png](CPU/Timing/MUL/MULS2/MULS2_68000.png) |
+| [CPU/Timing/MUL/MULS3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULS3) | MULS3_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [MULS3_68000.png](CPU/Timing/MUL/MULS3/MULS3_68000.png) |
+| [CPU/Timing/MUL/MULU1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULU1) | MULU1_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [MULU1_68000.png](CPU/Timing/MUL/MULU1/MULU1_68000.png) |
+| [CPU/Timing/MUL/MULU2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULU2) | MULU2_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [MULU2_68000.png](CPU/Timing/MUL/MULU2/MULU2_68000.png) |
+| [CPU/Timing/MUL/MULU3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULU3) | MULU3_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [MULU3_68000.png](CPU/Timing/MUL/MULU3/MULU3_68000.png) |
+| [CPU/Timing/NBCD/NBCD1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NBCD/NBCD1) | NBCD1_68000 | A500 ECS | FAIL | 3254 | `synccpu` | [NBCD1_68000.png](CPU/Timing/NBCD/NBCD1/NBCD1_68000.png) |
+| [CPU/Timing/NBCD/NBCD2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NBCD/NBCD2) | NBCD2_68000 | A500 ECS | FAIL | 3626 | `synccpu` | [NBCD2_68000.png](CPU/Timing/NBCD/NBCD2/NBCD2_68000.png) |
+| [CPU/Timing/NEG/NEG1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG1b) | NEG1b_68000 | A500 ECS | FAIL | 3196 | `synccpu` | [NEG1b_68000.png](CPU/Timing/NEG/NEG1b/NEG1b_68000.png) |
+| [CPU/Timing/NEG/NEG1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG1l) | NEG1l_68000 | A500 ECS | FAIL | 4326 | `synccpu` | [NEG1l_68000.png](CPU/Timing/NEG/NEG1l/NEG1l_68000.png) |
+| [CPU/Timing/NEG/NEG1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG1w) | NEG1w_68000 | A500 ECS | FAIL | 3522 | `synccpu` | [NEG1w_68000.png](CPU/Timing/NEG/NEG1w/NEG1w_68000.png) |
+| [CPU/Timing/NEG/NEG2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG2b) | NEG2b_68000 | A500 ECS | FAIL | 3626 | `synccpu` | [NEG2b_68000.png](CPU/Timing/NEG/NEG2b/NEG2b_68000.png) |
+| [CPU/Timing/NEG/NEG2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG2l) | NEG2l_68000 | A500 ECS | FAIL | 4204 | `synccpu` | [NEG2l_68000.png](CPU/Timing/NEG/NEG2l/NEG2l_68000.png) |
+| [CPU/Timing/NEG/NEG2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG2w) | NEG2w_68000 | A500 ECS | FAIL | 3626 | `synccpu` | [NEG2w_68000.png](CPU/Timing/NEG/NEG2w/NEG2w_68000.png) |
+| [CPU/Timing/NEG/NEGX1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX1b) | NEGX1b_68000 | A500 ECS | FAIL | 3126 | `synccpu` | [NEGX1b_68000.png](CPU/Timing/NEG/NEGX1b/NEGX1b_68000.png) |
+| [CPU/Timing/NEG/NEGX1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX1l) | NEGX1l_68000 | A500 ECS | FAIL | 4226 | `synccpu` | [NEGX1l_68000.png](CPU/Timing/NEG/NEGX1l/NEGX1l_68000.png) |
+| [CPU/Timing/NEG/NEGX1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX1w) | NEGX1w_68000 | A500 ECS | FAIL | 3428 | `synccpu` | [NEGX1w_68000.png](CPU/Timing/NEG/NEGX1w/NEGX1w_68000.png) |
+| [CPU/Timing/NEG/NEGX2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX2b) | NEGX2b_68000 | A500 ECS | FAIL | 3550 | `synccpu` | [NEGX2b_68000.png](CPU/Timing/NEG/NEGX2b/NEGX2b_68000.png) |
+| [CPU/Timing/NEG/NEGX2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX2l) | NEGX2l_68000 | A500 ECS | FAIL | 4134 | `synccpu` | [NEGX2l_68000.png](CPU/Timing/NEG/NEGX2l/NEGX2l_68000.png) |
+| [CPU/Timing/NEG/NEGX2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX2w) | NEGX2w_68000 | A500 ECS | FAIL | 3550 | `synccpu` | [NEGX2w_68000.png](CPU/Timing/NEG/NEGX2w/NEGX2w_68000.png) |
+| [CPU/Timing/NOP/NOP](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOP/NOP) | NOP_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [NOP_68000.png](CPU/Timing/NOP/NOP/NOP_68000.png) |
+| [CPU/Timing/NOT/NOT1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT1b) | NOT1b_68000 | A500 ECS | FAIL | 3126 | `synccpu` | [NOT1b_68000.png](CPU/Timing/NOT/NOT1b/NOT1b_68000.png) |
+| [CPU/Timing/NOT/NOT1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT1l) | NOT1l_68000 | A500 ECS | FAIL | 4226 | `synccpu` | [NOT1l_68000.png](CPU/Timing/NOT/NOT1l/NOT1l_68000.png) |
+| [CPU/Timing/NOT/NOT1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT1w) | NOT1w_68000 | A500 ECS | FAIL | 3428 | `synccpu` | [NOT1w_68000.png](CPU/Timing/NOT/NOT1w/NOT1w_68000.png) |
+| [CPU/Timing/NOT/NOT2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT2b) | NOT2b_68000 | A500 ECS | FAIL | 3550 | `synccpu` | [NOT2b_68000.png](CPU/Timing/NOT/NOT2b/NOT2b_68000.png) |
+| [CPU/Timing/NOT/NOT2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT2l) | NOT2l_68000 | A500 ECS | FAIL | 4134 | `synccpu` | [NOT2l_68000.png](CPU/Timing/NOT/NOT2l/NOT2l_68000.png) |
+| [CPU/Timing/NOT/NOT2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT2w) | NOT2w_68000 | A500 ECS | FAIL | 3550 | `synccpu` | [NOT2w_68000.png](CPU/Timing/NOT/NOT2w/NOT2w_68000.png) |
+| [CPU/Timing/PEA/PEA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/PEA/PEA1) | PEA1_68000 | A500 ECS | FAIL | 2730 | `synccpu` | [PEA1_68000.png](CPU/Timing/PEA/PEA1/PEA1_68000.png) |
+| [CPU/Timing/RTE/RTE1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTE/RTE1) | RTE1_68000 | A500 ECS | FAIL | 2706 | `synccpu` | [RTE1_68000.png](CPU/Timing/RTE/RTE1/RTE1_68000.png) |
+| [CPU/Timing/RTE/RTE2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTE/RTE2) | RTE2_68000 | A500 ECS | FAIL | 2802 | `synccpu` | [RTE2_68000.png](CPU/Timing/RTE/RTE2/RTE2_68000.png) |
+| [CPU/Timing/RTR/RTR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTR/RTR1) | RTR1_68000 | A500 ECS | FAIL | 2820 | `synccpu` | [RTR1_68000.png](CPU/Timing/RTR/RTR1/RTR1_68000.png) |
+| [CPU/Timing/RTR/RTR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTR/RTR2) | RTR2_68000 | A500 ECS | FAIL | 3220 | `synccpu` | [RTR2_68000.png](CPU/Timing/RTR/RTR2/RTR2_68000.png) |
+| [CPU/Timing/RTS/RTS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTS/RTS1) | RTS1_68000 | A500 ECS | FAIL | 2678 | `synccpu` | [RTS1_68000.png](CPU/Timing/RTS/RTS1/RTS1_68000.png) |
+| [CPU/Timing/RTS/RTS2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTS/RTS2) | RTS2_68000 | A500 ECS | FAIL | 2678 | `synccpu` | [RTS2_68000.png](CPU/Timing/RTS/RTS2/RTS2_68000.png) |
+| [CPU/Timing/STOP/stop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop1) | stop1_68000 | A500 ECS | FAIL | 2782 | `synccpu` | [stop1_68000.png](CPU/Timing/STOP/stop1/stop1_68000.png) |
+| [CPU/Timing/STOP/stop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop2) | stop2_68000 | A500 ECS | FAIL | 3394 | `synccpu` | [stop2_68000.png](CPU/Timing/STOP/stop2/stop2_68000.png) |
+| [CPU/Timing/STOP/stop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop3) | stop3_68000 | A500 ECS | FAIL | 4764 | `synccpu` | [stop3_68000.png](CPU/Timing/STOP/stop3/stop3_68000.png) |
+| [CPU/Timing/STOP/stop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop4) | stop4_68000 | A500 ECS | FAIL | 14356 | `synccpu` | [stop4_68000.png](CPU/Timing/STOP/stop4/stop4_68000.png) |
+| [CPU/Timing/STOP/stop5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop5) | stop5_68000 | A500 ECS | FAIL | 5328 | `synccpu` | [stop5_68000.png](CPU/Timing/STOP/stop5/stop5_68000.png) |
+| [CPU/Timing/SWAP/SWAP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/SWAP/SWAP1) | SWAP1_68000 | A500 ECS | FAIL | 2650 | `synccpu` | [SWAP1_68000.png](CPU/Timing/SWAP/SWAP1/SWAP1_68000.png) |
+| [CPU/Timing/Scc/SEQ1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ1) | SEQ1_68000 | A500 ECS | FAIL | 3068 | `synccpu` | [SEQ1_68000.png](CPU/Timing/Scc/SEQ1/SEQ1_68000.png) |
+| [CPU/Timing/Scc/SEQ2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ2) | SEQ2_68000 | A500 ECS | FAIL | 3330 | `synccpu` | [SEQ2_68000.png](CPU/Timing/Scc/SEQ2/SEQ2_68000.png) |
+| [CPU/Timing/Scc/SEQ3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ3) | SEQ3_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [SEQ3_68000.png](CPU/Timing/Scc/SEQ3/SEQ3_68000.png) |
+| [CPU/Timing/Scc/SEQ4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ4) | SEQ4_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [SEQ4_68000.png](CPU/Timing/Scc/SEQ4/SEQ4_68000.png) |
+| [CPU/Timing/Scc/SEQ5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ5) | SEQ5_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [SEQ5_68000.png](CPU/Timing/Scc/SEQ5/SEQ5_68000.png) |
+| [CPU/Timing/Scc/SEQ6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ6) | SEQ6_68000 | A500 ECS | FAIL | 2682 | `synccpu` | [SEQ6_68000.png](CPU/Timing/Scc/SEQ6/SEQ6_68000.png) |
+| [CPU/Timing/Scc/SNE1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SNE1) | SNE1_68000 | A500 ECS | FAIL | 3048 | `synccpu` | [SNE1_68000.png](CPU/Timing/Scc/SNE1/SNE1_68000.png) |
+| [CPU/Timing/Scc/SNE2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SNE2) | SNE2_68000 | A500 ECS | FAIL | 3192 | `synccpu` | [SNE2_68000.png](CPU/Timing/Scc/SNE2/SNE2_68000.png) |
+| [CPU/Timing/TAS/TAS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TAS/TAS1) | TAS1_68000 | A500 ECS | FAIL | 3188 | `synccpu` | [TAS1_68000.png](CPU/Timing/TAS/TAS1/TAS1_68000.png) |
+| [CPU/Timing/TAS/TAS2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TAS/TAS2) | TAS2_68000 | A500 ECS | FAIL | 3728 | `synccpu` | [TAS2_68000.png](CPU/Timing/TAS/TAS2/TAS2_68000.png) |
+| [CPU/Timing/TRAP/TRAP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAP1) | TRAP1_68000 | A500 ECS | FAIL | 2690 | `synccpu` | [TRAP1_68000.png](CPU/Timing/TRAP/TRAP1/TRAP1_68000.png) |
+| [CPU/Timing/TRAP/TRAP4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAP4) | TRAP4_68000 | A500 ECS | FAIL | 3338 | `synccpu` | [TRAP4_68000.png](CPU/Timing/TRAP/TRAP4/TRAP4_68000.png) |
+| [CPU/Timing/TRAP/TRAPV1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV1) | TRAPV1_68000 | A500 ECS | FAIL | 2654 | `synccpu` | [TRAPV1_68000.png](CPU/Timing/TRAP/TRAPV1/TRAPV1_68000.png) |
+| [CPU/Timing/TRAP/TRAPV2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV2) | TRAPV2_68000 | A500 ECS | FAIL | 2714 | `synccpu` | [TRAPV2_68000.png](CPU/Timing/TRAP/TRAPV2/TRAPV2_68000.png) |
+| [CPU/Timing/TRAP/TRAPV3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV3) | TRAPV3_68000 | A500 ECS | FAIL | 2870 | `synccpu` | [TRAPV3_68000.png](CPU/Timing/TRAP/TRAPV3/TRAPV3_68000.png) |
+| [CPU/Timing/TRAP/TRAPV4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV4) | TRAPV4_68000 | A500 ECS | FAIL | 4090 | `synccpu` | [TRAPV4_68000.png](CPU/Timing/TRAP/TRAPV4/TRAPV4_68000.png) |
+| [CPU/Timing/TRAP/TRAPV5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV5) | TRAPV5_68000 | A500 ECS | FAIL | 2774 | `synccpu` | [TRAPV5_68000.png](CPU/Timing/TRAP/TRAPV5/TRAPV5_68000.png) |
+| [CPU/Timing/TST/TST1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST1b) | TST1b_68000 | A500 ECS | FAIL | 3462 | `synccpu` | [TST1b_68000.png](CPU/Timing/TST/TST1b/TST1b_68000.png) |
+| [CPU/Timing/TST/TST1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST1l) | TST1l_68000 | A500 ECS | FAIL | 3586 | `synccpu` | [TST1l_68000.png](CPU/Timing/TST/TST1l/TST1l_68000.png) |
+| [CPU/Timing/TST/TST1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST1w) | TST1w_68000 | A500 ECS | FAIL | 3462 | `synccpu` | [TST1w_68000.png](CPU/Timing/TST/TST1w/TST1w_68000.png) |
+| [CPU/Timing/TST/TST2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST2b) | TST2b_68000 | A500 ECS | FAIL | 3664 | `synccpu` | [TST2b_68000.png](CPU/Timing/TST/TST2b/TST2b_68000.png) |
+| [CPU/Timing/TST/TST2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST2l) | TST2l_68000 | A500 ECS | FAIL | 4012 | `synccpu` | [TST2l_68000.png](CPU/Timing/TST/TST2l/TST2l_68000.png) |
+| [CPU/Timing/TST/TST2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST2w) | TST2w_68000 | A500 ECS | FAIL | 3664 | `synccpu` | [TST2w_68000.png](CPU/Timing/TST/TST2w/TST2w_68000.png) |
+| [CPU/Timing/UNLK/UNLK1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/UNLK/UNLK1) | UNLK1_68000 | A500 ECS | FAIL | 2736 | `synccpu` | [UNLK1_68000.png](CPU/Timing/UNLK/UNLK1/UNLK1_68000.png) |
 
 ## Not compared
 
 | Test | Variant | Machine | Result | Reason | Labels |
 |---|---|---|---|---|---|
-| CPU/Timing/ABCD/ABCD | ABCD_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ABCD/ABCD2 | ABCD2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ABCD/ABCD3 | ABCD3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADD1b | ADD1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADD1l | ADD1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADD1w | ADD1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADD2b | ADD2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADD2l | ADD2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADD2w | ADD2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDA1l | ADDA1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDA1w | ADDA1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDA2l | ADDA2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDA2w | ADDA2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ1b | ADDQ1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ1l | ADDQ1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ1w | ADDQ1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ2b | ADDQ2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ2l | ADDQ2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ2w | ADDQ2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ3l | ADDQ3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDQ3w | ADDQ3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDXb | ADDXb_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDXl | ADDXl_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ADD/ADDXw | ADDXw_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND1b | AND1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND1l | AND1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND1w | AND1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND2l | AND2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND2w | AND2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND3l | AND3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/AND3w | AND3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/AND/ANDCCR | ANDCCR_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ASL/ASL1b | ASL1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ASL/ASL1l | ASL1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ASL/ASL1w | ASL1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/ASL/ASL2w | ASL2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BCHG/BCHG1 | BCHG1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BCHG/BCHG2 | BCHG2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BKPT/BKPT1 | BKPT1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BSET/BSET1 | BSET1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BSET/BSET2 | BSET2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BSR/BSR1 | BSR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BSR/BSR2 | BSR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BTST/BTST1 | BTST1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BTST/BTST2 | BTST2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/BTST/BTST3 | BTST3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Bcc/BEQ1 | BEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Bcc/BEQ1b | BEQ1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Bcc/BRA1 | BRA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Bcc/BRA1b | BRA1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Bcc/BRA1c | BRA1c_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CHK/CHK1 | CHK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CHK/CHK2 | CHK2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CHK/CHK3 | CHK3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CHK/CHK4 | CHK4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CHK/CHK5 | CHK5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CHK/CHK6 | CHK6_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR1b | CLR1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR1l | CLR1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR1ll | CLR1ll_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR1w | CLR1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR2b | CLR2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR2l | CLR2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR2ll | CLR2ll_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR2w | CLR2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR3b | CLR3b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR3l | CLR3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR3w | CLR3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR4b | CLR4b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR4l | CLR4l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CLR/CLR4w | CLR4w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP1b | CMP1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP1l | CMP1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP1w | CMP1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP2b | CMP2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP2l | CMP2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP2w | CMP2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP3b | CMP3b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP3l | CMP3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP3w | CMP3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP4b | CMP4b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP4l | CMP4l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP4w | CMP4w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP5b | CMP5b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP5l | CMP5l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMP5w | CMP5w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPA1l | CMPA1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPA1w | CMPA1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPA2l | CMPA2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPA2w | CMPA2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPI1b | CMPI1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPI1l | CMPI1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPI1w | CMPI1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPI2b | CMPI2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPI2l | CMPI2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPI2w | CMPI2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPMb | CMPMb_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPMl | CMPMl_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/CMP/CMPMw | CMPMw_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DBcc/DBEQ1 | DBEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DBcc/DBEQ2 | DBEQ2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DBcc/DBEQ3 | DBEQ3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DBcc/DBRA1 | DBRA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DBcc/DBRA1b | DBRA1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DBcc/DBRA1c | DBRA1c_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DIV/DIVS1 | DIVS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/DIV/DIVU1 | DIVU1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/EXG/EXG1 | EXG1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/EXT/EXT1l | EXT1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/EXT/EXT1w | EXT1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/JMP/JMP1 | JMP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/JMP/JMP2 | JMP2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/JMP/JMP3 | JMP3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/JSR/JSR1 | JSR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/JSR/JSR2 | JSR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/LEA/LEA1 | LEA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/LINK/LINK1 | LINK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/LINK/LINK2 | LINK2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE1/MOVE11B | MOVE11B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE1/MOVE11L | MOVE11L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE1/MOVE11W | MOVE11W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE1/MOVE1B | MOVE1B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE1/MOVE1L | MOVE1L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE1/MOVE1W | MOVE1W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE2/MOVE22B | MOVE22B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE2/MOVE22L | MOVE22L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE2/MOVE22W | MOVE22W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE2/MOVE2B | MOVE2B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE2/MOVE2L | MOVE2L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE2/MOVE2W | MOVE2W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE3/MOVE33B | MOVE33B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE3/MOVE33L | MOVE33L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE3/MOVE33W | MOVE33W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE3/MOVE3B | MOVE3B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE3/MOVE3L | MOVE3L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE3/MOVE3W | MOVE3W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE4/MOVE44B | MOVE44B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE4/MOVE44L | MOVE44L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE4/MOVE44W | MOVE44W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE4/MOVE4B | MOVE4B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE4/MOVE4L | MOVE4L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE4/MOVE4W | MOVE4W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE5/MOVE55B | MOVE55B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE5/MOVE55L | MOVE55L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE5/MOVE55W | MOVE55W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE5/MOVE5B | MOVE5B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE5/MOVE5L | MOVE5L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE5/MOVE5W | MOVE5W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE6/MOVE66B | MOVE66B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE6/MOVE66L | MOVE66L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE6/MOVE66W | MOVE66W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE6/MOVE6B | MOVE6B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE6/MOVE6L | MOVE6L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE6/MOVE6W | MOVE6W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE7/MOVE7B | MOVE7B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE7/MOVE7L | MOVE7L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE7/MOVE7W | MOVE7W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE8/MOVE88B | MOVE88B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE8/MOVE88L | MOVE88L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE8/MOVE88W | MOVE88W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE8/MOVE8B | MOVE8B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE8/MOVE8L | MOVE8L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVE8/MOVE8W | MOVE8W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEA/MOVEA1L | MOVEA1L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEA/MOVEA1W | MOVEA1W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEA/MOVEA2L | MOVEA2L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEA/MOVEA2W | MOVEA2W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEC/MOVEC1 | MOVEC1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEC/MOVEC2 | MOVEC2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEC/MOVEC3 | MOVEC3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEC/MOVEC4 | MOVEC4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVECCR/MOVECCR1 | MOVECCR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVECCR/MOVECCR2 | MOVECCR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVECCR/MOVECCR3 | MOVECCR3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVECCR/MOVECCR4 | MOVECCR4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVECCR/MOVECCR5 | MOVECCR5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEM/MOVEM1 | MOVEM1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEP/MOVEP1 | MOVEP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEP/MOVEP2 | MOVEP2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVEQ/MOVEQ | MOVEQ_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVESR/MOVESR1 | MOVESR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVESR/MOVESR2 | MOVESR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVESR/MOVESR3 | MOVESR3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MOVESR/MOVESR4 | MOVESR4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MUL/MULS1 | MULS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MUL/MULS2 | MULS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MUL/MULS3 | MULS3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MUL/MULU1 | MULU1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MUL/MULU2 | MULU2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/MUL/MULU3 | MULU3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NBCD/NBCD1 | NBCD1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NBCD/NBCD2 | NBCD2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEG1b | NEG1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEG1l | NEG1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEG1w | NEG1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEG2b | NEG2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEG2l | NEG2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEG2w | NEG2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEGX1b | NEGX1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEGX1l | NEGX1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEGX1w | NEGX1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEGX2b | NEGX2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEGX2l | NEGX2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NEG/NEGX2w | NEGX2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOP/NOP | NOP_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOT/NOT1b | NOT1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOT/NOT1l | NOT1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOT/NOT1w | NOT1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOT/NOT2b | NOT2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOT/NOT2l | NOT2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/NOT/NOT2w | NOT2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/PEA/PEA1 | PEA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/RTE/RTE1 | RTE1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/RTE/RTE2 | RTE2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/RTR/RTR1 | RTR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/RTR/RTR2 | RTR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/RTS/RTS1 | RTS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/RTS/RTS2 | RTS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/STOP/stop1 | stop1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/STOP/stop2 | stop2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/STOP/stop3 | stop3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/STOP/stop4 | stop4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/STOP/stop5 | stop5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/SWAP/SWAP1 | SWAP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SEQ1 | SEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SEQ2 | SEQ2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SEQ3 | SEQ3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SEQ4 | SEQ4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SEQ5 | SEQ5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SEQ6 | SEQ6_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SNE1 | SNE1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/Scc/SNE2 | SNE2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TAS/TAS1 | TAS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TAS/TAS2 | TAS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAP1 | TRAP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAP4 | TRAP4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAPV1 | TRAPV1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAPV2 | TRAPV2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAPV3 | TRAPV3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAPV4 | TRAPV4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TRAP/TRAPV5 | TRAPV5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TST/TST1b | TST1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TST/TST1l | TST1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TST/TST1w | TST1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TST/TST2b | TST2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TST/TST2l | TST2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/TST/TST2w | TST2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
-| CPU/Timing/UNLK/UNLK1 | UNLK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ABCD/ABCD](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ABCD/ABCD) | ABCD_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ABCD/ABCD2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ABCD/ABCD2) | ABCD2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ABCD/ABCD3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ABCD/ABCD3) | ABCD3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADD1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD1b) | ADD1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADD1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD1l) | ADD1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADD1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD1w) | ADD1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADD2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD2b) | ADD2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADD2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD2l) | ADD2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADD2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADD2w) | ADD2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDA1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA1l) | ADDA1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDA1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA1w) | ADDA1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDA2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA2l) | ADDA2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDA2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDA2w) | ADDA2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ1b) | ADDQ1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ1l) | ADDQ1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ1w) | ADDQ1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ2b) | ADDQ2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ2l) | ADDQ2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ2w) | ADDQ2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ3l) | ADDQ3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDQ3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDQ3w) | ADDQ3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDXb](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDXb) | ADDXb_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDXl](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDXl) | ADDXl_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ADD/ADDXw](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ADD/ADDXw) | ADDXw_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND1b) | AND1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND1l) | AND1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND1w) | AND1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND2l) | AND2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND2w) | AND2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND3l) | AND3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/AND3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/AND3w) | AND3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/AND/ANDCCR](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/AND/ANDCCR) | ANDCCR_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ASL/ASL1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL1b) | ASL1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ASL/ASL1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL1l) | ASL1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ASL/ASL1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL1w) | ASL1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/ASL/ASL2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/ASL/ASL2w) | ASL2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BCHG/BCHG1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BCHG/BCHG1) | BCHG1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BCHG/BCHG2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BCHG/BCHG2) | BCHG2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BKPT/BKPT1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BKPT/BKPT1) | BKPT1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BSET/BSET1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSET/BSET1) | BSET1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BSET/BSET2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSET/BSET2) | BSET2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BSR/BSR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSR/BSR1) | BSR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BSR/BSR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BSR/BSR2) | BSR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BTST/BTST1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BTST/BTST1) | BTST1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BTST/BTST2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BTST/BTST2) | BTST2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/BTST/BTST3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/BTST/BTST3) | BTST3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Bcc/BEQ1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BEQ1) | BEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Bcc/BEQ1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BEQ1b) | BEQ1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Bcc/BRA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BRA1) | BRA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Bcc/BRA1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BRA1b) | BRA1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Bcc/BRA1c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Bcc/BRA1c) | BRA1c_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CHK/CHK1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK1) | CHK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CHK/CHK2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK2) | CHK2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CHK/CHK3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK3) | CHK3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CHK/CHK4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK4) | CHK4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CHK/CHK5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK5) | CHK5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CHK/CHK6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CHK/CHK6) | CHK6_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1b) | CLR1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1l) | CLR1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR1ll](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1ll) | CLR1ll_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR1w) | CLR1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2b) | CLR2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2l) | CLR2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR2ll](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2ll) | CLR2ll_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR2w) | CLR2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR3b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR3b) | CLR3b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR3l) | CLR3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR3w) | CLR3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR4b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR4b) | CLR4b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR4l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR4l) | CLR4l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CLR/CLR4w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CLR/CLR4w) | CLR4w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP1b) | CMP1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP1l) | CMP1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP1w) | CMP1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP2b) | CMP2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP2l) | CMP2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP2w) | CMP2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP3b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP3b) | CMP3b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP3l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP3l) | CMP3l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP3w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP3w) | CMP3w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP4b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP4b) | CMP4b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP4l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP4l) | CMP4l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP4w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP4w) | CMP4w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP5b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP5b) | CMP5b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP5l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP5l) | CMP5l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMP5w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMP5w) | CMP5w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPA1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA1l) | CMPA1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPA1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA1w) | CMPA1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPA2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA2l) | CMPA2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPA2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPA2w) | CMPA2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPI1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI1b) | CMPI1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPI1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI1l) | CMPI1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPI1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI1w) | CMPI1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPI2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI2b) | CMPI2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPI2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI2l) | CMPI2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPI2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPI2w) | CMPI2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPMb](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPMb) | CMPMb_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPMl](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPMl) | CMPMl_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/CMP/CMPMw](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/CMP/CMPMw) | CMPMw_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DBcc/DBEQ1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBEQ1) | DBEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DBcc/DBEQ2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBEQ2) | DBEQ2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DBcc/DBEQ3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBEQ3) | DBEQ3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DBcc/DBRA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBRA1) | DBRA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DBcc/DBRA1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBRA1b) | DBRA1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DBcc/DBRA1c](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DBcc/DBRA1c) | DBRA1c_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DIV/DIVS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DIV/DIVS1) | DIVS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/DIV/DIVU1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/DIV/DIVU1) | DIVU1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/EXG/EXG1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/EXG/EXG1) | EXG1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/EXT/EXT1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/EXT/EXT1l) | EXT1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/EXT/EXT1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/EXT/EXT1w) | EXT1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/JMP/JMP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JMP/JMP1) | JMP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/JMP/JMP2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JMP/JMP2) | JMP2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/JMP/JMP3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JMP/JMP3) | JMP3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/JSR/JSR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JSR/JSR1) | JSR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/JSR/JSR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/JSR/JSR2) | JSR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/LEA/LEA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/LEA/LEA1) | LEA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/LINK/LINK1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/LINK/LINK1) | LINK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/LINK/LINK2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/LINK/LINK2) | LINK2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE1/MOVE11B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE11B) | MOVE11B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE1/MOVE11L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE11L) | MOVE11L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE1/MOVE11W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE11W) | MOVE11W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE1/MOVE1B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE1B) | MOVE1B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE1/MOVE1L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE1L) | MOVE1L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE1/MOVE1W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE1/MOVE1W) | MOVE1W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE2/MOVE22B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE22B) | MOVE22B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE2/MOVE22L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE22L) | MOVE22L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE2/MOVE22W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE22W) | MOVE22W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE2/MOVE2B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE2B) | MOVE2B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE2/MOVE2L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE2L) | MOVE2L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE2/MOVE2W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE2/MOVE2W) | MOVE2W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE3/MOVE33B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE33B) | MOVE33B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE3/MOVE33L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE33L) | MOVE33L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE3/MOVE33W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE33W) | MOVE33W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE3/MOVE3B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE3B) | MOVE3B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE3/MOVE3L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE3L) | MOVE3L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE3/MOVE3W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE3/MOVE3W) | MOVE3W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE4/MOVE44B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE44B) | MOVE44B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE4/MOVE44L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE44L) | MOVE44L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE4/MOVE44W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE44W) | MOVE44W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE4/MOVE4B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE4B) | MOVE4B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE4/MOVE4L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE4L) | MOVE4L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE4/MOVE4W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE4/MOVE4W) | MOVE4W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE5/MOVE55B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE55B) | MOVE55B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE5/MOVE55L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE55L) | MOVE55L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE5/MOVE55W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE55W) | MOVE55W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE5/MOVE5B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE5B) | MOVE5B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE5/MOVE5L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE5L) | MOVE5L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE5/MOVE5W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE5/MOVE5W) | MOVE5W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE6/MOVE66B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE66B) | MOVE66B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE6/MOVE66L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE66L) | MOVE66L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE6/MOVE66W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE66W) | MOVE66W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE6/MOVE6B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE6B) | MOVE6B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE6/MOVE6L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE6L) | MOVE6L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE6/MOVE6W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE6/MOVE6W) | MOVE6W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE7/MOVE7B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE7/MOVE7B) | MOVE7B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE7/MOVE7L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE7/MOVE7L) | MOVE7L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE7/MOVE7W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE7/MOVE7W) | MOVE7W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE8/MOVE88B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE88B) | MOVE88B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE8/MOVE88L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE88L) | MOVE88L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE8/MOVE88W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE88W) | MOVE88W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE8/MOVE8B](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE8B) | MOVE8B_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE8/MOVE8L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE8L) | MOVE8L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVE8/MOVE8W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVE8/MOVE8W) | MOVE8W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEA/MOVEA1L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA1L) | MOVEA1L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEA/MOVEA1W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA1W) | MOVEA1W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEA/MOVEA2L](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA2L) | MOVEA2L_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEA/MOVEA2W](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEA/MOVEA2W) | MOVEA2W_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEC/MOVEC1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEC/MOVEC1) | MOVEC1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEC/MOVEC2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEC/MOVEC2) | MOVEC2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEC/MOVEC3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEC/MOVEC3) | MOVEC3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEC/MOVEC4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEC/MOVEC4) | MOVEC4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVECCR/MOVECCR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR1) | MOVECCR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVECCR/MOVECCR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR2) | MOVECCR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVECCR/MOVECCR3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR3) | MOVECCR3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVECCR/MOVECCR4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR4) | MOVECCR4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVECCR/MOVECCR5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVECCR/MOVECCR5) | MOVECCR5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEM/MOVEM1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEM/MOVEM1) | MOVEM1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEP/MOVEP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEP/MOVEP1) | MOVEP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEP/MOVEP2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEP/MOVEP2) | MOVEP2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVEQ/MOVEQ](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVEQ/MOVEQ) | MOVEQ_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVESR/MOVESR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR1) | MOVESR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVESR/MOVESR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR2) | MOVESR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVESR/MOVESR3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR3) | MOVESR3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MOVESR/MOVESR4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MOVESR/MOVESR4) | MOVESR4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MUL/MULS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULS1) | MULS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MUL/MULS2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULS2) | MULS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MUL/MULS3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULS3) | MULS3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MUL/MULU1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULU1) | MULU1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MUL/MULU2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULU2) | MULU2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/MUL/MULU3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/MUL/MULU3) | MULU3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NBCD/NBCD1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NBCD/NBCD1) | NBCD1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NBCD/NBCD2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NBCD/NBCD2) | NBCD2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEG1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG1b) | NEG1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEG1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG1l) | NEG1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEG1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG1w) | NEG1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEG2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG2b) | NEG2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEG2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG2l) | NEG2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEG2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEG2w) | NEG2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEGX1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX1b) | NEGX1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEGX1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX1l) | NEGX1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEGX1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX1w) | NEGX1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEGX2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX2b) | NEGX2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEGX2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX2l) | NEGX2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NEG/NEGX2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NEG/NEGX2w) | NEGX2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOP/NOP](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOP/NOP) | NOP_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOT/NOT1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT1b) | NOT1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOT/NOT1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT1l) | NOT1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOT/NOT1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT1w) | NOT1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOT/NOT2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT2b) | NOT2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOT/NOT2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT2l) | NOT2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/NOT/NOT2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/NOT/NOT2w) | NOT2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/PEA/PEA1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/PEA/PEA1) | PEA1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/RTE/RTE1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTE/RTE1) | RTE1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/RTE/RTE2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTE/RTE2) | RTE2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/RTR/RTR1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTR/RTR1) | RTR1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/RTR/RTR2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTR/RTR2) | RTR2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/RTS/RTS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTS/RTS1) | RTS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/RTS/RTS2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/RTS/RTS2) | RTS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/STOP/stop1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop1) | stop1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/STOP/stop2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop2) | stop2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/STOP/stop3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop3) | stop3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/STOP/stop4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop4) | stop4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/STOP/stop5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/STOP/stop5) | stop5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/SWAP/SWAP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/SWAP/SWAP1) | SWAP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SEQ1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ1) | SEQ1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SEQ2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ2) | SEQ2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SEQ3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ3) | SEQ3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SEQ4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ4) | SEQ4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SEQ5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ5) | SEQ5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SEQ6](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SEQ6) | SEQ6_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SNE1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SNE1) | SNE1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/Scc/SNE2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/Scc/SNE2) | SNE2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TAS/TAS1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TAS/TAS1) | TAS1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TAS/TAS2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TAS/TAS2) | TAS2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAP1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAP1) | TRAP1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAP4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAP4) | TRAP4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAPV1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV1) | TRAPV1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAPV2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV2) | TRAPV2_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAPV3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV3) | TRAPV3_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAPV4](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV4) | TRAPV4_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TRAP/TRAPV5](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TRAP/TRAPV5) | TRAPV5_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TST/TST1b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST1b) | TST1b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TST/TST1l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST1l) | TST1l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TST/TST1w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST1w) | TST1w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TST/TST2b](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST2b) | TST2b_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TST/TST2l](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST2l) | TST2l_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/TST/TST2w](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/TST/TST2w) | TST2w_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
+| [CPU/Timing/UNLK/UNLK1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/CPU/Timing/UNLK/UNLK1) | UNLK1_68010 | A500 ECS | DEVIATING_CONFIG | cpu 68010 |  |
