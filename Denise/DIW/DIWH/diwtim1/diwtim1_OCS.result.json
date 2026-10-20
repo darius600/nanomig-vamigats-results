@@ -3,8 +3,9 @@
   "class": "PASS",
   "detail": "identical",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Denise/DIW/DIWH/diwtim1/diwtim1_OCS.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-14T07:52:19.128422+02:00",
-  "end_time": "2026-10-14T08:07:14.650018+02:00",
-  "wall_time": 895.454,
+  "start_time": "2026-10-19T18:46:31.417962+02:00",
+  "end_time": "2026-10-19T19:03:02.767301+02:00",
+  "wall_time": 991.246,
   "differing_pixels": 0,
   "raw_status": "byte-identical",
-  "machine": "A500_OCS_1MB"
+  "machine": "A500_OCS_1MB",
+  "simulated_on": "AMD Ryzen 7 5800H with Radeon Graphics, 8 cores"
 }

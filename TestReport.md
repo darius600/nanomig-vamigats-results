@@ -1,16 +1,17 @@
 # NanoMig vAmigaTS Test Report
 
-- **NanoMig:** [0f3d2fdac8dd7097127d07d78029c31f3758c32c](https://github.com/harbaum/NanoMig/commit/0f3d2fdac8dd7097127d07d78029c31f3758c32c) · **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4) · **Build profile:** Tang Nano 20k, fx68k
-- **Simulated:** 2026-10-10 to 2026-10-17 · **Published:** 2026-10-18
-- **Published with:** [nanomig-vamigats-regression `d49005a`](https://github.com/darius600/nanomig-vamigats-regression/commit/d49005ac63be60732195ba663dbfb44d7b52d6aa)
+- **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/harbaum/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) · **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4) · **Build profile:** Tang Nano 20k, fx68k
+- **Simulated:** 2026-10-18 to 2026-10-20 · **Published:** 2026-10-20
+- **Simulated on:** AMD Ryzen 7 5800H with Radeon Graphics, 8 cores (1223 variants); Intel(R) Core(TM) Ultra 7 165H, 11 cores (778 variants)
+- **Published with:** [nanomig-vamigats-regression `d285734`](https://github.com/darius600/nanomig-vamigats-regression/commit/d285734b62b0f813aee35a4ea716292395d0e333)
 
 ## Summary
 
-**1986 variants compared: 464 identical to the reference (PASS), 1522 different (FAIL).** The other 624 were not compared (DEVIATING_CONFIG 610, NOT_CALIBRATED 2, NO_REFERENCE 12; see [How to read](#how-to-read)). ERROR: 0.
+**1999 variants compared: 474 identical to the reference (PASS), 1525 different (FAIL).** The other 611 were not compared (DEVIATING_CONFIG 597, NOT_CALIBRATED 2, NO_REFERENCE 12; see [How to read](#how-to-read)). ERROR: 0.
 
 | Variants | PASS | FAIL | DEVIATING_CONFIG | NOT_CALIBRATED | NO_REFERENCE | ERROR |
 |---:|---:|---:|---:|---:|---:|---:|
-| 2610 | 464 | 1522 | 610 | 2 | 12 | 0 |
+| 2610 | 474 | 1525 | 597 | 2 | 12 | 0 |
 
 ## Results per group
 
@@ -32,10 +33,10 @@
 | [CPU/Timing2](CPU_Timing2.md) | 44 | 0 | 7 | 37 | 0 | 0 | 0 |
 | [Denise/DIW](Denise_DIW.md) | 25 | 24 | 1 | 0 | 0 | 0 | 0 |
 | [Denise/ECS](Denise_ECS.md) | 6 | 2 | 4 | 0 | 0 | 0 | 0 |
-| [Denise/Misc](Denise_Misc.md) | 9 | 4 | 3 | 2 | 0 | 0 | 0 |
+| [Denise/Misc](Denise_Misc.md) | 9 | 4 | 5 | 0 | 0 | 0 | 0 |
 | [Denise/Registers](Denise_Registers.md) | 68 | 8 | 60 | 0 | 0 | 0 | 0 |
 | [Denise/Sprites](Denise_Sprites.md) | 214 | 106 | 106 | 0 | 0 | 2 | 0 |
-| [Mainboard/Ports](Mainboard_Ports.md) | 29 | 6 | 12 | 11 | 0 | 0 | 0 |
+| [Mainboard/Ports](Mainboard_Ports.md) | 29 | 16 | 13 | 0 | 0 | 0 | 0 |
 | [Mainboard/UART](Mainboard_UART.md) | 44 | 0 | 44 | 0 | 0 | 0 | 0 |
 | [Memory/Ram](Memory_Ram.md) | 5 | 0 | 5 | 0 | 0 | 0 | 0 |
 | [Memory/Rom](Memory_Rom.md) | 4 | 0 | 4 | 0 | 0 | 0 | 0 |
@@ -44,7 +45,7 @@
 | [Paula/Drive](Paula_Drive.md) | 7 | 0 | 6 | 1 | 0 | 0 | 0 |
 | [Paula/Interrupts](Paula_Interrupts.md) | 164 | 24 | 140 | 0 | 0 | 0 | 0 |
 | [Paula/Registers](Paula_Registers.md) | 2 | 2 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **2610** | **464** | **1522** | **610** | **2** | **12** | **0** |
+| **Total** | **2610** | **474** | **1525** | **597** | **2** | **12** | **0** |
 
 ## Where to start
 
@@ -65,7 +66,7 @@ The 10 FAILs closest to the reference. Each is one test that reruns in about 15 
 
 All 52 FAILs with 20 differing pixels or fewer: [Near misses](#near-misses).
 
-**One routine behind many FAILs:** 632 of the 1522 FAILs come from tests whose source calls vAmigaTS's `synccpu` routine (`include/util.i`). It synchronises the CPU with the beam and draws the magenta bar at the top of the image. Where that bar differs, everything the CPU draws after it is shifted as well, so these FAILs may share one cause. That has not been established yet.
+**One routine behind many FAILs:** 632 of the 1525 FAILs come from tests whose source calls vAmigaTS's `synccpu` routine (`include/util.i`). It synchronises the CPU with the beam and draws the magenta bar at the top of the image. Where that bar differs, everything the CPU draws after it is shifted as well, so these FAILs may share one cause. That has not been established yet.
 
 ## How far off the FAILs are
 
@@ -87,10 +88,10 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | CPU/Timing2 | 0 | 0 | 0 | 0 | 6 | 1 |
 | Denise/DIW | 24 | 0 | 0 | 1 | 0 | 0 |
 | Denise/ECS | 2 | 0 | 0 | 0 | 0 | 4 |
-| Denise/Misc | 4 | 0 | 0 | 0 | 3 | 0 |
+| Denise/Misc | 4 | 0 | 0 | 0 | 5 | 0 |
 | Denise/Registers | 8 | 2 | 8 | 11 | 20 | 19 |
 | Denise/Sprites | 106 | 3 | 13 | 48 | 18 | 24 |
-| Mainboard/Ports | 6 | 1 | 0 | 0 | 6 | 5 |
+| Mainboard/Ports | 16 | 1 | 0 | 0 | 6 | 6 |
 | Mainboard/UART | 0 | 0 | 0 | 0 | 44 | 0 |
 | Memory/Ram | 0 | 1 | 0 | 0 | 1 | 3 |
 | Memory/Rom | 0 | 0 | 0 | 0 | 4 | 0 |
@@ -99,7 +100,7 @@ Differing pixels per FAIL, of the 716 x 285 = 204060 compared pixels. Most tests
 | Paula/Drive | 0 | 0 | 0 | 0 | 6 | 0 |
 | Paula/Interrupts | 24 | 0 | 0 | 0 | 136 | 4 |
 | Paula/Registers | 2 | 0 | 0 | 0 | 0 | 0 |
-| **Total** | **464** | **52** | **47** | **117** | **1107** | **199** |
+| **Total** | **474** | **52** | **47** | **117** | **1109** | **200** |
 
 ## Agreement with the 2024 hand verdicts
 
@@ -117,7 +118,7 @@ Counted per **test directory**, not per variant: one directory holds the variant
 
 ## How to read
 
-- **PASS:** The frame is identical to the vAmigaTS reference at the Amiga's 4 bits per channel inside the cutout. In all 464 PASS the `.raw` rebuilt from the capture is also byte-identical to the reference (`raw_status`).
+- **PASS:** The frame is identical to the vAmigaTS reference at the Amiga's 4 bits per channel inside the cutout. In all 474 PASS the `.raw` rebuilt from the capture is also byte-identical to the reference (`raw_status`).
 - **FAIL:** Differences were found inside the compared area (cutout). The group pages give the number of differing pixels and link the image.
 - **DEVIATING_CONFIG:** The script asks for something this run could not set NanoMig on a Tang Nano 20k up for, e.g. a 68010. Not simulated; the reason is on the group page.
 - **NOT_CALIBRATED:** Simulated, but the raster has no verified crop yet, so it is not compared.
@@ -128,6 +129,7 @@ Counted per **test directory**, not per variant: one directory holds the variant
 - **The references are vAmiga screenshots**, not photos of real hardware: `PASS` means identical to vAmiga. See [REFERENCES.md](REFERENCES.md).
 - **Labels** never change a result. `denise-ecs-sensitive`: an `_ecs` test that uses an ECS-only Denise feature; vAmiga's A500 ECS has an OCS Denise, NanoMig's ECS mode an ECS Denise. `reference-contradicts-photo`: the vAmigaTS hardware photo of this test shows something else than the reference.
 - **Image titles** give positions in vAmiga's coordinates (x 196–911, y 26–310); in the 716 × 285 panels, subtract 196 from x and 26 from y.
+- **Several machines** simulated this run (see *Simulated on*, and `simulated_on` in each `.result.json`). All ran the same harness binary, and a machine took part only after its captures of a control set were byte-identical with those of the publishing machine.
 - **Hand verdicts (2024):** The hand verdicts of August 2024 are kept in tag `manual-2024-08`, whose `_ecs` screenshots came from a simulation without an ECS mode.
 
 ## Near misses

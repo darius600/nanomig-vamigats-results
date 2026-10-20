@@ -3,8 +3,9 @@
   "class": "NOT_CALIBRATED",
   "detail": "uncalibrated geometry: 908x627",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Agnus/Registers/VPOS/ersy2/ersy2_ecs.retrosh",
   "harness_args": [
@@ -18,15 +19,12 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-11T20:49:40.615057+02:00",
-  "end_time": "2026-10-11T21:04:29.703330+02:00",
-  "wall_time": 889.062,
+  "start_time": "2026-10-19T15:29:16.603883+02:00",
+  "end_time": "2026-10-19T15:46:10.435119+02:00",
+  "wall_time": 1013.798,
   "differing_pixels": null,
   "raw_status": null,
   "geometry": "908x627",
-  "recompared": {
-    "date": "2026-10-17T16:05:02.193761+02:00",
-    "regression_sha": "b0e43cbeaa5f30697058f4db6372e8aaec9d78ce-dirty"
-  },
-  "machine": "A500_ECS_1MB"
+  "machine": "A500_ECS_1MB",
+  "simulated_on": "AMD Ryzen 7 5800H with Radeon Graphics, 8 cores"
 }

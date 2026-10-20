@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "17598 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "f2ae07b41bbc746ee39016d1935592f2520a7ed3",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Paula/Interrupts/inttim/enatim2/enatim2_OCS.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-15T05:32:10.359429+02:00",
-  "end_time": "2026-10-15T05:46:52.483887+02:00",
-  "wall_time": 882.031,
+  "start_time": "2026-10-20T00:23:11.451627+02:00",
+  "end_time": "2026-10-20T00:39:33.124571+02:00",
+  "wall_time": 982.5,
   "differing_pixels": 17598,
   "raw_status": "bytes differ",
+  "simulated_on": "Intel(R) Core(TM) Ultra 7 165H, 11 cores",
   "machine": "A500_OCS_1MB"
 }

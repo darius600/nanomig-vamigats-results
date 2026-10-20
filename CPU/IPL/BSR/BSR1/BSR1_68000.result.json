@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "22558 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "CPU/IPL/BSR/BSR1/BSR1_68000.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-16T09:48:44.225247+02:00",
-  "end_time": "2026-10-16T10:03:16.718285+02:00",
-  "wall_time": 872.402,
+  "start_time": "2026-10-18T18:20:09.700743+02:00",
+  "end_time": "2026-10-18T18:37:30.741966+02:00",
+  "wall_time": 1041.1,
   "differing_pixels": 22558,
   "raw_status": "bytes differ",
+  "simulated_on": "Intel(R) Core(TM) Ultra 7 165H, 11 cores",
   "machine": "A500_ECS_1MB"
 }

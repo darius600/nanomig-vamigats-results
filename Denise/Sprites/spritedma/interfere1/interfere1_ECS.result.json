@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "376 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Denise/Sprites/spritedma/interfere1/interfere1_ECS.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-14T15:12:40.248999+02:00",
-  "end_time": "2026-10-14T15:28:51.823042+02:00",
-  "wall_time": 971.458,
+  "start_time": "2026-10-20T03:47:22.319988+02:00",
+  "end_time": "2026-10-20T04:03:42.674615+02:00",
+  "wall_time": 980.228,
   "differing_pixels": 376,
   "raw_status": "bytes differ",
-  "machine": "A500_ECS_1MB"
+  "machine": "A500_ECS_1MB",
+  "simulated_on": "AMD Ryzen 7 5800H with Radeon Graphics, 8 cores"
 }

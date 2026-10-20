@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "10836 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "CPU/IPL/ADD/ADDX1l/ADDX1l_68000.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-16T08:37:14.644822+02:00",
-  "end_time": "2026-10-16T08:52:16.729477+02:00",
-  "wall_time": 901.989,
+  "start_time": "2026-10-18T17:26:54.392973+02:00",
+  "end_time": "2026-10-18T17:44:40.825918+02:00",
+  "wall_time": 1067.7,
   "differing_pixels": 10836,
   "raw_status": "bytes differ",
+  "simulated_on": "Intel(R) Core(TM) Ultra 7 165H, 11 cores",
   "machine": "A500_ECS_1MB"
 }

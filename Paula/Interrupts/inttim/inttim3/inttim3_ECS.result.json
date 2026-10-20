@@ -3,8 +3,9 @@
   "class": "PASS",
   "detail": "identical",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "f2ae07b41bbc746ee39016d1935592f2520a7ed3",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Paula/Interrupts/inttim/inttim3/inttim3_ECS.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-15T05:47:12.597290+02:00",
-  "end_time": "2026-10-15T06:01:57.517308+02:00",
-  "wall_time": 884.845,
+  "start_time": "2026-10-20T00:37:48.350974+02:00",
+  "end_time": "2026-10-20T00:53:46.654538+02:00",
+  "wall_time": 959.9,
   "differing_pixels": 0,
   "raw_status": "byte-identical",
+  "simulated_on": "Intel(R) Core(TM) Ultra 7 165H, 11 cores",
   "machine": "A500_ECS_1MB"
 }

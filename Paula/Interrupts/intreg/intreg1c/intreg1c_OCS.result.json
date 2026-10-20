@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "4320 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "f2ae07b41bbc746ee39016d1935592f2520a7ed3",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Paula/Interrupts/intreg/intreg1c/intreg1c_OCS.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-15T03:01:45.718072+02:00",
-  "end_time": "2026-10-15T03:29:26.886256+02:00",
-  "wall_time": 1661.051,
+  "start_time": "2026-10-19T22:46:23.402235+02:00",
+  "end_time": "2026-10-19T23:02:31.968739+02:00",
+  "wall_time": 969.1,
   "differing_pixels": 4320,
   "raw_status": "bytes differ",
+  "simulated_on": "Intel(R) Core(TM) Ultra 7 165H, 11 cores",
   "machine": "A500_OCS_1MB"
 }

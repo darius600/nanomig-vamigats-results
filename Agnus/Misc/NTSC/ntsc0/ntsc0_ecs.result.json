@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "2928 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Agnus/Misc/NTSC/ntsc0/ntsc0_ecs.retrosh",
   "harness_args": [
@@ -18,14 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-11T15:15:30.660476+02:00",
-  "end_time": "2026-10-11T15:33:48.560086+02:00",
-  "wall_time": 1097.888,
+  "start_time": "2026-10-19T08:11:41.536222+02:00",
+  "end_time": "2026-10-19T08:47:02.702436+02:00",
+  "wall_time": 2120.944,
   "differing_pixels": 2928,
   "raw_status": "bytes differ",
-  "recompared": {
-    "date": "2026-10-17T16:04:59.401677+02:00",
-    "regression_sha": "b0e43cbeaa5f30697058f4db6372e8aaec9d78ce-dirty"
-  },
-  "machine": "A500_ECS_1MB"
+  "machine": "A500_ECS_1MB",
+  "simulated_on": "AMD Ryzen 7 5800H with Radeon Graphics, 8 cores"
 }

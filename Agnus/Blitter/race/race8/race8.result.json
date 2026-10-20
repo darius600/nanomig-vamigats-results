@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "10960 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "52cfcebe6b459281c51c43870da6b78f6d67417d",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Agnus/Blitter/race/race8/race8.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-10T20:25:15.954492+02:00",
-  "end_time": "2026-10-10T20:40:09.465690+02:00",
-  "wall_time": 893.416,
+  "start_time": "2026-10-18T13:29:54.852282+02:00",
+  "end_time": "2026-10-18T13:47:16.669891+02:00",
+  "wall_time": 1041.696,
   "differing_pixels": 10960,
   "raw_status": "bytes differ",
-  "machine": "A500_ECS_1MB"
+  "machine": "A500_ECS_1MB",
+  "simulated_on": "AMD Ryzen 7 5800H with Radeon Graphics, 8 cores"
 }

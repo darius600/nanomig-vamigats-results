@@ -3,8 +3,9 @@
   "class": "FAIL",
   "detail": "3794 differing pixels",
   "labels": [],
-  "nanomig_sha": "0f3d2fdac8dd7097127d07d78029c31f3758c32c",
+  "nanomig_sha": "4315acba5e9f1e15103037627aa78b3460cae8af",
   "vamigats_sha": "e807e3256d73135f1960e7f9aef2c16d8a6a56b4",
+  "regression_sha": "f2ae07b41bbc746ee39016d1935592f2520a7ed3",
   "build_profile": "tang_nano_20k",
   "retrosh_path": "Paula/Interrupts/basicint/basicint1/basicint1_OCS.retrosh",
   "harness_args": [
@@ -18,10 +19,11 @@
     "0x04"
   ],
   "harness_exit_code": 0,
-  "start_time": "2026-10-15T01:33:24.270866+02:00",
-  "end_time": "2026-10-15T02:02:25.501595+02:00",
-  "wall_time": 1741.058,
+  "start_time": "2026-10-19T22:08:20.687284+02:00",
+  "end_time": "2026-10-19T22:26:04.012097+02:00",
+  "wall_time": 1066.2,
   "differing_pixels": 3794,
   "raw_status": "bytes differ",
+  "simulated_on": "Intel(R) Core(TM) Ultra 7 165H, 11 cores",
   "machine": "A500_OCS_1MB"
 }
