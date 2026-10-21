@@ -3,7 +3,7 @@
 - **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) · **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4) · **Build profile:** Tang Nano 20k, fx68k
 - **Simulated:** 2026-10-18 to 2026-10-20 · **Published:** 2026-10-21
 - **Simulated on:** AMD Ryzen 7 5800H with Radeon Graphics, 8 cores (1223 variants); Intel(R) Core(TM) Ultra 7 165H, 11 cores (778 variants)
-- **nanomig-vamigats-regression:** results made with [`52cfceb`](https://github.com/darius600/nanomig-vamigats-regression/commit/52cfcebe6b459281c51c43870da6b78f6d67417d) (2405 variants), [`f2ae07b`](https://github.com/darius600/nanomig-vamigats-regression/commit/f2ae07b41bbc746ee39016d1935592f2520a7ed3) (205 variants); published with [`8ca6474`](https://github.com/darius600/nanomig-vamigats-regression/commit/8ca64742c9a85f2827b0c806ee69ea3fdca67047)
+- **nanomig-vamigats-regression:** results made with [`52cfceb`](https://github.com/darius600/nanomig-vamigats-regression/commit/52cfcebe6b459281c51c43870da6b78f6d67417d) (2405 variants), [`f2ae07b`](https://github.com/darius600/nanomig-vamigats-regression/commit/f2ae07b41bbc746ee39016d1935592f2520a7ed3) (205 variants); published with [`f663b0a`](https://github.com/darius600/nanomig-vamigats-regression/commit/f663b0abceda2007d57ea0b1af0a9084dbf24484)
 
 ## Summary
 

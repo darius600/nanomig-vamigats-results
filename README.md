@@ -18,3 +18,7 @@ Every frame is compared pixel by pixel with the test's `.raw` reference. **These
 ## Running it yourself
 
 The harness, the comparison and the commands are in [nanomig-vamigats-regression](https://github.com/darius600/nanomig-vamigats-regression). Its README shows how to run one test or a group, also against your own NanoMig checkout, and how to compare that run with these results (`loader.vs_published`).
+
+## License
+
+GPL-3.0-or-later, see [LICENSE](LICENSE). The reference panels in the images and the references they show come from vAmigaTS, which is under GPL-3.0.
