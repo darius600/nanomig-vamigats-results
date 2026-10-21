@@ -66,10 +66,12 @@ effect, near DDFSTRT or in mid-line.
 | `diwv15_ecs` | two columns | two columns | two columns |
 
 Photo, source and ADF come from the same vAmigaTS commit (January 2022); the `.raw` files were
-made on 31.12.2023. The OCS photos agree with the OCS references. For these variants a `FAIL`
-says nothing about real hardware; in `diwv9_ecs` NanoMig looks like the photo and vAmiga does
-not. Caveat: one photo per test from one machine, and the effect looks like a timing edge case
-that may vary between chips.
+made on 31.12.2023. The OCS photos agree with the OCS references. The label puts the reference
+in doubt; it does not explain NanoMig's `FAIL`. In `diwv9_ecs` NanoMig looks like the photo and
+vAmiga does not. But `diwv12_ecs` to `diwv15_ecs` all fail by the same 25920 pixels: NanoMig's
+stripes in the two columns are one line out of phase with the reference, also in `diwv15_ecs`,
+whose photo agrees with the reference. Caveat: one photo per test from one machine, and the
+effect looks like a timing edge case that may vary between chips.
 
 ## Age of the references
 

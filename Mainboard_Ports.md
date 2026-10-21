@@ -2,6 +2,7 @@
 
 - **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
 - **Compared:** 29 (PASS 16, FAIL 13) | **ERROR:** 0 | **Not compared:** 0
+- **How to read:** a PASS is identical to vAmiga's screenshot of the test, not to a photo of real hardware; classes and labels are explained in [TestReport.md](TestReport.md#how-to-read), the references in [REFERENCES.md](REFERENCES.md).
 
 | Test | Variant | Machine | Result | Differing px | Labels | Image |
 |---|---|---|---|---|---|---|
@@ -16,7 +17,7 @@
 | [Mainboard/Ports/JOYxDAT/joy1dat](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/JOYxDAT/joy1dat) | joy1dat_4 | A500 ECS | PASS | 0 |  | [joy1dat_4.png](Mainboard/Ports/JOYxDAT/joy1dat/joy1dat_4.png) |
 | [Mainboard/Ports/JOYxDAT/joy1dat](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/JOYxDAT/joy1dat) | joy1dat_5 | A500 ECS | PASS | 0 |  | [joy1dat_5.png](Mainboard/Ports/JOYxDAT/joy1dat/joy1dat_5.png) |
 | [Mainboard/Ports/JOYxDAT/joytest1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/JOYxDAT/joytest1) | joytest1 | A500 ECS | FAIL | 18388 | `synccpu` | [joytest1.png](Mainboard/Ports/JOYxDAT/joytest1/joytest1.png) |
-| [Mainboard/Ports/Keyboard/noack1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/Keyboard/noack1) | noack1 | A500 ECS | FAIL | 35364 |  | [noack1.png](Mainboard/Ports/Keyboard/noack1/noack1.png) |
+| [Mainboard/Ports/Keyboard/noack1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/Keyboard/noack1) | noack1 | A500 ECS | FAIL | 35364 | `keyboard-controller` | [noack1.png](Mainboard/Ports/Keyboard/noack1/noack1.png) |
 | [Mainboard/Ports/POT/pot0dat1](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/POT/pot0dat1) | pot0dat1 | A500 ECS | FAIL | 203344 |  | [pot0dat1.png](Mainboard/Ports/POT/pot0dat1/pot0dat1.png) |
 | [Mainboard/Ports/POT/pot0dat2](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/POT/pot0dat2) | pot0dat2 | A500 ECS | PASS | 0 |  | [pot0dat2.png](Mainboard/Ports/POT/pot0dat2/pot0dat2.png) |
 | [Mainboard/Ports/POT/pot0dat3](https://github.com/dirkwhoffmann/vAmigaTS/tree/e807e3256d73135f1960e7f9aef2c16d8a6a56b4/Mainboard/Ports/POT/pot0dat3) | pot0dat3 | A500 ECS | FAIL | 10104 |  | [pot0dat3.png](Mainboard/Ports/POT/pot0dat3/pot0dat3.png) |

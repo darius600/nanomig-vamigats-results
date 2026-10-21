@@ -2,6 +2,7 @@
 
 - **NanoMig:** [4315acba5e9f1e15103037627aa78b3460cae8af](https://github.com/MiSTle-Dev/NanoMig/commit/4315acba5e9f1e15103037627aa78b3460cae8af) | **vAmigaTS:** [e807e3256d73135f1960e7f9aef2c16d8a6a56b4](https://github.com/dirkwhoffmann/vAmigaTS/commit/e807e3256d73135f1960e7f9aef2c16d8a6a56b4)
 - **Compared:** 21 (PASS 6, FAIL 15) | **ERROR:** 0 | **Not compared:** 20 (DEVIATING_CONFIG 20, NOT_CALIBRATED 0, NO_REFERENCE 0; listed at the end)
+- **How to read:** a PASS is identical to vAmiga's screenshot of the test, not to a photo of real hardware; classes and labels are explained in [TestReport.md](TestReport.md#how-to-read), the references in [REFERENCES.md](REFERENCES.md).
 
 | Test | Variant | Machine | Result | Differing px | Labels | Image |
 |---|---|---|---|---|---|---|
